@@ -10,21 +10,23 @@
     <meta name="description" content="Test Blog Site
 ">
 
-    <link rel="canonical" href="http://savukkumirror.github.iohttp://savukkumirror.github.io/default/2014/10/21/post7014.html">
-    <link rel="stylesheet" href="http://savukkumirror.github.io/css/post.css"/>
+    <link rel="canonical" href="https://dl.dropboxusercontent.com/u/60228630https://dl.dropboxusercontent.com/u/60228630/default/2014/10/21/post7014.html">
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/60228630/css/post.css"/>
 
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
-	<script data-require="angular-ui-bootstrap@0.11.0" data-semver="0.11.0" src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>		
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="https://dl.dropboxusercontent.com/u/60228630/js/posts.js"></script>
 </head>
 
 
 <body>
-<div class="container-fluid" ng-controller="PostListController">
+<div class="container" ng-controller="PostListController">
 	<header>
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	  <div class="container">
-		 <a class="navbar-brand" href="http://savukkumirror.github.io/index.html">
+		 <a class="navbar-brand" href="https://dl.dropboxusercontent.com/u/60228630/index.html">
 			Home
 		  </a>		
 	  </div>
@@ -32,23 +34,42 @@
 </header>
 
 
-	<header class="post-header">
-	<h1 class="post-title">Savukku’s relentless battle for justice</h1>
-	<p class="post-meta">Oct 21, 2014</p>
-	</header>
-
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-4 col-md-push-8">
+			
+    <div class="logo">
+      <img src="https://dl.dropboxusercontent.com/u/60228630/images/logo.jpg"/>
+    </div>
+
+    
+    <div>
+        <h3 class="recent-posts-title">Recent Posts</h3>
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+
+    
+    <br/>
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">Savukku’s relentless battle for justice</h1>
+			<p class="post-meta">Oct 21, 2014</p>
+
 			<article class="post-content">
-			<div class="fcbk_share"><div class="fcbk_button">
+				<div class="fcbk_share"><div class="fcbk_button">
 							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
-								<img src="http://savukkumirror.github.io/images/7014/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+								<img src="https://dl.dropboxusercontent.com/u/60228630/images/7014/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
 							</a>
 						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/7014/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
 <div align="justify"></div>
 <div style="text-align: right;">
 <div style="background: white; margin-bottom: 0.0001pt; text-align: justify;"><span style="color: #222222; font-family: Arial, sans-serif;">We have lost count of the number of times the authorities have sought to clamp down on our website(s).&nbsp;</span><br /><span style="color: #222222; font-family: Arial, sans-serif;"><br /></span><span style="color: #222222; font-family: Arial, sans-serif;"><br /></span></div>
-<div style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-P_FCCCJ8Igo/U9JeW7UAKKI/AAAAAAAAG1Y/P5DWppVuz-w/s1600/savukku+image.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://savukkumirror.github.io/images/7014/savukku+image.jpg" height="" width="" class="img-responsive" style="" /></a></div>
+<div style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-P_FCCCJ8Igo/U9JeW7UAKKI/AAAAAAAAG1Y/P5DWppVuz-w/s1600/savukku+image.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://dl.dropboxusercontent.com/u/60228630/images/7014/savukku+image.jpg" height="" width="" class="img-responsive" style="" /></a></div>
 <div style="background: white; margin-bottom: 0.0001pt; text-align: justify;"><span style="color: #222222; font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-bidi-font-size: 12.0pt; mso-bidi-language: TA; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-fareast-language: EN-IN;"><br /></span></div>
 <div style="clear: both; text-align: center;"></div>
 <div style="background: white; margin-bottom: 0.0001pt; text-align: justify;"></div>
@@ -78,7 +99,7 @@
 <div style="background: white; margin-bottom: 0.0001pt; text-align: justify;"></div>
 <div style="background: white; margin-bottom: 0.0001pt; text-align: justify;"><span style="color: #222222; font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-bidi-font-size: 12.0pt; mso-bidi-language: TA; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-fareast-language: EN-IN;">Subsequently, she files a petition for direction to police to investigate the case properly. &nbsp; After six months, the matter comes up before the High Court again, this time with Justice CT Selvam presiding.<o:p></o:p></span></div>
 <div style="background: white; margin-bottom: 0.0001pt; text-align: justify;"></div>
-<div style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-MzOMdfH2-NA/U9JenlZo7jI/AAAAAAAAG1g/zYq07S9HamQ/s1600/10559791_790985020923399_7405845158195801937_n.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://savukkumirror.github.io/images/7014/10559791_790985020923399_7405845158195801937_n.jpg" height="" width="" class="img-responsive" style="" /></a></div>
+<div style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-MzOMdfH2-NA/U9JenlZo7jI/AAAAAAAAG1g/zYq07S9HamQ/s1600/10559791_790985020923399_7405845158195801937_n.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://dl.dropboxusercontent.com/u/60228630/images/7014/10559791_790985020923399_7405845158195801937_n.jpg" height="" width="" class="img-responsive" style="" /></a></div>
 <div style="background: white; margin-bottom: 0.0001pt; text-align: justify;"><span style="color: #222222; font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-bidi-font-size: 12.0pt; mso-bidi-language: TA; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-fareast-language: EN-IN;"><br /></span></div>
 <div style="background: white; margin-bottom: 0.0001pt; text-align: justify;"><span style="color: #222222; font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-bidi-font-size: 12.0pt; mso-bidi-language: TA; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-fareast-language: EN-IN;">It is at this juncture Savukku gets hold of the now (in)famous 2G-related audio tapes.&nbsp;Getting whiff of the explosive scoop, lot of persons contact us and seek to alternately coax and intimidate us. Lot of money was also dangled before us in an attempt to stall the publication of the transcript of the tapes.<o:p></o:p></span></div>
 <div style="background: white; margin-bottom: 0.0001pt; text-align: justify;"></div>
@@ -117,7 +138,7 @@
 <p><em></em></p>
 <div class="fcbk_share"><div class="fcbk_button">
 							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
-								<img src="http://savukkumirror.github.io/images/7014/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+								<img src="https://dl.dropboxusercontent.com/u/60228630/images/7014/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
 							</a>
 						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/7014/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
 <div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/7014/?share=facebook" title="Share on Facebook" id="sharing-facebook-7014"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/7014/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-7014"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/7014/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-7014"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/7014/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/7014/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/7014/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>

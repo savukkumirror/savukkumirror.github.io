@@ -10,21 +10,23 @@
     <meta name="description" content="Test Blog Site
 ">
 
-    <link rel="canonical" href="http://savukkumirror.github.iohttp://savukkumirror.github.io/default/2014/09/03/post6501.html">
-    <link rel="stylesheet" href="http://savukkumirror.github.io/css/post.css"/>
+    <link rel="canonical" href="https://dl.dropboxusercontent.com/u/60228630https://dl.dropboxusercontent.com/u/60228630/default/2014/09/03/post6501.html">
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/60228630/css/post.css"/>
 
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
-	<script data-require="angular-ui-bootstrap@0.11.0" data-semver="0.11.0" src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>		
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="https://dl.dropboxusercontent.com/u/60228630/js/posts.js"></script>
 </head>
 
 
 <body>
-<div class="container-fluid" ng-controller="PostListController">
+<div class="container" ng-controller="PostListController">
 	<header>
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	  <div class="container">
-		 <a class="navbar-brand" href="http://savukkumirror.github.io/index.html">
+		 <a class="navbar-brand" href="https://dl.dropboxusercontent.com/u/60228630/index.html">
 			Home
 		  </a>		
 	  </div>
@@ -32,25 +34,44 @@
 </header>
 
 
-	<header class="post-header">
-	<h1 class="post-title">மறக்க முடியுமா ?</h1>
-	<p class="post-meta">Sep 3, 2014</p>
-	</header>
-
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-4 col-md-push-8">
+			
+    <div class="logo">
+      <img src="https://dl.dropboxusercontent.com/u/60228630/images/logo.jpg"/>
+    </div>
+
+    
+    <div>
+        <h3 class="recent-posts-title">Recent Posts</h3>
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+
+    
+    <br/>
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">மறக்க முடியுமா ?</h1>
+			<p class="post-meta">Sep 3, 2014</p>
+
 			<article class="post-content">
-			<div class="fcbk_share"><div class="fcbk_button">
+				<div class="fcbk_share"><div class="fcbk_button">
 							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
-								<img src="http://savukkumirror.github.io/images/6501/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+								<img src="https://dl.dropboxusercontent.com/u/60228630/images/6501/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
 							</a>
 						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/6501/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
 <p>மே 18. மொழியால் இணக்கமாக இணைந்திருந்த ஈழத் தமிழர்களை, விலங்குகளை சுடுவது போல அழித்த நாள். வேடிக்கை மட்டுமே பார்க்க முடிந்தது.<br />
-<a href="http://savukkunews.com/wp-content/uploads/2014/05/5.jpg"><img class="img-responsive" src="http://savukkumirror.github.io/images/6501/5.jpg" alt="5" width="" height="" style="" /></a></p>
+<a href="http://savukkunews.com/wp-content/uploads/2014/05/5.jpg"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/60228630/images/6501/5.jpg" alt="5" width="" height="" style="" /></a></p>
 <p>எத்தனை போராட்டங்கள் ? எத்தனை மறியல்கள் ? எத்தனை பட்டினிப்போர்கள் ? ஆனால், இந்தியா சிங்கள அரசுக்கு போரை நடத்த செய்த உதவிகளை ஒரு போதும் நிறுத்தவில்லை. உணர்வாளர்களால் அந்தப் போராட்டங்களைத் தவிர வேறு எதுவுமே செய்ய இயலவில்லை.</p>
 <p>அந்த படுகொலைகளுக்குப் பிறகு இலங்கை அரசின் போர்க்குற்றங்கள் குறித்த ஆதாரங்கள், அடுக்கடுக்காக வெளியாகிக் கொண்டே இருந்த பின்னாலும் சர்வதேச விசாரணையை உருவாக்க முடியவில்லை. இலங்கை அரசின் தந்திரமான நடவடிக்கைகளாலும், இந்திய அரசின் துரோகத்தாலும், ஐ.நா மனித உரிமைகள் அவையில் இலங்கைக்கு எதிராக எடுத்து வரப்பட்ட அனைத்து தீர்மானங்களும் தோல்வியையே தழுவின. வெந்த புண்ணில் வேல் பாய்ச்சுவதாக, எந்த சிங்கள அரசின் மீது குற்ற்சசாட்டோ, அதே சிங்கள அரசு தன் மீதான குற்றச்சாட்டுகளை தானே விசாரித்துக் கொள்ள வேண்டும் என்பதை மேற்கத்திய நாடுகள் நிபந்தனையாக விதித்தன. அதைக்கூட செய்ய மறுத்தது ராஜபட்சே அரசு.</p>
 <p>சேனல் 4 நிறுவனம் வீடியோ ஆதாரங்களை தொடர்ந்து வெளியிட்ட பின்னரும் உலக நாடுகள் அதன் மீது எந்த நடவடிக்கைகளையும் எடுக்கத் தயாராக இல்லை. உக்ரைனில் ரஷ்யா தலையிடுகிறது என்ற ஒரே காரணத்துக்காக உலக நாடுகள் அனைத்தும் இணைந்து, அவ்வளவு பெரிய நாடான ரஷ்யா மீது பொருளாதாரத் தடைகளை விதிக்கின்றன. ஆனால், வெளிப்படையான மனித உரிமை மீறல்கள் மற்றும் போர்க்குற்றங்களான ஆதாரங்கள் அனைத்தும் உலக சமுதாயத்தின் முன்னால் வைக்கப்பட்ட பிறகும், இலங்கையை கண்டிக்க எந்த நாடும் முன் வரவில்லை. உலகெங்கும் உள்ள புலம் பெயர்ந்த தமிழர்கள் அனைவரும் கடுமையான போராட்டங்களை முன்னெடுத்த பின்னரும் கூட, பிரிட்டன் உள்ளிட்ட உலக நாடுகள் சம்பிரதாயமான கண்டிப்புகளோடு நிறுத்திக் கொள்கின்றன. இந்தியா போன்ற பெரிய நாடுகளுக்குக் கூட இல்லாத வலிமை, இலங்கை போன்ற ஒரு சாதாரண நாட்டுக்கு எங்கணம் வந்தது என்பது புரியாத புதிராகத்தான் இருக்கிறது.</p>
-<p><a href="http://savukkunews.com/wp-content/uploads/2014/05/eelam_tamils_650.jpg"><img class="img-responsive" src="http://savukkumirror.github.io/images/6501/eelam_tamils_650.jpg" alt="eelam_tamils_650" width="" height="" style="" /></a></p>
+<p><a href="http://savukkunews.com/wp-content/uploads/2014/05/eelam_tamils_650.jpg"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/60228630/images/6501/eelam_tamils_650.jpg" alt="eelam_tamils_650" width="" height="" style="" /></a></p>
 <p>தற்போது முள்வேலி முகாம்களுக்குள் அடைக்கப்பட்ட தமிழர்கள் விடிவுகாலம் எப்போது என்று ஏங்கிக் கொண்டிருக்கிறார்கள். எப்படியாவது தப்பித்து ஒரு ஐரோப்பிய நாட்டுக்கு அகதியாக சென்று விடலாமா என்று மன்றாடுகிறார்கள். தங்கள் பிள்ளைகளுக்காவது நல்ல வாழ்வை அமைத்துத் தரலாம் என்று கள்ளத்தோணிகளில் கடலுக்குள் சென்று மாட்டிக் கொள்கிறார்கள்.</p>
 <p>தமிழகத்தில் உள்ள அகதிகளாவது நிம்மதியாக இருக்கிறார்களா என்றால் இல்லை. சிறப்பு முகாம் என்ற பெயரில், வயதில் இளையவர்களாக இருப்பவர்களை புலிகள் என்று சந்தேகப்பட்டு அடைத்து வைத்துள்ளது அதிமுக, திமுக இரு அரசுகளும்.</p>
 <p>2009ல் ஈழப்போர் இறுதிக்கட்டத்தை எட்டியிருந்தபோது, ஆட்சியில் இருந்த திமுக, மத்திய கூட்ணிக் கட்சியான காங்கிரஸ் கட்சியோட சேர்ந்து இழைத்த துரோகங்களைப் பற்றி பல முறை எழுதியாயிற்று. மீண்டும் மீண்டும் அதை எழுதுவதால் எரிச்சல்தான் மேலிடுகிறது. மரணம் நம் அனைவருக்கும்தான் வருமென்றாலும், குண்டுகள் நம் மீது வீசப்பட்டு, கையிழந்து, காலிழந்து துடிதுடித்துச் சாவதென்பதை நினைத்துப் பார்க்கவே கடினமாக இருக்கிறது.</p>
@@ -62,7 +83,7 @@
 <p>இந்நிலையில் அங்குள்ள தமிழர்கள் புலம்பெயர் தமிழர்களுடன் இணைந்து தங்கள் எதிர்காலம் குறித்து ஆய்வுசெய்து உரிய முடிவெடுக்கட்டும். இந்நாட்டுத் தமிழுணர்வாளர்கள் இந்திய அரசும் மற்ற பன்னாட்டு அரசுகளும் ஈழத்தமிழர்களுக்கு அனைத்து தளங்களிலும் நீதி வேண்டும், தற்போதைய கொடுமைகளுக்கு முற்றுப்புள்ளி வைக்கவேண்டுமென தொடர்ந்து வலியுறுத்தட்டும் . பாகிஸ்தானையும் சீனத்தையும் மிகப் பெரிய எதிரிகளாக பாவிக்கும் பாஜக அரசு உருவாகும் வேளையில், மோடியோ உடனிருப்பவர்களோ இலங்கையில் எங்கே அந்நாடுகளுக்கு கூடுதல் சலுகைகள் கிடைத்துவிடுமோ என்றஞ்சி ராஜபக்சேயை தாஜா செய்யவே விரும்புவர். இவ்வாறு மாறியிருக்கும் சூழலில் வட இந்திய சக்திகளுக்கும் நிலைமையினை சரிவர உணர்த்தவேண்டும். இனியும் தனிக்கச்சேரி செய்து பயனில்லை</p>
 <div class="fcbk_share"><div class="fcbk_button">
 							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
-								<img src="http://savukkumirror.github.io/images/6501/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+								<img src="https://dl.dropboxusercontent.com/u/60228630/images/6501/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
 							</a>
 						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/6501/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
 <div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=facebook" title="Share on Facebook" id="sharing-facebook-6501"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-6501"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-6501"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>

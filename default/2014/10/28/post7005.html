@@ -10,21 +10,23 @@
     <meta name="description" content="Test Blog Site
 ">
 
-    <link rel="canonical" href="http://savukkumirror.github.iohttp://savukkumirror.github.io/default/2014/10/28/post7005.html">
-    <link rel="stylesheet" href="http://savukkumirror.github.io/css/post.css"/>
+    <link rel="canonical" href="https://dl.dropboxusercontent.com/u/60228630https://dl.dropboxusercontent.com/u/60228630/default/2014/10/28/post7005.html">
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/60228630/css/post.css"/>
 
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
-	<script data-require="angular-ui-bootstrap@0.11.0" data-semver="0.11.0" src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>		
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="https://dl.dropboxusercontent.com/u/60228630/js/posts.js"></script>
 </head>
 
 
 <body>
-<div class="container-fluid" ng-controller="PostListController">
+<div class="container" ng-controller="PostListController">
 	<header>
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	  <div class="container">
-		 <a class="navbar-brand" href="http://savukkumirror.github.io/index.html">
+		 <a class="navbar-brand" href="https://dl.dropboxusercontent.com/u/60228630/index.html">
 			Home
 		  </a>		
 	  </div>
@@ -32,17 +34,36 @@
 </header>
 
 
-	<header class="post-header">
-	<h1 class="post-title">And the fight continues</h1>
-	<p class="post-meta">Oct 28, 2014</p>
-	</header>
-
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-4 col-md-push-8">
+			
+    <div class="logo">
+      <img src="https://dl.dropboxusercontent.com/u/60228630/images/logo.jpg"/>
+    </div>
+
+    
+    <div>
+        <h3 class="recent-posts-title">Recent Posts</h3>
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+
+    
+    <br/>
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">And the fight continues</h1>
+			<p class="post-meta">Oct 28, 2014</p>
+
 			<article class="post-content">
-			<div class="fcbk_share"><div class="fcbk_button">
+				<div class="fcbk_share"><div class="fcbk_button">
 							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
-								<img src="http://savukkumirror.github.io/images/7005/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+								<img src="https://dl.dropboxusercontent.com/u/60228630/images/7005/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
 							</a>
 						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/7005/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
 <div align="justify"></div>
@@ -57,9 +78,9 @@
 <div style="text-align: justify;"><span style="font-family: Georgia, serif; font-size: large;"><span style="line-height: 18.399999618530273px;"><br /></span></span></div>
 <div style="text-align: justify;"><span style="font-family: Georgia, serif; font-size: large;"><span style="line-height: 18.399999618530273px;">And look at the orders of &nbsp;Mr Justice Selvam: &nbsp;</span></span></div>
 <div style="text-align: justify;"><span style="font-family: Georgia, serif; font-size: large;"><span style="line-height: 18.399999618530273px;"><br /></span></span></div>
-<div style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-_3_iNKPraRE/U-BaHMPXb8I/AAAAAAAAKR0/_139thpWhpA/s1600/scan0001.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://savukkumirror.github.io/images/7005/scan0001.jpg" height="" width="" class="img-responsive" style="" /></a></div>
-<div style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-MB3lxmBahwk/U-BaSN3jQQI/AAAAAAAAKR8/-BEMEXGTaSc/s1600/scan0002.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://savukkumirror.github.io/images/7005/scan0002.jpg" height="" width="" class="img-responsive" style="" /></a></div>
-<div style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-vHqojZEqlqg/U-BaZ6K_vbI/AAAAAAAAKSE/VcFdvTIIDH0/s1600/scan0004.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://savukkumirror.github.io/images/7005/scan0004.jpg" height="" width="" class="img-responsive" style="" /></a></div>
+<div style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-_3_iNKPraRE/U-BaHMPXb8I/AAAAAAAAKR0/_139thpWhpA/s1600/scan0001.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://dl.dropboxusercontent.com/u/60228630/images/7005/scan0001.jpg" height="" width="" class="img-responsive" style="" /></a></div>
+<div style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-MB3lxmBahwk/U-BaSN3jQQI/AAAAAAAAKR8/-BEMEXGTaSc/s1600/scan0002.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://dl.dropboxusercontent.com/u/60228630/images/7005/scan0002.jpg" height="" width="" class="img-responsive" style="" /></a></div>
+<div style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-vHqojZEqlqg/U-BaZ6K_vbI/AAAAAAAAKSE/VcFdvTIIDH0/s1600/scan0004.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://dl.dropboxusercontent.com/u/60228630/images/7005/scan0004.jpg" height="" width="" class="img-responsive" style="" /></a></div>
 <div style="clear: both; text-align: center;"></div>
 <div style="clear: both; text-align: center;"></div>
 <div style="text-align: justify;"><span style="font-family: Georgia, serif; font-size: large;"><span style="line-height: 18.399999618530273px;">Though previous Supreme Court rulings clearly lay down only the URL in question may be removed, if found objectionable, the Madras High Court arrogates to itself the right to crack down on any and every savukku-linked site.&nbsp;</span></span><span style="font-family: Georgia, serif; font-size: large; line-height: 18.399999618530273px;">That is being challenged.</span></div>
@@ -73,7 +94,7 @@
 <table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
 <tr>
-<td style="text-align: center;"><a href="http://1.bp.blogspot.com/-fzKCydX6F9Q/U-Bam2z1toI/AAAAAAAAKSM/bLE-jsAjIpA/s1600/070514.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://savukkumirror.github.io/images/7005/070514.jpg" height="" width="" class="img-responsive" style="" /></a></td>
+<td style="text-align: center;"><a href="http://1.bp.blogspot.com/-fzKCydX6F9Q/U-Bam2z1toI/AAAAAAAAKSM/bLE-jsAjIpA/s1600/070514.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://dl.dropboxusercontent.com/u/60228630/images/7005/070514.jpg" height="" width="" class="img-responsive" style="" /></a></td>
 </tr>
 <tr>
 <td style="text-align: center;">Amar Prasad Reddy</td>
@@ -95,7 +116,7 @@
 <p><em></em></p>
 <div class="fcbk_share"><div class="fcbk_button">
 							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
-								<img src="http://savukkumirror.github.io/images/7005/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+								<img src="https://dl.dropboxusercontent.com/u/60228630/images/7005/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
 							</a>
 						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/7005/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
 <div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/7005/?share=facebook" title="Share on Facebook" id="sharing-facebook-7005"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/7005/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-7005"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/7005/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-7005"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/7005/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/7005/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/7005/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
