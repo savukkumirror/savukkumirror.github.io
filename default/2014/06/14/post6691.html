@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- முதல் தாக்குதல்</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2014/06/14/post6691.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">முதல் தாக்குதல்</h1>
+			<p class="post-meta">Jun 14, 2014</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/6691/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/6691/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p>சில நாட்களுக்கு முன்னால் மத்திய உளவு நிறுவனமான இன்டெலிஜென்ஸ் ப்யூரோவின் அறிக்கை என்று ஒரு அறிக்கை ஊடகங்களில் வெளியாகி, தன்னார்வ தொண்டு நிறுவனங்கள் மீது மிகப்பெரிய தாக்குதலை தொடுத்துள்ளது.</p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2014/06/Narendra-modi.jpg"><img class="img-responsive" src="/images/6691/Narendra-modi.jpg" alt="Narendra-modi" width="" height="" style="" /></a></p>
+<p>மத்திய உளவு நிறுவனத்தின் தன்னார்வத் தொண்டு நிறுவனங்கள் மீதான அறிக்கை முதன் முதலில் இந்தியன் எக்ஸ்பிரஸ் நாளிதழின் <a href="http://indianexpress.com/article/india/india-others/ib-report-to-pmo-greenpeace-is-a-threat-to-national-economic-security/99/">டெல்லி பதிப்பில்</a>  க்ரீன் பீஸ் நிறுவனம் இந்திய பொருளாதாரத்துக்கு ஆபத்து என்ற தலைப்பில் வெளியாகியது.  இதையடுத்து, டெல்லி பத்திரிக்கையாளர்கள் பலரிடம், இந்த அறிக்கை பரவியது.  தேசிய தொலைக்காட்சி ஊடகங்களும் இந்த விவகாரத்தை தீவிரமாக விவாதிக்கத் தொடங்கிய அதே நாளில், நர்மதா அணையின் நீர் மட்டத்தை 121.9 மீட்டரில் இருந்து 138.7 மீட்டராக உயர்த்தும் திட்டத்துக்கு நர்மதா கட்டுப்பாட்டு ஆணையம் ஒப்புதல் வழங்கியுள்ளது.    குஜராத் முதல்வர் ஆனந்தி பேன் மோடி மற்றும் நீர் வள ஆதாரத் துறை அமைச்சர் உமா பாரதியை சந்தித்த ஓரிரு நாட்களுக்குள் இந்த உத்தரவு பிறப்பிக்கப்பட்டுள்ளது.     குஜராத் முதல்வர் ஆனந்தி பேன் சந்தித்த ஓரிரு நாட்களில், இரண்டரை லட்சம் மக்களை இடம் பெயரச் செய்யக் கூடிய அணையின் உயரத்தை உயர்த்தும் உத்தரவுக்கு ஏற்பாடு செய்த அதே உமாபாரதி, காவிரி மேலாண்மை ஆணையம் அமைக்கும் திட்டம் மத்திய அரசுக்கு இல்லை என்பதை வெளிப்படையாக அறிவித்துள்ளார் என்பதும் குறிப்பிடத்தக்கது.</p>
+<p>மத்திய உளவுத்துறையின் அறிக்கை தயாரிக்கப்பட்டு ஒரு சில தினங்களுக்குள், அது மத்திய உள்துறை அமைச்சரின் கைகளில் சேர்வதற்குள், ஊடகங்களில் வந்துள்ளதை, இயல்பான விவகாரமாக பார்க்க இயலாது.  அதுவும், மத்திய உளவுத்துறையின் அறிக்கையின் ஒரு சில பத்திகள், 2006ம் ஆண்டு, தன்னார்வத் தொண்டு நிறுவனங்கள் தொடர்பாக மோடி பேசிய பேச்சின் சில பகுதிகளை அப்படியே கொண்டுள்ளதில் இருந்தே, இந்த அறிக்கை வெளியான பின்னணியை வெளிச்சம் போட்டுக் காட்டுகிறது.</p>
+<p>9, செப்டம்பர் 2006ம் ஆண்டு, டெல்லியில் ஒரு புத்தகம் வெளியிடப்படுகிறது.  தன்னார்வத் தொண்டு நிறுவனங்கள், தன்னார்வலர்கள் மற்றும் நிதி என்ற நூல் வெளியீட்டு விழாவில் பேசிய மோடி, பின்வருமாறு பேசினார்.</p>
+<p>“They hire PR firms to continually build their image” with “money coming from abroad.”</p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2014/06/NGOs2.jpg"><img class="img-responsive" src="/images/6691/NGOs2.jpg" alt="NGOs2" width="" height="" style="" /></a>2006ம் ஆண்டு வெளி வந்த இந்த நூல் தற்போது வெளி வந்திருக்கும் மத்திய உளவுத்துறை அறிக்கைக்கான முன்னோடி என்பதே சரியான வரையறை.    அந்த நூலை மற்றொருவரோடு சேர்ந்து தொகுத்து வெளியிட்டவர், ராதா ராஜன் என்ற ஆர்எஸ்.எஸ். பிரமுகர்.  இந்த ராதா ராஜன் யாரென்றால், 19 பிப்ரவரி 2009 அன்று, சென்னை உயர் நீதிமன்ற வளாகத்தில், சுப்ரமணிய சுவாமி, சிதம்பரம் நடராஜர் கோவிலை அரசு கையகப்படுத்தியதற்கு எதிராக வழக்காட வந்திருந்தபோது, அவருக்கு உதவியாக உடன் வந்தவர்.  அன்று, சுப்ரமணிய சுவாமி, வழக்கறிஞர்களால் தாக்கப்பட்டபோது, வழக்கறிஞர்களோடு மோதியவர்தான் இந்த ராதா ராஜன்.   இவர் 2006ம் ஆண்டு வெளியிட்ட நூலின் போதுதான், மோடி மேற்குறிப்பிட்டவாறு பேசினார்.</p>
+<p>அந்த நூலில் மோடியின் கட்டுரை ஒன்று இடம் பெற்றுள்ளது. அந்தக் கட்டுரையில் மோடி, இவ்வாறு குறிப்பிடுகிறார்.        &#8220;Another conspiracy — a vicious cycle is set up. Funds are obtained from abroad; an NGO is set up; a few articles are commissioned; a PR firm is recruited and, slowly, with the help of the media, an image is created. And then awards are procured from foreign countries to enhance this image. Such a vicious cycle, a network of finance-activity-award is set up and, once they have secured an award, no one in Hindustan dares raise a finger, no matter how many the failings of the awardee.”</p>
+<p>தற்போது வெளியாகியிருக்கும் மத்திய உளவுத்துறையின் அறிக்கையில் பின்வருமாறு பகுதி ஏ, பத்தி இரண்டில் குறிப்பிடப்பட்டுள்ளது.</p>
+<p>&#8220;A small group of activists and NGOs at times have succeeded in shaping policy debates in India. Apart from that, in some cases it is observed that in a cyclical process, an NGO is set up, funds are obtained from abroad, a few articles are commissioned, a PR firm is recruited and, slowly, with the help of the media an image is created. And then awards are procured from foreign countries to enhance the image, after which Government machinery finds it more difficult to act against the awardee.”&#8221;</p>
+<p>இதற்கு அடுத்ததாக ராதா ராஜனுடைய புத்தகத்தில் பக்கம் 71ல் இவ்வாறு குறிப்பிடப்பட்டுள்ளது. &#8220;The NGOs are the central players, involved in setting the agenda, drafting documents, writing in the media, parading as scholars turned activists and lobbying diplomats and governments. The various efforts of these new NGO activities are characterised by the terms ‘participation’, ‘empowerment’, ‘people-centered’, ‘sustainable development’ and ‘consensus’.”</p>
+<div id="attachment_6693" style="" class="img-responsive" height="" width=""><a href="http://tamilwhip.com/wp-content/uploads/2014/06/hqdefault.jpg"><img class="img-responsive" src="/images/6691/hqdefault.jpg" alt="ராதா ராஜன்" width="" height="" style="" /></a><p class="wp-caption-text">ராதா ராஜன்</p></div>
+<p>மத்திய உளவுத்துறையின் அறிக்கையின் பக்கம் இரண்டு பத்தி 5ல் &#8220;These NGOs are central players in setting the agenda, drafting documents, writing in the media, highlighting scholars turned activists and lobbying diplomats and governments. The various efforts of these NGO activities are characterised by declarations favouring ‘participation, empowerment, people-centric orientation and sustainable development through consensus.&#8221;</p>
+<p>கிட்டத்தட்ட மோடியின் கட்டுரை மற்றும், ராதா ராஜனின் புத்தகத்தை அப்படியே காப்பியடித்து மத்திய உளவுத்துறை அறிக்கை வெளியிட்டுள்ளது.   இது யாருடைய விருப்பத்தின் பெயரில் நடந்துள்ளது என்பதை சொல்ல வேண்டியதில்லை.</p>
+<div id="attachment_6695" style="" class="img-responsive" height="" width=""><a href="http://tamilwhip.com/wp-content/uploads/2014/06/TEESTA_SETALVAD_1_1739638f.jpg"><img class="img-responsive" src="/images/6691/TEESTA_SETALVAD_1_1739638f.jpg" alt="TEESTA_SETALVAD_1_1739638f" width="" height="" style="" /></a><p class="wp-caption-text">தீஸ்தா செத்தல்வாத்</p></div>
+<p>தன்னார்வத் தொண்டு நிறுவனங்கள் மீதான மோடியின் கோபத்துக்கு வலுவான பின்னணி உண்டு.  அமைதி மற்றும் நீதிக்கான மக்கள் அமைப்பு (Citizens for Justice and Peace) என்ற தன்னார்வத் தொண்டு நிறுவனத்தை, தீஸ்தா செத்தல்வாத் நடத்தி வருகிறார். தீஸ்தா மற்றும் அவர் கணவர் ஜாவேத் ஆனந்த் ஆகியோர் இணைந்து எடுத்த பல்வேறு முயற்சிகளின் காரணமாகத்தான் குஜராத் கலவரத்தில் மோடியின் பங்கு பல்வேறு தளங்களில் வெளி வரக் காரணமாக இருந்தது.   அமெரிக்காவின் மதச் சுதந்திரத்துக்கான சர்வதேச அமைப்பு நடத்திய ஒரு விசாரணை கூட்டத்தில் கலந்து கொண்ட தீஸ்தா, குஜராத் கலவரத்தில் மோடி அரசின் பங்கு குறித்து விரிவாக உரையாற்றினார்.  அந்த உரை மற்றும் அதனைத் தொடர்ந்து எழுந்த, பலத்த விவாதங்களின் காரணமாகவே, பிரதமராகும் வரை, மோடிக்கு அமெரிக்க செல்வதற்கான விசா இறுதி வரை கிடைக்கவேயில்லை.   தனிப்பட்ட முறையில் தன்னகங்காரம் கொண்ட நபரான மோடியால், தனக்கு அமெரிக்கா விசா அளிக்க மறுத்ததை சகித்துக் கொள்ளவே முடியவில்லை.</p>
+<p>குஜராத் மாநிலம் மட்டுமல்லாமல், இந்தியா முழுக்க, குஜராத் கலவரங்கள் மற்றும், மோடியின் பங்கு குறித்து, பேசி விவாதத்தை எழுப்பியிருக்க வேண்டிய பிரதான கட்சியான காங்கிரஸ், குஜராத் மட்டுமல்லாமல், இந்தியா முழுக்கவே அதை செய்யத் தவறியது.   தீஸ்தா செத்தல்வாத் போன்ற தன்னார்வர்கள், மற்றும் நடுநிலையாளர்கள், இந்தியா மற்றும் உலகம் முழுக்க இப்பிரச்சினையை தொடர்ந்து எழுப்பியதன் காரணமாகவே, குஜராத்தில் நடந்த பெஸ்ட் பேக்கரி, உள்ளிட்ட பல்வேறு வழக்குகள் குறித்து விசாரிக்க சிறப்பு விசாரணைக் குழுவே உச்சநீதிமன்றத்தால் உருவாக்கப்பட்டது.    மேலும், பாரதீய ஜனதா கட்சி, சங் பரிவார் மற்றும், ஆர்எஸ்எஸ் அமைப்புகளின் நீண்ட நாள் திட்டமே, இந்தியாவை ஒரு மிகப்பெரிய அணுசக்தி நாடாக உருவாக்குவதே.   வாஜ்பாய் ஆட்சிக் காலத்தில், பிஜேபியால் ஒரு அணு குண்டு சோதனையை நிகழ்த்தி, இந்தப் பிரதேசத்தையே ஒரு அணுப் பிரதேசமாக மாற்ற முடிந்தது.  வெடித்து முடிக்கப்பட்ட அணு குண்டு சோதனைகளை, இந்து அணு குண்டு என்று நாடெங்கும் பிரச்சாரம் செய்தது பிஜேபி என்பதை மறக்க முடியாது.</p>
+<p>அணு குண்டுக்கு எதிராக உலக நாடுகள் அனைத்தும் ஒப்பந்தங்கள் போட்டுக் கொண்டிருந்த நிலையில், சங் பரிவாரின் திட்டத்தை நிறைவேற்றுவதற்காகவே அவசர அவசரமாக இப்படி ஒரு அணு குண்டு சோதனையை வாஜ்பாய் அரசு நிகழ்த்தியது என்பதை மறக்க முடியாது.    ஒரு சிறுபான்மை அரசாக இருந்தே மிகப்பெரிய கொள்கை முடிவான அணு குண்டு சோதனையை நிகழ்த்திய சங் பரிவார்களின் கூட்டம், தற்போது அறுதிப் பெரும்பான்மையோடு ஆட்சிப் பொறுப்பேற்றுள்ள நிலையில், அநியாயங்களுக்கு எதிரான தனித்த குரல்களாக ஒலித்துக் கொண்டிருக்கும் தன்னார்வத் தொண்டு நிறுவனங்களை ஒடுக்க நினைப்பது இயல்பே.</p>
+<div id="attachment_6696" style="" class="img-responsive" height="" width=""><a href="http://tamilwhip.com/wp-content/uploads/2014/06/16891_32450.jpg"><img class="img-responsive" src="/images/6691/16891_32450.jpg" alt="மரபணு கத்தரிக்கு எதிரான க்ரீன்பீஸ் அமைப்பின் போராட்டக் காட்சி " width="" height="" style="" /></a><p class="wp-caption-text">மரபணு கத்தரிக்கு எதிரான க்ரீன்பீஸ் அமைப்பின் போராட்டக் காட்சி</p></div>
+<p>மத்திய உளவு நிறுவனத்தின் அறிக்கை, க்ரீன் பீஸ் போன்ற அமைப்புகளோடு நிற்காமல், இந்தியாவின் பெரும்பாலான தன்னார்வத் தொண்டு நிறுவனங்களை குறிவைத்துள்ளது குறிப்பிடத் தக்கது. குறிப்பாக, குஜராத்தில் இயங்கும், குஜராத் கலவரங்கள் குறித்து பல்வேறு தளங்களில் செயல்பட்ட தொண்டு நிறுவனங்களும் குறிவைக்கப் பட்டுள்ளன.  தனது பிரச்சாரத்தின் போது, பல்வேறு சமயங்களில், தன்னார்வத் தொண்டு நிறுவனங்களின் மீதான தனது, வெறுப்பை வெளிக்காட்டத் தயங்கியதே இல்லை.  ஏப்ரல் 25 அன்று பத்தன்கோட்டில் நடந்த தேர்தல் பிரச்சாரக் கூட்டத்தில் &#8220;வழக்கமாக அரசியல் கட்சிகள்தான், ஆளுங்கட்சியை தூக்கி எறிய கூட்டணி சேர்வார்கள்.  ஆனால், தன்னார்வத் தொண்டு நிறுவனங்களும், காங்கிரஸ் அரசும், மோடி ஆட்சிக்கு வந்து விடக்கூடாதே என்ற ஒரே நோக்கத்தில் தொடர்ந்து வேலை செய்து கொண்டிருக்கின்றன&#8221; என்று வெளிப்படையாகவே குறிப்பிட்டார்.</p>
+<p>மத்திய உளவுத்துறையின் அறிக்கை, அணு சக்திக்கு எதிரான போராட்டங்களில் தொடங்கி, மக்கள் விரோத திட்டங்களுக்கு எதிராக நாடெங்கும் நடக்கும் அத்தனை போராட்டத்திலும் ஈடுபடும் தன்னார்வத் தொண்டு நிறுவனங்களை குறிப்பிட்டு குற்றம் சாட்டுகிறது.</p>
+<p>அந்த அறிக்கை முதலில் தொடங்குவது கூடங்குளம் அணு மின் நிலையத்துக்கு எதிரான போராட்டத்திலிருந்து. அணு சக்திக்கு எதிரான மக்கள் கூட்டமைப்புக்கு 80 கோடிக்கும் அதிகமான நிதி வந்திருப்பதாக அறிக்கை குறிப்பிடுகிறது. அடுத்ததாக நிலக்கரியால் சுற்றுச் சூழலை மாசு படுத்தும் இந்தால்கோ, எஸ்ஸார், மற்றும் ஆதித்ய பிர்லா குழுமங்களுக்கு எதிரான நடக்கும் போராட்டங்களை குறிப்பிடும் அறிக்கை, டாடா சமூக அறிவியல் மைய்யத்தின் மூலமாக, சுற்றுச் சூழலுக்கு, நிலக்கரி ஆலைகளால் ஏற்படும் சேதம் குறித்து ஆய்வு செய்யுமாறு நிதி ஆதாரங்கள் அளிக்கப்பட்டுள்ளதை சுட்டிக் காட்டுகிறது. பாஸ்கோ ஆலைக்கு எதிராக செயல்படும் பாஸ்கோ ப்ரதிரோத் சங்கர்ஷ் சமிதிக்கு, வெளிநாட்டிலிருந்து நிதி வந்திருப்பதாக குற்றம் சாட்டுகிறது அறிக்கை.</p>
+<p>வேதாந்தா அலுமினியம் ஆலைக்கு எதிராக செயல்படும் அமைப்புகள் குறித்து, ஜிண்டால் அலுமினியம் ஆலையின் மேலாண் இயக்குநர் சஜ்ஜன் ஜிண்டால் எகனாமிக் டைம்ஸ் நாளேட்டுக்கு அளித்த பேட்டியை குறிப்பிடுகிறது அறிக்கை. வடகிழக்கு மாகாணங்களில் தாதுப்பொருட்களை எடுப்பதற்கு எதிராக நடக்கும் போராட்டங்களை குறிப்பிடும் அறிக்கை, இது தொடர்பாக பாங்காங்க் நகரில் நடந்த ஒரு கருத்தரங்கில், இந்தியாவின் வடகிழக்கு மாகாணத்தை சேர்ந்த எட்டு தன்னார்வத் தொண்டு நிறுவனங்கள் பங்கேற்றதாகவும், அந்த கருத்தரங்கில் இந்திய அரசோடு போராடுவதற்கு பதிலாக, சர்வதேச தரக்கட்டுப்பாடுகளை எண்ணை மற்றும் தாதுப்பொருட்களை எடுக்கும் நிறுவனங்கள் பின்பற்றவில்லை என்பதை அம்பலப்படுத்த வேண்டும் என்று குறிப்பிடப்பட்டதை, சுட்டிக் காட்டுகிறது உளவுத்துறை அறிக்கை. ஈ வேஸ்ட் எனப்படும் மின்கழிவுகள் அகற்றப்படுவதற்கு எதிராக க்ரீன் பீஸ் அமைப்பு பெங்களுரில் இயக்கம் நடத்துவது, நர்மதா அணைக்கு எதிரான போராட்டங்கள், குஜராத் வளர்ச்சி மாதிரி என்பது, சுற்றுச் சூழலுக்கு ஆபத்தானது என்று பல்வேறு நிறுவனங்கள் முன்னெடுத்த பிரச்சாரங்கள், போன்றவற்றையும் அறிக்கை குறிப்பிடுகிறது.</p>
+<p>டெல்லி மும்பை இடையே தொழிற்சாலை தொடர் வளாகங்கள் அமைப்பதற்கு எதிராக, மேதா பட்கர் தலைமையில் மகாராஷ்டிராவில் தொடங்கி, குஜராத், மத்திய பிரதேசம், ராஜஸ்தான், ஹரியாணா வழியாக டெல்லியில் முடிவடைந்த பேரணியையும் இந்த அறிக்கை குறிப்பிடுகிறது.</p>
+<div id="attachment_6697" style="" class="img-responsive" height="" width=""><a href="http://tamilwhip.com/wp-content/uploads/2014/06/14_TH_MEDHA_BIG_DAM_144433f.jpg"><img class="img-responsive" src="/images/6691/14_TH_MEDHA_BIG_DAM_144433f.jpg" alt="மேதா பட்கர்" width="" height="" style="" /></a><p class="wp-caption-text">மேதா பட்கர்</p></div>
+<p>இந்த அறிக்கையில் குறிப்பிடும் ஆட்சேபகரமான பகுதிகள்தான் என்ன என்று பார்த்தால், வெளிநாட்டிலிருந்து இந்த தன்னார்வத் தொண்டு நிறுவனங்கள் நிதி பெற்றுக் கொண்டு, இந்த போராட்டங்களை முன்னெடுக்கின்றன என்பதே.</p>
+<p>தன்னார்வத் தொண்டு நிறுவனங்களுக்கு வளர்ந்த நாடுகள் நிதி வழங்குவது என்பது காலங்காலமாக இருந்து வரும் நடைமுறைதான். இது ஒன்றும் புதிதானது இல்லை.   நாட்டின் பொருளாதார வளர்ச்சிக்கு எதிராக வெளிநாட்டு சதி என்று புலம்பும் மத்திய உளவுத்துறை யாருக்காக வக்காலத்து வாங்குகிறது என்பது அந்த அறிக்கையிலேயே இருக்கிறது.  பாஸ்கோ, ஆதித்ய பிர்லா, வேதாந்தா, போன்ற தனியார் நிறுவனங்களை இயற்கை வளங்களை கொள்ளையடிக்க அனுமதிப்பதோடு, இந்தியாவை அணு சக்தி என்ற படுகுழிக்குள் தள்ள வேண்டும் என்பதே மோடி மற்றும் சங் பரிவாரின் நீண்ட காலத் திட்டம்.  அதை செயல்படுத்துவதற்கான முதல் தாக்குதலையே தற்போது ஊடகங்களில் கசிய விடப்பட்டுள்ள மத்திய அரசின் உளவறிக்கை படம் போட்டு காட்டுகிறது.</p>
+<p>கூடங்குளம் அணு உலைக்கு எதிரான கூட்டமைப்பின் தலைவரான எஸ்.பி.உதயக்குமாருக்கு வெளிநாடுகளில் இருந்து நிதி வருகிறது என்று, முன்னாள் மத்திய அமைச்சர் நாராயணசாமி, ஒவ்வொரு முறை சென்னை வருகையிலும் பேட்டியளித்தார்.    ஒரு முறை, மன் மோகன் சிங்கே கூடங்குளம் போராட்டக் குழுவினருக்கு, வெளிநாடுகளில் இருந்து குறிப்பாக ஸ்கான்டினேவிய மற்றும் அமெரிக்காவிலிருந்து நிதி உதவி வருவதாக குறிப்பிட்டார்.   மன்மோகன் சிங் கட்டுப்பாட்டில், வருமான வரித்துறை, அமலாக்கப் பிரிவு, மத்திய புலனாய்வுத் துறை, மத்திய உளவுத்துறை, ஆய்வு மற்றும் பகுப்பாய்வு நிறுவனம், வருவாய் புலனாய்வுத் துறை மற்றும் மேலும் பல்வேறு நிறுவனங்கள் இருந்தன.  உதயக்குமாருக்கு வெளிநாட்டிலிருந்து நிதி உதவி வந்திருந்தால், மன்மோகன் சிங்கின் கட்டுப்பாட்டில் இருந்த அத்தனை புலனாய்வு நிறுவனங்களின் மூலமாகவும், மிக மிக எளிதாக கண்டுபிடித்திருக்க முடியும்.  எஸ்.பி.உதயக்குமார், நேரடியாக மன்மோகன் சிங்குக்கே வழக்கறிஞர் அறிவிக்கை அனுப்பினார்.  <a href="http://indiatoday.intoday.in/story/koodankulam-nuclear-plant-pm-manmohan-singh-s.p.-udayakumar/1/175726.html">இணைப்பு</a>  ஆனால், இறுதி வரை, மன்மோகன் சிங்காலோ, அவரது அரசாலோ, ஒரு துளி  ஆதாரத்தைக் கூட அளிக்கவோ, உதயக்குமார் மீது நிதி மோசடி தொடர்பாக வழக்கு பதிவு செய்யவோ இயலவில்லை.</p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2014/06/MG_4324-Large.jpg"><img class="img-responsive" src="/images/6691/MG_4324-Large.jpg" alt="_MG_4324 (Large)" width="" height="" style="" /></a></p>
+<p>வெளி நாட்டு நிதியோடோ அல்லது நிதி இல்லாமலோ, இந்த தன்னார்வத் தொண்டு நிறுவனங்கள் அப்படி என்ன தவறை செய்து விட்டன ?   மரபணு மாற்று கத்தரிக்காய் மற்றும் இதர பயிர்களை பரிசோதனை முறையில், இந்தியாவில பயிரிட அனுமதிக்காமல் தடுத்தன.  நர்மதா அணையின் உயரத்தால் இடம் பெயர்ந்திருக்க வேண்டிய இரண்டரை லட்சம் மக்களை இத்தனை ஆண்டுகளாக இடம் பெயர விடாமல் தடுத்தன. கூடங்குளம் போன்ற அணு உலைகளால் ஏற்படக் கூடிய ஆபத்துக்களை மக்களிடம் எடுத்துரைத்தன.   பாஸ்கோ, வேதாந்தா போன்ற இயற்கை வளங்களை கொள்ளையடிக்கும் நிறுவனங்களின் லாப வெறியை அம்பலப்படுத்தின.    சிறப்பு பொருளாதார மண்டலங்கள் என்ற பெயரில் விவசாய விளை நிலங்களை அபகரிப்பதற்கு எதிராக போராடியிருக்கிறார்கள். இதை வெளிநாட்டில் நிதி பெற்று செய்தால் என்ன ?  உள்நாட்டில் நிதி பெற்று செய்தால் என்ன ?</p>
+<p>வெகுஜன உழைக்கும் மக்களுக்கு எதிரான போராட்டங்களுக்கு யார் ஆதரவு கொடுத்தாலும் அதை ஏற்றுக் கொள்வதுதானே போராட்ட நெறி முறை ?  இவற்றை சரி செய்யவும், நெறிப்படுத்துவதற்கும்தானே Foreign Contribution Regulation Act என்ற சட்டம் முந்தைய காங்கிரஸ் அரசால் கொண்டு வரப்பட்டு செல்படுத்தப்பட்டுள்ளது ?   பிறகு எதற்காக தற்போது இந்த அறிக்கை ?</p>
+<p>இந்தியாவின் முக்கிய கட்சிகளான காங்கிரஸ் மற்றும் பாரதீய ஜனதா கட்சி ஆகிய இரு கட்சிகளும், இந்தியாவின் கார்ப்பரேட் நிறுவனங்களிடம் பணம் பெற்றுக் கொண்டு, அவர்களுக்கு ஆதரவாக வெகுஜன உழைக்கும் மக்களுக்கு எதிராக திட்டங்கள் தீட்டுவதும், அவற்றை செயல்படுத்துவதும் இந்தியாவில் நடக்காமலா இருக்கிறது ?   அவற்றுக்கு எதிராக ஏன் மத்திய உளவு நிறுவனம் அறிக்கை தாக்கல் செய்யவில்லை ?  இந்தியாவின் பெரிய அரசியல் கட்சிகள், நேர்மையான வழியில் மட்டுமா நிதி வசூல்   செய்கின்றன ?  இந்திய தேர்தல் ஆணையம் விதித்துள்ள கட்டுப்பாட்டுக்கு உட்பட்டுத்தானா தேர்தல் செலவுகளை செய்கின்றன ?</p>
+<p>பன்னாட்டு நிறுவனங்கள் மற்றும், கார்ப்பரேட்டுகளிடம் பணம் பெற்றுக் கொண்டு வெகுஜன மக்களுக்கு எதிராக அரசியல் கட்சிகள் செயல்படுகையில், அதே உழைக்கும் மக்களுக்கு ஆதரவாக வெளி நாட்டு நிறுவனங்களிடம் பணம் பெற்றுக்கொண்டோ அல்லது பெறாமலோ, மக்களுக்கு எதிரான திட்டங்களை எதிர்த்து போராட்டம் நடத்துவதிலும், இயக்கங்கள் நடத்துவதிலும் எந்த விதமான தவறும் இல்லை.   இந்தியா வெகுஜன உழைப்பாளி, ஏழை மக்களுக்கு சொந்தமானது.  இந்த அரசியல் கட்சிகளுக்கோ, நரேந்திர மோடிக்கோ சொந்தமானது அல்ல.</p>
+<p>தன்னுடைய அமைச்சரவை சகாக்களின் இலாக்காக்களைக் கூட, இறுதி நேரம் வரை தெரியாமல் மறைக்க முடிந்த நரேந்திர மோடிக்கு தெரியாமல், இந்த மத்திய உளவுத்துறை அறிக்கை வெளியாகியிருக்கும் என்பதை நம்புவதற்கில்லை.  இது திட்டமிட்டு ஊடகங்களில் கசியவிடப்பட்ட அறிக்கை.  இந்த நடவடிக்கை, வெகுஜன சக்திகளையும், அவர்களுக்கு ஆதரவாக போராடும் ஆதரவு சக்திகளையும் ஒடுக்குவதற்காகவே.  இத்தனை தன்னார்வத் தொண்டு இயக்கங்கள், வெகுஜன அமைப்புகள் இருந்தே, இந்தியாவில் சுற்றுச் சூழலுக்கு எதிராகவும், வெகுஜன மக்களுக்கு எதிராகவும் பல்வேறு திட்டங்களை எடுத்து வர முடிகிறதென்றால், இப்படிப்பட்ட தொண்டு நிறுவனங்களும், இயக்கங்களும் இல்லாமல் போனால் இந்த அரசுகள் என்னென்ன செய்யும் ?</p>
+<p>&#8220;நான் எதிர்க்கட்சிகளையும், மாநில முதல்வர்களையும் இணைத்துக் கொண்டு வழி நடப்பேன்.    இந்தியாவின் அனைத்து உறுப்புகளும் வளர்ந்தால்தான் இந்தியா முழுமையான வளர்ச்சி அடையும்&#8221; என்று பாராளுமன்றத்தில் மோடி பேசிய பேச்சு வெறும் பசப்பு வார்த்கைள் மட்டுமே.</p>
+<p>நாஜிக்கள் கோயபல்ஸை பயன்படுத்தி எப்படி தங்கள் கொள்கைகளை அமல்படுத்தினார்களோ, அதே போல இனிப்பு தடவி, விஷத்தை ஊட்ட மோடி அரசு முயன்று வருகிறது.  இது மோடி அரசு, வெகுஜன மக்களின் மேல் தொடுத்திருக்கும் முதல் தாக்குதல்.</p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2014/06/koodankulam-2.jpg"><img class="img-responsive" src="/images/6691/koodankulam-2.jpg" alt="koodankulam-2" width="" height="" style="" /></a></p>
+<p>மோடியை விட பல்வேறு வகைகளில் திறமையான ஆங்கிலேய அரசாங்கத்தையும், மோடியை விட பல வகைகளின் மக்கள் ஆதரவை பெற்றவருமான இந்திரா காந்தியின் அராஜகங்களையே எதிர்த்து போராடி தூக்கி எறிந்த நாடு இந்தியா. மோடி மற்றும் சங் பரிவார்களின் திட்டங்களையும், இந்தியா எதிர்த்து வெற்றி கொள்ளும்.   சங் பரிவார்களின் திட்டம் ஒரு காலத்திலும் நிறைவேறாது.</p>
+<p>&nbsp;</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/6691/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/6691/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/6691/?share=facebook" title="Share on Facebook" id="sharing-facebook-6691"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/6691/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-6691"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/6691/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-6691"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/6691/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/6691/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/6691/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-6691-5471fa521ba46" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=6691&amp;origin=savukkunews.com&amp;obj_id=68584444-6691-5471fa521ba46" data-name="like-post-frame-68584444-6691-5471fa521ba46"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/6691/"
+    dc:identifier="http://savukkunews.com/6691/"
+    dc:title="முதல் தாக்குதல்"
+    trackback:ping="http://savukkunews.com/6691/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

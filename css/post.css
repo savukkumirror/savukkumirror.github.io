@@ -9,8 +9,13 @@ body {
   padding-top: 70px; }
 
 .logo {
-  padding: 10px;
   text-align: center; }
+
+.logo-small {
+  margin-top: -15px !important; }
+
+.full-width {
+  width: 100%; }
 
 .post {
   padding-bottom: 5px; }

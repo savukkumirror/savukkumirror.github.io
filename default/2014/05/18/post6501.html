@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- மறக்க முடியுமா ?</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2014/05/18/post6501.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">மறக்க முடியுமா ?</h1>
+			<p class="post-meta">May 18, 2014</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/6501/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/6501/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p>மே 18. மொழியால் இணக்கமாக இணைந்திருந்த ஈழத் தமிழர்களை, விலங்குகளை சுடுவது போல அழித்த நாள். வேடிக்கை மட்டுமே பார்க்க முடிந்தது.<br />
+<a href="http://tamilwhip.com/wp-content/uploads/2014/05/5.jpg"><img class="img-responsive" src="/images/6501/5.jpg" alt="5" width="" height="" style="" /></a></p>
+<p>எத்தனை போராட்டங்கள் ? எத்தனை மறியல்கள் ? எத்தனை பட்டினிப்போர்கள் ? ஆனால், இந்தியா சிங்கள அரசுக்கு போரை நடத்த செய்த உதவிகளை ஒரு போதும் நிறுத்தவில்லை. உணர்வாளர்களால் அந்தப் போராட்டங்களைத் தவிர வேறு எதுவுமே செய்ய இயலவில்லை.</p>
+<p>அந்த படுகொலைகளுக்குப் பிறகு இலங்கை அரசின் போர்க்குற்றங்கள் குறித்த ஆதாரங்கள், அடுக்கடுக்காக வெளியாகிக் கொண்டே இருந்த பின்னாலும் சர்வதேச விசாரணையை உருவாக்க முடியவில்லை. இலங்கை அரசின் தந்திரமான நடவடிக்கைகளாலும், இந்திய அரசின் துரோகத்தாலும், ஐ.நா மனித உரிமைகள் அவையில் இலங்கைக்கு எதிராக எடுத்து வரப்பட்ட அனைத்து தீர்மானங்களும் தோல்வியையே தழுவின. வெந்த புண்ணில் வேல் பாய்ச்சுவதாக, எந்த சிங்கள அரசின் மீது குற்ற்சசாட்டோ, அதே சிங்கள அரசு தன் மீதான குற்றச்சாட்டுகளை தானே விசாரித்துக் கொள்ள வேண்டும் என்பதை மேற்கத்திய நாடுகள் நிபந்தனையாக விதித்தன. அதைக்கூட செய்ய மறுத்தது ராஜபட்சே அரசு.</p>
+<p>சேனல் 4 நிறுவனம் வீடியோ ஆதாரங்களை தொடர்ந்து வெளியிட்ட பின்னரும் உலக நாடுகள் அதன் மீது எந்த நடவடிக்கைகளையும் எடுக்கத் தயாராக இல்லை. உக்ரைனில் ரஷ்யா தலையிடுகிறது என்ற ஒரே காரணத்துக்காக உலக நாடுகள் அனைத்தும் இணைந்து, அவ்வளவு பெரிய நாடான ரஷ்யா மீது பொருளாதாரத் தடைகளை விதிக்கின்றன. ஆனால், வெளிப்படையான மனித உரிமை மீறல்கள் மற்றும் போர்க்குற்றங்களான ஆதாரங்கள் அனைத்தும் உலக சமுதாயத்தின் முன்னால் வைக்கப்பட்ட பிறகும், இலங்கையை கண்டிக்க எந்த நாடும் முன் வரவில்லை. உலகெங்கும் உள்ள புலம் பெயர்ந்த தமிழர்கள் அனைவரும் கடுமையான போராட்டங்களை முன்னெடுத்த பின்னரும் கூட, பிரிட்டன் உள்ளிட்ட உலக நாடுகள் சம்பிரதாயமான கண்டிப்புகளோடு நிறுத்திக் கொள்கின்றன. இந்தியா போன்ற பெரிய நாடுகளுக்குக் கூட இல்லாத வலிமை, இலங்கை போன்ற ஒரு சாதாரண நாட்டுக்கு எங்கணம் வந்தது என்பது புரியாத புதிராகத்தான் இருக்கிறது.</p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2014/05/eelam_tamils_650.jpg"><img class="img-responsive" src="/images/6501/eelam_tamils_650.jpg" alt="eelam_tamils_650" width="" height="" style="" /></a></p>
+<p>தற்போது முள்வேலி முகாம்களுக்குள் அடைக்கப்பட்ட தமிழர்கள் விடிவுகாலம் எப்போது என்று ஏங்கிக் கொண்டிருக்கிறார்கள். எப்படியாவது தப்பித்து ஒரு ஐரோப்பிய நாட்டுக்கு அகதியாக சென்று விடலாமா என்று மன்றாடுகிறார்கள். தங்கள் பிள்ளைகளுக்காவது நல்ல வாழ்வை அமைத்துத் தரலாம் என்று கள்ளத்தோணிகளில் கடலுக்குள் சென்று மாட்டிக் கொள்கிறார்கள்.</p>
+<p>தமிழகத்தில் உள்ள அகதிகளாவது நிம்மதியாக இருக்கிறார்களா என்றால் இல்லை. சிறப்பு முகாம் என்ற பெயரில், வயதில் இளையவர்களாக இருப்பவர்களை புலிகள் என்று சந்தேகப்பட்டு அடைத்து வைத்துள்ளது அதிமுக, திமுக இரு அரசுகளும்.</p>
+<p>2009ல் ஈழப்போர் இறுதிக்கட்டத்தை எட்டியிருந்தபோது, ஆட்சியில் இருந்த திமுக, மத்திய கூட்ணிக் கட்சியான காங்கிரஸ் கட்சியோட சேர்ந்து இழைத்த துரோகங்களைப் பற்றி பல முறை எழுதியாயிற்று. மீண்டும் மீண்டும் அதை எழுதுவதால் எரிச்சல்தான் மேலிடுகிறது. மரணம் நம் அனைவருக்கும்தான் வருமென்றாலும், குண்டுகள் நம் மீது வீசப்பட்டு, கையிழந்து, காலிழந்து துடிதுடித்துச் சாவதென்பதை நினைத்துப் பார்க்கவே கடினமாக இருக்கிறது.</p>
+<p>அப்படி சொந்தங்களையெல்லாம் இழந்து குற்றுயிராக இருப்பவர்களும் முகாம்களுக்குள் இரண்டாந்தர குடிமக்களாக இருத்தி வைக்கப்பட்டு இருக்கின்றனர். இலங்கையில் உள்ளவர்களை காப்பாற்றுவதை விடுங்கள். குறைந்தபட்சம், தமிழகத்தில் சிறப்பு முகாம்களுக்குள் அடைத்து வைக்கப்பட்டவர்களைக் கூட விடுவிக்க நம்மால் முடியவில்லை.</p>
+<p>2009ல் நடந்து முடிந்த குற்றங்களுக்காக ஒவ்வொருவராக குறை சொல்லிக் கொண்டே இருக்கலாம். ஆனால் காலம் கடந்து விட்டது. மாற்றி மாற்றி குறை சொல்வதால் எந்தப் பயனும் ஏற்படப்போவதில்லை.<br />
+இந்தியாவில் ஏற்பட்டுள்ள புதிய ஆட்சி ஈழத் தமிழர்களின் நலனுக்காக ஏதாவது செய்யுமா என்பதும் கேள்விக்குறியாகவே உள்ளது. மோடி வெற்றிபெற்றதும், முதலில் உரையாடுவது ராஜபட்சேவாகத்தான் இருக்கிறது. இந்திய வெளியுறவுத்துறையில் இருக்கும் அதிகாரிகளை மீறி, மோடி ஏதாவது ஒரு நடவடிக்கையை எடுத்து விடுவார் என்றும் நம்பிக்கை இல்லை. மோடி வந்தால் ஈழத் தமிழர்கள் வாழ்வு வளம் பெறும் என்று வைகோ, அவருக்கு அளிக்கப்பட்ட ஆறு சீட்டுகளுக்காக கூறிக்கொண்டு இருக்கலாமே தவிர, அது எந்த விதத்திலும் இலங்கை தொடர்பான இந்திய வெளியுறவுக் கொள்கையில் மாற்றத்தைக் கொண்டு வரப்போவதில்லை.</p>
+<p>கொல்லப்பட்டவர்களின் நினைவு தினத்தைக் கூட அனுசரிக்கமுடியாமல் மஹிந்தா அரசு தடை விதிக்கிறது. தனி ஈழப் போராட்டங்கள் தொடர்வதற்கு முன்னர் இருந்ததைவிடவும் படுமோசமான நிலையில் அங்கே தமிழர்கள் வாழ்கின்றனர். இந்தியாவும், உலக நாடுகளும் கைவிரித்தாகிவிட்டது. ஆயுதப்போராட்டங்களை இனி கற்பனை கூட செய்து பார்க்கமுடியாது. இந்நிலையில் அங்கிருக்கும் சிங்கள முற்போக்காளர்களுடன் இணைந்து, கொடுங்கோல் அரசிற்கெதிராக ஜனநாயக வழியிலான போராட்டங்களை முன்னெடுப்பதுதான், அந்நாட்டு அரசியல் சட்டம் உறுதிசெய்யும் அடிப்படை உரிமைகளுடனாவது தமிழர்கள் வாழ ஒரே வழி. குறிப்பாக இங்கே தோள் தட்டும், மீசை முறுக்கும், வெட்டிப்பேச்சு வீரர்களை ஈழத் தமிழர்கள் நம்பவே கூடாது.</p>
+<p>2009ல் பா ஜ க ஆட்சிக்கு வரும், சமரசத்திற்குச் செல்லாதீர்கள் என நம்பிக்கையளித்தது யார், இரட்டை கோபுரத்தகர்ப்பிற்குப் பின்னர் உலகளாவிய அளவில் ஆயுதப் போராட்டங்கள் குறித்தான அணுகுமுறை தலைகீழாக மாறிவிட்டது என்பதை எடுத்துச் சொல்லத் தவறியது யார்? இங்கே நாள் தோறும் கர்ஜிக்கும் தமிழுணர்வாளர்களே.</p>
+<p>இந்நிலையில் அங்குள்ள தமிழர்கள் புலம்பெயர் தமிழர்களுடன் இணைந்து தங்கள் எதிர்காலம் குறித்து ஆய்வுசெய்து உரிய முடிவெடுக்கட்டும். இந்நாட்டுத் தமிழுணர்வாளர்கள் இந்திய அரசும் மற்ற பன்னாட்டு அரசுகளும் ஈழத்தமிழர்களுக்கு அனைத்து தளங்களிலும் நீதி வேண்டும், தற்போதைய கொடுமைகளுக்கு முற்றுப்புள்ளி வைக்கவேண்டுமென தொடர்ந்து வலியுறுத்தட்டும் . பாகிஸ்தானையும் சீனத்தையும் மிகப் பெரிய எதிரிகளாக பாவிக்கும் பாஜக அரசு உருவாகும் வேளையில், மோடியோ உடனிருப்பவர்களோ இலங்கையில் எங்கே அந்நாடுகளுக்கு கூடுதல் சலுகைகள் கிடைத்துவிடுமோ என்றஞ்சி ராஜபக்சேயை தாஜா செய்யவே விரும்புவர். இவ்வாறு மாறியிருக்கும் சூழலில் வட இந்திய சக்திகளுக்கும் நிலைமையினை சரிவர உணர்த்தவேண்டும். இனியும் தனிக்கச்சேரி செய்து பயனில்லை</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/6501/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/6501/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=facebook" title="Share on Facebook" id="sharing-facebook-6501"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-6501"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-6501"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/6501/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-6501-5471fa6fc67f2" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=6501&amp;origin=savukkunews.com&amp;obj_id=68584444-6501-5471fa6fc67f2" data-name="like-post-frame-68584444-6501-5471fa6fc67f2"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/6501/"
+    dc:identifier="http://savukkunews.com/6501/"
+    dc:title="மறக்க முடியுமா ?"
+    trackback:ping="http://savukkunews.com/6501/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

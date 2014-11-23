@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- சென்று வா மகளே&#8230; சென்று வா.</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2014/09/26/post7416.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">சென்று வா மகளே&#8230; சென்று வா.</h1>
+			<p class="post-meta">Sep 26, 2014</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/7416/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/7416/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div style="text-align: justify;"></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">18 ஆண்டு கால சரித்திரத்தின் இறுதிப்பக்கங்கள் எழுதப்பட்டுக் கொண்டிருக்கின்றன. 27 செப்டம்பர் 2014 ஜெயலலிதா மற்றும் தமிழகத்தின் தலையெழுத்தி திருத்தி எழுதப்பட உள்ளது.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">பத்தி பத்தியாக எழுதப்பட வேண்டிய இந்த சரித்திரம், என்ன காரணத்தாலோ, ஊடகங்களால் இருட்டடிப்பு செய்யப்பட்டுள்ளது. இன்றைய தலைமுறை அறிந்து கொள்ள வேண்டிய இந்த வரலாறு, பக்கம் பக்கமாக ஊடகங்கள் எழுத வேண்டும். &nbsp;ஆனால், கனத்த மவுனம் காக்கின்றன.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="clear: both; text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/jjsasikalanakeeran.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="/images/7416/jjsasikalanakeeran.jpg" height="" width="" class="img-responsive" style="" /></a></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">தலைமுறைகளைக் கடந்து நடக்கும் இவ்வழக்கின் விபரங்கள், இன்றைய இளைய தலைமுறையினர் பலருக்கு தெரிந்திருக்காது. &nbsp;அது இணையம் இல்லாத காலம். &nbsp;அதனால் அது குறித்த பல பதிவுகள் இல்லை.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">ஜெயலலிதாவைப் போல ஒரு மோசமான ஆட்சியாளர் / அரசியல்வாதியை பார்க்கவே முடியாது. &nbsp;கிட்டத்தட்ட ஹிட்லர் ஆட்சி போலத்தான் தொண்ணூறுகளின் தொடக்கத்தில் நடத்தி வந்தார். &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">ராஜீவ் கொலைக்குப் பிறகு, தேர்தல் ஒரு மாத காலம் தள்ளி வைக்கப்பட்ட பிறகு, நடந்த தமிழக தேர்தலில், திமுக மீது ஏற்பட்ட கோபத்தின் காரணமாகவும், ராஜீவ் மரணத்தின் காரணமாக ஏற்பட்ட அனுதாப அலையின் காரணமாகவும், மிருக பலத்தோடு ஆட்சியைப் பிடித்தார் ஜெயலலிதா. &nbsp; ஜெயலலிதா எப்படிப்பட்ட ஆணவம் மிகுந்தவர் என்பதை அப்போது தமிழ்நாடு கண்டது. &nbsp;ஒரு ஆண்டு முடிவதற்குள்ளாகவே, ராஜீவ் அனுதாப அலையால் அதிமுக வெல்லவில்லை.. &nbsp;சொந்த பலத்தில்தான் வெற்றி பெற்றது என்று அறிவித்தார். &nbsp; தமிழ்நாட்டில் நெடுஞ்சாலைகளில் நடந்த கொள்ளைகளுக்கு காரணம் நரசிம்மராவ்தான். &nbsp;கைதானவர்கள் எல்லோரும் தெலுங்கு பேசுகிறார்கள், ஆகையால் அனைவரும் ஆந்திராவிலிருந்து வந்தவர்கள் என்று சட்டப்பேரவையிலேயே அறிவித்தார்.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">அதன் பிறகு, நாள்தோறும் சட்டப்பேரவையில் காங்கிரஸ் கட்சி உறுப்பினர்கள் கூண்டோடு வெளியேற்றம், உள்ளிருப்பு போராட்டம், கூட்டத்தொடர் முழுவதும் இடைநீக்கம் என்று பல்வேறு ஜனநாயக விரோத நடவடிக்கைகளில் ஈடுபட்டார் ஜெயலலிதா.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">மற்றொரு புறம், ஜெயலலிதாவின் அமைச்சரவையில் இருந்த மதுசூதனன், எஸ்.டிசோமசுந்தரம் ஆகியோர், ஜெயலலிதாவின் மனம் குளிர அத்தனை அடாவடிகளிலும் ஈடுபட்டனர். &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">ஜெயலலிதா ஆட்சியின் தொடக்கமே, ஜெயலலிதா ஆட்சியை விமர்சித்த தராசு இதழின் இரண்டு ஊழியர்களின் படுகொலையில்தான்.&nbsp;</span></span><span style="font-family: Latha, sans-serif; line-height: 18.3999996185303px;">காவேரி பிரச்சினை காரணமாக, காங்கிரஸ் அரசு கர்நாடக அரசுக்கு ஆதரவாக இருந்தது என்பதால், அதன் அமைச்சர் ப.சிதம்பரத்தின் வாகனத்தை அதிமுகவின் 400 ரவுடிகள் தாக்கினர். &nbsp;அண்ணா பல்கலைக்கழகத்தில் மண்டல் பரிந்துரை குறித்த உச்சநீதிமன்றத்தின் தீர்ப்பை அமல்படுத்துவேன் என்று அறிவித்தார் அதன் துணை வேந்தர் முனைவர் அனந்தகிருஷ்ணன். &nbsp;இரண்டு நாட்களில் மர்ம நபர்கள், அவர் வீட்டுக்குள் நுழைந்து அவரை தாக்க முனைந்தனர். &nbsp;அனந்த கிருஷ்ணன், வீட்டினுள் இருந்த அறைக்குள் புகுந்து தாளிட்டுக் கொண்டதால் தப்பித்தார். &nbsp;சமூக நீதி காத்த வீராங்கனையின் உத்தரவுக்கு எதிராக, உச்சநீதிமன்றத்தின் உத்தரவை பின்பற்றினாராம். &nbsp;அதற்குத்தான் இந்த தாக்குதல்.</span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif; line-height: 18.3999996185303px;"><br /></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">உச்சநீதிமன்றத்தின் வழிகாட்டுதலின்படி 50 சதவிகித இட ஒதுக்கீட்டை மட்டுமே பின்பற்ற வேண்டும், மாறாக தமிழக அரசு 69 சதவிகித இட ஒதுக்கீட்டை பின்பற்றுகிறது என்று வழக்கு தொடுத்தார் வழக்கறிஞர் கே.எஸ்.விஜயன். &nbsp; இதையடுத்து, இவர் மீது நடந்த கொடூர தாக்குதலில், விஜயனுக்கு, கை மற்றும் காலில் எலும்பு முறிவு ஏற்பட்டு, மூன்று மாதங்கள் படுக்கையில் இருந்தார். &nbsp; இதே போலத்தான் மூத்த வழக்கறிஞர் சண்முக சுந்தரத்தின் மீதும் கொடூரத் தாக்குதல் நடைபெற்றது.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/IMG_20140822_170929.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" src="/images/7416/IMG_20140822_170929.jpg" height="" width="" class="img-responsive" style="" /></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">தொண்ணூறுகளில் வழக்கறிஞர் விஜயன்.</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif; line-height: 18.3999996185303px;">இது போன்ற தாக்குதல் வழக்குகள் அனைத்திலும், போலி குற்றவாளிகளை ஆஜர் படுத்தி, வழக்கின் விசாரணையை திசை திருப்புவதில், காவல்துறை மிக மிக முனைப்பாக இருந்தது என்பது குறிப்பிடத்தக்கது.&nbsp;</span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">திருத்துரைப்பூண்டி இந்தியக் கம்யூனிஸ்ட் எம்.எல்.ஏ பழனிச்சாமி, நாகப்பட்டினம் மாவட்டத்தில் கள்ளச்சாராயம் ஆறாக ஓடுவதாக புகார் கூறினார். மறு நாள், அவர் வீட்டிலேயே, மதுவிலக்கு அமல் பிரிவு காவல்துறையினர், கள்ளச்சாராயத்தை தேடி சோதனை நடத்தினர். &nbsp;&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">சட்டப்பேரவையில், அப்போதைய பாமக எம்எல்ஏ பண்ருட்டி ராமச்சந்திரன், ஆளுனர் உரைக்கு எதிராக எழுந்து, பேச முயன்றபோது, அப்போது சுயேட்சை எம்எல்ஏவாக இருந்த தாமரைக்கனியால் தாக்கப்பட்டார். &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">சென்னை உயர்நீதிமன்ற நீதிபதியாக இருந்த ஏ.ஆர்.லட்சுமணன், நிலக்கரி இறக்குமதி ஊழல் வழக்கை விசாரித்துக் கொண்டிருந்தார். &nbsp;இந்த வழக்கு ஜெயலலிதாவுக்கு எதிராக செல்லும் என்பதை உணர்ந்த ஜெயலலிதா, காவல்துறையை வைத்து, ஏ.ஆர்.லட்சுமணனின் மருமகன் மீது கஞ்சா வழக்கு பதிவு செய்தார்.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">ஜெயலலிதாதான் இப்படி அராஜகவாதியாக நடந்து கொள்கிறார் என்றால், ஒட்டு மொத்த நிர்வாகமும் அவருக்கு துணை போனது. &nbsp;காவல்துறை அதிகாரிகள், அம்மா கட்டி விட்டு வரச் சொன்னால் வெட்டி விட்டு வந்தார்கள்.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">அரசியல் எதிரிகள், அப்போது இருந்த ஆள்தூக்கி தடா சட்டத்தின் கீழ் சகட்டு மேனிக்கு கைது செய்யப்பட்டார்கள். &nbsp; ஏராளமான திமுகவினர் &nbsp; விடுதலைப் புலிகளோடு தொடர்பு இருப்பதாக கூறப்பட்ட குற்றச்சாட்டின் அடிப்படையில், தடா சட்டத்தின் கீழ் கைது செய்யப்பட்டனர். &nbsp; &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">வாக்காளர் அடையாள அட்டை கட்டாயம் என்று அறிவித்த தேர்தல் ஆணையர் டி.என்.சேஷனை ஏற்போர்ட்டில் இருந்து வெளியே வராமல் நான்கு மணி நேர வன்முறை. &nbsp;சென்னை வந்து, தாஜ் ஹோட்டலில் தங்கியிருந்த சேஷனின் மீது மீண்டும் தாக்குதல் &nbsp; &nbsp;என்று அநியாயங்களும், அக்கிரமங்களும், ஜெயலலிதா அரசின் அன்றாட வழக்கமாக இருந்தன.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">இதற்கெல்லாம் மகுடம் வைத்தது போல நடந்த சம்பவம்தான் ஐஏஎஸ் அதிகாரி சந்திரலோகா மீதான ஆசிட் வீச்சு.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">சதர்ன் பெட்ரோ கெமிக்கல் இன்டஸ்ட்ரீஸ் கார்ப்பரேஷன் &#8211; ஸ்பிக் என்ற நிறுவனத்தின் 26 சதவிகித பங்குகள், தமிழக அரசு நிறுவனமான, தமிழ்நாடு தொழில் முதலீட்டுக் கழகத்தின் வசம் இருந்தது (டிட்கோ). ஸ்பிக் நிறுவனத்தின் நிறுவனர்களான, ஏ.சி முத்தையா செட்டியார் மற்றும் எம்.ஏ.சிதம்பரம் செட்டியார் ஆகியோர், அரசு வசம் இருந்த பங்குகளை வாங்க வேண்டும் என்று கடும் முயற்சிகள் எடுத்தனர்.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">அரசும் பங்குகளை விற்பதென்று முடிவெடுத்தது. ஆனால், என்ன விலைக்கு விற்பனை செய்வத என்பதில் கடும் சிக்கல் நீடித்தது. &nbsp;டிட்கோ நிறுவனத்தின் தலைவராக சந்திரலேகா ஐஏஎஸ் இருந்தார். அப்போது தொழில் துறை செயலராக பி.சி.சிரியாக் இருந்தார்.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">விற்பனை நடந்த அன்று சந்தை விலைக்கு விற்றிருந்தால், அரசின் பங்குகளுக்கு 40 கோடி ரூபாய் கிடைத்திருக்கும். &nbsp;ஆனால், அந்த பங்குகளை விலை குறைத்து விற்பனை செய்ய வேண்டும் இரண்டு செட்டியார்களும் விரும்பினர். &nbsp;செட்டியார்களின் விருப்பத்தை நிறைவேற்றுவதை விட, ஜெயலலிதாவுக்கு வேறு என்ன வேலை இருக்க முடியும் ?</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">24 ஜனவரி 1992 அன்று பங்குகளை செட்டியார்களுக்கு விற்பனை செய்யலாம் என்று முடிவெடுத்த அன்று, ஒரு பங்கின் விலை 80. &nbsp;அரசு விற்பனை செய்ய ஒப்பந்தம் போட்ட நாள் 23 மார்ச் 1992. &nbsp;மார்ச் 1992 வாக்கில் 80 ரூபாய்க்கு விற்கப்பட்டுக் கொண்டிருந்த ஒரு ஸ்பிக் பங்கு, ரூபாய் 210 அளவுக்கு உயர்ந்தது.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">டிட்கோ தலைவரான சந்திரலேகா ஐஏஎஸ், 80 ரூபாய்க்கு விற்பனை செய்வதற்கு கடுமையான எதிர்ப்பு தெரிவிக்கிறார். &nbsp;ஜெயலலிதா நேரடியாக சந்திரலேகாவை தொலைபேசியில் அழைத்துப் பேசுகிறார். அப்போது இருவருக்கும் வாக்குவாதம் வளர்ந்து, அது மோசமான உரையாடலாக மாறி, யார் அழகு என்ற ரீதியில் வளர்ந்ததாகவும், உரையாடலின் இறுதியில், முதலமைச்சராவதற்கு, தோற்றம் அடிப்படை என்றால், நானும் முதல்வராகியிருப்பேன் என்று சந்திரலேகா கூறியதாகவும் தலைமைச் செயலக வட்டாரங்கள் கூறுகின்றன.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">இதையடுத்து, இந்த விபரத்தை ஜெயலலிதா அப்போது அமைச்சராக இருந்த மதுசூதனனிடம், சந்திரலேகாவுக்கு தக்க பாடம் புகட்ட சொல்லி, மதுசூதனன், இதை திண்டுக்கல் சீனிவாசனிடம் சொல்லி, சீனிவாசன், இந்த பொறுப்பை தற்போது நத்தம் விஸ்வநாதன் என்று அழைக்கப்படும் விஸ்வநாதனிடம் கூறியதாகவும், நத்தம் விஸ்வநாதன் ஏற்பாடு செய்தபடியே, சுடலை என்கிற சுர்லா சந்திரலேகா மீது ஆசிட் ஊற்றியதாகவும் கூறப்படுகிறது. சிபிஐ விசாரணையில் சுர்லா மதுசூதனனின் பெயரை கூறியதன் அடிப்படையில் மதுசூதனனை கைது கூட செய்தது சிபிஐ <a href="http://www.rediff.com/news/nov/18acid.htm">இணைப்பு</a> தமிழகத்தில் ஆசிட் கலாச்சாரத்தை முதன் முதலில் அறிமுகப்படுத்தியது அந்த சம்பவமே.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/ch11023.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" src="/images/7416/ch11023.jpg" height="" width="" class="img-responsive" style="" /></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">சுப்ரமணியன் சுவாமியோடு சந்திரலேகா</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">சாதாரணமாக நெருப்பு லேசாக நம் மீது பட்டாலே துடி துடித்து விடுகிறோம். &nbsp;ஒரு அழகான ஐஏஎஸ் அதிகாரியின் முகத்தில் ஆசிட் வீசினால், அவர் எப்படி வேதனைப் பட்டிருப்பார் என்பதை சற்றே கற்பனை செய்து பாருங்கள். &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">ஜெயலலிதாவை நேரடியாக தொடர்புப் படுத்த, நேரடியா எவ்வித சாட்சிகளும் இல்லையென்றாலும், &nbsp;சந்திரலேகா மீது ஆசிட் வீச்சு நடத்த யாருக்கும் காரணங்கள் இருக்க முடியாது. &nbsp;அந்த வழக்கில் யார் பின்னணியில் இருந்தவர்கள் என்பது இறுதி வரை கண்டுபிடிக்கவே முடியவில்லை. &nbsp; &nbsp; பண்டிட் சந்திரகாந்த் சொக்கா மோரே, அண்ணா துரை, சுனில் தாமோதர் &nbsp; &nbsp; பாண்டவ் மற்றும் மஞ்சித் சிங் என்கிற பாலி ஆகியோர் குற்றவாளிகள் என்று பின்னாளில் விசாரணை நடத்திய சிபிஐ கண்டறிந்தது.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">ஆனால், ஜெயலலிதாவின் கீழ் செயல்பட்ட மாநில காவல்துறை, சுடலைமுத்து என்கிற சுர்லாதான் இதில் குற்றவாளி என்று அவனை கைது செய்து 5 ஆண்டுகள் பிணையில்லாமல் சிறையில் இருந்தான். பின்னாளில், சுர்லாவுக்கு இதில் தொடர்பில்லை என்றனர். &nbsp;ஆனால், சுர்லாவோ, சிறையை விட்டு வெளியேறி விடக்கூடாது என்பதில் தீர்மானமாக இருந்தான். &nbsp;வழக்கில் தொடர்பில்லை என்று சிபிஐ முடிவுக்கு வருவதற்கு முன்னதாகவே, அவன் வழக்கை விசாரித்த நீதிபதி கிருஷ்ணமூர்த்தியை நீதிமன்றத்துக்குள்ளாகவே தாக்க முயற்சி செய்தான்.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">இந்த வழக்கில் இறுதி வரை யார் குற்றவாளி என்பதை கண்டுபிடிக்கவே முடியவில்லை என்பதுதான் வேதனையான உண்மை. &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">காங்கிரஸ் திமுக உள்ளிட்ட எதிர்க்கட்சிகள் இணைந்து, எத்தனையோ போராட்டங்களை நடத்தினாலும், தனி நபராக இணைந்து, ஜெயலலிதா கண்ணில் விரலை விட்டு ஆட்டியது யாரென்றால் சுப்ரமணிய சுவாமிதான். &nbsp;திமுக பேரணிகள், பொதுக் கூட்டங்கள், ஆர்ப்பாட்டங்கள் நடத்தினாலும், வழக்கு போட்டு, ஜெயலலிதாவை எரிச்சலின் உச்சத்துக்கே அழைத்துச் சென்றது சுப்ரமணிய சுவாமி மட்டுமே.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="clear: both; text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/F46sm12-000375-5B1-5D.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="/images/7416/F46sm12-000375-5B1-5D.jpg" height="" width="" class="img-responsive" style="" /></a></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">30.05.1993 வரை, தமிழகத்தில் ஆளுனராக இருந்தவர், பீஷ்ம நாராயண் சிங். இவரை காங்கிரஸ் அரசாங்கம் நியமித்திருந்தாலும், இவரை வளைப்பது எப்படி என்ற கலையை கற்றிருந்தார் ஜெயலலிதா. &nbsp; பீஷ்ம நாராயண் சிங்கின் &#8220;தேவைகளை&#8221; ஜெயலலிதாவின் தளபதிகள், கச்சிதமான நிறைவேற்றி வைத்தனர். &nbsp;அப்போது, வால்டர் தேவாரத்திடம் பணியாற்றிக் கொண்டிருந்த லாலி என்ற பெண் காவலர், பீஷ்ம நாராயண் சிங் பாதுகாப்புப் பணியில் நியமிக்கப்பட்டார் என்பது, நீங்கள் புரிந்து கொள்ள ஏதுவாக கொடுக்கப்படும் க்ளு.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/BhishmaNarainSingh.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" src="/images/7416/BhishmaNarainSingh.jpg" height="" width="" class="img-responsive" style="" /></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">ஆளுனர் பீஷ்ம நாராயண் சிங்</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">காங்கிரஸ் கட்சிக்கும், அதிமுகவுக்கும் மோதல் முற்றுகிறது. ஜெயலலிதா காங்கிரஸ் கட்சியை வாய்க்கு வந்தபடி பேசுகிறார். &nbsp;ஒரு கட்டத்தில், சட்டப்பேரவையிலேயே, தமிழகத்தில் நடக்கும் நெடுஞ்சாலை கொள்ளைகளுக்குக் காரணம், மத்திய அரசுதான். &nbsp; தமிழக அரசுக்கு கெட்ட பெயர் ஏற்படுத்த வேண்டும் என்பதற்காகவே, நரசிம்மராவ் இப்படி கொள்ளையர்களை அனுப்புகிறார். &nbsp;இதற்கு காரணம், பிடிபட்ட கொள்ளையர்கள் அனைவரும் தெலுங்கு பேசுகின்றனர் என்றார்.&nbsp;</span></span></div>
+<div style="text-align: justify;"></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">இந்த விவகாரங்களையெல்லாம் அறிந்த நரசிம்மராவ், இனி பீஷ்ம நாராயண் சிங்கை தமிழகத்தில் வைத்திருந்தால், சுத்தப்படாது என்று முடிவு செய்து, பழுத்த அரசியல்வாதியான சென்னா ரெட்டியை மாநில ஆளுனராக 31 மே 1993ல் நியமிக்கிறார். &nbsp; &nbsp;பீஷ்ம நாராயண் சிங் இருந்தபோது, ஜெயலலிதா மீது ஊழல் வழக்கு தொடுக்க அனுமதி கேட்டு திமுக அளித்த விண்ணப்பத்தை நிராகரித்திருந்தார் பீஷ்ம நாராயண் சிங். &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">ஜெயலலிதாவுக்கு, சென்னா ரெட்டி எதற்காக அனுப்பி வைக்கப்பட்டுள்ளார் என்பது நன்றாகவே தெரிந்திருந்தது. &nbsp; சென்னா ரெட்டி வந்த நாள் முதலாகவே, தினந்தோறும் மோதல்தான். அரசு அலுவலகங்களில் அரசு ஊழியர்களுக்காக அரசு அலுவலகத்தில் டைரி அச்சிடப்பட்டு வழங்கப்படும். &nbsp; அந்த டைரியின் முதல் பக்கத்தில் மாநில ஆளுனரின் படமும், இரண்டாவது பக்கத்தில், மாநில முதல்வரின் படமும் வைக்கப்படும். &nbsp;1994ம் ஆண்டு டைரியில் சென்னா ரெட்டியின் படத்தைப் பார்த்ததும் கோபப்பட்டு டைரியை விசிறியடித்தார் ஜெயலலிதா. &nbsp;&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">அப்போதும் இருந்த ஜெயலலிதாவின் அடிமைகள், உடனடியாக அம்மாவின் மனம் கோபித்துக் கொண்டதே என்பதை உணர்ந்து உடனடியாக அத்தனை டைரிகளையும் அழித்தனர். &nbsp;ஜனவரி, மாதம் வழங்கப்பட்டிருக்க வேண்டிய டைரிகள், மே மாதம் வழங்கப்பட்டது வரலாறு.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/DrMChannaReddy.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" src="/images/7416/DrMChannaReddy.jpg" class="img-responsive" style="" height="" width="" /></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">ஆளுனர் சென்னா ரெட்டி</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif; line-height: 18.3999996185303px;">அதன் பிறகு, சென்னா ரெட்டியை சந்தித்து, ஜெயலலிதா மீது வழக்கு தொடுக்க சுப்ரமணிய சுவாமி மனு அளித்தார். அந்த மனு மீது &nbsp;ஆளுனர் சென்னா ரெட்டி, முட்டாள்கள் தினமான 1995ம் ஆண்டு ஏப்ரல் 1 அன்று, அனுமதி அளித்தார். &nbsp; அந்த அனுமதியை எதிர்த்து, 6 ஏப்ரல் 1995 அன்று, ஜெயலலிதா, சென்னை உயர்நீதிமன்றத்தில் வழக்கு தொடுக்கிறார். அவ்வழக்கு நீதிபதி சிவராஜ் பாட்டீல் முன்பு விசாரணைக்கு வருகிறது.. ஜெயலலிதாவுக்காக மூத்த வழக்கறிஞர் பராசரன் ஆஜரானார். &nbsp;சுப்ரமணிய சுவாமி தனக்காக தானே வாதாடுகிறார். &nbsp;வழக்கை விசாரித்த சிவராஜ் பாட்டீல், அரசியல் அமைப்புச் சட்ட விவாதங்கள் இதில் அடங்கியிருப்பதால், இரண்டு நீதிபதிகள் அடங்கிய அமர்வுக்கு மாற்றி உத்தரவிடுகிறார்.&nbsp;</span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">20 ஏப்ரல் 1995 அன்று இந்த வழக்கு நீதிபதி எம்.சீனிவாசன் மற்றும் எஸ்.எஸ்.சுப்ரமணியம் ஆகியோர் அடங்கிய அமர்வின் முன்பாக விசாரணைக்கு வருகிறது. &nbsp; ஜெயலலிதா சார்பில் மூத்த வழக்கறிஞர் பராசரன் வாதிடுகிறார். &nbsp;சுப்ரமணிய சுவாமி, அவரே வாதிடுகிறார். &nbsp;தமிழக அரசின் சார்பில் மூத்த வழக்கறிஞர் கபில் சிபல் வாதிடுகிறார். வழக்கின் விசாரணை காலை 10.30 முதல் மாலை 4.30 வரை தொடர்ந்து நடைபெறுகிறது. &nbsp;வழக்கு விசாரணை முடிந்ததும் தீர்ப்பை ஒத்தி வைக்கிறார் நீதிபதி. &nbsp; மாலை 4.30 மணிக்கு, அப்போதைய சென்னை உயர்நீதிமன்ற வழக்கறிஞர் சங்கத் தலைவர் முத்துக்கிருஷ்ணன், சுப்ரமணியன் சுவாமியின் காதில் ஏதோ சொல்லுகிறார். &nbsp;உடனே எழுந்த சுவாமி, தன் மீது தாழ்த்தப்பட்டோர் வன்கொடுமை சட்டத்தின் கீழ் வழக்கு பதிவு செய்திருப்பதாகவும், போலீசார், வாயிலில் காத்திருப்பதாகவும், தனக்கு முன்ஜாமீன் வழங்கும்படியும் கேட்கிறார். நீதிபதி சீனிவாசன் அரசு வழக்கறிஞரைப் பார்த்து விபரத்தை கேட்டதும், அவர் தனக்கு இது குறித்து எதுவுமே தெரியாது என்கிறார். நீதிபதி, நாளை காலை 10.30 மணி வரை உங்களை கைது செய்ய தடை விதிக்கிறேன் என்கிறார்.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">மதுரையில் நடந்த ஒரு கூட்டத்தில், சுப்ரமணிய சுவாமி, விடுதலைப்புலிகள் இயக்கத்தின் தலைவர் பிரபாகரன், ஒரு Political Pariah என்று பேசியால், தாழ்த்தப்பட்ட மற்றும் பழங்குடியினருக்கு எதிரான வன்கொடுமை தடுப்புச் சட்டத்தின் கீழ் மதுரை காவல்துறை வழக்கு பதிவு செய்திருந்தது. இதையடுத்தே சுவாமியை கைது செய்ய, காவல்துறை நீதிமன்றம் வந்திருந்தது.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="clear: both; text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/DR_SUBRAMANIAN_SWAM_292918f.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="/images/7416/DR_SUBRAMANIAN_SWAM_292918f.jpg" height="" width="" class="img-responsive" style="" /></a></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">Pariah என்ற ஆங்கிலச் சொல், தமிழில் உள்ள பறையர் என்ற சாதிப்பெயரில் இருந்தே தோன்றியது. &nbsp;ஒதுக்கப்பட்டவர் என்ற பொருளில் இந்த சொல், ஆங்கில மொழியில் பதினெட்டாம் நூற்றாண்டு முதல் வழக்கத்தில் இருந்து வருகிறது. &nbsp;தமிழகத்தில் தலித்துகளுக்கு எதிராக எத்தனையோ வன்கொடுமைகளை இழைக்கப்பட்டபோது வேடிக்கை பார்த்த ஜெயலலிதா, கொடியங்குளத்தில் தலித்துகளின் வீடுகளை காவல்துறையை விட்டு சூறையாடுவதை வேடிக்கை பார்த்த ஜெயலலிதா, சுப்ரமணியன் சுவாமி Political Pariah என்று சொன்னதற்காக, வழக்கு தொடுத்தார். &nbsp;அப்படியே சுப்ரமணியன் சுவாமி சாதி ரீதியாக அந்த வார்த்தையை பேசியிருந்தாலும் கூட, அதில் புகார் கொடுக்க வேண்டியது வேலுப்பிள்ளை பிரபாகரன்தானே தவிர, காவல்துறை அல்ல. &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">நீதிமன்றத்தின் வெளியே சுவாமி வந்தபோது, அப்போது, மாநில சட்டம் ஒழுங்கு கூடுதல் டிஜிபியாக இருந்த வால்டர் தேவாரம் மற்றும், மதுரை ஆணையர் ஆர்.என்.சவானி மற்றும் நூற்றுக்கும் மேற்பட்ட கமாண்டோக்கள் சுவாமியை கைது செய்ய காத்திருந்தனர். &nbsp;சுவாமியோடு வந்த 30 கமாண்டோக்களும் இருந்தனர். &nbsp;ஒரு மோதல் உருவாகும் சூழல் ஏற்பட்டது.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/1458458_384610965005723_1745450706_n.png" style="margin-left: auto; margin-right: auto;"><img border="0" src="/images/7416/1458458_384610965005723_1745450706_n.png" height="" width="" class="img-responsive" style="" /></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">வால்டர் தேவாரம்</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">சுவாமி வந்ததும், தேவாரம் உங்களை கைது செய்கிறேன் என்றார். சுவாமி, எனக்கு உயர்நீதிமன்ற டிவிஷன் பென்ச், நாளை காலை 10.30 மணி வரை கைது செய்ய தடை விதித்திருக்கிறது என்றார். &nbsp;தேவாரம் உத்தரவின் நகலைக் கொடுங்கள் என்றார். &nbsp;சுவாமி இது வாய்மொழி உத்தரவு என்றார். நான் நம்ப மாட்டேன் உங்களை கைது செய்கிறேன் என்றார் தேவாரம். &nbsp; உடனே சுவாமி, நான் உயர்நீதிமன்றம் உத்தரவு போட்டிருக்கிறது என்று சொல்கிறேன். நீங்கள் நீதிமன்ற உத்தரவை மதிக்காமல் கைது செய்வேன் என்கிறீர்கள். &nbsp; நெருப்போடு விளையாடுகிறீர்கள். &nbsp; &nbsp;இதற்கான விளைவுகளை நீங்கள் சந்திக்க வேண்டும் என்கிறார்.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">கொஞ்சம் தயங்கிய தேவாரம் மைக் மூலமாக, உயர்நீதிமன்றத்தினுள் இருந்த காவலரை அழைத்து, அரசு குற்றவியல் வழக்கறிஞரிடம் விபரம் கேட்டு சொல்லும்படி உத்தரவிட்டார். &nbsp;15 நிமிடங்கள் கழித்து, மைக்கில் அந்த காவலர், அரசு குற்றவியல் தலைமை வழக்கறிஞர் பி.ஸ்ரீராமுலு, நீதிபதிகளின் தீர்ப்பை உறுதி செய்ததும், சுவாமியை செல்ல அனுமதித்தார்.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">அங்கிருந்து நேராக தன் வீட்டுக்கு சென்ற சுவாமி, ஆளுனரை சந்திக்கப் போவதாக தெரிவித்தார். &nbsp;பத்திரிக்கையாளர்களும், அவர் பின்னாலேயே சென்றனர். &nbsp;ஆளுனர் மாளிகைக்கு சென்று, சென்னா ரெட்டியை சந்தித்த சுவாமி, மீண்டும் திரும்பி தன் வீட்டுக்கு வந்தார். சிறிது நேரம் கழித்து, முக்கிய டெவலப்மென்டுகள் இருப்பதாகவும், மீண்டும் ஆளுனரை சந்திக்கப் போவதாக அறிவித்து விட்டு கிளம்பினார்.&nbsp;</span></span><span style="font-family: Latha, sans-serif; line-height: 18.3999996185303px;">பத்திரிக்கையாளர்களும், அவர் பின்னாலேயே சென்றனர். ஹால்டா சந்திப்பு வந்ததும், சுவாமியின் கார், நிற்காமல் நேராக சென்றது. என்ன நடக்கிறது என்பதை உணரும் முன், சுவாமி, நேராக விமான நிலையம் சென்று, வாசலில் தயாராக போர்டிங் பாஸ் வைத்திருந்தவரிடம் அதை பெற்றுக் கொண்டு, எந்த லக்கேஜும் இல்லாமல், விமான நிலையத்தினுள் நுழைந்து, மும்பை செல்லும் விமான நிலையத்தில் ஏறினார்.</span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">விமானம் கிளம்ப இன்னும் 30 நிமிடங்கள் இருந்தன. &nbsp;செய்தியறிந்த ஜெயலலிதா ருத்ர தாண்டவம் ஆடினார். என்ன ஆனாலும் சரி. சுவாமியை விமானத்துக்குள் ஏறி கைது செய்யுங்கள் என்றார். &nbsp;அப்போது சென்னை மாநகர ஆணையர் ராஜகோபாலன். &nbsp;டிஜிபியாக ஸ்ரீபால் இருந்தார். இருவரும், விமான நிலைய வாயில் வரைதான் தமிழக காவல்துறையின் கட்டுப்பாடு. &nbsp;விமான நிலையத்தின் உள்ளே மத்திய அரசின் கட்டுப்பாடு. விமான நிலையத்தில் ஏறுவதில்லை என்று முடிவெடுத்தனர்.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">மறுநாள் காலை, புதிய டிஜிபி மற்றும் புதிய ஆணையர். &nbsp; ஆளுனரைப் பார்க்க சென்ற சுவாமி, ஆளுனர் மாளிகையில் இருந்து மத்திய உள்துறை அமைச்சராக இருந்த எஸ்.பி.சவாணை தொடர்பு கொண்டு, விபரத்தை சொல்லுகிறார். &nbsp; சவாண், உடனடியாக டெல்லி வருமாறும், டெல்லி விமானம் உடனடியாக இல்லாத காரணத்தால், மும்பை சென்று, அங்கிருந்து டெல்லி வருமாறும் கூறுகிறார். &nbsp; அதன்படி, மும்பை சென்ற சுவாமி, தமிழக காவல்துறையிடமிருந்து தப்பிக்க, நேராக பால் தாக்கரே இல்லத்தில் சென்று, தங்கி விட்டு, அங்கிருந்து டெல்லி சென்றார்.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="clear: both; text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/ch164174.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="/images/7416/ch164174.jpg" height="" width="" class="img-responsive" style="" /></a></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">டெல்லியில் 10.30 மணி முடிந்ததும் சுவாமியை கைது செய்யலாம் என்று தமிழக காவல்துறை காந்திருந்தது. &nbsp;9 மணிக்கே உச்சநீதிமன்றத்தினுள் சென்ற சுவாமி தலைமை நீதிபதி அகமாதியை அவர் அறையில் சந்தித்து விபரங்களை தெரிவிக்கிறார். &nbsp; அகமாதி 10.30 மணிக்கு நீதிமன்றத்தினுள் வந்து கூறுமாறு கூறியதன் அடிப்படையில் அவ்வாறே செய்கிறார் சுவாமி. வழக்கின் விபரங்களை கேட்ட அகமாதி சிரித்து விட்டு, இந்தியாவில் எந்த மூலையில் அவர் கைது செய்யப்பட்டாலும், 100 ரூபாய்க்கான சொந்த ஜாமீனில் விடுதலை செய்யப்பட வேண்டும் என்று உத்தரவிட்டு, உத்தரவின் நகலையும் உடனே வழங்க உத்தரவிடுகிறார். &nbsp;வெற்றிக் களிப்போடு வெளியேறினார் சுவாமி.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">இந்த வழக்கின் தீர்ப்பு 27 ஏப்ரல் அன்று வழங்கப்பட உள்ளதாக தகவல்கள் கசிந்தன. &nbsp;சென்னா ரெட்டி வழக்கு தொடுக்க கொடுக்க இருந்த அனுமதி சரி என்று சென்னை உயர்நீதிமன்றம் தீர்ப்பளிக்கும் என்று அறிந்ததும் 26 அன்று சட்டசபையில் ஒரு அடிமையை விட்டு கேள்வி கேட்க வைத்தார் ஜெயலலிதா. அவரும் அப்படியே கேட்டார். உடனே ஜெயலலிதா, நான் ஆளுனரை சந்திப்பதை ஏன் தவிர்க்கிறேன் என்றால், கடந்த முறை ஆளுனரை சந்தித்தபோது, என்னிடம் தகாத முறையில் நடந்து கொண்டார் என்று கூசாமல் ஒரு குண்டைத் தூக்கிப் போட்டார். &nbsp;இதுதான் ஜெயலலிதா.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="clear: both; text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/DR_SUBRAMANIAN_SWAM_292918f.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="/images/7416/DR_SUBRAMANIAN_SWAM_292918f.jpg" height="" width="" class="img-responsive" style="" /></a></div>
+<p>
+<div style="clear: both; text-align: center;"></div>
+<div style="text-align: justify;"></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">தனக்கு எதிராக தீர்ப்பு வர இருக்கிறது என்று தெரிந்ததும் அதற்கு காரணமான சென்னா ரெட்டியை அவமானப்படுத்துகிறாராம். &nbsp; இந்த சம்பவத்தையும், தற்போது சொத்துக் குவிப்பு வழக்கின் புகார்தாரரான சுப்ரமணியன் சுவாமியின் மீது ஜெயலலிதா தொடர்ந்துள்ள 5 அவதூறு வழக்குகளையும் ஒப்பிட்டுக் கொள்ளுங்கள். &nbsp;தெளிவு பிறக்கும்.&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<table cellpadding="0" cellspacing="0" style="float: left; margin-right: 1em; text-align: left;">
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="http://tamilwhip.com/wp-content/uploads/2014/09/96_msrinivasan.jpg" style="clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" src="/images/7416/96_msrinivasan.jpg" height="" width="" class="img-responsive" style="" /></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">நீதிபதி எம்.ஸ்ரீனிவாசன்</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">அதன் பின் நீதிபதி என்.சீனிவாசன் ஆளுனர் அளித்த அனுமதி செல்லும் என்று தீர்ப்பளித்ததும், உச்சநீதிமன்றம் சென்று தடை பெற்றார் ஜெயலலிதா. &nbsp; அந்த வழக்கு அரசியல் சாசன அமர்வுக்கு மாற்றப்பட்டு, இன்னும் உச்சநீதிமன்றத்தில் நிலுவையில் இருக்கிறது என்பது ஒரு சோகமான வரலாறு.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">பதவியில் இருக்கும் ஒரு முதலமைச்சருக்கு எதிராக ஆளுனர் ஊழல் வழக்கு தொடுக்க அனுமதி கொடுத்த முதல் நபர் ஜெயலலிதா என்று வரலாற்றின் கருப்புப் பக்கங்களில் இடம் பிடித்தார் ஜெயலலிதா. இதற்கு முன், இதே போல மகாராஷ்டிர மாநிலத்தின் முதல்வர் ஏ.ஆர்.அந்துலேவுக்கு எதிராக அம்மாநில ஆளுனர் அனுமதி அளிக்க இருந்தார். &nbsp;ஆனால் அனுமதி அளிப்பதற்கு முன்னதாகவே, பதவியை ராஜினாமா செய்தார் அந்துலே. ஊழல் பேர்வழியாக இருந்தாலும், அந்துலே பொதுமக்கள் கருத்துக்கு மரியாதை கொடுத்தார். &nbsp;&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">ஆனால் ஜெயலலிதா ?&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">இரண்டு தொகுதிகளுக்கு மேல் வேட்பு மனு தாக்கல் செய்யக் கூடாது என்பது தெரிந்தும், நான்கு தொகுதிகளில் வேட்பு மனு தாக்கல் செய்து, அதற்காக ஒரு புதிய வழக்கை வாங்கிய அறிவாளிதான் ஜெயலலிதா.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">இந்த வழக்கு குறித்து பேசிய ஒரு மூத்த பத்திரிக்கையாளர் கூறுகையில் &#8220;18 ஆண்டுகளாக இந்திய நீதித்துறையை ஜெயலலிதா கற்பழித்துள்ளார். இது போல ஒரு வழக்கை இந்தியாவில் எந்த அரசியல்வாதியும் இழுத்தடித்தது கிடையாது. வழக்கறிஞரின் மாமனாருக்கு உடல் நிலை சரியில்லை என்பதையெல்லாம் காரணம் காட்டி வாய்தா கேட்டனர். நீண்ட தாமதத்துக்குப் பிறகு, இவ்வழக்கின் நீதிபதியாக நியமிக்கப்பட்ட பச்சாபுராவை கதற வைத்தனர். &nbsp;மனம் நொந்த அவர், கடந்த ஆறு மாதங்களாக இவ்வழக்கில் ஒரு முன்னேற்றமும் இல்லை. நான் இந்த நீதிமன்றத்தில் தனியாக எந்த வேலையும் இல்லாமல் அமர்ந்திருக்கிறேன். ஏறக்குறைய தனிமைச் சிறையில் இருப்பது போல உணர்கிறேன் என்று அவர் மனம் நொந்து புலம்பினார்.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">அடுத்ததாக இவ்வழக்கில் அரசு வழக்கறிஞராக நியமிக்கப்பட்ட மூத்த வழக்கறிஞர் பி.வி.ஆச்சார்யா மீது கர்நாடக லோக் ஆயுக்தாவில் பொய்யான ஒரு வழக்கை தாக்கல் செய்து, அவரை மனம் நோகச் செய்து, ராஜினாமா செய்ய வைத்தனர். &nbsp;60 ரூபாய் ஊதியம் பெற்ற ஒருவருக்கு 66 கோடி ரூபாய் எப்படி வந்தது என்ற மிக மிக எளிமையான வழக்கு இது. ஆனால், 18 வருடங்களாக இந்த வழக்கை இழுத்தடிக்க ஒரு அரசியல்வாதியால் முடிகிறது என்பது, இந்தியாவின் மிகப்பெரிய சாபக்கேடு.&#8221; என்ற அவர் மேலும், &#8220;தனது நண்பர்கள் ஒவ்வொருவராக எதிரியாக்கியதன் மூலம், ஜெயலலிதா தன்னுடைய மரண வேட்கையை வெளிப்படுத்துகிறார். &nbsp;90 வயதிலும் கருணாநிதிக்கு இன்னும் மூன்று முறை முதல்வராக வேண்டும், கட்சியையும் தமிழகத்தையும் ஆள வேண்டும் என்ற வேட்கை உள்ளது. &nbsp;ஆனால், ஒவ்வொரு முறையும் ஜெயலலிதா தன்னுடைய மரண வேட்கையைத்தான் வெளியிட்டுக் கொண்டிருக்கிறார்&#8221; என்றார்.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">அவர் கூறியது உண்மை என்று உணர்த்தும் வண்ணமே ஜெயலலிதாவின் நடவடிக்கைகள் அமைந்துள்ளன. ஜெயலலிதாவோடு, ஒட்டி உறவாட விரும்பும் பல்வேறு பார்ப்பனீய சக்திகள் பிஜேபி முழுக்க நிறைந்துள்ளன. ஆனால், எந்த விதமான அரசியல் மாற்றத்தையும் ஏற்படுத்த இயலாத ஒரு மிக மிக சாதாரணமான உள்ளாட்சி இடைத்தேர்தலில் போட்டியிடும் ஒரே கட்சியான பிஜேபியின் வேட்பாளர்களை கடத்துவது, கட்சி மாறச் செய்வது, வேட்பு மனுக்களை வாபஸ் பெறச் செய்வது என்ற தனது நடவடிக்கைகளின் மூலம், ஜெயலலிதா தனது மரண வேட்கையையே வெளிப்படுத்திக் கொண்டிருக்கிறார்.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">எப்படியாவது ஜெயலலிதாவுக்கு உதவலாம் என்று நினைப்பவர்களைக் கூட, வம்பாக சண்டை இழுத்து எதிரியாக்குகிறார். &nbsp; &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">நாளை சிறை என்ற அச்சுறுத்தல் இருக்கையில் உலகில் எந்த அரசியல்வாதியாவது, &nbsp;மின் கட்டணத்தை 20 சதவிகிதம் உயர்த்துவானா ? இது ஜெயலலிதாவின் மன நிலையையும், சாடிசத் தன்மையையுமே உணர்த்துகிறது. &nbsp;இப்படிப்பட்ட ஒரு மன நிலை உடையவர் தொடர்ந்து தமிழகத்தை ஆட்சி செய்தால், அதனால், தமிழக மக்கள் அடைய உள்ள துன்பங்கள் ஒன்றிரண்டு அல்ல.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">இந்த கட்டுரையும், இது போல பல்வேறு விபரங்களும், தமிழகத்தில் உள்ள அனைத்து பத்திரிக்கைகளிலும், தீர்ப்பு நாள் அறிவிக்கப்பட்டது முதல், வெளி வந்திருக்க வேண்டும். &nbsp;இன்றைய தலைமுறைக்கு இந்த விபரங்கள் சுத்தமாக தெரியாது. &nbsp;ஆனால், ஜுனியர் விகடனைத் தவிர்த்து ஒரு ஊடகம் கூட இது குறித்து எழுதாமல் கள்ள மவுனம் சாதிக்கின்றன. &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">அந்த பத்திரிக்கையாளர் இது குறித்து கூறுகையில், &#8220;இந்த வழக்கில் ஜெயலலிதா விடுதலையானால் கூட என்னால் சகித்துக் கொள்ள முடியும். &nbsp;அப்படி விடுதலை ஆனால் மைக்கேல் குன்ஹாவைக் கூட மன்னிப்பேன். &nbsp; ஆனால், இந்த சோரம் போன ஊடகங்களை ஒரு போதும் மன்னிக்க மாட்டேன். பக்கம் பக்கமாக எழுதப்பட வேண்டிய ஒரு விஷயத்தை இந்த ஊடகங்கள் திட்டமிட்டு மூடி மறைக்கின்றன. &nbsp;&nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">ஜெயலலிதாவின் வழக்கு குறித்து எழுதாவிட்டால் ஜெயலலிதா காப்பாற்றப்படுவார் என்பது போன்ற பொய்யான நம்பிக்கையின் அடிப்படையில் இந்த ஊடகங்கள் மவுனம் காக்கின்றன. &nbsp;ஜெயலலிதாவின் 91 ஆட்சியிலும், 2001 ஆட்சியிலும், பல்வேறு ஊழல்கள் வெளி வந்ததற்கான ஒரே காரணம் ஊடகங்களின் அற்புதமான பணிதான். &nbsp; ஆனால், 2011 ஆட்சியில் ஊடகங்கள் மிக மிக மோசமான துரோகத்தை தமிழகத்துக்கு செய்து கொண்டிருக்கின்றன. &nbsp;ஊடகங்களின் மவுனம், இந்த ஜனநாயகத்துக்கு மிகப்பெரிய ஆபத்து&#8221; &nbsp;என்றார்.</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">அரசியல்வாதிகளின் ஊழல்களை கூட மன்னித்து விடலாம். ஆனால் ஐஏஎஸ் அதிகாரியின் முகத்தில் ஆசிட்டை ஊற்றுவதும், மகாமகக் குளத்தில் தோழியோடு குளிப்பதற்காக, நெரிசலில் 50க்கும் மேற்பட்டடவர்களை நெரிசலில் சாக வைப்பதும் ஏற்றுக் கொள்ள முடியுமா ? &nbsp;அந்த மகாமகக் குளத்தில் உங்கள் பெற்றோரும், என் பெற்றோரும் இறந்திருக்கக் கூடும்தானே... ? &nbsp; இதற்கெல்லாம் தண்டனை வேண்டாமா.. ? &nbsp;அதுதான் சொத்துக் குவிப்பு வழக்கு. &nbsp;</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;"><br /></span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">தீப்பால தான்பிறர்கண் செய்யற்க நோய்ப்பால</span></span></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">தன்னை அடல்வேண்டா தான்.</span></span></div>
+<div style="text-align: justify;"></div>
+<div style="text-align: justify;"><span style="font-family: Latha, sans-serif;"><span style="line-height: 18.3999996185303px;">வேதனை விளைவிக்கும் தீய செயல்கள் தன்னைத் தாக்கலாகாது என எண்ணுகிறவன் அவனும் அத்தீங்குகளைப் பிறருக்குச் செய்யாமல் இருக்க வேண்டும்.</span></span></div>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/7416/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/7416/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/7416/?share=facebook" title="Share on Facebook" id="sharing-facebook-7416"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/7416/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-7416"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/7416/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-7416"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/7416/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/7416/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/7416/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-7416-5471fa211f621" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=7416&amp;origin=savukkunews.com&amp;obj_id=68584444-7416-5471fa211f621" data-name="like-post-frame-68584444-7416-5471fa211f621"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div><!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/7416/"
+    dc:identifier="http://savukkunews.com/7416/"
+    dc:title="சென்று வா மகளே. சென்று வா."
+    trackback:ping="http://savukkunews.com/7416/trackback/" />
+</rdf:RDF>-->
+</p>
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

@@ -9,8 +9,13 @@ body {
   padding-top: 70px; }
 
 .logo {
-  padding: 10px;
   text-align: center; }
+
+.logo-small {
+  margin-top: -15px !important; }
+
+.full-width {
+  width: 100%; }
 
 .post {
   padding-bottom: 5px; }
@@ -37,11 +42,6 @@ body {
 .category-title {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 21px; }
-
-.categoriesDropdown {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 21px;
-  width: 100%; }
 
 .no-padding [class*="col-"] {
   padding-left: 0 !important;
