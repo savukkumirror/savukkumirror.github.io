@@ -78,7 +78,7 @@ posts.controller('PostListController', function($scope, $sce) {
     
 		$scope.posts.push(
 		{
-			title:$sce.trustAsHtml('இருட்டறையில் உள்ளதடா தமிழகம்&#8230; &#8230; &#8230;. &#8230;'),
+			title:$sce.trustAsHtml('இருட்டறையில் உள்ளதடா தமிழகம்&#8230;'),
             thumbnail:'/images/8965/GNANADESIKAN-2-150x150.jpg',
             categories:['default',''],
             href:"/default/2014/11/08/post8965.html",
@@ -100,7 +100,7 @@ posts.controller('PostListController', function($scope, $sce) {
     
 		$scope.posts.push(
 		{
-			title:$sce.trustAsHtml('வருக! வருக! வைகுண்டராஜா&#8230;&#8230; !!!!'),
+			title:$sce.trustAsHtml('வருக! வருக! வைகுண்டராஜா&#8230; !!!!'),
             thumbnail:'/images/8930/Untitled-150x150.jpg',
             categories:['default',''],
             href:"/default/2014/10/29/post8930.html",
