@@ -5842,7 +5842,7 @@ posts.controller('PostListController', function($scope, $sce) {
     
 		$scope.posts.push(
 		{
-			title:$sce.trustAsHtml('A State of &#8216;Encounters':  Madhumita Dutta'),
+			title:$sce.trustAsHtml('A State of &#8216;Encounters:  Madhumita Dutta'),
             thumbnail:'',
             categories:['default',''],
             href:"/default/2012/04/19/post3187.html",
