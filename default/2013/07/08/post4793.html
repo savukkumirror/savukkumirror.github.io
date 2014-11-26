@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- டுபாக்கூர் துரைசாமி.</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2013/07/08/post4793.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">டுபாக்கூர் துரைசாமி.</h1>
+			<p class="post-meta">Jul 8, 2013</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/4793/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/4793/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p><span style="line-height: 17pt; font-size: 10pt;">சைதை துரைசாமி நடத்தும் மனிதநேய அறக்கட்டளையின் தகிடுதத்தங்கள் குறித்து, சவுக்கு தளத்தில் தொடர்ந்து எழுதப்பட்டு வந்துள்ளது. ஏகலைவன் வார இதழிலும் இது குறித்து கட்டுரைகள் வெளியிடப்பட்டிருந்தன.&nbsp; தற்போது தமிழ்நாடு அரசு குடிமைப் பயிற்சி நிலையம், ஏகவலைவன் வார இதழுக்கு, தங்களிடம் படித்து தேர்ச்சி பெற்ற மாணவர்கள் தொடர்பான ஆதாரங்களையும் வெளியிட்டுள்ளது.</span></p>
+<p><span style="line-height: 17pt; font-size: 10pt;"><img class="img-responsive" style="" src="/images/4793/july_12_poster_1.jpg" alt="july_12_poster_1" width="" height="" /><br /></span></p>
+<p><span style="line-height: 17pt; font-size: 10pt;">தமிழக அரசின் பணியாளர் மற்றும் நிர்வாக சீர்திருந்த துறையின் கட்டுப்பாட்டில் இயங்கி வரும் அகில இந்திய குடிமைப்பணி தேர்வு பயிற்சி மையத்தின் முதல்வர் (பொறுப்பு) திருமதி. பி.பிரேம் கலாராணி ஏகலைவன் நிர்வாகத்துக்கு கடிதம் ஒன்றை அனுப்பியுள்ளார். அதன்படி தேர்ச்சி பெற்றவர்களின் பட்டியலில் உள்ள முல்லை முகிலன், கே.பாலகிருஷ்ணன், டி.கங்காதரன், எம்.பரணிகுமார், ஆர்.கேசவன், எஸ்.ராமமூர்த்தி ஆகியோர் தங்களின் பயிற்சி மையத்தில் படித்த மாணவர்கள் என்றும், மேற்கண்ட மாணவர்கள் தனியார் நிறுவனங்களான மனிதநேயம் இலவச பயிற்சி மையம் மற்றும் சங்கர் ஐ.ஏ.எஸ். அகாடமி ஆகியவற்றில் படித்ததாக கூறுவது தவறானது என்றும், அதற்கான ஆதாரங்களையும் வழங்கியுள்ளார்.</span></p>
+<p><span style="line-height: 17pt; font-size: 10pt;"><img class="img-responsive" style="" src="/images/4793/untitled.jpg" alt="Untitled" width="" height="" /><br /></span></p>
+<p><span style="line-height: 17pt; font-size: 10pt;">ஐஏஎஸ் பயிற்சி மையங்கள் இன்று புற்றீசல் போல பல்கிப் பெருகி வருகின்றன. இந்த நிறுவனங்கள், படோடாபமாக, விளம்பரங்கள் செய்கின்றன.&nbsp; பிரபலங்களை வைத்து விளம்பரங்கள் கொடுப்பதும், கட்டணச் சலுகை என்று சொல்வதும், முதலில் வருபவருக்கே முன்னுரிமை என்று சொல்லி அறிவிப்பு செய்வதும் வழக்கமே.&nbsp; தேர்வு முடிவுகள் வெளிவருகையில், இந்த பயிற்சி மையங்கள் தங்களிடம் படித்த மாணவர்கள், ஐஏஎஸ் அல்லது ஐபிஎஸ் தேர்ச்சி பெற்றால் அதை விளம்பரப்படுத்திக் கொள்வதும் நியாயமானதே.</span></p>
+<p><span style="line-height: 17pt; font-size: 10pt;">ஆனால் அவ்வாறு விளம்பரப்படுத்திக் கொள்கையில், உண்மையிலேயே அந்தந்த பயிற்சி நிலையங்களில் பயின்று வெற்றி பெற்றவர்களின் பெயர்களை மட்டுமே விளம்பரப்படுத்திக்கொள்ள வேண்டும்.&nbsp; அதுவே நியாயமானது.&nbsp; ஆனால் பல நிறுவனங்கள், ஒரே ஒரு நாள் தங்கள் நிறுவனத்தில் போட்டித் தேர்வுகள் எழுதியவர்களைக் கூட, தங்கள் நிறுவனத்தில் பயின்று வெற்றி பெற்றார்கள் என்று விளம்பரப்படுத்துவதற்கும், 45 சதவிகித வட்டி தருகிறேன் என்று நிதி நிறுவனங்கள் விளம்பரப்படுத்துவதற்கும் எந்த வேறுபாடும் கிடையாது.</span></p>
+<p><span style="line-height: 17pt; font-size: 10pt;">சிவில் சர்வீஸ் போன்ற போட்டித் தேர்வுகள் எழுதுபவர்கள், ஏதாவது ஒரு பயிற்சி நிலையத்தில் முழு நேரம் பயில்வார்கள்.&nbsp; அவ்வாறு பயில்கையில் எந்த பயிற்சி நிலையத்தில் போட்டித் தேர்வுகள் நடத்தினாலும், அந்தத் தேர்வுகளில் கலந்து கொள்வார்கள். இவ்வாறு அவர்கள் தேர்வுகளில் கலந்து கொள்வது, அவர்களின் பயிற்சியின் அளவை சோதித்துப் பார்ப்பதற்காக.&nbsp; இப்படி ஒரு நாள் தேர்வு எழுதினார்கள் என்பதாலேயே அவர்கள் தேர்வெழுதிய பயிற்சி நிலையத்தில் படித்தார்கள் என்று கூற முடியுமா ?&nbsp; ஆனால் இப்படிப்பட்ட மோசடியைத்தான் பல நிறுவனங்கள் அரங்கேற்றி வருகின்றன.</span></p>
+<p><span style="line-height: 17pt; font-size: 10pt;">ஒரு சாதாரண பயிற்சி நிறுவனம் இது போல செய்தால் அது மோசடிதான் என்றாலும், ஏதோ ஆர்வக்கோளாறில் செய்து விட்டார்கள் என்று மன்னித்து விடலாம்.&nbsp; ஆனால் சைதை துரைசாமியின் பயிற்சி நிறுவனம் இதை செய்தால் ? அது மிகப்பெரிய மோசடி என்பது மட்டுமல்ல…. ஆபத்தானதும் கூட.&nbsp; ஏனென்றால், சைதை துரைசாமி தன்னை மிகப்பெரிய புரவலராகவும், கல்வியாளராகவும் காட்டிக் கொள்பவர். இவருக்கு இருக்கும் ஊடக பலம் வேறு எந்த பயிற்சி நிறுவனத்துக்கும் கிடையாது.</span></p>
+<p><span style="font-size: 10pt;"><span style="line-height: 17pt;">சைதை துரைசாமியும், தினத்தந்தி அதிபரின் மகனும் தொழில் பங்குதாரர்கள் என்பதால்,&nbsp; சைதை காலையில் சிறுநீர் கழித்தால் கூட, அதை நாலு கால செய்தியாக தினத்தந்தி வெளியிடும்.&nbsp; அப்படி தினத்தந்தி வெளியிட்ட ஒரு செய்திதான், “ஐஏஎஸ் ஐபிஎஸ் தேர்வு முடிவுகள். சைதை துரைசாமியின் மனிதநேயம் மையத்தில் படித்த 45 மாணவர் தேர்வு”.&nbsp; இந்த மோசடி குறித்து ஏற்கனவே ஏகலைவன் இதழில் வந்த கட்டுரை சவுக்கில் </span><a style="line-height: 17pt;" href="http://www.savukku.net/index.php?option=com_content&#038;view=article&#038;id=1839:2013-06-15-13-49-08&#038;catid=10:2010-10-16-14-42-56&#038;Itemid=3">டுபாக்கூர் ஐஏஎஸ் அகாடமிகள்</a><span style="line-height: 17pt;"> என்ற கட்டுரையில் எடுத்துரைக்கப்பட்டிருந்தது.&nbsp; இதையொட்டி, அரசு பயிற்சி நிறுவனம் வெளியிட்ட ஆதாரங்கள்தான், சைதை துரைசாமியின் முகமூடியை கிழித்தெரிந்திருக்கிறது.</span></span></p>
+<p><span style="font-size: 10pt;"><img class="img-responsive" style="" src="/images/4793/IAS3.jpg" alt="IAS3" width="" height="" />&nbsp;</span></p>
+<p><span style="font-size: 10pt;">சைதை துரைசாமி தனது பயிற்சி மையத்தில் படித்து சிவில் சர்வீஸ் தேர்வில் தேர்ச்சி பெற்றவர்கள் என்று அறிவித்த பட்டியலில் உள்ளவர்களில் சிலர், அரசு பயிற்சி மையத்தில் பயிற்சி பெற்றார்கள் என்பதற்கான ஆதாரங்கள் இதோ….</span></p>
+<p><span style="font-size: 10pt;"><img class="img-responsive" style="" src="/images/4793/tnias.jpg" alt="tnias" width="" height="" /><br /></span></p>
+<p><span style="font-size: 10pt;">&nbsp;<img class="img-responsive" style="" src="/images/4793/jv1.jpg" alt="jv1" width="" height="" /></span></p>
+<p><span style="font-size: 10pt;"><img class="img-responsive" style="" src="/images/4793/jv2.jpg" alt="jv2" width="" height="" /></span></p>
+<p><span style="font-size: 10pt;"><img class="img-responsive" style="" src="/images/4793/jv3.jpg" alt="jv3" width="" height="" /></span></p>
+<p><span style="font-size: 10pt;"><img class="img-responsive" style="" src="/images/4793/jv6.jpg" alt="jv6" width="" height="" /></span></p>
+<p><span style="font-size: 10pt;">சைதை துரைசாமியின் மோசடி அப்பட்டமாக வெளிப்பட்டு விட்டது. இப்போது இதற்கு என்ன சொல்லப்போகிறார் துரைசாமி ?</span></p>
+<p><span style="font-size: 10pt;"><span style="line-height: 17pt;">அன்பார்ந்த துரைசாமி அவர்களே… உங்கள் முகமூடி முழுமையாக கிழிந்து விட்டது.&nbsp; இனி இந்த புரவலர் வேடத்தையெல்லாம் களைந்து விட்டு, உங்கள் பழைய தொழிலான ரியல் எஸ்டேட் ப்ரோக்கர் தொழிலையே செய்யத் தொடங்குங்கள்.&nbsp; உங்கள் தொழில் பங்குதாரரான வி.என்.கண்ணன் மற்றும் உங்கள் கைத்தடியான கடும்பாடி இவர்களோடு ஒரு அலுவலகம் போட்டு ரியல் எஸ்டேட்டில் இறங்கினால், நன்றாக கல்லா கட்டலாம். நீதிமன்றத்தில் வழக்கில் உள்ள சொத்துக்களாக பார்த்து அபகரித்து ஆட்டையை போடும் வேலையையே செய்யத் தொடங்குங்கள். அதுதான் உங்களுக்கு பொருத்தமாக இருக்கிறது.&nbsp; இந்த புரவலர் வேலையெல்லாம் செட் ஆகல பாஸ்.</span><span style="line-height: 17pt;">&nbsp;</span></span></p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/4793/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/4793/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/4793/?share=facebook" title="Share on Facebook" id="sharing-facebook-4793"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/4793/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-4793"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/4793/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-4793"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/4793/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/4793/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/4793/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-4793-5473251b86afa" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=4793&amp;origin=savukkunews.com&amp;obj_id=68584444-4793-5473251b86afa" data-name="like-post-frame-68584444-4793-5473251b86afa"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/4793/"
+    dc:identifier="http://savukkunews.com/4793/"
+    dc:title="டுபாக்கூர் துரைசாமி."
+    trackback:ping="http://savukkunews.com/4793/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

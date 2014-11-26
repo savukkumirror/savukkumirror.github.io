@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- நான் உங்கிட்ட என்ன கேட்டேன்…….</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2011/06/03/post1624.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">நான் உங்கிட்ட என்ன கேட்டேன்…….</h1>
+			<p class="post-meta">Jun 3, 2011</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/1624/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/1624/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p> &nbsp;
+<p> </p>
+<p>இந்த மாறன் சகோதரர்களுக்கு, தங்கள் மனதில் பெரிய ***** என்று நினைப்பு.&nbsp;&nbsp; யாராக இருந்தாலும், தங்களுடைய பண பலத்தால் விலைக்கு வாங்கி விடலாம் அல்லது, மிரட்டி விடலாம் என்ற இறுமாப்பு. அந்த இறுமாப்பால் தான் அழியப் போகிறார்கள்.</p>
+<p> </p>
+<p>ஒரே ஒரு உதாரணத்தைச் சொல்ல வேண்டும் என்றால், சிவசங்கரன் விவகாரத்தையே எடுத்துக் கொள்ளலாம்.&nbsp;&nbsp;&nbsp;&nbsp; ஏர்செல் நிறுவனத்தின் சிவசங்கரன், கேடி சகோதரர்களின் தந்தை முரசொலி மாறனுக்கு நண்பர். அவரோடு உறவாடி, அவரின் சொத்துக்களையெல்லாம் அனுபவித்தவர்கள் தான் இந்த மாறன்கள். அவரின் கார், பங்களா, வெளிநாடுகளில் உள்ள வீடு ஆகிய அனைத்தையும் அனுபவித்தவர்கள் இந்த மாறன்கள். இப்படி அனுபவித்து விட்டு, ஏர் செல் நிறுவனத்தை மலேசியாவின் அனந்தகிருஷ்ணனுக்கு விற்க வேண்டும் என்று நெருக்கடி கொடுக்கிறார்கள். இதில் ஏற்பட்ட கொடுக்கல் வாங்கலில் மனஸ்தாபம் ஏற்படுகிறது. இதை காரணமாக வைத்து, சிவசங்கரனின் மீது, 20 கோடி ரூபாய் நில மோசடி என்று பொய்யான ஒரு புகாரை கொடுக்க வைத்தார்கள்.&nbsp;&nbsp; கடந்த திமுக ஆட்சியில் தான் காவல்துறை அதிகாரிகள், கருணாநிதி வீட்டு நாய்களாக இருந்தார்களே….. இந்தப் புகாரின் அடிப்படையில் சிவசங்கரனை கைது செய்ய முனைப்பு காட்டுகையில், அவர் தப்பி சிங்கப்பூர் செல்கிறார். அதற்கு பதிலாக அவரின் பெற்றோர்களையா கைது செய்வது ?&nbsp;&nbsp; அவர்கள் பெற்றோர்களை கைது செய்ய சென்னை மாநகர காவல்துறையினர் துரத்து துரத்து என்று துரத்துகிறார்கள். அவர்கள் தப்பித்தோம் பிழைத்தோம் என்று ஓடி, திருச்சி சென்று, அங்கிருந்து கொழும்பு சென்று தப்பித்தார்கள்.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1624/new-daya.jpg" alt="new-daya" width="" height="" /></p>
+<p> </p>
+<p>இந்த கேடி சகோதரர்கள் இப்போதுதான் பணக்காரர்கள். ஆனால், இந்த சிவசங்கரன் தொண்ணூறுகளிலேயே பணக்காரர். அவரையும், அவர் பெற்றோரையும் இப்படி விரட்டிய மாறன் சகோதரர்களை சிவசங்கரன் சும்மா விடுவாரா ?&nbsp;&nbsp; மே 15 அன்று சிபிஐ முன்பு ஆஜராகி, அத்தனை விபரங்களையும் புட்டு புட்டு வைத்திருக்கிறார் சிவசங்கரன்.</p>
+<p> </p>
+<p>இது தெரியாமல், இந்த பச்சிலை புடுங்கிகள், 21.05.2011 அன்று எகனாமிக் டைம்ஸ் நாளேட்டுக்கு அளித்த, வக்கீல் நோட்டீசில், சிவசங்கரனிடமிருந்து புகார் ஏதும் இல்லாமலேயே செய்தி வெளியடப்பட்டுள்ளதாக அங்லாய்த்துள்ளனர்.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1624/ET_NOTICE_1_Page_04.jpg" alt="ET_NOTICE_1_Page_04" width="" height="" /></p>
+<p>இவ்வாறு வக்கீல் நோட்டீஸ் அனுப்புவதன் மூலமாக, ஊடகங்களை மிரட்டி, தப்பித்து விடலாம் என்று மனப்பால் குடிக்கிறார்கள் கேடி சகோதரர்கள்.</p>
+<p> </p>
+<p>கனிமொழி இன்று கைதாகி திஹார் சிறையில் இருப்பதற்கு காரணமான விவகாரம் என்ன ? லைசென்ஸ் கொடுத்ததற்கு கைமாறாக 200 கோடியை கனிமொழி பெற்றுள்ளார் என்பதுதானே… ? ராசா தொலைத் தொடர்புத் துறை அமைச்சராக இருந்து லைசென்ஸ் கொடுத்தாலும், கலைஞர் டிவி ராசாவுடையது அல்ல.&nbsp;&nbsp; ஆனால் லைசென்சை இரண்டரை ஆண்டுகள் தாமதமாக வழங்கி, அதன் மூலம் அந்த நிறுவனத்தை விற்க வைத்த தயாநிதி மாறனுக்கே சன் டிடிஎச் நிறுவனத்தில் பங்கு இருக்கிறதா இல்லையா ? 200 கோடிக்கே திஹார் என்றால் 700 கோடிக்கு ?</p>
+<p> </p>
+<p>மார்ச் 2004ல் தயாநிதி மாறன் தொலைத் தொடர்புத் துறை அமைச்சராக பொறுப்பேற்றதில் இருந்து இரண்டு ஆண்டுகளாக லைசென்ஸ் வழங்காமல் நிறுத்தி வைத்திருக்கிறார் தயாநிதி.&nbsp;&nbsp; மலேசிய வாழ் இலங்கைத் தமிழரான அனந்தகிருஷ்ணனுக்கு ஏர்செல் நிறுவனத்தின் பெரும்பான்மை பங்குகளை விற்க வேண்டும் என்று நெருக்கடி கொடுக்கிறார் தயாநிதி. இந்த நெருக்கடியின் விளைவாக மார்ச் 2006ல் அனந்த கிருஷ்ணனுக்கு 74 சதவிகித பங்குகளை விற்கிறார் சிவசங்கரன்.&nbsp;&nbsp; பங்குகளை விற்ற ஆறு மாதங்களுக்குப் பிறகு ஏர்செல்லுக்கு 14 வட்டங்களுக்கான லைசென்சை வழங்குகிறார் மாறன்.</p>
+<p> </p>
+<p>லைசென்ஸ் வழங்கப் பட்ட 4 மாதங்கள் கழித்து, அனந்தகிருஷ்ணனுக்கு சொந்த மான ஏஷியா என்டெர்டைன்மென்ட் ஹோல்டிங் என்ற கம்பெனி 600 கோடி ரூபாய் கொடுத்து சன் டிடிஎச் ன் 20 சதவிகித பங்குகளை வாங்குகிறது. சன் டிடிஎச்ன் உரிமையாளர்கள் கலாநிதி மாறன் மற்றும் அவரது மனைவி காவேரி கலாநிதி.&nbsp;&nbsp; 80 சதவிகிதத்தை வைத்திருந்தவர்கள் பங்குகளை விற்றால் குறையும் அல்லவா ? அதற்குப் பதிலாக அவர்கள் இருவருக்கும் 12.6 கோடி ஷேர்கள் ஒதுக்கப் படுகின்றன. என்ன விலையில் தெரியுமா ? 10 ரூபாய்க்கு.&nbsp;&nbsp; அனந்தகிருண்ஷனனின் நிறுவனத்துக்கு ஒதுக்கப் பட்ட விலை என்ன தெரியுமா ? 80 ரூபாய்.&nbsp;&nbsp; இன்னும் செயல்பாடுகளைத் துவக்காத, நஷ்டத்தில் இயங்கிக் கொண்டிருக்கும் ஒரு நிறுவனத்துக்கு எதற்காக 80 ரூபாய்க்கு பங்குகளை வாங்க வேண்டும் ?</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1624/l2006121511592.jpg" alt="l2006121511592" width="" height="" /></p>
+<p>இதில் எப்படிப் பார்த்தாலும், மாறன் குடும்பத்தினருக்கே லாபம். சன் டிடிஎஸ் பங்குகள் கூடுதலாக விலை கொடுக்கப் பட்டு வாங்கப் பட்டிருந்தாலும் அவர்களுக்குத் தான் லாபம். 12.6 கோடி ஷேர்கள் குறைந்த விலைக்கு (10 ரூபாய்) கொடுக்கப் பட்டிருந்தாலும் மாறன் சகோதரர்களுக்குத் தான் லாபம். 2007-2008ம் ஆண்டுக்கான சன் டிடிஎச்சின் ஆண்டறிக்கையில் மொத்த நஷ்டம் 73.27 கோடி என்று குறிப்பிடப் பட்டுள்ளது.</p>
+<p> </p>
+<p>அருண் ஷோரி தொலைத் தொடர்புத் துறை அமைச்சராக இருந்த போது, எட்டு சர்கிள்களுக்கு சிவசங்கரனின் நிறுவனம் ஸ்பெக்ட்ரம் வேண்டி விண்ணப்பிக்கிறது. உடனடியாக அனுமதி கடிதம் (Letter of intent) வழங்கப் படுகிறது. இது நிலுவையில் இருந்த போது, மாறன் தொலைத் தொடர்புத் துறை அமைச்சராக பொறுப்பேற்கிறார். 24 ஆகஸ்ட் 2004 அன்று, மாறனின் செயலர் ஒரு சந்தேகத்தை கிளப்புகிறார். சிவசங்கரனின் டிஷ்நெட் நிறுவனத்துக்கு யார் முதலீடு செய்வது, யார் பணம் கொடுப்பது… என்று கேள்விகளை எழுப்பி டிஷ்நெட் நிறுவனத்துக்கு நோட்டீஸ் அனுப்புகிறார்கள்.</p>
+<p> </p>
+<p>டிஷ்நெட் நிறுவனம் விரிவாக பதில் அளிக்கிறது. இந்த பதில்களையெல்லாம், ஊறப்போடுகிறார் மாறன். சட்ட ஆலோசகருக்கு அந்தக் கோப்பை அனுப்புகிறார். பிறகு அவரே திருப்பி வாங்கிக் கொள்கிறார்.&nbsp;&nbsp; இதற்குள் டிஷ்நெட் நிறுவனம் மேலும் 4 சர்கிள்களுக்கு ஸ்பெக்ட்ரம் கேட்டு விண்ணப்பிக்கிறது.</p>
+<p> </p>
+<p>மேலும் பல்வேறு சந்தேகங்களை எழுப்புகிறார் மாறன்.&nbsp;&nbsp; 30 டிசம்பர் 2005 அன்று, மாறனின் திரை மறைவு மிரட்டல்களைத் தொடர்ந்து சிவசங்கரன் மலோசியாவைச் சேர்ந்த மேக்சிஸ் கம்யூனிக்கேஷன்ஸ் நிறுவனத்துக்கு 74 சதவிகித பங்குகளை விற்கிறார்.&nbsp;&nbsp; இதன் பிறகு காரியங்கள் விறுவிறுப்பாக அரங்கேறுகின்றன.</p>
+<p> </p>
+<p>வேக வேகமாக லைசென்சுகள் வழங்கப் பட்டு, 2006ல் 14 சர்க்கிள்களுக்கு ஏர்செல் நிறுவனத்துக்கு ஸ்பெக்ட்ரம் ஒதுக்கீடு செய்யப் படுகிறது.&nbsp;&nbsp; 1400 கோடிக்கு ஸ்பெக்ட்ரம் ஒதுக்கப் பட்டது. சிஏஜி அறிக்கையின் படி, இந்த ஸ்பெக்ட்ரத்தின் அசல் மதிப்பு 22 ஆயிரம் கோடி.</p>
+<p> </p>
+<p>நேற்று விமான நிலையத்தில் செய்தியாளர்களை சந்தித்த பச்சிலை புடுங்கி தயாநிதி தான் அமைச்சராக இருந்த போது, ஸ்பெக்ட்ரம் ஒதுக்கீட்டில் ஊழல் நடைபெறவில்லை. நடைபெற்றிருந்தால், சிஏஜி அறிக்கையில் சுட்டிக் காட்டப் பட்டிருக்குமே என்று கூறினார்.&nbsp;&nbsp; அடேய் பச்சிலை புடுங்கி… இதே சிஏஜி அறிக்கையை நாடே விவாதித்துக் கொண்டிருந்த போது, உங்கள் கட்சி தானேடா, சிஏஜி அறிக்கை பார்ப்பனர்களின் சதி என்றது… ? உங்கள் கட்சி தானேடா, ஒரு லட்சத்து எழுபத்தாறாயிரம் கோடி ரூபாயை எப்படி ஒருவர் ஊழல் செய்ய முடியும் என்று கேட்டது ?&nbsp;&nbsp; உங்கள் வசதிக்குத் தகுந்தபடி பேசுவீர்களோ ?</p>
+<p> </p>
+<p>சிஏஜி அறிக்கை சொல்லவில்லை. இது தொடர்பாக விசாரணை நடத்திய நீதிபதி சிவராஜ் பாட்டீல் கமிட்டியின் அறிக்கை பச்சிலை புடுங்கி தொடர்பாக என்ன சொல்கிறது என்று பார்ப்போமா ?</p>
+<p> </p>
+<p>“மாறன் டிஷ்நெட் நிறுவனத்திடம் எழுப்பிய சந்தேகங்கள், மேம்போக்காக இருப்பதோடு மட்டுமல்லாமல், லைசென்ஸ் கொடுப்பதற்கு எவ்வித சம்பந்தமும் இல்லாமல் இருக்கின்றன.&nbsp;&nbsp; பல்வேறு சமயங்களில் மாறன், விதிகளை மீறி தேவையற்ற முறையில் சந்தேகங்களை எழுப்பியுள்ளார்.”</p>
+<p> </p>
+<p>இதில் கவனிக்க வேண்டிய விஷயம் என்னவென்றால், மலேசிய மேக்சிஸ் நிறுவனத்துக்கு சிவசங்கரன் 74 சதவிகித பங்குகளை விற்கும் சமயத்தில் ஏர்செல் நிறுவனத்துக்கு சென்னை, தமிழ்நாடு ஆகிய இரு வட்டங்களுக்கு மட்டுமே ஸ்பெக்ட்ரம் ஒதுக்கப் பட்டு இருந்தது.&nbsp;&nbsp; 14 வட்டங்களுக்கு ஸ்பெக்ட்ரம் ஒதுக்கீடு செய்யப் பட்ட பிறகு இதே 74 சதவிகித பங்குகளை விற்றிருந்தால், எவ்வளவு கூடுதல் தொகை கிடைத்திருக்கும். இதில்தான் பச்சிலை புடுங்கியின் தந்திரம் இருக்கிறது.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1624/l2007012412146.jpg" alt="l2007012412146" width="" height="" /></p>
+<p>நேரடியாக மாறனைக் குறிப்பிடாமல், தொலைத் தொடர்புத் துறை அமைச்சகத்தில் எங்கள் நிறுவனத்துக்கு எதிராக சதி நடக்கிறது என்று சிவசங்கரன் மாறனுக்கு பல முறை கடிதம் எழுதியும், ஒரு கடிதத்துக்கு கூட பதில் அனுப்பவில்லை, இன்று பத்திரிக்கையாளர்களுக்கு நோட்டீஸ் அனுப்பும் இந்த பச்சிலை புடுங்கி.</p>
+<p> </p>
+<p>தொலைத் தொடர்புத் துறையில் நேரடி அந்நிய முதலீடு 74 சதவிகிதத்தை தாண்டக் கூடாது என்பது அப்போது இருந்த விதி. ஆனால் இந்த விதிகளையெல்லாம் வளைத்து ஏர் செல் நிறுவனத்தில் மீதம் இருந்த 26 சதவிகித பங்குகளையும் அனந்த கிருஷ்ணனின் மேக்சிஸ் கம்யூனிகேஷன்ஸ் நிறுவனம் வளைத்திருக்கிறது என்பது அடுத்த குற்றச் சாட்டு.</p>
+<p> </p>
+<p>டெக்கான் டிஜிட்டல், அப்போல்லோ ஹாஸ்பிட்டல், சிந்தியா செக்யூரிட்டீஸ் போன்ற பல்வேறு நிறுவனங்கள் மூலமாக 99 சதவிகித பங்குகளையும் மேக்சிஸ் நிறுவனம் வளைத்திருப்பதும் தெரிய வந்திருக்கிறது.&nbsp;&nbsp; மார்ச் 2006ல் மலேசிய பங்குச் சந்தையில் தாக்கல் செய்த ஆவணத்தில், மேக்சிஸ் நிறுவனம், ஏர்செல் நிறுவனத்தில் தங்களுக்கு 99.3 சதவிகித பங்குகள் இருப்பதாக தெரிவித்துள்ளது, குறிப்பிடத் தகுந்தது.</p>
+<p> </p>
+<p>இது மட்டும் அல்ல. 23 பிப்ரவரி 2006 அன்று, மன்மோகன் ஒரு அமைச்சரவை குழுவை அமைக்கிறார்.&nbsp;&nbsp; பாதுகாப்புத் துறை அமைச்சர், உள்துறை அமைச்சர், நிதி அமைச்சர், பாராளுமன்ற விவகாரத் துறை அமைச்சர் மற்றும் தொலைத் தொடர்புத் துறை அமைச்சர் ஆகியோரைக் கொண்ட குழு, ஸ்பெக்ட்ரம் என்ன விலைக்கு கொடுக்கப் பட வேண்டும் என்பதை நிர்ணயிப்பதற்காக அமைக்கப் பட்டது.&nbsp;&nbsp; ஒரே வாரத்திற்குள் 28ம் தேதி, மன்மோகனுக்கு பச்சிலை புடுங்கி ஒரு கடிதம் எழுதுகிறார். அந்தக் கடிதத்தில், என்னுடைய அதிகாரத்தை குறைக்கும் வகையில் அமைச்சரவைக் குழு அமைக்கப் பட்டுள்ளது. விலையை நான்தான் நிர்ணயிப்பேன் என்று கூறுகிறார். மங்குணி மன்மோகனும், சரி என்கிறார். (இந்த ஆளைத் தான் முதல் அக்யூஸ்டா சேக்கனும்).</p>
+<p><img class="img-responsive" style="" src="/images/1624/dec07a.jpg" alt="dec07a" width="" height="" /></p>
+<p>இப்போது சிபிஐ, பச்சிலை புடுங்கியை அழைத்து, “டேய் பச்சிலை புடுங்கி… அமைச்சரவை குழு விலையை நிர்ணயம் பண்ணா உனக்கு என்னடா ?&nbsp;&nbsp; ஏண்டா வேணான்னு சொன்ன ? “ என்று கேட்க வேண்டும். கேட்பார்களா என்பதை பொறுத்திருந்துதான் பார்க்க வேண்டும்.</p>
+<p>இது தொடர்பான மேக்சிஸ் மற்றும் சன் டிடிஎச் இடையே பங்குப் பரிவர்த்தனை நடந்த போது நான் அமைச்சராகவே இல்லை என்று மாறன் சொல்வதையும் ஏற்றுக் கொள்ள முடியாது. பிப்ரவரி 2007ல் இரண்டு நிறுவனங்களுக்கு இடையே தொடங்கிய பேச்சுவார்த்தை, முடிவு பெற்று, அந்நிய முதலீட்டுக்கான அனுமதி அளிக்கும் மத்திய அரசு நிறுவனம், இந்த முதலீட்டுக்கு அனுமதி வழங்கியது 19 மார்ச் 2007ல். மாறன் 13 மே 2007ல் தானே பதவி விலகுகிறார் ?</p>
+<p>&nbsp;இவ்வளவு ஊழலைச் செய்து விட்டு, என்ன திமிராகப் பேசுகிறார் பார்த்தீர்களா பச்சிலை புடுங்கி ?</p>
+<p> </p>
+<p>அடுத்த விவகாரம், பிஎஸ்என்எல்லின் 323 தொலைபேசி இணைப்புகளை அரசாங்கச் செலவில் பயன்படுத்தியதாக தினமணியில் வந்த செய்தி. தினமணி மற்றும், இந்தியன் எக்ஸ்பிரசில் வந்த செய்தி, சிபிஐ அறிக்கையின் அடிப்படையில் வந்த செய்தி என்பதை கவனத்தில் கொள்ள வேண்டும்.&nbsp;&nbsp; பச்சிலை புடுங்கி உண்மையில், சிபிஐக்குத் தான் நோட்டீஷ் அனுப்பியிருக்க வேண்டும்.&nbsp;&nbsp; அதை விடுத்து விட்டு, எதற்கு பத்திரிக்கைகளுக்கு அனுப்பினார் என்பது தெரியவில்லை.</p>
+<p> </p>
+<p>தயாநிதியின் கூற்றுப் படி பார்த்தால், 2009லேயே இது தொடர்பாக பத்திரிக்கையில் வெளி வந்த செய்திக்காக நோட்டீஸ் அனுப்பி விட்டாராம். அந்தப் பத்திரிக்கைகள் தான் மன்னிப்பு கேட்கவில்லையே ? ஏன் வழக்கு போடவில்லை ?</p>
+<p> </p>
+<p>என்னிடம் ஒரே ஒரு தொலைபேசி தான் இருந்தது என்று கூறும் மாறன், 24371515 என்ற எண்ணைப் பற்றி பேசவேயில்லையே ஏன் ? இருந்தது என்று சொல்லும் 24371500 என்ற எண், சீப் ஜெனரல் மேனேஜர் பெயரிலும், இல்லை என்று சொல்லும் எண் மாறன் பெயரிலும் இருக்கும் மர்மம் என்ன ?</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1624/24371500.jpg" alt="24371500" width="" height="" /></p>
+<p>போட் கிளப் இல்லத்தில் ஒரே ஒரு தொலைபேசி எண்தான் இருந்தது என்று சொல்லுவது பச்சைப் பொய்தானே ?</p>
+<p> </p>
+<p>தினமணி மற்றும் எக்ஸ்பிரஸ் நாளேடுகள் சொன்ன 320 லைன்களும், மாறனின் கோபாலபுரம் இல்லத்தில் இருந்தன. மேலும், மதுரை தினகரன் அலுவலகத்துக்கும் இதே போன்ற ஒரு உயர் அழுத்த இணைப்பு வழங்கப் பட்டிருந்தது.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1624/2959140.jpg" alt="2959140" width="" height="" /></p>
+<p> </p>
+<p><img class="img-responsive" style="" src="/images/1624/2373493.jpg" alt="2373493" width="" height="" /></p>
+<p>தொலைபேசி இணைப்புளைப் பற்றிய ஆவணங்களை எடுத்து பரிசீலனை செய்தால், உண்மைகள் வெளிப்பட்டுப் போகும் என்ற விபரம் தெரிந்தும், இன்று வரை ஆணவத்தோடு பேசிவருகிறார் பச்சிலை புடுங்கி.</p>
+<p>விரைவில் உங்களை சிபிஐ அழைக்க இருக்கிறது பிரதர். அவர்களிடம் சொல்லுங்கள் இந்த அம்புலிமாமா கதையையெல்லாம்.</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/1624/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/1624/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/1624/?share=facebook" title="Share on Facebook" id="sharing-facebook-1624"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/1624/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-1624"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/1624/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-1624"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/1624/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/1624/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/1624/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-1624-54751469f1fb7" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=1624&amp;origin=savukkunews.com&amp;obj_id=68584444-1624-54751469f1fb7" data-name="like-post-frame-68584444-1624-54751469f1fb7"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div><!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/1624/"
+    dc:identifier="http://savukkunews.com/1624/"
+    dc:title="நான் உங்கிட்ட என்ன கேட்டேன்……."
+    trackback:ping="http://savukkunews.com/1624/trackback/" />
+</rdf:RDF>-->
+</p>
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

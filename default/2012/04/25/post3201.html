@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- போபால் 2</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2012/04/25/post3201.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">போபால் 2</h1>
+			<p class="post-meta">Apr 25, 2012</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/3201/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/3201/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p><span style="font-size: 14pt; color: #0000ff;">ஏழைகளின் சொர்க்கம்.</span></p>
+<p>ஒரியா பஸ்தி.&nbsp;&nbsp; மத்திய பிரதேசம் போபால் ரயில் நிலையம் அருகே அமைந்துள்ளதுதான் ஒரியா பஸ்தி என்ற அந்த சேரிப்பகுதி. பஸ்தி என்றால் சேரிப்பகுதி என்று பொருள்.&nbsp;&nbsp; அந்தச் சேரிப்பகுதி, பஞ்சம் மற்றும் பல்வேறு காரணங்களால், ஒரிஸ்ஸா மாநிலத்திலிருந்து புலம் பெயர்ந்து வரும் மக்கள் தங்கியிருக்கக் கூடிய இடம்.</p>
+<p><img class="img-responsive" style="" src="/images/3201/bhopal01.jpg" alt="bhopal01" width="" height="" /></p>
+<p>ஒரிஸ்ஸா மாநிலத்தில் வேலை வாய்ப்பு இல்லாததால் பல பழங்கடியின மக்கள் மத்தியப் பிரதேசத்துக்கு வேலை வாய்ப்புத் தேடிச் செல்வதுண்டு.&nbsp; அவ்வாறு புலம் பெயர்ந்து வரும் மக்கள் ஒரியா பஸ்தி, சோளா பஸ்தி மற்றும் ஜெய்பிரகாஷ் பஸ்தி என்ற மூன்று சேரிப்பகுதிகளில் தற்காலிக குடிசை அமைத்து பல்வேறு தொழில்களில் ஈடுபட்டு வந்தனர்.&nbsp;&nbsp; சோளா பஸ்தி என்ற பெயர், பஞ்சம் வந்த சமயத்தில் சோளா என்ற பயிர் வகையை பயிரிட்டு வந்ததால் அந்தப் பகுதிக்கு வந்தது.&nbsp; ஜெய்பிரகாஷ் பஸ்தி என்ற பெயர், ஏழைகளுக்காக பாடுபட்ட ஜெய்பிரகாஷ் என்ற காந்தியின் தொண்டரின் பெயரில் அழைக்கப்படுகிறது.</p>
+<p>இந்தியாவின் பல பகுதிகளில் உள்ள சேரிகளைப் போலத்தான் அந்த ஒரியா பஸ்தி, சோளா பஸ்தி மற்றும் ஜெய்பிரகாஷ் பஸ்தி ஆகிய இடங்களில் உழைப்பாளி மக்கள் குடியிருந்தனர். ஒரியாவிலிருந்து வந்த பழங்குடி மக்கள், மற்ற மாநிலங்களிலிருந்து பஞ்சத்திற்காக வந்த மக்கள் என அனைவரும் அந்தச் சேரிகளில் குடியிருந்தனர்.</p>
+<p>இவர்களின் உலகம் அன்பும் பாசமும் நிறைந்தது.&nbsp;&nbsp; ஒரிஸ்ஸாவில், தீப்பெட்டித் தொழிற்சாலையில் ஏற்பட்ட வெடி விபத்தில் தனது மகனைப் பறிகொடுத்த ரத்ன நாடார், அவர் மனைவி ஷீலா, மகள் பத்மினி மற்றும் மகன் கோபால் ஆகியோரோடு தட்டு முட்டுச் சாமான்களோடு, அவர் குடும்பம் போபால் ரயில் நிலையத்தில் வந்து இறங்கியபோது, புதிய ஊரில் என்ன செய்வது என்று பயந்துகொண்டுதான் இருந்தார்கள்.&nbsp; ஆனால், ஒரிஸ்ஸாவைச் சேர்ந்த மக்கள் குடியிருக்கிறார்கள் என்பது அறிந்ததும், நேரடியாக அந்த இடத்துக்குச் சென்ற போது, அவர்களை பெல்ராம் முக்காதாம் என்பவர் வரவேற்றார்.</p>
+<p>நவாப்பின் படைகள் பயிற்சி எடுப்பதற்காக இருந்த காலி மைதானத்தில் 30 வருடங்களுக்கு முன் குடியேறிவர்தான் முக்காதாம்.&nbsp;&nbsp;&nbsp; ரத்னா நாடார் குடும்பத்தை வரவேற்று அவர்களுக்கென்று அந்த மைதானத்தில் அமைந்துள்ள நூற்றுக்கணக்கான வீடுகளோடு அவர்களுக்கும் ஒரு இடம் ஒதுக்கிக் கொடுத்தார்.</p>
+<p>கங்காராம் என்ற தொழுநோயால் பாதிக்கப்பட்டவரும் அந்தச் சேரியில் குடியிருந்தார்.&nbsp; பம்பாயில் கார் கழுவும் வேலை பார்த்துக் கொண்டிருந்த கங்காராமுக்கு தொழுநோய் ஏற்பட்டது அறிந்ததும் அவர் முதலாளி அவரை விரட்டி விட்டார்.&nbsp;&nbsp; விரட்டப்பட்ட கங்காராம், போபாலில் உள்ள ஹமீதியா மருத்துவமனையில் பல ஆண்டுகள் சிகிச்சை பெற்று, அந்தச் சேரியிலேயே தங்கி விட்டார்.&nbsp; ஒரு விபத்தில் தன் இரண்டு கால்களையும் இழந்த தாலிமா என்ற பெண்ணை காதலித்து திருமணம் செய்துகொண்டார்.</p>
+<p>அந்தச் சேரியில் அத்தனை மக்கள் குடியிருந்தாலும், அந்தச் சேரிக்கு மின்சார வசதியோ, குடிநீர் வசதியோ, கழிப்பிட வசதியோ இல்லை.&nbsp;&nbsp; எந்த அளவுக்கு தண்ணீர் பஞ்சம் இருந்தது என்றால், அருகில் உள்ள ரயில் நிலையத்தில் ரயில்கள் வந்து நிற்கையில், அப்பகுதிப் பெண்கள், ரயில் இன்ஜின் அருகே சென்று, அந்த ஓட்டுனரிடம் தங்கள் குடங்களில் தண்ணீரை நிரப்பிக் கொள்ள அனுமதி கேட்பார்கள்.</p>
+<p>அந்தச் சேரிகளில் உள்ள மக்களுக்கு பெரிய அளவில் வேலை வாய்ப்பும் இல்லை.&nbsp; பெரும்பாலானோர் பீடி சுற்றுவார்கள். வாய்ப்பு கிடைத்தவர்கள், அருகாமையில் உள்ள ரயில் நிலையத்தில் சுமைத் தூக்கும் கூலிகளாகவும், மற்ற பணிகளைச் &nbsp;செய்யும் சில்லரைக் கூலிகளாகவும் பணியாற்றினர். அந்தச் சேரிகளில் உள்ள சிறுவர்கள், ரயில்களில் பயணிப்போர் ரயில் ஜன்னல் வழியே வீசிச் செல்லும் காலி பாட்டில்கள் போன்றவற்றை பொறுக்கி விற்பார்கள்.</p>
+<p>இத்தனை வறுமை இவர்களை ஆட்டிப்படைத்தாலும், தீபாவளி, ஈத், கிறிஸ்துமஸ் போன்ற விழாக்களை ஒன்றாகவே சேர்ந்து கொண்டாடி வந்தார்கள் அம்மக்கள்.</p>
+<p>திடீரென்று ஒரு நாள் ரயில்வே நிர்வாகம் சில்லரைக் கூலிகளாக பணியாற்றியவர்களை திடீரென்று பணி நீக்கம் செய்தது.&nbsp;&nbsp; அந்த வேலைகளை மட்டுமே நம்பியிருந்த பலர் அதிர்ச்சி அடைந்தனர்.&nbsp; அடுத்த வேளை சோற்றுக்கு எந்த வழியும் இல்லாமல் மனமுடைந்து இருந்தனர்.</p>
+<p>தங்கள் பெற்றோர்களின் கவலையைப் பார்த்த பத்மினி, கோபால் போன்ற அந்தச்சேரியில் உள்ள மற்ற சிறுவர்கள், போபால் ரயில் நிலையத்தில் வந்து நிற்கும் அந்த ரயில்களின் கம்பார்ட்மென்டுகளில் ஏறி, ஒரு பிரஷ்ஷை வைத்து, அதன் தரையை சுத்தம் செய்து, பயணிகள் கொடுக்கும் பணத்தை எடுத்து வந்து தங்கள் பெற்றோர்களிடத்தில் கொடுத்தனர்.&nbsp; அவ்வாறு முதல் நாள் வேலைக்குச் சென்ற சிறுமி பத்மினி 10 ரூபாய் சம்பாதித்தாள்.</p>
+<p>அந்த மூன்று சேரிகளுக்கும் கடவுள் போல இருந்தவர் புல்புல் சிங் என்ற சீக்கியர்.&nbsp;&nbsp; அந்தச் சேரிகள் தொடங்கும் இடத்தில் பெரிய வீட்டைக் கட்டிக் கொண்டு, அதன் திண்ணையில் மெத்தை ஒன்றை விரித்துக் கொண்டு சாய்வாக தலைக்கு மேல் குருநானக் படத்தோடு அமர்ந்திருக்கும் புல் புல் சிங்கின் தொழில் வட்டிக்கு விடுவது.&nbsp;&nbsp; அந்த சேரி மக்கள் கடும் வறுமையில் வாடும்போது, கையில் இருக்கும் பொருட்களை அடகு வைத்து புல் புல் சிங்கிடம் தான் பணம் பெறுவார்கள்.</p>
+<p>எந்த வித அடிப்படை மருத்துவ வசதியோ, மருத்துவமனையோ இல்லாமல் இருந்த அந்த சேரி மக்களுக்கு வாராமல் வந்த மாமணியாய் வந்தவர் சிஸ்டர் பெலிசிட்டி.&nbsp;&nbsp;&nbsp; ஸ்காட்லாந்து நாட்டைச் சேர்ந்த சிஸ்டர் பெலிசிட்டி, ப்ரான்சில் நெடுங்காலம் இருந்து விட்டு, கிறித்துவ மிஷனரியில் சேர்ந்து முதலில் செனெகலிலும், பிறகு இலங்கையிலும் பணியாற்றி விட்டு போபால் வந்தார். 14 வருடங்கள் போபாலில் ஒரு அனாதை ஆசிரமத்தில் பணியாற்றிய சிஸ்டர் பெலிசிட்டி, ஒரியா பஸ்தியை வந்தடைந்தார்.</p>
+<p>ஒவ்வொரு திங்கட்கிழமையும் அந்த சேரி மக்களுக்கு மருத்துவம் பார்க்கிறேன் என்று வந்த சிஸ்டர் பெலிசிட்டி, காசநோய், டைபாய்ட், மலேரியா, போலியோ, டெட்டனஸ் போன்ற வியாதிகளால் குழந்தைகளும் பெரியவர்களும், அந்தச் சேரி முழுக்க பீடிக்கப்பட்டு இருப்பதைக் கண்டார்.</p>
+<p>அவருக்கு உதவியாக, சிறுமி பத்மினியை அழைத்துக் கொண்ட சிஸ்டர் பெலிசிட்டி, ஒவ்வொரு குடிசையாக சென்று, அவர்களுக்கு மருத்துவ உதவியைச் செய்தார்.</p>
+<p>அப்பகுதி மக்களுக்கு இருக்கும் நோய்களை குணப்படுத்துவதற்காக கடவுள் போல சிஸ்டர் பெலிசிட்டி வந்தாலும், இன்னும் 50 ஆண்டுகளுக்கு தொடர் நோயால் தாங்கள் பீடிக்கப்படப்போகிறோம் என்பதை அப்பகுதி மக்கள் அப்போது அறிந்திருக்கவில்லை.</p>
+<p>தொடரும்</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/3201/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/3201/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/3201/?share=facebook" title="Share on Facebook" id="sharing-facebook-3201"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/3201/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-3201"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/3201/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-3201"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/3201/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/3201/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/3201/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-3201-5475117f1e818" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=3201&amp;origin=savukkunews.com&amp;obj_id=68584444-3201-5475117f1e818" data-name="like-post-frame-68584444-3201-5475117f1e818"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/3201/"
+    dc:identifier="http://savukkunews.com/3201/"
+    dc:title="போபால் 2"
+    trackback:ping="http://savukkunews.com/3201/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

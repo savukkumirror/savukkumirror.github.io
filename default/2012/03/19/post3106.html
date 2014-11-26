@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- இது நாடகமா ?</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2012/03/19/post3106.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">இது நாடகமா ?</h1>
+			<p class="post-meta">Mar 19, 2012</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/3106/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/3106/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p>இலங்கையில் நடந்த போர்க்குற்றங்களை இன்று சேனல் 4 தொலைக்காட்சி ஆவணப்படுத்தி இரண்டு பாகங்களாக வெளியிட்டு, அது உலகெங்கும் மனசாட்சி உள்ளவர்களை உலுக்கியிருக்கிறது.&nbsp;&nbsp; ஈழத்தில் போரை நிறுத்து என்ற முழக்கத்தோடு, 2008 அக்டோபர் மாதம் இந்தியக் கம்யூனிஸ்ட் கட்சி நடத்திய உண்ணாவிரதம் முதற்கொண்டு, மே 19ல் அனைத்தும் முடிந்து விட்டது என்று ஈழ ஆதரவாளர்கள் மனம் வெதும்பி, கையறு நிலை குறித்த வேதனையில் மவுனமாக அழுது கொண்டு இருந்த அத்தனை பேருக்கும், இந்தப் போர் குற்றங்கள் அப்போதே தெரியும்.</p>
+<p><img class="img-responsive" style="" src="/images/3106/womenwithbaby.jpg" alt="womenwithbaby" width="" height="" /></p>
+<p>சேனல் 4ன் ஆவணப்படம், ஈழத் தமிழர்களுக்கு ஆதரவாக போரை நிறுத்த வலியுறுத்தி பல்வேறு போராட்டங்களை முன்னெடுத்தவர்கள் அனைவரும் அப்போதே வைத்த கோரிக்கை உலக நாடுகளே தலையிடுங்கள்… இந்த இனப்படுகொலையை தடுத்து நிறுத்துங்கள் என்பதுதானே… ?&nbsp;&nbsp;&nbsp; அப்போது அமெரிக்கா உள்ளிட்ட நாடுகளும், இந்த ஐக்கிய நாடுகள் அவையும், இந்தியாவும் இலங்கையும் சேர்ந்து நடத்திய இந்த இனப்படுகொலையை அமைதியாக வேடிக்கை பார்த்துக் கொண்டுதானே இருந்தன ?</p>
+<p>2011 மார்ச் மாதம் வெளியிடப்பட்ட மூன்று உறுப்பினர்கள் கொண்ட ஐக்கிய நாடுகள் குழுவின் விசாரணை அறிக்கை இலங்கை களத்தை ஆய்வு செய்த பின்னர் வெளியிட்ட <a href="http://www.un.org/News/dh/infocus/Sri_Lanka/POE_Report_Full.pdf">அறிக்கையில்</a> சொல்லியிருந்தவை என்ன ?</p>
+<p>இலங்கை அரசு கூறியது உண்மையல்ல. விடுதலைப் புலிகளின் கட்டுப்பாட்டில் இருந்த மக்களை மீட்க மனிதாபிமான நடவடிக்கையைத் தான் அரசு மேற்கொண்டது என்றும், அதனை ஒரு அப்பாவி கூட கொல்லப்படாத நிலையில் நிறைவேற்றுவதுதான் நோக்கம் என்றும் இலங்கை அரசு கூறியதற்கு நேர் மாறாகவே உண்மை இருக்கிறது என்பதையே எங்களிடம் உள்ள ஆதாரங்கள் தெளிவாக்குகின்றன. இந்த ஆதாரங்கள் உண்மையானவை என்று நிரூபிக்கப் பட்டால், அங்கு மிகப் பெரிய அளவிலான போர்க் குற்றங்களும், மனித குலத்திற்கு எதிரான குற்றங்களும் இழைக்கப்பட்டுள்ளது உறுதி யாகும். இதனை இலங்கை அரசு படைகள் செய்துள்ளன. போர்க் காலத்திலும் மனித கண்ணியத்தைக் காக்க வேண்டும் என்ற நோக்ககோடு உருவாக்கப்பட்ட பன்னாட்டுச் சட்டங்கள் அனைத்துக்கும் எதிரான இந்தப் போரில் நடத்தப்பட்ட பெரியத் தாக்குதல் நிரூபிக்கிறது.</p>
+<p>2008 ஆம் ஆண்டு செப்டம்பர் முதல் 2009 ஆம் ஆண்டு மே 19 ஆம் தேதி வரை நடந்த இறுதி கட்ட யுத்தத்தில் பெருமளவில் நடத்தப்பட்ட பீரங்கித் தாக்குதல்களில் ஏராளமான பொது மக்கள் கொல்லப்பட்டுள்ளனர். 3,30,000 மக்கள் நாளுக்கு நாள் சுருங்கி வரும் நிலப் பகுதியில், புலிகளின் கட்டுப்பாட்டில் இருந்தபோது கடுமை யான தாக்குதல் நடத்தப்பட்டுள்ளது. இந்தப் போரில் மக்கள் பெருமளவிற்கு கொல்லப் பட்டதை வெளியே கொண்டு செல்ல முயன்ற ஊடகங்களை இலங்கை அரசு மிரட்டி அடக்கி யுள்ளது. அப்படிப்பட்ட மிரட்டல்களுக்கு வெள்ளை வேன்கள் பயன்படுத்தப்பட்டுள்ளன.</p>
+<p>அரசு அறிவித்த 3 மக்கள் பாதுகாப்பு வளையப் பகுதிகளுக்கு வருமாறு போர் நடந்த பகுதியில் இருந்த மக்களை அழைத்துவிட்டு, அப்பகுதியின் மீதே இலங்கை அரசு படைகள் பெரும் தாக்குதல் நடத்தியுள்ளன. கனரக ஆயுதங்களை பயன்படுத்த மாட்டோம் என்று உறுதியளித்துவிட்டு, அப்படிப்பட்ட ஆயதங்களை பெருமளவிற்கு இலங்கை அரசு பயன்படுத்தியுள்ளது. ஐ.நா. அமைத்திருந்த உணவு வழங்குமிடங்கள் மீது தாக்குதல் நடத்தப்பட்டுள்ளது. காயமுற்றவர் களை அழைத்துச் செல்ல வந்த செஞ்சிலுவைச் சங்க கப்பலுக்கு அழைத்துவரப்பட்டவர்கள் மீது தாக்குதல் நடத்தப்பட்டுள்ளது. இவை யாவும், முன்னறிவிப்பு அளிக்கப்பட்ட பகுதிகளாகும். இறுதிக் கட்ட போரில் இலங்கை அரசு படைகளின் பீரங்கித் தாக்குதலிலேயே பெருமளவிற்கு மக்கள்&nbsp; கொல்லப்பட்டனர்.</p>
+<p>வன்னிப் பகுதியில் இயங்கி வந்த மருத்துவ மனைகள் அரசு படைகளால் திட்டமிட்ட தாக்குதல்களுக்கு உட்படுத்தப்பட்டுள்ளன. மருத்துவமனைகளின் இருப்பிடங்கள் அனைத் தும் அரசுக்கு தெரிந்தவையே அவ்வாறிருந்தும் அவைகள் தொடர் தாக்குதலிற்கு உட்படுத்தப் பட்டுள்ளன. போர் நடந்த பகுதியில் சிக்கியிருந்த&nbsp; மக்களுக்கு மனிதாபிமான உதவிகள் எதுவும் சென்று சேராமல் திட்டமிட்டு தடுத்துள்ளது இலங்கை அரசு. உணவு, மருந்துப் பொருள்கள், அவசர அறுவை சிகிச்சைக்கான உபகரணங்கள் என்று எதையும் அனுமதிக்கவில்லை. போர் நடந்த பகுதியில் சிக்கியிருந்த மக்களின் எண்ணிக்கையை குறைத்துக் காட்டியே இப்படிப்பட்ட உதவிகளை இலங்கை அரசு மறுத்துள்ளது. இதனால் 2009 ஆம் ஆண்டு ஜனவரி முதல் மே வரை பல பத்தாயிரக் கணக்கான மக்கள் கொல்லப்பட்டனர். குறிப்பாக கடைசி இரண்டு நாட்களில் பல்லாயிரக் கணக்கான மக்கள் கொல்லப்பட்டனர்.</p>
+<p>போர் முடிந்த பிறகு தங்களுடைய கட்டுப்பாட் டிற்கு வந்த மக்களை மேலும் துன்புறுத்தலுக்கு இலங்கை அரசு ஆளாக்கியுள்ளது. விடுதலைப் புலிகள் என்ற ஐயத்திற்குள்ளானவர்கள் எவ்வித வெளி பார்வையாளர் கண்காணிப்பும் இன்றி சோதனைக்கு உட்படுத்தப்பட்டனர். விடுதலைப் புலிகள் என்ற அடையாளம் காணப்பட்டவர்கள் அப்போதே படுகொலை செய்யப்பட்டுள்ளனர். புலிகள் இயக்கத்தின் பெண் போராளிகள் பாலியல் வன்முறைக்கு உள்ளாக்கப்பட் டுள்ளனர். பலர் காணாமல் போயுள்ளனர். இவையாவும் இலங்கை அரசு அமைத்த ஆணையத்திலேயே தெரிவிக்கப்பட்டுள்ளது. போரினால் இடம் பெயர்ந்த மக்கள் அனைவருக்கும் ஒரே இடத்தில் நெருக்கமாக அமைக்கப்பட்ட முகாம்களில் சிறை வைக்கப் பட்டனர். குறைவான நிலப் பகுதியில் பல இலட்சக்கணக்கான மக்கள் அடைத்து வைக்கப் பட்டதால் அங்கு மோசமான சூழல் உருவானது. அவர்களின் சமூக, பொருளாதார உரிமைகள் அத்துமீறலுக்கு உள்ளாக்கப்பட்டுள்ளது. இதனால் பல உயிர்கள் பலியாயின. இந்த முகாம்களில் இருந்த பலர் விசாரணை என்ற பெயரில் சித்ரவதை செய்யப்பட்டுள்ளனர். விடுதலைப் புலிகள் என்ற ஐயப்பாட்டிற்குட் பட்டவர்கள் வேறு இடங்களுக்கு கொண்டு செல்லப்பட்டனர். அவர்கள் இருப்பிடங்கள் தெரிவிக்கப்படவில்லை. அங்கு அவர்கள் மேலும் துன்புறுத்தல்களுக்கு ஆளாக்கப்பட்டனர்.</p>
+<p>எனவே, இலங்கை அரசு கீழ்கண்ட அத்து மீறல்களை செய்துள்ளதாக நம்பத் தகுந்த ஆதாரங்களின் அடிப்படையில் இந்த நிபுணர் குழு முடிவு செய்கிறது:</p>
+<p>பீரங்கித் தாக்குதல்கள் மூலம் பொது மக்களை கொன்று குவித்துள்ளது.</p>
+<p>மருத்துவமனைகள் உள்ளிட்ட மனிதாபிமான பகுதிகளை குறி வைத்து தாக்குதல்களை நடத்தியுள்ளது. மனிதாபிமான உதவிகளை மறுத்துள்ளது.</p>
+<p>இடம் பெயர்ந்த மக்களிடமும், புலிகள் என்று ஐயப்பட்டவர்களிடமும் மனித உரிமை மீறல்களைச் செய்துள்ளது.</p>
+<p>போர் நடந்த பகுதிக்கு வெளியே, ஊடகங்கள் மீதும், அரசை விமர்சித்தவர்கள் மீதும் மனித உரிமை மீறல்களை நிகழ்த்தியுள்ளது.</p>
+<p>மேற்கூறிய முடிவுகளுக்கு வந்த அந்த விசாரணை ஆணையம், கீழ்கண்ட பரிந்துரைகளை, வழங்கியிருந்தது.</p>
+<p>போர்க்காலத்தில் நடந்ததாகக் கூறப்படும் மனித நல மற்றும் மனித உரிமைக் குற்றங்கள் குறித்து, பன்னாட்டு, மனிதாபிமான மனித உரிமை சட்டங்களின்படி நியாயமான விசாரணையை அரசு உடனடியாக துவக்க வேண்டும்.</p>
+<p>வன்னி போரில் பாதிக்கப்பட்டவர்கள், தப்பியவர்கள் ஆகியோருக்கான குறுகிய கால நடவடிக்கைகளை செயல்படுத்த வேண்டும். அரசு மற்றும் துணை ராணுவப் படையினரின் அத்து மீறல்களை நிறுத்துவது, போரில் இறந்த போனவர்களின் உடல்கள், அஸ்தி உள்ளிட்ட வற்றை உறவினர்களிடம் ஒப்படைப்பது, இறந்து போனவர்களுக்கான இறப்புச் சான்றிதழ்களை உரிய மரியாதையுடன் எந்தக் கட்டணமும் இல்லாமல் வழங்குவது, போரில் பிழைத்தவர் களுக்குத் தேவையான மனநல ஆலோசனை களைத் தருவது, முகாம்களில் வசிப்பவர்களை உடனடியாக விடுவிப்பது, மறுகுடியமர்வுப் பணிகளை மேற்கொள்வது, இடைக்கால நிவாரண உதவிகளைச் செய்வது போன்றவை இதில் அடக்கம்.</p>
+<p>கடத்தப்பட்டு பின்னர் காணாமல் போனவர்கள் தொடர்பான உண்மை நிலையை அறிவிக்க வேண்டும்.</p>
+<p>அவசர நிலையைத் திரும்பப் பெற வேண்டும், சர்வதேச சட்டங்களுக்குப் பொருந்தும் வகையில் பயங்கரவாதத் தடுப்புச் சட்டத்தில் உரிய திருத்தங்களைச் செய்ய வேண்டும்.</p>
+<p>விடுதலைப் புலிகள் என்கிற சந்தேகத்தின் பேரில் பிடித்து வைக்கப்பட்டிருப்பவர்களின் பெயர்களை வெளியிட வேண்டும். அவர்கள் மீது சட்ட ரீதியாகவே நடவடிக்கைகள் எடுக்கப்பட வேண்டும். நீதிமன்றத்தில் அவர்கள்&nbsp; சார்பில் வழக்குத் தொடுப்பதற்கு குடும்பத்தினருக்கு அனுமதி அளிக்க வேண்டும். கொடிய குற்றங்களுக்கான ஆதாரங்கள் இல்லாதவர்களை உடனடியாக விடுதலை செய்ய வேண்டும்.</p>
+<p>அரசே நிகழ்த்தும் வன்முறைகளை நிறுத்த வேண்டும். மக்கள் கூடுவதற்கும், இடம் பெயர் வதற்கும், கருத்துகளைத் தெரிவிப்பதற்கும் எதிராக நடவடிக்கைகள் எடுப்பது நிறுத்தப்பட வேண்டும்.</p>
+<p>அய்.நா. மனித உரிமைக் குழு இலங்கையின் போர்க் குற்றங்களை மறைத்து, ‘உள்நாட்டுப் பிரச்சினையில் பிற நாடுகள் தலையிடக் கூடாது’ என்று நிறைவேற்றிய தீர்மானத்தை மறு பரிசீலனை செய்ய வேண்டும்.</p>
+<p>இனப் பிரச்னை, பல்வேறு மனித உரிமை மீறல்கள் நடந்த கடுமையான போர் உள்ளிட் டவை தொடர்பாக அனைத்து சமூகத்தினரும் பங்கேற்று ஆய்வு செய்யும் நடவடிக்கைகளை அரசு உடனடியாகத் தொடங்க வேண்டும்.</p>
+<p>இறுதி கட்டப் போரில் பல்லாயிரக்கணக்கான பொது மக்கள் கொல்லப்பட்டது தொடர்பாக அரசு தனது பொறுப்பையேற்று, அதுபற்றி அதிகாரப்பூர்வமாக அறிவிக்க வேண்டும்.</p>
+<p>போரின்போது நடந்த மனித உரிமை மீறல்களால் பாதிக்கப்பட்டோருக்கு உதவும் வகையிலான திட்டங்களை அமல்படுத்த வேண்டும். பெண்கள் மற்றும் குழந்தைகளுக்கு இதில் சிறப்பு கவனம் அளிக்கப்பட வேண்டும்</p>
+<p>இலங்கையில் போர் முடிவுக்கு வந்த பிறகு, உலகெங்கும் இலங்கையின் மீது போர்க்குற்றம் புரிந்ததற்கான குற்றச்சாட்டுகள் பெருகத் தொடங்கியதும் இலங்கை அரசே கண்துடைப்பு நடவடிக்கையாக (Lessons Learnt and Reconcialiation Commission) கற்ற படிப்பினைகள் மற்றும் சமரசத்துக்கான குழு என்ற ஒரு குழுவை ஏற்படுத்துகிறது. அந்த<a class="jce_file" title=" ஆணையம்," href="http://slembassyusa.org/downloads/LLRC-REPORT.pdf">&nbsp; ஆணையம்,</a> இலங்கை அதிபர் ராஜபக்ஷேவால் ஏற்படுத்தப் பட்ட குழு என்பது குறிப்பிடத் தக்கது.</p>
+<p>இலங்கையில் நடந்த போர்க்குற்றங்களை காட்சிகளாகப் பார்த்தவர்கள், இப்படிப்பட்ட ஒரு கொடுமைகளை அரங்கேற்றிய ஒரு அரசு, அதன் மீதே நியாயமான விசாரணை நடத்துமா என்பதை நன்றாகவே புரிந்திருப்பார்கள். அந்தக் குழு போரில் நடந்த மனித உரிமை, போர்க் குற்ற அத்துமீறல்கள் தொடர்பான குற்றச்சாட்டுகளை விசாரிக்கும் நோக்குடனோ அல்லது இப்போருக்கு அடிப்படையான காரணங்களை ஆராயவோ இந்த ஆணையம் அமைக்கப்படவில்லை. &nbsp;மாறாக, நடந்தது நடந்து விட்டது, அடுத்து என்ன செய்ய வேண்டும் என்ற தொனியிலேயே அந்த ஆணையம் நடைபெற்றது.</p>
+<p>இந்தச் சூழலில்தான் ஐக்கிய நாடுகளின் மனித உரிமை அவையில் அமெரிக்கா கொண்டு வரும் தீர்மானத்தைப் பார்க்க வேண்டும். அந்தத் தீர்மானம் சொல்வது என்ன ?</p>
+<p><img class="img-responsive" style="" src="/images/3106/A_HRC_19_L2_Page_1.jpg" alt="A_HRC_19_L2_Page_1" width="" height="" /></p>
+<p><img class="img-responsive" style="" src="/images/3106/A_HRC_19_L2_Page_2.jpg" alt="A_HRC_19_L2_Page_2" width="" height="" /></p>
+<p><span style="font-size: 10pt;"><em>Taking note</em> of the report of the Lessons Learnt and Reconciliation Commission of Sri Lanka and its findings and recommendations, and acknowledging its possible contribution to the process of national reconciliation in Sri Lanka,</span></p>
+<p>படிப்பினைகள் மற்றும் சமரசத்துக்கான குழுவின் கண்டுபிடிப்புகள் மற்றும் பரிந்துரைகளை ஏற்று, இலங்கையில் தேசிய அளவிலான சமரசத்துக்கான திட்டங்களை ஏற்று,</p>
+<p><span style="font-size: 10pt;"><em>Welcoming</em> the constructive recommendations contained in the Commission’s report, including the need to credibly investigate widespread allegations of extra-judicial killings and enforced disappearances, demilitarize the north of Sri Lanka, implement impartial land dispute resolution mechanisms, re-evaluate detention policies, strengthen formerly independent civil institutions, reach a political settlement on the devolution of power to the provinces, promote and protect the right of freedom of expression for all and enact rule of law reforms,</span></p>
+<p>அந்த சட்டவிரோதமான படுகொலைகளை விசாரிக்கவும், காணாமல் போனவர்களைப் பற்றி விசாரிக்கவும், வடக்குப் பகுதியில் ராணுவத்தைக் குறைக்கவும், சமரசம் செய்வதற்கான அமைப்புகளை ஏற்படுத்தவும், தடுப்புக் காவலில் வைக்கப்படுவது தொடர்பான சட்டங்களை மறுபரிசீலனை செய்யவும், ஏற்கனவே இருந்த சுதந்திரமான அமைப்புகளை சீரமைக்கவும், அதிகாரப் பகிர்வுக்கு வழிகோலவும், ஆணையத்தின் அறிக்கையில் இடம்பெற்றுள்ள ஆரோக்கியமான பரிந்துரைகள் வரவேற்கப் படுகின்றன.</p>
+<p><span style="font-size: 10pt;"><em>Noting with concern</em> that the report does not adequately address serious allegations of violations of international law,</span></p>
+<p>இந்த அறிக்கை இலங்கை சர்வதேச சட்டங்களை மீறியுள்ளது குறித்து சரியாக ஆராயாத காரணத்தால்,</p>
+<p><span style="font-size: 10pt;"><em>Calls upon</em> the Government of Sri Lanka to implement the constructive recommendations made in the report of the Lessons Learnt and Reconciliation Commission and to take all necessary additional steps to fulfil its relevant legal obligations and commitment to initiate credible and independent actions to ensure justice, equity, accountability and reconciliation for all Sri Lankans;</span></p>
+<p>இலங்கை அரசாங்கம் படிப்பினைகள் மற்றும் சமரசத்துக்கான குழுவின் அறிக்கையில் வழங்கப்பட்டுள்ள பரிந்துரைகளை முழுமையாக அமல்படுத்தவும், அனைவருக்கும் நீதி, சமத்துவம், மற்றும் சமரசம் ஏற்படுவதற்கு தேவையான நடவடிக்கைகளை எடுக்க வேண்டும் எனவும் இலங்கை அரசை கேட்டுக் கொள்கிறது.</p>
+<p><em>Requests</em> the Government of Sri Lanka to present, as expeditiously as possible, a comprehensive action plan detailing the steps that the Government has taken and will take to implement the recommendations made in the Commission’s report, and also to address alleged violations of international law;</p>
+<p>மேலும் இது போன்ற நடவக்கைகளை எடுப்பதற்கு தேவையான &nbsp;முயற்சிகளை எடுக்கவும், அந்தக் குழுவின் அறிக்கை அளித்துள்ள பரிந்துரைகளை முழுமையாக அமல்படுத்த தேவையான நடவடிக்கைகளை எடுக்கவும், சர்வதேச சட்ட மீறல்கள் தொடர்பான குற்றச்சாட்டுகள் குறித்து தேவையானவற்றை செய்யவும் இலங்கை அரசை வலியுறுத்துகிறது.</p>
+<p><span style="font-size: 10pt;"><em>Encourages</em> the Office of the United Nations High Commissioner for Human Rights and relevant special procedures mandate holders to provide, and the Government of Sri Lanka to accept, advice and technical assistance on implementing the above-mentioned steps, and requests the Office of the High Commissioner to present a report on the provision of such assistance to the Human Rights Council at its twenty-second session.</span></p>
+<p>ஐக்கிய நாடுகள் அவையின் மனித உரிமைப் பாதுகாப்புப் பிரிவு அலுவலகம், இது தொடர்பாக இலங்கை அரசை வலியுறுத்தவும், இலங்கை அரசுக்கு தேவையான ஆதரவையும், ஒத்துழைப்பையும் வழங்கவும், இது ஐக்கிய நாடுகள் அவையின் மனித உரிமை ஆணையத்தின் தொடர்பாக 22வது கூட்டத்தில் அறிக்கை ஒன்றை சமர்ப்பிக்கவும் வலியுறுத்தப் படுகிறது.</p>
+<p>இதுதான் அமெரிக்கா கொண்டு வந்துள்ள தீர்மானம்.&nbsp;&nbsp; இதில், இலங்கை அரசு மீதான போர்க்குற்றங்களுக்கான கண்டனமோ, சுதந்திரமான, சர்வதேச விசாரணை நடைபெற வேண்டும் என்பதற்கான வலியுறுத்தலோ எங்கே இருக்கிறது ?</p>
+<p>ஐக்கிய நாடுகள் அவை அமைத்த மூன்று நபர் விசாரணைக் குழு, இலங்கை அரசு, நடத்திய இன அழிப்புப் போர் குறித்து தயாரித்து வெளியிட்ட விரிவான அறிக்கையை அடிப்படையாக வைத்து, இலங்கை மீது விசாரணை நடத்த வேண்டும் என்று தீர்மானம் கொண்டு வந்தால், அதை உலக நாடுகள் ஆதரிக்க வேண்டும் என்று குரல் கொடுப்பதில் அர்த்தம் உள்ளது.&nbsp; ஆனால், அனைவரின் கண் முன்பாக ஆடுகளின் ரத்தத்தை உறிஞ்சிக் குடித்த ஓநாயே ஆடுகளுககாக விசாரணை நடத்த வேண்டும், ஆடுகளின் புணர்வாழ்வுக்கு உத்தரவாதம் செய்ய வேண்டும் என்று எடுத்து வரப்படும் ஒரு தீர்மானம், இலங்கையைப் பாதுகாப்பதற்காகவே அமெரிக்கா இந்த வேலைகளைச் செய்கிறதோ என்ற சந்தேகத்தை வலுவாக ஏற்படுத்துகிறது.</p>
+<p>தெற்காசிய பிராந்தியத்தில் வலுவாக கால் ஊன்ற இந்தியா கடும் எதிர்ப்பு தெரிவித்து வரும் சூழலில் இலங்கையில் கால் ஊன்றுவதன் மூலமாக, இந்தியாவையும், தெற்காசிய பிராந்தியத்தையும் தன் கட்டுக்குள் கொண்டு வரவதற்கான அமெரிக்காவின் முயற்சியோ என்ற சந்தேகமும் எழுகிறது.</p>
+<p>உலகெங்கும் அணு உலைகளுக்கு கடுமையான எதிர்ப்பு வலுத்து வருகிறது.&nbsp; இதனால், அமெரிக்காவில் உள்ள தனியார் அணு உலை அதிபர்கள் தங்கள் அணு உலைகளை விற்பனை செய்வதற்கு இடமில்லாமல் தவிக்கின்றனர்.&nbsp; இந்தியாவும், ரஷ்யாவோடு அணு உலை தொடர்பான ஒப்பந்தத்தில் உள்ளதால், இலங்கையோடு இணக்கமாக இருப்பதன் மூலம், இலங்கையை அணு உலை மற்றும் ஆயுதங்களுக்கான சந்தையாக மாற்ற அமெரிக்காவின் முயற்சியோ என்ற சந்தேகமும் எழுகிறது.</p>
+<p>ஆண்டாண்டு காலமாக உலகெங்கும் நடைபெற்று வரும் மனித உரிமை மீறல்களுக்கு காரணியாக விளங்கும் அமெரிக்கா, இலங்கையில் நடைபெற்ற இனப்படுகொலைக்கு மவுன சாட்சியாக விளங்கிய அமெரிக்கா, இனப்படுகொலைக்கு ஆயுதங்களை வழங்கி கூட்டாளியாக விளங்கிய இந்தியாவை கண்டிக்காத அமெரிக்கா, திடீரென்று தமிழர்கள் மீது கரிசனம் கொண்டு, இப்படி ஒரு தீர்மானத்தை எடுத்து வருவதே மிகப்பெரிய சதித்திட்டத்தின் ஒரு அங்கமோ என்ற சந்தேகத்தை ஏற்படுத்துகிறது.</p>
+<p>இப்படி ஒரு தீர்மானத்தை கொண்டு வருவதன் மூலம், இலங்கையையும் காப்பாற்றலாம், இந்தியாவையும் மகிழ்ச்சியாக வைத்திருக்கலாம், தனக்கும் கால் ஊன்ற ஒரு இடம் கிடைத்து விடும் என்ற சதியாலோசனையின் ஒரு பகுதியோ இந்தத் தீர்மானம் என்றே தோன்றுகிறது.</p>
+<p>தமிழர்களைக் கொல்ல ஆயுதங்களை இந்தியா வழங்கிக் கொண்டிருந்த போது, அதற்க ஆதரவளித்துப் பேசி வந்த காங்கிரஸ் கட்சியின் தலைவர்களே இந்தத் தீர்மானத்தை இந்தியா ஆதரிக்க வேண்டும் என்று கூறுவது இந்தச் சந்தேகத்தை மேலும் வலுப்படுத்துகிறது.</p>
+<p>உலகமே ஒன்று கூடி வஞ்சிக்கப் படும் இனமாக தமிழினம் மட்டும் மாறிப்போனது ஏன் என்ற கேள்விதான் விடை கிடைக்காமல் தடுமாறுகிறது.</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/3106/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/3106/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/3106/?share=facebook" title="Share on Facebook" id="sharing-facebook-3106"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/3106/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-3106"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/3106/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-3106"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/3106/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/3106/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/3106/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-3106-547511a98e1e3" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=3106&amp;origin=savukkunews.com&amp;obj_id=68584444-3106-547511a98e1e3" data-name="like-post-frame-68584444-3106-547511a98e1e3"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/3106/"
+    dc:identifier="http://savukkunews.com/3106/"
+    dc:title="இது நாடகமா ?"
+    trackback:ping="http://savukkunews.com/3106/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- உயிர் பயத்தில் நடுங்கிய ராஜபக்ஷே!</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2010/12/05/post358.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">உயிர் பயத்தில் நடுங்கிய ராஜபக்ஷே!</h1>
+			<p class="post-meta">Dec 5, 2010</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/358/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/358/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p><strong>காட்சி:1 </strong><span style="line-height: 24px;">இரு கைகளும் பின்னால் கட்டப்பட்ட நிலையில் அழைத்து வரப்படும் போராளிகள் ஓர் இடத்தில் தலைகுப்புறத் தள்ளப்படுகிறார்கள். சிங்கள&nbsp;</span><span style="font-weight: normal; line-height: 24px;">ஷூக்கள் அவர்களின் முதுகுகளை வெறித்தனமாக மிதிக்கின்றன. அடுத்த கணமே போராளிகளின் தலைகளைக் குறிவைத்து சிங்களர்கள் கண்மூடித்தனமாகச் சுடுகிறார்கள். தலை சிதறி, குலுங்கக்கூட சக்தியற்று போராளிகள் செத்து விழ. நம் ஈரக்குலையே இற்றுப்போகிறது.</span>
+</p>
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- இரு தலித்துகள்.</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2010/09/17/post33.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">இரு தலித்துகள்.</h1>
+			<p class="post-meta">Sep 17, 2010</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/33/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/33/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p>இரு தலித்துகள்.</p>
+<p>&nbsp;இந்தப் பதிவு இரண்டு தலித்துகளைப் பற்றியது.&nbsp;&nbsp; இரண்டு பேருமே உயர் அதிகாரிகள்.&nbsp;&nbsp;</p>
+<p>&nbsp;ஒருவர் 1990ல் பணிக்குச் சேர்ந்தவர். மற்றொருவர் 1988ல் பணிக்குச் சேர்ந்தவர்.</p>
+<p>&nbsp;ஒருவர் தமிழகத்தைச் சேர்ந்தவர். மற்றவர் உத்தரப் பிரதேசத்தைச் சேர்ந்தவர்.</p>
+<p>&nbsp;ஒருவர் நேர்மையின் பிறப்பிடம். மற்றவர் ஊழலின் உறைவிடம்.</p>
+<p> </p>
+<p>ஒருவர் ஊழலை வெளிக் கொண்டுவந்ததால் சர்ச்சையில் சிக்கியவர். மற்றவர் ஊழல் செய்து கொண்டிருப்பதால் உல்லாசமாக இருப்பவர்.</p>
+<p>ஒருவர் நான் இன்னமும் தலித்துதான். எப்பொழுதும் தலித்துதான் என்று சொல்லிக் கொள்பவர். மற்றவர், தலித் என்ற தன்னுடைய அடையாளத்தை மறைக்க விரும்புபவர்.</p>
+<p>ஒருவருக்கு நேர்மையானவர்கள் அனைவரும் கூட்டாளிகள். மற்றவர் நேர்மையற்றவரின் அடிமையாக இருப்பவர்.</p>
+<p>நேர்மையாக இருப்பவர் பழிவாங்கப் படுகிறார். ஊழல் பேர்விழி பதவி உயர்வு பெறுகிறார்.</p>
+<p>நேர்மையான அதிகாரி மீது ஊழல் குற்றச் சாட்டு. அதை ஊழல் பேர்விழி விசாரணை செய்கிறார்.</p>
+<p>பில்டப் போதும். நேர்மையான அதிகாரி உமாசங்கர், ஐஏஎஸ். ஊழல் பேர்விழி சுனில் குமார், ஐபிஎஸ்.</p>
+<p> </p>
+<p style="text-align: center;"><img class="img-responsive" src="/images/33/sunil_2.jpg" alt="sunil_2" width="" height="" style="" /></p>
+<p style="text-align: justify;">வழக்கமான சவுக்கு க்ளையண்டுகள் இல்லாமல் புது நபராக இருக்கும் இந்த ஐபிஎஸ் அதிகாரியைப் பற்றி தெரிந்து கொள்ள சவுக்கு வாசகர்கள் ஆர்வமாக இருப்பீர்கள்.</p>
+<p style="text-align: justify;">தற்பொழுது லஞ்ச ஒழிப்புத் துறையில் இணை இயக்குநராக உள்ளார் இந்த சுனில் குமார். உமாசங்கர் ஐஏஎஸ் அதிகாரி மீதான ஊழல் வழக்கை மேற்பார்வை செய்யும் பொறுப்பு இவரிடம் தான் உள்ளது.</p>
+<p><img class="img-responsive" style="" src="/images/33/uma-shankar-ias.jpg" alt="uma-shankar-ias" width="" height="" /></p>
+<p>நடிப்பில் நடிகர் திலகம் சிவாஜி கணேசனையே மிஞ்சும் அளவுக்கு கை தேர்ந்த நடிகர்.</p>
+<p style="text-align: justify;">இவரைப் பற்றித் தெரிந்தவர்கள் எல்லாம், சாரு ரொம்ப நேர்மையானவரு என்று சொல்லுவார்கள். ஆனால் இந்த கபட வேடதாரியின் முகத்திரையை கிழிக்கத் தானே சவுக்கு இருக்கிறது.</p>
+<p style="text-align: justify;">சுனில் குமாரின் தந்தை ஒரு ஐபிஎஸ் அதிகாரி. அவர் உத்தரப் பிரதேச மாநிலத்தில் பணியாற்றியவர். சுனில் குமாரின் தந்தை நேர்மையான போலீஸ் அதிகாரியாகவே இருந்தார்.</p>
+<p style="text-align: justify;">ஆனால் சுனில் குமார் அப்படி அல்ல. தொடக்க காலத்தில் நேர்மையாக இருக்க முயற்சி செய்து, அது வேஸ்ட் என்பது புரிந்து, வசூல் வேட்டையை தொடங்கி விட்டார்.</p>
+<p style="text-align: justify;">சுனில் குமார் செய்தியில் அடிபட்டது 2005ம் ஆண்டில். அப்போது சென்னை மாநகர காவல் துறையில் இணை ஆணையராக இருந்தார் சுனில் குமார்.</p>
+<p style="text-align: justify;">திமுக எம்எல்ஏக்கள் அண்ணா சாலையில் மறியலில் ஈடுபட்ட போது கைது செய்யப் பட்டு சென்னை சிந்தாதிரிப்பேட்டை காவல் நிலையத்தில் வைக்கப் பட்டிருந்தனர். அவர்களை காண, மு.க.ஸ்டாலின் வந்தார் அப்போது ஸ்டாலினை உள்ளே விடக் கூடாது என்று உத்தரவிடப் பட்டிருந்தது.</p>
+<p style="text-align: justify;">மு.க.ஸ்டாலின், காவல்துறையினரை தள்ளி விட்டு உள்ளே நுழைய முயன்றார். அப்போது அங்கே இருந்த சுனில் குமார், ஸ்டாலினை தடுத்தார். திடீரென்று ஆவேசமடைந்த ஸ்டாலின், சுனில் குமாரை பிடித்து தள்ளினார். தள்ளி விட்டு விட்டு உள்ளே நுழைந்தார் ஸ்டாலின்.</p>
+<p style="text-align: justify;">அங்கே குழுமியிருந்த பத்திரிக்கையாளர்கள் முன்பாகவே இந்த தள்ளு முள்ளு சம்பவம் நடந்தது.&nbsp;&nbsp; இச்சம்பவம் நடந்து முடிந்ததும், ஜெயலலிதாவுக்கு இத்தகவல் தெரிந்து, காவல்துறை அதிகாரியை பணி செய்ய விடாமல் தடுத்ததாக ஒரு வழக்கு பதிவு செய்ய உத்தரவிடுகிறார். அப்போது மாநகர காவல் ஆணையாளராக இருந்த விருமாண்டி, சுனில் குமாரிடம் ஒரு புகார் கேட்கிறார்.&nbsp;&nbsp; தேர்தலுக்கு ஒரு ஆண்டுக்கும் குறைவாக இருப்பதால், சுனில் குமார், கவனமாக காய் நகர்த்த வேண்டும் என்று முடிவு செய்து, புகார் தர மறுக்கிறார். முதலமைச்சரின் செயலாரே சுனில் குமாரை தொடர்பு கொண்டு கேட்டும், புகார் தர மறுக்கிறார். மறுத்ததால், சுனில் குமார் மாற்றப் பட்டு காத்திருப்போர் பட்டியலில் வைக்கப் படுகிறார்.</p>
+<p style="text-align: justify;">திமுக ஆட்சி வந்ததும், தன் மீது புகார் கொடுக்க மறுத்த சுனில் குமாரை பாராட்டும் விதமாக, மு.க.ஸ்டாலின், சுனில் குமாரை இணை ஆணையராக ஆக்குகிறார். இணை ஆணையராக இருந்த சுனில் குமார், ஐஜி பதவி உயர்வு கிடைத்ததும், சென்னை மாநகர போக்குவரத்து கூடுதல் ஆணையராக நியமிக்கப் படுகிறார்.</p>
+<p style="text-align: justify;">2008ல் கோவை ஆணையராக இருந்த சி.கே.காந்திராஜன் சில சிக்கல்களில் மாட்டிக் கொண்டதால், அவர் மாற்றப் பட்டு மனித உரிமை ஆணையத்திற்கு நியமிக்கப் படுகிறார்.&nbsp;&nbsp; ஒரு தலித் அதிகாரி இருந்த இடத்திற்கு மற்றொரு தலித் அதிகாரிதான் நியமிக்கப் பட வேண்டும் என்று (என்ன லாஜிக்கோ தெரியவில்லை) சுனில் குமார் நியமிக்கப் படுகிறார்.&nbsp;&nbsp;</p>
+<p style="text-align: justify;">கோவை கமிஷனர் பதவியாக இருந்தாலும் சுனில் குமாருக்கு சென்னையில் இருக்க வேண்டும் என்றுதான் ஆசை. ஏனெனில் அவரது மகன் ப்ளஸ் டூ படித்துக் கொண்டிருப்பதால், அருகில் இருந்து கவனித்துக் கொள்ள வேண்டும். ஆனால், கோவைக்கு ஒரு தலித் அதிகாரிதான் வேண்டும் என்பதால், காணு சரண் மகாளி என்ற பழங்குடியினத்தைச் சேர்ந்த ஒரு அதிகாரியை அப்பதவிக்கு பரிந்துரைக்கிறார் சுனில் குமார். அதன் படியே சுனில் குமார் மாற்றப் பட்டு லஞ்ச ஒழிப்புத் துறையின் இணை இயக்குநராக நியமிக்கப் படுகிறார்.</p>
+<p style="text-align: justify;">லஞ்ச ஒழிப்புத் துறையின் இணை இயக்குநராக நியமிக்கப் பட்டதிலிருந்தே சுனில் குமாருக்கு சுக்கிர திசைதான்.&nbsp;&nbsp; ஏனென்றால், தமிழ்நாட்டின் மிகப் பெரிய அதிகார மையமான ஜாபர் சேட்டின் கடைக்கண் பார்வை கிடைத்தது.&nbsp;&nbsp; இந்தப் பார்வை கிடைப்பதற்கு ஜாபர் சேட்டுக்கு தேவையானவற்றை செய்து கொடுத்தார் சுனில் குமார். தனது எதிரிகளான ஐபிஎஸ் அதிகாரிகள் பற்றி வரும் புகார்கள் என்ன, அதில் எடுக்கப் பட்டு வரும் நடவடிக்கைகள் என்ன, எப்படி நடவடிக்கை எடுக்க வேண்டும் என்பது போன்ற தகவல்களை உடனுக்குடன் சுனில் குமார் ஜாபர் சேட்டுக்கு வழங்கி வருகிறார்.</p>
+<p style="text-align: justify;">இதற்கு கைமாறாக, சுனில் குமார் கேட்டது, ஜாபர் சேட்டின் கடைக்கண் பார்வை. அது கிடைத்து விட்டது. அடுத்து, எந்த மகனின் ப்ளஸ் டூ படிப்புக்காக கோவை கமிஷனர் பதவியை விட்டுக் கொடுத்து விட்டு சென்னைக்கு மாறுதல் வாங்கிக் கொண்டு வந்தாரோ, அந்த மகன் ஒழுங்காக படிக்காமல் மார்க் குறைவாக வாங்கி விடுகிறான்.&nbsp;&nbsp; அவன் வாங்கிய மார்க்குக்கு, இருப்பதிலேயே மட்டமான பொறியியல் கல்லூரியில் கூட சீட் கிடைக்காத ஒரு சூழல் ஏற்பட்டது.</p>
+<p style="text-align: justify;">நேரடியாக ஜாபர் சேட்டை சந்தித்து, அய்யா எனது மகன் ஆபூர்வா குமார் மட்டமான மார்க்கை வாங்கி விட்டான். அவனை எப்படியாவது இன்ஜினியர் ஆக்க வேண்டும் தயவு செய்து உதவி செய்யுங்கள் என்று கேட்கிறார்.</p>
+<p style="text-align: justify;">ஜாபர் சேட், தமிழகத்தின் நிழல் முதல்வர் அல்லவா ? அவர் நினைத்தால் நடக்காதது எது ?&nbsp;&nbsp; அதிசயத்தை நிகழ்த்திக் காட்டுபவர் அல்லவா அவர் ? அப்படி ஒரு அதிசயத்தை நிகழ்த்திக் காட்டினார்.</p>
+<p style="text-align: justify;">அண்ணா பல்கலைகழகத்தில், கவர்மெண்ட் கோட்டா என்ற ஒன்று இருந்தது. அந்த கோட்டாவின் படி, அரசாங்கத்தில் யாரை சொல்லுகிறார்களோ, அவர்களுக்கு எந்தப் பிரிவில் வேண்டுமோ, அந்தப் பிரிவில் சீட் ஒதுக்கப் படும். அந்த சீட்டைப் பெறுவதற்கு எந்த விதமான தகுதி மதிப்பெண்ணும் இல்லை. வெறும் 35 மார்க் வாங்கி பாஸ் செய்திருந்தால் போதுமானது.&nbsp;&nbsp; இந்த கோட்டா 11.09.2007 அன்று சென்னை உயர்நீதிமன்றத்தால் ரத்து செய்யப் பட்டது.&nbsp;&nbsp; ரத்து செய்து உத்தரவிட்டு விட்டு, அந்த கல்வியாண்டுக்கு ஒதுக்கி வைக்கப் பட்டுள்ள அரசு கோட்டா இடங்களையும், நுழைவுத் தேர்வு மூலமாக நிரப்புமாறு உத்தரவிட்டது சென்னை உயர்நீதிமன்றம்.</p>
+<p style="text-align: justify;">அதற்குப் பிறகு 2008, 2009 ஆகிய ஆண்டுகளில் இந்த கோட்டா இல்லாமல், அண்ணா பல்கலைகழகத்தில் சேர்க்கைகள் முறையாக நடந்தது.</p>
+<p style="text-align: justify;">நீதிமன்றம் ரத்து செய்த பிறகும், அதே போல ஒரு கோட்டாவை உருவாக்கி சுனில் குமார் மகனுக்கு சீட் வாங்கி தருகிறார் என்றால் ஜாபர் சேட் நிகழ்த்தியது அதிசயம் தானே ?</p>
+<p style="text-align: justify;">அப்படி ஒரு அதிசயத்தை நிகழ்த்தி சுனில் குமாரின் மக்கு மகன் அபூர்வா குமார், அண்ணா பல்கலைகழகத்தில் Electronics and Communication Engineering முதலாண்டு சேர்ந்து படித்துக் கொண்டிருக்கிறார் என்பதை சவுக்கு மகிழ்ச்சியுடன் அறிவிக்கிறது.&nbsp; இது தவிர இந்த ஆண்டு மட்டும் இந்த கோட்டாவின் படி கருணாநிதிக்கு 30 சீட்டுகளும், கவர்னர் பர்னாலாவுக்கு 20 சீட்டுகளும் நீதிமன்ற உத்தரவை மதிக்காமல் ஒதுக்கப் பட்டிருப்பதாக தகவல்கள் கூறுகின்றன.</p>
+<p style="text-align: justify;">படிக்காத மக்கு மகனுக்கு இப்படி சீட் வாங்கிக் கொடுத்தவருக்கு நன்றியோடு இருக்க வேண்டுமா, வேண்டாமா ?</p>
+<p style="text-align: justify;">ஆயிரத்தில் ஒருவன் படத்தில், “நமக்கு வாய்த்த அடிமைகள் மிகவும் திறமைசாலிகள்“ என்று வருவது போலவே சுனில் குமார் ஜாபர் சேட்டுக்கு அடிமையாகவே மாறிப் போனார்.</p>
+<p style="text-align: justify;">தொலைபேசியில் வழக்குகளைப் பற்றி தகவல் சொல்லியது போக, அந்த வழக்கு கோப்புகளை எடுத்துக் கொண்டு நேரடியாகவே ஜாபர் சேட்டை சந்தித்து கோப்புகளை காண்பித்து வருகிறார் சுனில் குமார்.</p>
+<p style="text-align: justify;">கடந்த வாரம் மட்டும் 4 நாட்கள் ஜாபர் சேட் அறையில் லஞ்ச ஒழிப்புத் துறையின் பச்சை அட்டையில் இருக்கும் கோப்புகளோடு சுனில் குமார் இருந்திருக்கிறார்.</p>
+<p style="text-align: justify;">ஜாபர் சேட் அறையில் பொருத்தியிருக்கும் ஒட்டுக் கேட்பு கருவி அன்று சரியாக வேலை செய்யாததால், இருவரும் என்ன பேசினார்கள் என்று கேட்க இயலவில்லை.</p>
+<p style="text-align: justify;">லஞ்ச ஒழிப்புத் துறை என்பது ஒரு தன்னிச்சையான துறை. அத்துறையில் ஜாபர் சேட்டைப் பற்றிக் கூட புகார்கள் வரும். &nbsp;அத்துறையின் கோப்புகள் மிகவும் ரகசியமானவை. அந்தக் கோப்புகளை எடுத்துக் கொண்டு சென்று ஜாபர் சேட்டிடம் காட்டுகிறார் என்றால், சுனில் குமார் என்ற அடிமையின் விசுவாசத்தைப் பாருங்கள்.</p>
+<p style="text-align: justify;">இதில் வேடிக்கை என்னவென்றால், சுனில் குமார் என்ற அடிமை, தனக்குக் கீழ் பணியாற்றும் ஊழியர்களை அழைத்து, அலுவலக ரகசியங்கள் வெளியே செல்லுகின்றன, யாரென்று கண்டுபிடித்தால் கடுமையாக நடவடிக்கை எடுக்கப் படும் என்று மிரட்டுவது தான். இதைத்தான் சாத்தான் வேதம் ஓதுவது என்று சொல்லுகிறார்களோ ?</p>
+<p style="text-align: justify;">மற்றொரு அதிகாரியிடம் லஞ்ச ஒழிப்புத் துறையின் ரகசிய கோப்புகளை காட்டுவது என்பது, சுனில் குமாரை உடனடியாக சஸ்பெண்ட் செய்யும் அளவுக்கு மோசமான ஒரு குற்றம். ஆனால் லஞ்ச ஒழிப்புத் துறையின் இயக்குநர் போலா நாத், சுனில் குமாரின் வஞ்சகம் தெரியாமல் அவரை நம்பிக் கொண்டிருப்பதுதான், வேதனைக்குரிய விஷயம்.</p>
+<p style="text-align: justify;">இந்த சுனில் குமார் தற்போது லஞ்ச ஒழிப்புத் துறை ஊழியர்களுக்காக உருவாக்கப் பட்ட வீட்டு வசதி சங்கத்தில் இரண்டு வீட்டு மனைகள் கேட்டு விண்ணப்பித்திருப்பதாக தகவல்கள் கூறுகின்றன. இதில் என்ன தவறு இருக்கிறது ? ஒரு ஐஜி இரண்டு வீட்டு மனைகள் வாங்கக் கூடாதா என்று அறிவார்ந்த சவுக்கு வாசகர்கள் கேட்பீர்கள்.</p>
+<p style="text-align: justify;">வாங்கலாம் தான் தவறில்லை. லஞ்ச ஒழிப்புத் துறை வீட்டு வசதி கூட்டுறவு சங்கம் என்பது வீடோ நிலமோ இல்லாத ஊழியர்களுக்காக உருவாக்கப் பட்டது.&nbsp;&nbsp; சுனில் குமாருக்கு வீடோ நிலமோ இல்லையா ?&nbsp;&nbsp; கீழ்கண்டவைகள் மட்டும் தான் அவரிடம் இருக்கிறது.</p>
+<p style="text-align: justify;">வேலூர் மாவட்டம் ஏலகிரியில் சுனில் குமார் பெயரில் ஒரு ஏக்கர் நிலம்.</p>
+<ol>
+<li>மணப்பாக்கத்தில் இரண்டு கிரவுண்டுகள் நிலம்.</li>
+<li>காஞ்சிபுரம் மாவட்டம் தையூர் கிராமத்தில் குடும்பத்தினர் பெயரில் ஒரு ஏக்கர் நிலம்.</li>
+<li>சோழிங்கநல்லூரில் குடும்பத்தினர் பெயரில் நாலு கிரவுண்டுகள் நிலம்.</li>
+<li>காரப்பாக்கத்தில் குடும்பத்தினர் பெயரில் நாலு கிரவுண்டுகள் நிலம்.</li>
+<li>ஊட்டியில் மூன்று இடங்களில் தலா அரை ஏக்கர் நிலம் சுனில் குமார் குடும்பத்தினர் பெயரில் (மொத்தம் ஒன்றரை ஏக்கர்)</li>
+<li>குற்றாலத்தில் குடும்பத்தினர் பெயரில் 25 சென்ட்டுகள் நிலம்.</li>
+<li>ஓசூர் அருகே குடும்பத்தினர் பெயரில் ஒரு ஏக்கர் நிலம்.</li>
+<li>கோவைப்புதூரில் குடும்பத்தினர் பெயரில் 20 சென்ட்டுகள் நிலம்</li>
+</ol>
+<p style="text-align: justify;">குடும்பத்தினர், குடும்பத்தினர் என்று இங்கே குறிப்பிடுவது னில் குமாரின் மனைவி அல்ல. அவரது தந்தை, சகோதரர், தாய் ஆகியோர் பெயரில்தான் இந்தச் சொத்துக்கள் வாங்கப் பட்டுள்ளன.&nbsp;&nbsp; உத்தரப்பிரதேசத்தில் உள்ளவர்களுக்கு இங்கே எப்படி சொத்து வந்தது என்று அதிகப் பிரசிங்கித்தனமாக கேட்காதீர்கள் அய்யா.</p>
+<p style="text-align: justify;">ஓசூர் அருகே வாங்கியுள்ள நிலம் நகரத்தை விட்டு 5 கிலோ மீட்டர்கள் தொலைவில் உள்ளது. அந்த இடத்துக்குச் செல்ல பாதை இல்லாததால், அரசு நிலத்தை எழுதி கேட்டுள்ளனர் சுனில் குமார் போன்ற ஏழை பங்காளர்கள். இந்த கிராமத்தை லே அவுட் போட்டதே தர்மபுரி மாவட்ட ஆட்சியராக இருந்த மங்கத் ராம் சர்மா என்ற ஐஏஎஸ் அதிகாரிதான் என்பதால் உடனடியாக அரசு நிலங்களை சாலைக்காக வழங்க ஒப்புதல் கொடுத்து விட்டார்.</p>
+<p style="text-align: justify;">மணப்பாக்கம் வீடு கட்டுவதற்காக தற்போது அந்த இடத்தை விற்க முயற்சி செய்து கொண்டிருக்கிறார் சுனில் குமார். அந்த இடத்துக்கு அவர் சொல்லும் விலை 25 லட்சம். சவுக்கு வாசகர்கள் யாருக்காவது அந்த நிலம் வேண்டுமென்றால் கீழ்கண்ட முகவரியை அணுகவும்.</p>
+<address><strong><span style="font-family: arial black,avant garde; font-size: 14pt;"><code>Thiru.Sunil Kumar IPS </code></span></strong></address>
+<address><strong><span style="font-family: arial black,avant garde; font-size: 14pt;"><code>Joint Director</code></span></strong></address>
+<address><strong><span style="font-family: arial black,avant garde; font-size: 14pt;"><code>Vigilance and Anti-Corruption</code></span></strong></address>
+<address><strong><span style="font-family: arial black,avant garde; font-size: 14pt;"><code>NCB 22, P.S.Kumarasamy Raja Salai</code></span></strong></address>
+<address><strong><span style="font-family: arial black,avant garde; font-size: 14pt;"><code>Raja Annamalai Puram</code></span></strong></address>
+<address><strong><span style="font-family: arial black,avant garde; font-size: 14pt;"><code>Chennai. 600 028</code></span></strong></address>
+<p>சவுக்கு நண்பர் என்று சொன்னால், 25 லட்சத்தில் ஐம்பதோ நூறோ சுனில் குமார் குறைத்துக் கொள்வார்.</p>
+<p style="text-align: justify;">மணப்பாக்கத்தில் இரண்டு கிரவுண்டுகள் நிலம் பற்றி குறிப்பிட்டேன் அல்லவா ? அந்த நிலத்தில் ஒரு மிகப் பிரம்மாண்டமான பங்களாவை கட்டப் போகிறார் சுனில் குமார்.&nbsp;&nbsp; அதற்காக சென்னை நகரில் உள்ள மிகச் சிறந்த ஆர்க்கிடெக்ட் தேர்ந்தெடுக்கப் பட்டுள்ளார். இந்த கட்டுமானத்தின் மொத்த உத்தேச மதிப்பீடு ஒன்றரை கோடி. இவருக்கு ஏது ஒன்றரை கோடி ? இவருக்கு அவ்வளவு சம்பளம் இருக்காதே என்றெல்லாம் கேட்காதீர்கள். வருமானத்திற்கு அதிகமாக சொத்து சேர்க்கும் வழக்கெல்லாம், உமா சங்கரை போன்ற அதிகாரிகளுக்குத் தான். இவர்தான் லஞ்ச ஒழிப்புத் துறையிலேயே இருக்கிறாரே…. …? இவரை என்ன செய்வீர்கள்? 500 ரூபாய் லஞ்சம் வாங்கி மாட்டிக் கொண்ட ஏட்டையா, விஏஓக்கள் போன்றவர்களின் வழக்கில் முடிவெடுப்பது இந்த சுனில் குமார்தான் என்பது எப்படிப் பட்ட ஒரு கொடுமையான விஷயம் என்பதை யோசித்துப் பாருங்கள்.</p>
+<p style="text-align: justify;">சுனில் குமார் சார்.&nbsp;&nbsp; மணப்பாக்கம் வீடு கட்டுவதற்கு பணம் ஏதாவது குறைந்தால் கவலைப் படாதீர்கள். புகழேந்தி மீது ஜாபர் சேட் தொடர்ந்தது போல 50 லட்சம் கேட்டு மான நஷ்ட ஈடு வழக்கு தொடருங்கள்.&nbsp;&nbsp; சவுக்கு, ஜாபர் சேட்டுக்கு வாசகர்களிடமிருந்து நன்கொடை கேட்டது போல உங்களுக்கும் கேட்டு வசூல் செய்து தரும். சவுக்கின் வேண்டுகாளை ஏற்று வாசகர்கள் இது வரை ஜாபர் சேட்டுக்கு 275 ரூபாய் மணி ஆர்டர் அனுப்பியிருப்பதாக தகவல்கள் தெரிவிக்கின்றன.</p>
+<p style="text-align: justify;">இப்போது சவுக்கு வாசகர்கள் தேர்ந்தெடுங்கள், இரண்டு தலித்துகளில் யார் சிறந்த தலித் என்று.</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/33/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/33/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/33/?share=facebook" title="Share on Facebook" id="sharing-facebook-33"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/33/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-33"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/33/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-33"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/33/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/33/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/33/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-33-547517b581de4" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=33&amp;origin=savukkunews.com&amp;obj_id=68584444-33-547517b581de4" data-name="like-post-frame-68584444-33-547517b581de4"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/33/"
+    dc:identifier="http://savukkunews.com/33/"
+    dc:title="இரு தலித்துகள்."
+    trackback:ping="http://savukkunews.com/33/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

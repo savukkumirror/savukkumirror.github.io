@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- அன்றே சொன்னார்…</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2010/10/04/post104.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">அன்றே சொன்னார்…</h1>
+			<p class="post-meta">Oct 4, 2010</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/104/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/104/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p> </p>
+<p>அறிஞர் அண்ணா அன்றே சொன்னார், இந்தப் பதர்களைப் பற்றி, என்று கருணாநிதி தனது கடிதத்திலும், உரை வீச்சிலும் குறிப்பிடுவதைப் பார்த்திருப்பீர்கள்.</p>
+<p>இன்று தினமலர் நாளேட்டில் வந்த ஒரு செய்தியை காண்போம். பிறகு, இது பற்றி விவாதிப்போம்.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/104/04_10_2010_004_010.jpg" alt="04_10_2010_004_010" width="" height="" /></p>
+<p>செய்தி என்னவென்றால், கூடுதல் கட்டணம் வசூலித்த தனியார் பேருந்துகளை பொதுமக்களே சிறைப் பிடித்தனர். டீசல் விலை உயர்த்தப் பட்டதிலிருந்தே அமைதியாக உயர்த்தப் பட்டு வந்த கட்டணம், திடீரென்று 1.50 காசுகள் ஒரே நாளில் ஏற்றப் பட்டதால், ஆத்திரமடைந்த பொதுமக்கள் ஐந்து தனியார் பேருந்துகளை சிறைப் பிடித்தனர் என்பதுதான் அந்த செய்தி.</p>
+<p><a class="jce_file" title="“சவுக்கை முடக்கு.அடுத்த திட்டம்“" href="http://savukku.blogspot.com/2010/08/blog-post_22.html" target="_blank">&nbsp;“சவுக்கை முடக்கு.அடுத்த திட்டம்“</a>&nbsp; என்ற தலைப்பிட்ட பதிவில், சவுக்கு, கீழ்கண்ட தகவல்களை பதிவு செய்திருந்தது.&nbsp;</p>
+<p>&nbsp;“டீசல் விலை உயர்த்தப் பட்டதும் சென்னை தவிர இதர நகரங்களில் ஓடும் தனியார் பேருந்துகள் அரசு அனுமதி இல்லாமலேயே, 50 காசுகளை கூடுதலாக வசூல் செய்வது தெரிந்து நீங்களும், கர்ம வீரரும், போலிப் பாதிரியும் இணைந்து 1000 பஸ் அதிபர்களிடம் இருந்து ஒரு பெரிய அமவுண்ட்டை ஆட்டையயை போட&nbsp;&nbsp; வில்லை ? “</p>
+<p style="text-align: center;"><img class="img-responsive" src="/images/104/Jaffer7878_1.jpg" alt="Jaffer7878_1" width="" height="" style="" /></p>
+<p>&nbsp;இந்தப் பதிவை படித்ததும், பல்வேறு நண்பர்கள், அது எப்படி அரசு அனுமதி இல்லாமல் டிக்கட் விலையை உயர்த்த முடியும், இது தவறாக தகவல் என்றெல்லாம் சொன்னார்கள்.</p>
+<p>&nbsp;ஆனால் ஜாபர் சேட்டும், குருமாராஜும், போலிப் பாதிரியும் இணைந்து, தனியார் பேருந்து அதிபர்களிடம் வசூல் வேட்டையை நடத்திக் கொண்டிருந்ததையும், ஒரு பெரும் தொகை காகிதப் பூவின் மகளிடம் வழங்கப் படப் போவதாக கூறி வசூல் செய்து, இவர்கள் மூன்று பேருமே மொத்தத் தொகையையும் ஆட்டையை போட்டு விட்டார்கள்.</p>
+<p>&nbsp;இவர்கள் தான் தமிழ்நாட்டின் அறிவிக்கப் படாத அதிகார மையங்களாயிற்றே …&nbsp;&nbsp; இவர்களை கேள்வி கேட்பது யார் ?</p>
+<p>&nbsp;ஆனால் மக்கள் சக்தி என்று ஒன்று இருக்கிறதல்லவா ? தனியார் பேருந்து அதிபர்கள், ஜாபரை சரிக் கட்டி விட்டதாக இறுமாந்து இருக்கலாம். ஆனால் மக்களை சரிக் கட்டி விட முடியுமா ?</p>
+<p>&nbsp;இன்று அந்த பேருந்துகளை சிறைப் பிடித்த மக்கள், நாளை அந்த பேருந்து அதிபர்களை சிறைப் பிடித்தால், ஜாபர் சேட் நினைத்தால் கூட காப்பாற்ற முடியாது.</p>
+<p>&nbsp;கனிமொழி மேடம். உங்கள ரொம்ப புத்திசாலின்னு பல பேர் சொல்றாங்க.&nbsp;&nbsp; நீங்க ஸ்பெக்ட்ரம்ல ஒரு பெரிய அமவுண்ட்ட ஆட்டயப் போட்டதுமே, புத்திசாலி இல்லை. அதி புத்திசாலி என்பது புரிந்தது. ஆனால் இவ்வளவு புத்திசாலியான நீங்கள், உங்கள் பெயரைச் சொல்லி இப்படி ஒரு வசூல் வேட்டை நடத்தி உங்களுக்கு பங்கு கொடுக்காமல் இருப்பதை எப்படி அனுமதிக்கலாம் ?</p>
+<p> </p>
+<p style="text-align: center;"><img class="img-responsive" src="/images/104/4060247467_d225c319a2_o.jpg" alt="4060247467_d225c319a2_o" width="" height="" style="" /></p>
+<p> </p>
+<p>கோவிந்தராஜன் கமிட்டி பரிந்துரைகளை அமல்படுத்த மாட்டோம் என்று உறுதி கூறி, தனியார் பள்ளிகளிடமிருந்து வசூல் செய்ததில் ஒரு பெரும் பங்கை உங்களிடம் ஜாபர் சேட் கொடுத்தார் என்றதும், அந்த ஆளை அப்படியே நம்பி விடுவீர்களா ?</p>
+<p>&nbsp;பணம் என்றால், நீங்கள் உங்கள் அண்ணன் தம்பியை, ஏன் உங்கள் தகப்பனையே நம்ப மாட்டீர்கள் என்பது தெரியும். அப்படி இருக்கையில், இந்த வீணாப் போன ஜாபர் சேட்டை மட்டும் ஏன் நம்புகிறீர்கள் மேடம் ?</p>
+<p>இந்த ஆளையாவது ஒரு வகையில வச்சுக்கலாம். அந்தப் போலி பாதிரி இருக்கானே…. ஒரு கடைஞ்செடுத்த அயோக்கியன்.&nbsp;&nbsp; ஆனா, அவன் கூட நடத்துற விழாவிலயெல்லாம் கலந்துக்கறதப் பாத்தா&nbsp; &nbsp;அவன் உங்களுக்கு கரெக்டா பங்கு குடுக்குறான் போலத்தான் தெரியுது.</p>
+<p>என்னமோ மேடம். இந்தியாவிலேயே, மிகச் சிறந்த ஊழல் அரசியல்வாதின்னு தெரிஞ்சோ தெரியாமலோ நீங்க பேரு வாங்கிட்டீங்க. ஆயிரந்தான் இருந்தாலும், இந்தப் பெருமையும் தமிழ்நாட்டுக்கே வந்ததில் சவுக்குக்கு ஒரு பெருமை தான்.</p>
+<p>&nbsp;இப்படிப் பட்ட பெருமைக்கு சொந்தக் காரரான நீங்கள், இந்தப் பாதிரி, ஜாபர் சேட், குருமா ராஜ் ஆகிய மூன்று பேரிடமும், கவனமாக இருங்கள் என்று சவுக்கு உங்களை கேட்டுக் கொள்கிறது.</p>
+<p>&nbsp;தனியார் பேருந்து அதிபர்களிடம் கூடுதல் கட்டணம் வசூலிக்க அனுமதி கொடுத்து, பெரும் தொகையை ஜாபரும், மற்று இரண்டு அல்லக்கைகளும் பெற்றார்கள் என்ற அந்தப் பதிவு போட்ட நாள் ஆகஸ்ட் 22, 2010.</p>
+<p>&nbsp;அறிஞர் அண்ணா அன்றே சொன்னார் என்பது போல இல்லாவிட்டாலும், அன்னிக்கே கரீட்டா சொன்னாம்பா என்று சவுக்கை சொல்லலாம் தானே ?</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/104/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/104/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/104/?share=facebook" title="Share on Facebook" id="sharing-facebook-104"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/104/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-104"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/104/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-104"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/104/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/104/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/104/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-104-54751797a7378" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=104&amp;origin=savukkunews.com&amp;obj_id=68584444-104-54751797a7378" data-name="like-post-frame-68584444-104-54751797a7378"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/104/"
+    dc:identifier="http://savukkunews.com/104/"
+    dc:title="அன்றே சொன்னார்…"
+    trackback:ping="http://savukkunews.com/104/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

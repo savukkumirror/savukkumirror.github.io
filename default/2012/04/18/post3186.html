@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- போபால் .. &#8230; &#8230;</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2012/04/18/post3186.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">போபால் .. &#8230; &#8230;</h1>
+			<p class="post-meta">Apr 18, 2012</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/3186/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/3186/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p><img class="img-responsive" style="" src="/images/3186/Bhopal_Gas_Tragedy.jpg" alt="Bhopal_Gas_Tragedy" width="" height="" /></p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">வரலாற்றிலிருந்து பாடம் கற்றுக் கொள்ளாதவர்களை வரலாறு மன்னிப்பதில்லை.  வரலாற்றிலிருந்து பாடம் கற்றுக் கொள்ளாதவர்களே மீண்டும் மீண்டும் தவறுகளைச் செய்து வருகிறார்கள்.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">இந்தியா என்றுமே மறக்கக் கூடாத வரலாறு போபால்.   இயற்கை பேரழிவுகளால் உயிர்கள் பலியாவதை நாம் தவிர்க்க முடியாது.  ஆனால், மனிதன் தானாக தனக்கு விதைத்துக் கொண்ட வினையை மறக்கவே கூடாது.   அது போல மனிதன் தானாக விதைத்துக் கொண்ட வினைகளில் ஒன்றுதான் போபால் விஷவாயு விபத்து.   25 ஆண்டுகள் கடந்து, இன்றும் அப்பகுதி மக்களை மீளாத்துயருக்கு ஆளாக்கியதுதான் போபால் விபத்து.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">இன்று கூடங்குளம் அணு உலைக்கு ஆதரவாக பல்வேறு தரப்பினரும் பேசி வரும் நிலையில், போபால் விபத்து குறித்து, ஒரு விரிவான பார்வையை ஏற்படுத்துவது அவசியம் என்று தோன்றுகிறது.  கூடங்குளம் அணு உலை பாதுகாப்பானது, 100 சதவிகிதம் ஆபத்தே இல்லாதது, விபத்து நிகழ வாய்ப்பே இல்லை என்று விஞ்ஞானிகள் வரிசையில் நின்று உத்தரவாதம் கொடுத்து வருகின்றனர்.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">இதே போலத்தான் யூனியன் கார்பைடு நிறுவனமும் சொல்லியது.   அமெரிக்காவில் தொழிற்சாலை நடத்தி வந்த யூனியன் கார்பைடு நிறுவனம், எங்கள் நிறுவனத்தைப் போல பாதுகாப்பான நிறுவனம் உலகிலேயே கிடையாது என்று மார்தட்டியது.   அப்படிப்பட்ட நிறுவனத்தின் தொழிற்சாலைதான், 25 ஆயிரம் பேரைக் கொன்று குவித்தது.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">100 சதவிகிதம் பாதுகாப்பாக இருக்கும் ஒரு நிறுவனத்தில் விபத்து எப்படி நடக்கும் ?  எப்படி நடக்கும் என்றால், 100 சதவிகிதம் பாதுகாப்பான ஒரு தொழிற்சாலை உலகில் இருக்கவே முடியாது.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">யூனியன் கார்பைடு தொழிற்சாலை எப்படி உருவானது, எந்தப் பின்னணியில் அது இந்தியாவுக்கு அழைத்து வரப்பட்டது, விபத்து நடந்ததற்கான காரணம் என்ன என்பது போன்ற பல்வேறு விபரங்களை அறிந்து வைத்துக் கொண்டு, அதன் பின் நாம் கூடங்குளம் அணு உலைக்கு ஆதரவு தருவதே நியாயமாக இருக்கும்.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">இந்த அடிப்படையில், போபால் விபத்து குறித்து, தொடர் கட்டுரை வெளியிடலாம் என்று உத்தேசிக்கப்பட்டுள்ளது.    சவுக்கு வாசகர்களிடம், இத்தொடருக்கு  இருக்கும் வரவேற்பைப் பொறுத்து தொடர் வெளியிடப்படுவது தொடரும்.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2; text-align: center;"><span style="color: #0000ff; font-size: 14pt;">போபால் 1</span></p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2; text-align: center;"><span style="color: #ff0000; font-size: 14pt;">ராணிகளின் நகரம். .</span></p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">பதினோராம் நூற்றாண்டல் வாழ்ந்த போஜ மன்னரால் போபால் நகரம் உருவாக்கப்பட்டது என்று ஒரு கருத்து உள்ளது.   போஜ் மன்னரின் பெயரால் போஜ்பால் என்று அழைக்கப்பட்ட நகரம், பின்னர் போபால் என்று மருவியது என்று ஒரு சில வரலாற்றாசிரியர்கள் கருதுகிறார்கள்.   இல்லை இல்லை.  பூபால் என்ற பெயிரிலிருந்து உருவானதுதான் போபால் என்று கூறுவோரும் உண்டு.   பிரிட்டிஷார் ஆட்சிக் காலத்தில் அச்சிடப்பட்ட ரயில் டிக்கெட்டுகளில் இந்நகரத்தின் பெயர் பூபார் என்று குறிப்பிடப்பட்டுள்ளது.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">17 மற்றும் 18ம் நூற்றாண்டில்தான் போபால் நகரம் முழுமையாக உருவாகிறது.  ஆப்கான் சாம்ராஜ்யத்தின் தளபதியாக இருந்த தோஸ்த் முகம்மது கான் அவுரங்கசீப் படையில் இருந்தார். அவுரங்கசீப் மறைந்த பிறகு, ஒரு குறுநில மன்னனாக தன்னை நிலைநிறுத்திக் கொண்ட தோஸ்த் முகம்மது கான், கோன்ட்  மகாராணி கமலாபதியிடமிருந்து, அவருக்கு படை அனுப்பி உதவி செய்ததற்காக போபால் நகரத்தை கூலியாகப் பெறுகிறார்.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">1728ல் இறக்கும் தோஸ்த் முகம்மது கானுக்குப் பிறகு, போபால் நகரம் நிஜாம்மின் ஆட்சியின் கீழ் வருகிறது.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">1819 முதல் 1926 வரை, போபால் நகரம் நான்கு ராணிகளால் ஆளப்படுகிறது.  பெண்கள் ஆட்சி புரிய வாய்ப்பு அளிக்கப்டுவது அபூர்வமான அந்தக் காலகட்டத்தில்  நான்கு பெண்கள் போபாலை தொடர்ந்து ஆண்டது, சிறப்பான ஒரு விஷயமாகும்.   குத்சியா பேகம் என்பவர்தான் முதல் மகாராணி.  அவரைத் தொடர்ந்து அவர் மகள் சிக்கந்தர் பேகம் ஆட்சி செய்தார்.  அவரது மகளான ஷாஜகான் பேகத்தின் ஆட்சிக்குப் பின் அவரது மகள் சுல்தான் ஜஹான் பேகம் ஆட்சி செய்தார்.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">இசுலாமியப் பெண்கள் பர்கா அணியும் கட்டாயம் இருந்ததால், அப்பெண்கள் பர்கா அணியாமல் சுதந்திரமாக  கடைவீதிக்குச் சென்று வர வேண்டும் என்பதற்காக, பெண்களுக்கென்று பிரத்யேகமான ஷாப்பிங் காம்ப்ளெக்ஸ் ஒன்றைக் கட்டினார் சுல்தான் ஜஹான் பேகம்.   அவர் பெண்களுக்கென்று நிறுவிய ஒரு அமைப்புதான் போபால் பெண்கள் அமைப்பு (Bhopa; Ladies Club).   பெண்களுக்கான பிரத்யேகமான வணிக வளாகத்திற்கு, சுல்தான் ஜஹான் பேகமும், அவ்வப்போது வந்து செல்வதுண்டு.   சுல்தான் ஜஹான் பேகத்தின் மீது, பிரிட்டிஷ் ஆட்சியாளர்கள் மிகுந்த மரியாதை வைத்திருந்தனர்.   பிரிட்டிஷ் மன்னர் ஐந்தாம் ஜார்ஜ் இங்கிலாந்தில் நடைபெற்ற விழாவுக்கு  சுல்தான் ஜஹான் பேகத்தை சிறப்பு விருந்தினராக அழைத்ததும், போபால் நகர அரசு விழாவுக்கு , வேல்ஸ் இளவரசர் வருகை தந்ததும், இதற்கு முக்கிய சான்று.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">சுல்தான் ஜஹான் பேகத்தின் அரசவைக்கு பெர்சியா, ஆப்கானிஸ்தான் போன்ற நாடுகளில் இருந்து புலவர்களும், அறிஞர்களும் வருகை தருவார்கள்.  இவரது ஆட்சிக் காலத்தில், மாலை நேரத்தில் முஷைரா எனப்படும் கவி பாடும் அரங்கங்கள் மிகப் பிரசித்தம்.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">இந்த நான்கு மகாராணிகளின் ஆட்சிக் காலத்தில்  போபால் நகரத்துக்கு குடிநீர் வசதி, தபால் மற்றும் ரயில் வசதித்திட்டங்கள் செயல்படுத்தப் பட்டுள்ளன.   போபால் உள்ளாட்சி அமைப்பும் இவர்கள் காலத்தில்தான்  ஏற்படுத்தப் பட்டுள்ளன.  ஐதராபாத் நிஜாமின் சாம்ராஜ்யத்தை அடுத்து, இந்தியாவில் பெரிய முஸ்லீம் சாம்ராஜ்யமாக விளங்கியது போபால் நகரம்தான்.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">கடைசி ராணி சுல்தான் ஜஹான் பேகத்தைத் தொடர்ந்து போபால் நகரின் ஆட்சிப் பொறுப்பு அவரது மகன் ஹமீதுல்லா கானிடம் வருகிறது.   1947ல்  இந்தியா சுதந்திரம் அடைந்ததைத் தொடர்ந்து கடைசி நவாப் ஹமீதுல்லா கான், போபால் நகரத்தை மட்டும், தனி நாடாக இந்திய ஆளுகையின் கீழ் தொடர்ந்து ஆட்சி செய்ய அனுமதி வேண்டும் என்று மார்ச் 1948ல் கோருகிறார்.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;"><img class="img-responsive" style="" src="/images/3186/434px-Nawab_hmidulla_khan.jpg" alt="434px-Nawab_hmidulla_khan" width="" height="" /></p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2; text-align: center;"><strong><span style="color: #000080; font-size: 10pt;">போபாலின் கடைசி நவாப் ஹமீதுல்லா கான்</span></strong></p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">இவரது கோரிக்கையைத் தொடர்ந்து போபால் நகரம் முழுக்க கலவரம் வெடிக்கிறது.  மக்கள், நவாப்பின் ஆட்சியை எதிர்த்து போராடுகிறார்கள்.  இந்தப் போராட்டத்தில் முன்னணியில் இருந்தவர், முன்னாள் குடியரசுத் தலைவர் சங்கர் தயாள் சர்மா.  மக்கள் போராட்டத்துக்கு மரியாதை கொடுத்த இந்திய அரசு, 30 ஏப்ரல் 1949 அன்று, போபால் நகரத்தை இந்தியாவோடு இணைக்கும் ஒப்பந்தத்தில், நவாப்போடு கையெழுத்து போடுகிறது.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">1956ல் மாநில மறுசீரமைப்பு மற்றும் மொழிவாரி மாகாணங்கள் பிரிக்கப்படுகையில், போபால், மத்திய பிரதேசத்தின் தலைநகராக அறிவிக்கப் படுகிறது.  இஸ்லாமியக்  கலாச்சாரத்தின்  மிக முக்கிய அடையாளமாக போபால் திகழ்கிறது.</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">கவிதையும், கலாச்சாரமும், பாரம்பரியச் செழுமையும் கொண்ட போபால் நகரம், உலகின் மோசமான தொழிற்சாலை விபத்தை சந்தித்தது காலத்தின் கோலமே. .</p>
+<p style="line-height: 0.2in; widows: 2; orphans: 2;">தொடரும்.. .</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/3186/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/3186/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/3186/?share=facebook" title="Share on Facebook" id="sharing-facebook-3186"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/3186/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-3186"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/3186/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-3186"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/3186/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/3186/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/3186/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-3186-547511889359e" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=3186&amp;origin=savukkunews.com&amp;obj_id=68584444-3186-547511889359e" data-name="like-post-frame-68584444-3186-547511889359e"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/3186/"
+    dc:identifier="http://savukkunews.com/3186/"
+    dc:title="போபால் .. . ."
+    trackback:ping="http://savukkunews.com/3186/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

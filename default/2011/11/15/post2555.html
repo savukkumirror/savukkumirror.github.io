@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- ஆறு மாதங்கள்….</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2011/11/15/post2555.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">ஆறு மாதங்கள்….</h1>
+			<p class="post-meta">Nov 15, 2011</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/2555/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/2555/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p>அதிமுக அரசு பதவியேற்று ஆறு மாதங்கள் ஆகி விட்டன.&nbsp;&nbsp; புதிதாக பொறுப்பேற்ற அரசை ஆறு மாதங்கள் கழித்தே விமர்சனம் செய்ய வேண்டும் என்று எடுத்திருந்த முடிவை, முதல் வாரத்திலேயே மாற்றியது ஜெயலலிதா அரசு சமச்சீர் கல்வி தொடர்பாக எடுத்த முடிவு.</p>
+<p> </p>
+<p>தேர்தல் வாக்குறுதிகளை நிறைவேற்றுவதில் ஜெயலலிதா காட்டும் முனைப்பு பாராட்டத்தக்கது.&nbsp;&nbsp; &nbsp;மாணவர்களுக்கு இலவச லேப்டாப் வழங்கும் திட்டம் சிறப்பான திட்டமாக இருந்தாலும், அடுத்த ஐந்தாண்டுகளில் 70 லட்சம் லேப்டாப்புகளை கொள்முதல் செய்யும் ஒரு அரசு, வைரஸ் தொந்தரவுகள் குறைவாக உள்ள இலவச மென்பாருளான லைனக்ஸ் மென்பொருளை பயன்படுத்தாமல், வின்டோஸ் மென்பொருள் உள்ள லேப்டாப்புகளை வாங்குவது, அமெரிக்க வெளியுறவுத் துறை அமைச்சர் ஹிலாரி க்ளின்டனின் வருகையோடு தொடர்புள்ளதோ என்ற சந்தேகத்தை ஏற்படுத்துகிறது. அரசு நிறுவனமான எல்காட்டின் செர்வர்களே லைனக்ஸ் ஆபரேட்டிங் சிஸ்டத்தை பயன்படுத்தும் போது, மாணவர்களுக்கு மட்டும் எதற்காக விண்டோஸ்.&nbsp;</p>
+<p><img class="img-responsive" style="" src="/images/2555/July---20-d.jpg" alt="July---20-d" width="" height="" /></p>
+<p>மைக்ரோசாப்ட் நிறுவனம் தன் வாடிக்கையாளர்களை தொடர்ந்து பல்வேறு பொருட்களை வாங்குவதற்கும், தொடர்ந்து ஆன்டி வைரஸ் மென்பொருட்களை நம்பி இருப்பதற்கும் நிர்பந்திக்கும் ஒரு நிறுவனம் என்பது கணினி பயன்படுத்தும் அனைவருக்கும் தெரியும்.</p>
+<p> </p>
+<p>லேப்டாப் கொள்முதல் செய்வதற்காக முதலில் விடப்பட்ட டெண்டரில் 320 ஜிபி ஹார்ட் டிஸ்க், வைஃபை, வெப் கேம் வசதிகள் இருந்தன.&nbsp; மைக்ரோசாப்ட் மென்பொருட்களை வாங்குவதற்காக, இரண்டாவதாக வெளியிடப்பட்ட டெண்டரில், வைஃபை, வெப்கேம் வசதிகள் நீக்கப் பட்டன.&nbsp; ஹார்ட் டிஸ்க் 320 ஜிபியிலிருந்து 160 ஜிபியாக குறைக்கப் பட்டது.&nbsp;&nbsp; வெளிப்படையான நிர்வாகம் வேண்டும் என்று அறிவிக்கும் ஜெயலலிதா, இந்த விவகாரத்தில் அமெரிக்காவின் நிர்பந்தத்திற்கு பணிந்து விட்டாரோ என்று எண்ணத் தோன்றுகிறது.&nbsp; வைஃபை வசதி இல்லாத லேப்டாப் எதற்கு பயன்படும் ?&nbsp; இணைய வசதியை மாணவர்களுக்கு எப்படிக் கொடுப்பார்கள் ?&nbsp;</p>
+<p><img class="img-responsive" style="" src="/images/2555/Microsoft_Sign_on_German_campus.jpg" alt="Microsoft_Sign_on_German_campus" width="" height="" /></p>
+<p>மாணவர்களுக்கு லேப்டாப் கொடுப்பதற்காக இந்தத் திட்டமா, அல்லது மைக்ரோசாப்ட் நிறுவனத்துக்கு லாபம் சம்பாதித்துக் கொடுப்பதற்காக இந்தத் திட்டமா என்று சந்தேகமாக இருக்கிறது ?</p>
+<p> </p>
+<p>ஆட்சிக்கு வந்த ஒரே மாதத்தில் மின்வெட்டை நீக்குவேன் என்று அறிவித்த அதிமுக அரசு, ஆறு மாதங்களைக் கடந்தும் இன்றும் மின்வெட்டு தொடர்ந்து நடந்து வருகிறது.</p>
+<p> </p>
+<p>சமச்சீர் கல்வியைத் தொடர்ந்து ஜெயலலிதா அரசு எடுத்த நடவடிக்கைகள் பல நீதிமன்றத்தால் தடுத்து நிறுத்தப் பட்டிருப்பது இந்த அரசுக்கு ஒரு கரும்புள்ளியாகவே இருக்கிறது.&nbsp; அண்ணா நூற்றாண்டு நூலகக் கட்டிடத்தை மாற்றும் திட்டம் ஒரு சிறந்த உதாரணம்.&nbsp; சென்னையில் உள்ள 60 ஆண்டுகள் பழமையான குழந்தைகள் மருத்துவமனைக்கு தேவையான வசதிகளை செய்து தருவதை விட்டு விட்டு, ஒரு அழகான நூலகத்தை மாற்ற உத்தேசித்தது பொதுமக்களிடையே அதிமுக அரசின் மீது கடும் அதிருப்தியை உருவாக்கியது.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/2555/May_16_a.jpg" alt="May_16_a" width="" height="" /></p>
+<p>சமச்சீர் கல்வியில் ஜெயலலிதா காட்டிய பிடிவாதமும் பொதுமக்களிடையே அதிருப்தி மட்டுமல்லாது கோபத்தை ஏற்படுத்தியது.&nbsp;&nbsp; சென்னை உயர்நீதிமன்றம் அளித்த ஒரு விரிவான ஆழமான தீர்ப்பையும் சட்டை செய்யாமல் உச்ச நீதிமன்றத்தில் மேல் முறையீடு செய்து, இரண்டு மாத காலமாக குழந்தைகளை படிக்க விடாமல் தடுத்த செயலை யாரும் ரசிக்கவில்லை.</p>
+<p> </p>
+<p>மக்கள் நலப்பணியாளர்கள் நீக்கமும் பரவலான எதிர்ப்பையே சந்தித்துள்ளது.&nbsp; இது போன்ற நடவடிக்கைகளை எடுப்பதன் மூலமாக ஜெயலலிதா திமுகவை வளர்ப்பதற்கே உதவி செய்கிறார்.&nbsp; மக்கள் நலப்பணியாளர்கள் நீக்கத்திற்கு எதிராக இன்று சென்னையில் நடந்த ஆர்ப்பாட்டத்தில் பங்கேற்ற திமுகவினரை பார்க்கும் போது இந்தக் கருத்து வலுப்பெறுகிறது.&nbsp;&nbsp; குடும்பச் சண்டையிலும், ஊழல் புகார்களிலும் உழன்று கொண்டிருக்கும் ஒரு கட்சிக்கு இப்படி வாழ்வளிப்பது எப்படிப்பட்ட அரசியல் என்பது புரியவில்லை.</p>
+<p> </p>
+<p>மேலும், ஜெயலலிதா திமுக அரசின் வழக்கறிஞர் பிரிவை குறைத்து மதிப்பிடுகிறார்.&nbsp;&nbsp; திமுக வழக்கறிஞர் பிரிவு, அதிமுக வழக்கறிஞர் பிரிவைப் போல மங்குணிப் பிரிவு அல்ல. &nbsp;கடந்த திமுக ஆட்சியில் நடந்த அத்தனை அட்டூழியங்களுக்கும் எதிராக ஒரு வழக்கைக் கூட அதிமுக அணி போடவில்லை என்பது ஊரறிந்த உண்மை.&nbsp; ஆனால் நில அபகரிப்பு வழக்குகள் உட்பட, அத்தனை வழக்குகளிலும், திமுக வழக்கறிஞர்கள் எப்படித் துடிப்பாக செயல்படுகிறார்கள் என்பதை ஜெயலலிதா கவனத்தில் கொள்ள வேண்டும்.</p>
+<p> </p>
+<p>மூன்று தமிழர்களை தூக்கிலிருந்து காப்பாற்றுவதற்கு மிகச் சிறப்பான ஒரு தீர்மானத்தை இயற்றி விட்டு, அவர்கள் மரண தண்டனையை ரத்து செய்யக் கோரிய வழக்கில், பதில் மனு தாக்கல் செய்கையில், சட்டமன்றத்தில் இயற்றிய தீர்மானத்தைப் பற்றி ஒரு வரி கூட சொல்லாமல், அவர்கள் வழக்கை தள்ளுபடி செய்ய வேண்டும் என்று எடுத்திருக்கக் கூடிய நிலைபாடு, சட்டமன்றத் தீர்மானத்தின் உண்மைத் தன்மையை கேள்விக்கு உள்ளாக்குகிறது.</p>
+<p> </p>
+<p>அதிமுக ஆட்சியில் மிகப் பெரிய கரும்புள்ளியாக அமைந்த ஒரு விஷயம் பரமக்குடி துப்பாக்கிச் சூடு சம்பவம்.&nbsp; ஜெயலலிதா அரசு என்றாலே, காவல்துறையினருக்கு கொண்டாட்டம் தான்.&nbsp; மனித உரிமை மீறல்களை அரங்கேற்றுவதில் எப்போதுமே முன்னணியில் உள்ள காவல்துறை, ஜெயலலிதா ஆட்சிக்கு வந்தால் அந்த மீறல்களை சற்றே துணிச்சலோடு செய்யும்.&nbsp; இந்தக் கருத்து, பரமக்குடி சம்பவத்திலும் உறுதி செய்யப் பட்டிருக்கிறது.&nbsp;</p>
+<p><img class="img-responsive" style="" src="/images/2555/43.jpg" alt="43" width="" height="" /></p>
+<p>கண்துடைப்புக்காக ஒரு விசாரணைக் கமிஷனை போட்டு விட்டு, அந்த அதிகாரிகளை பணி இடைநீக்கம் செய்ய வேண்டும் என்று தமிழக மக்கள் உரிமைக் கழகம் தொடர்ந்த வழக்கில் அவர்களைக் காப்பாற்றுவதற்கான எல்லா நடவடிக்கைகளையும் எடுக்கிறது அதிமுக அரசு. &nbsp;&nbsp;பரமக்குடி சம்பவத்தில் பாதிக்கப் பட்ட மக்களை சந்திக்க மு.க.ஸ்டாலின் சென்ற போது அவருக்கு கிடைத்த மிகச் சிறப்பான வரவேற்பு இதற்கு ஒரு முக்கியச் சான்று.</p>
+<p> </p>
+<p>ஊழல் தடுப்பு நடவடிக்கைகளில் ஜெயலலிதா அரசின் நடவடிக்கைகள் சிறப்பாகவே இருக்கின்றன. குறிப்பாக டிஎன்பிஎஸ்சியில் நடந்த முறைகேடுகள் தொடர்பாக வழக்கு பதிவு செய்து நடத்தப் பட்ட சோதனைகள் மக்களிடையே பெரும் வரவேற்பை பெற்றுள்ளது.&nbsp;&nbsp; திமுக அமைச்சர்கள் மற்றும் முக்கியப் பிரமுகர்களுக்கு எதிராக தொடரப்பட்டு வரும் சொத்துக் குவிப்பு வழக்குகளும் சிறப்பானவையே…..&nbsp; ஆனால் இந்த வழக்குகளை சிறப்பு நீதிமன்றம் அமைத்து நீதிமன்ற விசாரணையை துரிதப் படுத்தினால் மட்டுமே இந்தத் தொடக்கம் சிறப்பாக அமையும்.&nbsp;&nbsp;&nbsp; இன்னும் ஏராளமாக சொத்துக்களை குவித்திருக்கும் மற்ற திமுக பிரமுகர்கள் மீதும் லஞ்ச ஒழிப்புத் துறை வழக்கு தொடர்ந்தால், அது&nbsp; மக்களிடையே வரவேற்பை பெறும் என்பதில் சந்தேகம் இல்லை.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/2555/DSC_0106.jpg" alt="DSC_0106" width="" height="" /></p>
+<p style="text-align: center;"><span style="color: #ff0000; font-size: 12pt;">டிஎன்பிஎஸ்சி தலைவர் செல்லமுத்து வீட்டில் நடந்த சோதனையின் போது</span></p>
+<p>புதிய தலைமைச் செயலக கட்டுமானத்தில் நடைபெற்ற ஊழலை விசாரிப்பதற்கு ஒரு விசாரணை ஆணையத்தை அமைத்து விட்டு, அந்த ஆணையத்தின் தலைவராக ஒரு ஊழல் பெருச்சாளியை நீதிபதியாக நியமித்திருப்பது இந்த ஆணையத்தின் நோக்கம் என்ன என்ற கேள்வியை எழுப்புகிறது.&nbsp; விசாரணை தொடங்கி இந்நேரம் இறுதிக் கட்டத்தை நெருங்கியிருக்க வேண்டிய விசாரணை, தங்கராஜ் என்ற ஒரு ஊழல் பெருச்சாளியை நீதிபதியாக நியமித்ததால் இன்று உயர்நீதிமன்ற வழக்கில் உழன்று கொண்டிருக்கிறது.</p>
+<p> </p>
+<p>நில அபகரிப்புக்கென்று தனிப் பிரிவை அமைத்து, அந்தப் பிரிவு பொதுமக்களிடமிருந்து புகார்களை வாங்கி நடவடிக்கை எடுப்பது ஜெயலலிதா அரசின் மற்றொரு சிறப்பான நடவடிக்கை.&nbsp; பழிவாங்கும் நடவடிக்கை என்று திமுக கூப்பாடு போட்டாலும், புகார் கொடுப்பவர்கள் யாரும் கட்சிக்காரர்கள் அல்லவே….. திமுக ரவுடிகளிடம் நிலத்தை இழந்து, காவல்துறையினரிடம் புகார் கொடுத்தாலும் நடவடிக்கை எடுக்காததால் செய்வதறியாது திகைத்த பொதுமக்களே ஆயிரக்கணக்கில் புகார் கொடுத்து வருகிறார்கள்.&nbsp; வழக்கறிஞர் புகழேந்தியிடம் வந்த ஒரு புகாரே இதற்கு உதாரணம்.&nbsp;&nbsp; சென்யை, ஷெனாய் நகரில் 50 ஆண்டுகளாக குடியிருந்த ஒரு குடும்பத்தை மதுரையைச் சேர்ந்த தளபதி என்பவர், அந்த இடம் தங்களுக்குச் சொந்தம் என்று வந்து மிரட்டினார்.&nbsp; அவருக்கு ஆதரவாக தற்போது குண்டர் சட்டத்தில் சிறையில் இருக்கும் ப.ரங்கநாதனும், கவுரிசங்கரும் வந்து மிரட்டினார்கள்.&nbsp;&nbsp; இவர்கள் கையாண்ட அடுத்த தந்திரம் என்ன தெரியுமா ? &nbsp;&nbsp;அப்போது அண்ணா நகர் துணை ஆணையராக இருந்த பன்னீர் செல்வத்தை அணுகினார்.&nbsp; பன்னீர் செல்வம், அந்த வீட்டில் குடியிருந்தவரை அழைத்து “வீட்டை விற்பனை செய் அல்லது அவர் கேட்கும் தொகையை கொடு.&nbsp; இல்லையென்றால், வீட்டில் இருக்கும் பெண்களை அழைத்து வழக்கு போடுவேன்” என்று மிரட்டினார்.&nbsp; இந்த நிலையில் நம்மிடம் வந்தார் அந்த வீட்டின் உரிமையாளர்.&nbsp;&nbsp; அவர் வந்த அன்றே, சென்னை மாநகர ஆணையர், உள்துறை செயலாளர், டிஜிபி ஆகியோருக்கு, பன்னீர் செல்வத்தை உடனே சஸ்பென்ட் செய்ய வேண்டும் என்று வக்கீல் நோட்டீஸ் அனுப்பப் பட்டது.&nbsp; அதன் பிறகு பன்னீர் செல்வம் இருந்த இடம் தெரியாமல் பம்மி விட்டார்.&nbsp; இந்த வீட்டு உரிமையாளரைப் போல பாதிக்கப் பட்டவர்களே இன்று நில அபகரிப்புப் புகார்கள் அளிக்கிறார்கள்.&nbsp; ஆனால் இதிலும் ஒரு விசித்திரம் என்னவென்றால், இதில் சம்பந்தப்பட்ட அரசியல்வாதிகள் மட்டுமே சிக்கலில் மாட்டிக் கொள்கிறார்கள்.&nbsp; இவர்களுக்கு உதவி செய்த, காவல்துறை அதிகாரிகள், பத்திரப் பதிவு அதிகாரிகள் கவனமாக தப்பித்துக் கொள்கிறார்கள்.</p>
+<p> </p>
+<p>இந்த வழக்குகளை மக்கள் திமுகவின் மீதான பழிவாங்கும் நடவடிக்கையாக பார்க்கவில்லை என்பதையே உள்ளாட்சித் தேர்தல் முடிவுகள் காட்டின.</p>
+<p> </p>
+<p>உள்ளாட்சித் தேர்தல்களை அமைதியாக நடத்தியதற்காக ஜெயலலிதாவைப் பாராட்டியே ஆக வேண்டும்.&nbsp;&nbsp; ஜெயலலிதா நினைத்திருந்தால், காவல்துறை உதவியோடு, அதிமுகவினரை அராஜகத்தில் இறங்க வைத்திருக்க முடியும்.&nbsp; 2006 உள்ளாட்சித் தேர்தலில், லத்திக்கா சரண் மற்றும் ஜாங்கிட் உதவியோடு, திமுகவினர் நடத்திய வன்முறை வெறியாட்டங்களை மீண்டும் அரங்கேற்றியிருக்க முடியும்.&nbsp; ஆனால், எந்த வித வன்முறையும் இல்லாமல் ஜெயலலிதா தேர்தலை நடத்தி முடித்தற்கு கிடைத்த பரிசுதான், உள்ளாட்சித் தேர்தலில் கிடைத்த அமோக வெற்றி.</p>
+<p>அடிக்கடி நடக்கும் மாற்றங்களால் அரசு நிர்வாகம் கிட்டத்தட்ட ஸ்தம்பித்த நிலையில் உள்ளதாக தகவல்கள் தெரிவிக்கின்றன.&nbsp;&nbsp; அமைச்சர்கள் எப்போது மாறுவார்கள் என்ற நிலையற்ற தன்மையினால் தலைமைச் செயலகத்தில் உள்ள ப்யூன் கூட, அச்சமில்லாமல் இருப்பதாக சொல்கிறார்கள்.&nbsp; ஐஏஎஸ் அதிகாரிகளும், எப்போது மாற்றம் வருமோ என்று, எந்த வேலையிலும் ஈடுபாடு காட்டுவதில்லை என்று சொல்கிறார்கள்.&nbsp; &nbsp;அமைச்சர்களும் எந்த நேரத்தில் மாற்றம் வருமோ என்ற அச்சத்தோடே இருப்பதாக தெரிகிறது.&nbsp;&nbsp;&nbsp; அவ்வப்போது வரும் மாற்றங்களால், எதைச் செய்தாலும் தப்பாகப் போய் விடுமோ என்று அஞ்சி நடுங்கிக் கொண்டிருப்பதாகவே தகவல்கள் வருகின்றன.</p>
+<p><img class="img-responsive" style="" src="/images/2555/Augu---24-zd.jpg" alt="Augu---24-zd" width="" height="" /></p>
+<p>தவறு செய்யதால் மாட்டிக் கொள்வோம் என்ற அச்சம் அமைச்சர்களுக்கும் அதிகாரிகளுக்கும் இருப்பது நல்லதுதான் என்றாலும், தற்போது உள்ளது போன்ற நிலைமை நிர்வாகத்தை ஸ்தம்பிக்க வைத்து விடும். அமைச்சர்களின் இந்த நிலையற்ற தன்மையால், காவல்துறை அதிகாரிகளின் கை ஓங்கியிருப்பதாகச் சொல்கிறார்கள். முதல்வரின் செயலாளராக உள்ள ஷீலா ப்ரியாதான் அதிகபட்ச அதிகாரம் உள்ள அதிகாரியாக விளங்குவதாகவும் தலைமைச் செயலக வட்டாரங்கள் தெரிவிக்கின்றன.&nbsp;</p>
+<p><img class="img-responsive" style="" src="/images/2555/July---20-f.jpg" alt="July---20-f" width="" height="" /></p>
+<p> </p>
+<p style="text-align: center;"><span style="font-size: 14pt; color: #ff0000;">ஷீலா ப்ரியா</span></p>
+<p>முதல்வர் கவனத்துக்கு செல்லும் எல்லா கோப்புகளும், ஷீலா ப்ரியாவைத் தாண்டியே செல்ல வேண்டும் என்பதால், ஷீலா ப்ரியா குறித்த புகார்கள் ஜெயலலிதா கவனத்துக்கு செல்வதில்லை என்றும் தெரிகிறது. ஏற்கனவே ஆளுனரின் செயலாளராக இருந்த ஷீலா ப்ரியா மீது அப்போதே ஏராளமான ஊழல் புகார்கள் இருந்தன.&nbsp; ஆனால் இவற்றை கவனத்தில் கொள்ளாமல், ஷீலா ப்ரியாவை தனது செயலாளராக நியமித்து, ஊழலை ஒழிக்கப் போகிறேன் என்று மாவட்ட ஆட்சியர்கள் மாநாட்டில் பேசுவது நகைச்சுவையை வரவழைக்கிறது.</p>
+<p> </p>
+<p>கடந்த ஆட்சியில் இருந்தது போல குடும்பத்தின் ஆக்டோபஸ் ஆதிக்கம் இல்லையென்றாலும், நடராஜன், ராவணன், வெங்கடேஷ், போன்ற பெயர்கள் அடிபட்டுக் கொண்டுதான் இருக்கின்றன.&nbsp;&nbsp; அரசு அலுவலகங்களில் விசாரித்தால், மணற்கொள்ளை தங்கு தடையின்றி நடைபெறுவதாகவும், அதிகாரிகள் நியமனத்தில், மன்னார்குடி ஆதிக்கம் கொடிகட்டிப் பறப்பதாகவும் தெரிவிக்ககிறார்கள்.&nbsp; இது போக பெசன்ட் நகரில் நடராஜன் தனியாக ஒரு தலைமைச் செயலகத்தை நடத்தி வருவதாகவும் தகவல்கள் வருகின்றன.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/2555/DSC_4879.jpg" alt="DSC_4879" width="" height="" /></p>
+<p>இவையெல்லாம் ஜெயலலிதாவின் கவனத்துக்கு வருகிறதா இல்லையா என்பது தெரியவில்லை.&nbsp;&nbsp; ஆறுமாதங்களின் முடிவில், அதிமுக ஆட்சியை அலசிப் பார்த்ததில் ஏமாற்றமே மிஞ்சுகிறது.</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/2555/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/2555/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/2555/?share=facebook" title="Share on Facebook" id="sharing-facebook-2555"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/2555/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-2555"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/2555/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-2555"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/2555/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/2555/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/2555/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-2555-547512835ce8c" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=2555&amp;origin=savukkunews.com&amp;obj_id=68584444-2555-547512835ce8c" data-name="like-post-frame-68584444-2555-547512835ce8c"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/2555/"
+    dc:identifier="http://savukkunews.com/2555/"
+    dc:title="ஆறு மாதங்கள்…."
+    trackback:ping="http://savukkunews.com/2555/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

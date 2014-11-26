@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- சவுக்கை முடக்கு ! அதிரடி திட்டம்.</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2010/07/01/post7489.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">சவுக்கை முடக்கு ! அதிரடி திட்டம்.</h1>
+			<p class="post-meta">Jul 1, 2010</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/7489/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/7489/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div align="justify"><a href="http://www.savukku.net/2010/06/blog-post_16.html">நித்யானந்தா</a> மற்றும், <a href="http://www.savukku.net/2010/06/blog-post_17.html">கர்மவீரர்</a> ஆகிய பதிவுகள், சமூகத்தில் பெரிய மனிதர் வேடத்தில் உலா வரும் பலரின் முகத்திரையை கிழித்ததையும், அந்த பதிவுகள் பெரும் வரவேற்பை பெற்றதையும், சவுக்கு வாசகர்கள் அறிவீர்கள்.<p>
+<p>இந்த பதிவுகள் அதிர்வலைகளை ஏற்படுத்தியது போலவே, சவுக்குக்கு மிரட்டல்களையும் எச்சரிக்கைகளையும் கொண்டு வந்து சேர்த்துள்ளன.</p>
+<p>சில மூத்த பத்திரிக்கையாளர்கள், காவல்துறை அதிகாரிகள், அரசியல் பிரமுகர்கள், நேரடியாகவும், மறைமுகமாகவும் சவுக்குக்கு, இப்பதிவுகளை நீக்க வேண்டும் என்று, கோரிக்கையாகவும், மிரட்டலாகவும் தொடர்ந்து  எச்சரிக்கை விடுத்து வந்திருந்தனர். ஆனால், இவ்வாறு பேசியவர்கள் அனைவருமே, தவறாமல் சொன்ன ஒரு விஷயம் என்ன தெரியுமா ?</p>
+<p>“நீங்க எழுதியிருக்கறதெல்லாம் கரெக்ட்தான்.. ஆனாலும் டெலிட் பண்ணுங்க“  என்றுதான் பேசுகிறார்கள்.  இவ்வாறு பேசுவது, ஆணவத்தினாலா, அறியாமையினாலா என்பது புரியவில்லை. ஆனால், இது குறித்து விவாதித்த, தமிழக மக்கள் உரிமைக் கழகத்தின் செயற்குழு, பதிவுகளை நீக்குவதில்லை என்று முடிவெடுத்தது.  எதிர்ப்பு வந்தால், அதை சந்திப்பது என்றும் முடிவெடுத்துள்ளது.  தேவைப்பட்டால், எதிர்க்கட்சித் தலைவர்களை சந்தித்து, ஆதரவு கேட்பது என்றும் முடிவெடுக்கப் பட்டுள்ளது.</p>
+<p>இந்நிலையில் சவுக்கை தனிமைப் படுத்தவும், சவுக்கின் மீது, ஏதாவதொரு வகையில் தாக்குதல் தொடரவும் திட்டமிடப் பட்டுள்ளதாக தகவல்கள் தெரிவிக்கின்றன.</p>
+<p>சமீபத்தில் நடந்து முடிந்த செம்மொழி மாநாடு, பல முக்கிய தலைகள் ஒருங்கே சந்திக்க வாய்ப்பு ஏற்படுத்திக் கொடுத்தது.  சென்னையில் இருந்தால், பல்வேறு வேலைகளுக்கிடையில் சந்திக்க வாய்ப்பு ஏற்படாமல் போய் விட்டிருக்கும். </p>
+<p> ஆனால், கூடி கும்மியடிப்பதற்காக ஐந்து நாட்கள் காவல்துறை அதிகாரிகள், பத்திரிக்கையாளர்கள், அரசு உயர் அதிகாரிகள், அரசியல் பிரமுகர்கள் என்று அனைத்துத் தரப்பினரும் கோப்பையில்  மன்னிக்கவும், கோவையில் கூடியதால் அனைவரும் சந்தித்துப் பேச அருமையான வாய்ப்பாக அமைந்தது.</p>
+<p>இந்தக் கூட்டத்தின் ஒரு பகுதியாக, உளவுத் துறை தலைவர் ஜாபர் சேட் தலைமையிலான “டர்ட்டி பாய்ஸின்“ கூட்டம் கோவையில் நடந்திருக்கிறது.  இந்த “டர்ட்டி பாய்ஸ்“ குழுவின் மற்ற உறுப்பினர்கள், போலிப் பாதிரி ஜகத் கஸ்பர், நக்கீரன் கோபால்,  காம வீரர், மன்னிக்கவும், கர்ம வீரர் காமராஜ் ஆகியோர்.  </p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2010/07/kaspar.jpg"><img style="" src="/images/7489/kaspar-184x300.jpg" border="0" alt="" id="BLOGGER_PHOTO_ID_5488920313277669090" class="img-responsive" height="" width="" /></a></p>
+<p> இந்த “டர்ட்டி பாய்ஸ்“ குழு உறுப்பினர்கள் அனைவருமே சவுக்கடிக்கு ஆளானவர்கள் என்பதால், சவுக்கை ஏதாவது செய்ய வேண்டும் செய்ய வேண்டும் என்பது குறித்து விவாதித்துள்ளனர். </p>
+<p>ஜாபர் சேட், “This fellow has to be taught a lesson.  He thinks too much of himself“ என்று கூறியுள்ளார்.  உடனடியாக இதை ஆமோதித்த கர்ம வீரர், “ஆமாண்ணே, என்னப் பத்தி கூட தப்புத் தப்பா எழுதிருக்காண்ணே“ என்று தன் ஆதங்கத்தையும் தெரிவித்துள்ளார்.</p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2010/07/nakkeeran-gopa-27.jpg"><img style="" src="/images/7489/nakkeeran-gopa-27-174x300.jpg" border="0" alt="" id="BLOGGER_PHOTO_ID_5488915152241609186" class="img-responsive" height="" width="" /></a></p>
+<p>   நம்மைப் பற்றி இனிமேல்தானே வரப் போகிறது என்ற பயத்தில் நக்கீரன் கோபால், இருவர் சொல்வதற்கும் தலையாட்டிக் கொண்டு இருந்திருக்கிறார்.   </p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2010/07/jaffer-sait-22.jpg"><img style="" src="/images/7489/jaffer-sait-22-300x212.jpg" border="0" alt="" id="BLOGGER_PHOTO_ID_5488918908536383186" class="img-responsive" height="" width="" /></a></p>
+<p>கஸ்பர், இவனுங்க ஆர்வக் கோளாறுல ஏதாவது பண்ணி, நம்மளுக்கு சிக்கல் கொண்டு வந்துடப்  போறானுங்க என்று அமைதியாக இருந்திருக்கிறார்.</p>
+<p>சவுக்கை என்ன செய்யலாம் என்று கர்ம வீரர் ஒரு “மஞ்சள்“ திட்டத்தை சொல்லியிருக்கிறார். </p>
+<p>  அது என்னவென்றால், சவுக்கைப் பற்றியும், சவுக்கின்  குடும்பத்தில் உள்ள பெண்களைப் பற்றியும், சவுக்கின் நண்பர்களைப் பற்றியும், அவர்கள் குடும்பத்துப் பெண்கள் பற்றியும் அசிங்க அசிங்கமாக எழுதலாம் என்ற அற்புதமான “மஞ்சள்“ யோசனையை தெரிவித்துள்ளார்.  இந்த யோசனை பெரிய வரவேற்பைப் பெறாவிட்டாலும், புறக்கணிக்கப் படவில்லை.</p>
+<p>ஜாபர் சேட், இதை முதல்வர் கவனத்திற்கு எடுத்துச் செல்லலாம் என்று கூறியுள்ளார்.  அதாவது, இவர்களைப் பற்றி எழுதிய பதிவுகளையெல்லாம் மறைத்து விட்டு, கருணாநிதியை விமர்சித்து எழுதிய பதிவுகளை மட்டும் பிரிண்ட் போட்டு, முதல்வரிடம் கொடுக்கலாம். </p>
+<p> கொடுத்தால், பழ.கருப்பையாவுக்கு நடந்தது போல, சவுக்கை வாயிலேயே குத்துவார்கள்.  அப்போ அடங்கிடுவான் என்று கூறியுள்ளார்.    கருணாநிதியைப் பற்றிய பதிவுகளைப் பற்றி மட்டுமே காட்டுவார்கள், ஏனென்றால், ஜாபர் சேட்டுக்கு எழுதிய பகிரங்கக் கடிதத்தை காட்டினால், நள்ளிரவுக் கைதில், இவரின் ஆக்க பூர்வமான contribution தெரிந்து விடுமே ?</p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2010/07/ka.jpg"><img style="" src="/images/7489/ka-300x248.jpg" border="0" alt="" id="BLOGGER_PHOTO_ID_5488918710523733138" class="img-responsive" height="" width="" /></a></p>
+<p>இந்த யோசனை மற்ற மூவராலும் வரவேற்கப் பட்டது.  ஜாபர் சேட் முதல் கட்டமாக, சவுக்கின் தொடர்புகளுக்கு தொந்தரவு கொடுத்து, சவுக்கிடம் இருந்து அந்த தொடர்புகளை பிரிக்கலாம் என்று சொன்ன ஆலோசனை ஏக மனதாக ஏற்றுக் கொள்ளப் பட்டது. </p>
+<p> முதல் கட்டமாக, சவுக்கோடு தொடர்பில் உள்ள, மத்திய உளவுத் துறை அதிகாரிகள், மாநில உளவுத்துறை அதிகாரிகள், காவல்துறையின் மூத்த அதிகாரிகள், காவலர்கள், தலைமைக் காவலர்கள், இளைய மற்றும் மூத்த பத்திரிக்கையாளர்கள், வழக்கறிஞர்கள் என அனைவருக்கும் “செக்“ வைக்க வேண்டும் என்று கூறியுள்ளார்.</p>
+<p>  அதன் முதல் கட்டமாக, “I will put all their calls under monitoring“  என்று கூறியுள்ளார், சேட். என்னவென்றால், அனைவரது தொலைபேசிகளையும் ஒட்டுக் கேட்கத் தொடங்குகிறேன் என்று கூறியுள்ளார்.   இப்போது, ஜாபர் சேட் வசமுள்ள ஒட்டுக் கேட்பு  Technology என்ன தெரியுமா ?  Voice analysis.  </p>
+<p> கம்ப்யூட்டரில் ஒருவரது குரலை பதிவு செய்து, அதை அலசி அதன் ப்ரீக்வென்சியையும் தாக்கத்தையும் வைத்து, சவுண்ட் ஸ்பெக்டோக்ராம் என்ற பைலாக உருவாக்கி வைத்துக் கொள்வது.   இந்த சவுண்ட் ஸ்பெக்டோக்ராம் கைரேகை போன்றது.  ஏற்கனவே பதிவு செய்து வைத்துள்ள ஒரு நபரின் குரலை கம்ப்யூட்டர் அடையாளம் கண்டவுடன், பதிவு செய்ய தொடங்கி விடும்.  அதனால், புது சிம்கார்ட் நண்பர் பெயரில் வாங்கி, அதில் ரகசியமாக பேசினாலும் இந்த Voice Recognition டெக்னாலஜியிடம் இருந்து தப்ப முடியாது.<br /> நான் இந்த வேலையைப் பார்த்துக் கொள்கிறேன். </p>
+<p> Lets find out who is behind him and who is feeding him information என்று கூறியுள்ளார் ஜாபர் சேட்.</p>
+<p>நக்கீரன் கோபால், ஏதாவது வழக்கு பதிவு செய்து உள்ளே தள்ளி விட்டு, அப்புறம் தேசிய பாதுகாப்புச் சட்டத்தில் ஒரு வருடத்துக்கு உள்ளே தள்ளி விடலாம் என்று கூறியிருக்கிறார்.   இந்த ஆலோசனை, என்ன வழக்கு போடலாம் என்று, பல்வேறு திட்டங்களுக்கு இட்டுச் சென்று, முடிவாக, போட்டால் எளிதில் பெயில் கிடைக்க முடியாத வழக்காக போடலாம் என்று முடிவாகியிருக்கிறது.</p>
+<p>கடைசியாக, ரவுடிகளை விட்டுத் தாக்கலாம் என்பதும் ஆலோசிக்கப் பட்டு, எந்த முடிவும் எடுக்கப் படாமல் பரிசீலனையில் வைக்கப் பட்டுள்ளது.</p>
+<p>கர்மவீரர் அவர்களே, உங்கள் மீதும்  ஜாபர் சேட் மீதும், போலிப் பாதிரி கஸ்பர் மீதும், கோபால் மீதும், சவுக்குக்கு தனிப்பட்ட கோபமோ, வெறுப்போ இல்லை என்பது உங்களுக்கு நன்கு தெரியும்.</p>
+<p>  உங்களைப் பற்றி இவ்வளவு எழுதியும், நீங்கள் உங்கள் போக்கை மாற்றிக் கொண்டீர்களா ?   கர்ம வீரர் பதிவு எழுதிய பிறகு வந்த அத்தனை நக்கீரன் இதழ்கள் அனைத்தின் கவர் ஸ்டோரியும் செக்ஸ் தானே ?  இந்த இதழில் கூட, அட்டைப் படத்தில் ரஞ்சிதா தானே ?  ரஞ்சிதா யாரோடு படுத்துக் கொள்கிறார், எப்படிப் படுத்துக் கொள்கிறார் என்பதை அறிந்து இந்த சமூகம் என்ன செய்யப் போகிறது ? </p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2010/07/k2.jpg"><img style="" src="/images/7489/k2-238x300.jpg" border="0" alt="" id="BLOGGER_PHOTO_ID_5488918707247963970" class="img-responsive" height="" width="" /></a></p>
+<p> அந்த ஆபாசமான நக்கீரன் இதழை கோவையில் படித்துக் கொண்டிருக்கும் உங்கள் பிள்ளைக்கு படிக்கத் தருவீர்களா என்று கேட்பதை விட, நீங்கள் நாக்கை பிடுங்கிக் கொள்வது போல இன்னும் எப்படிக் கேட்க வேண்டும் ?  இவ்வாறு கேட்ட பிறகும், இதை தமிழகத்தின் ஏறக்குறைய அனைத்துப் பத்திரிக்கையாளர்களும் படித்த பின்பும், ரஞ்சிதாவின் உள்பாவாடையை விட்டு வெளியே வரமாட்டேன் என்று பிடிவாதம் பிடிக்கும் உங்களை சவுக்கால் அடிக்காமல் என்ன செய்வது ?</p>
+<p>ஜாபர் சேட் மீது சவுக்குக்கு தனிப்பட்ட முறையில் என்ன கோபம் ?  அவர் ஒரு நல்ல போலீஸ் அதிகாரியாக இருந்து, இச்சமூகத்துக்கு நற்பணியாற்ற வேண்டும் என்பதுதானே சவுக்கின் அவா ?   </p>
+<p> அரசு வேலையைப் பாருய்யான்னா, சினிமாவுல நடிச்சுக்கிட்டு இருக்கற ஆள என்ன சொல்லுவீங்க ?   உளவுத் துறைன்னா என்னன்னு தெரியுமா ?  கடைசி வரைக்கும் உளவுத் துறை அதிகாரிகள் யார் என்பதே வெளியில் தெரியக் கூடாது. </p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2010/07/judy-miller.jpg"><img style="" src="/images/7489/judy-miller-239x300.jpg" border="0" alt="" id="BLOGGER_PHOTO_ID_5488 916141156229282" class="img-responsive" height="" width="" /></a></p>
+<div align="center">பத்திரிக்கையாளர் ஜுடித் மில்லர் </div>
+<p> அமெரிக்காவில், ஒரு வாலேரி ப்ளேம் என்ற சிஐஏ ஏஜென்டின் அடையாளத்தை வெளியே சொல்லி விட்டார் என்பதற்காக, ஜுடித் மில்லர் என்ற ஒரு பத்திரிக்கையாளருக்கு சிறைத் தண்டனை வழங்கப் பட்டது தெரியுமா ?  </p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2010/07/Valerie_Plame_BrownU.jpg"><img style="" src="/images/7489/Valerie_Plame_BrownU-300x281.jpg" border="0" alt="" id="BLOGGER_PHOTO_ID_5488914402508904242" class="img-responsive" height="" width="" /></a></p>
+<div align="center">சிஐஏ ஏஜென்ட் வாளேரி ப்ளேம்</div>
+<p>சினிமாவில் நடித்துக் கொண்டு, பத்திரிக்கையாளர்களுக்கு பேட்டி கொடுத்துக் கொண்டிருக்கும் ஒரு கேடுகெட்ட உளவுத்துறை அதிகாரியைப் பார்த்திருக்கிறீர்களா ?  </p>
+<p>இவர்களை விமர்சனம் செய்வது அப்படிப் பட்ட தவறா ?  </p>
+<p>இந்த விமர்சனமெல்லாம் நியாயமற்ற விமர்சனமா ? </p>
+<p>இவர்கள் போக்கை மாற்றிக் கொள்ள மாட்டார்களாம். </p>
+<p>  விமர்சித்தால் ஆள் வைத்து அடிப்பார்களாம்.</p>
+<p>சவுக்கை தொடர்ந்து படித்து வரும் வாசகர்கள், சவுக்கில் பதிவுகள், சமூகத்தில் குறைந்து வரும் நேர்மையையும், வளர்ந்து வரும் நேர்மையற்ற போக்கையும் பார்த்து கவலையடைந்து, வேதனையடைந்து, உழன்று,  இந்த ஜனநாயகத்தையும், ஜனநாயக உரிமைகளை பாதுகாக்க வேண்டும் என்ற ஒரே நோக்கத்தில் எழுதப் பட்டு வருகிறது என்பதை அறிவீர்கள் தானே ?   </p>
+<p>இது நியாயமற்ற, Biased விமர்சனமாக இருந்திருந்தால், சவுக்கு வாசகர்கள், எப்போதோ சவுக்கை புறக்கணித்திருப்பார்கள்.</p>
+<p>வேலையெல்லாம் விட்டு விட்டு, இரண்டு மணிநேரம் உட்கார்ந்து பதிவு எழுதுவது பொழுது போக்குக்கா ?   வலி அய்யா.. வலி.   </p>
+<p> சமூகத்தில் உள்ள நேர்மையானவர்கள் சாத்திரங்கள் பிணம் தின்பதைக் காண சகியாமல் வேதனைப் படுவதையுமே சவுக்கு பதிவு செய்கிறது.</p>
+<p>பாரிமுனையில் நடைபாதைகளில் கடை வைத்து, பாரிமுனையின் சந்துகளில் வாழ்க்கையை நடத்தி, சாலையிலேயே, உண்டு, உடுத்தி, கழித்து, உடலுறவு கொண்டு தங்கள் வாழ்வை நடத்தும், நூற்றுக்கணக்கான மக்கள் இன்னும் இருக்கிறார்கள்.  </p>
+<p>  இவர்களைப் பார்த்து மனம் வேதனையடைந்து கொண்டு இருக்கும் போது, ஒரு மாநாட்டுப் பாடலுக்காக ஏழரை கோடி செலவு செய்து, ஐந்து நாட்கள், ஆட்டம் பாட்டத்தோடு கொண்டாட்டம் நடத்துபவர்களைப் பற்றி என்ன எழுதுவீர்கள் ?  </p>
+<p>சாதாரண பதிவுத் தளமாக தொடங்கப் பட்ட சவுக்கு, இன்று ஒரு இயக்கமாக வளர்ந்து நிற்கிறது.    இதற்கு ஒரே காரணம் சவுக்கின் நேர்மை, நேர்மை, நேர்மை மட்டுமே.<br />இந்த டர்ட்டி பாய்ஸ் விடுத்திருக்கும் நேரடியான சவாலுக்கும், மிரட்டலுக்கும் சவுக்கின் பதில் என்ன ?</p>
+<p>குழந்தைகளுக்காக எழுதப் பட்ட பாடலில் முண்டாசுக் கவிஞன் என்ன சொல்லியிருக்கிறான் ?</p>
+<p>பாதகம் செய்பவரைக் கண்டால் நீ பயங்கொள்ள லாகாது பாப்பா<br />மோதி மிதித்து விடு பாப்பா.. அவர் முகத்தில் உமிழ்ந்து விடு பாப்பா.</p>
+<p>குழந்தைகளுக்கே இந்த அறிவுரை என்றால், சவுக்குக்கு ஏழு கழுதை வயசாகிறது.    <br />இந்த மிரட்டல்களுக்கும், அச்சுறுத்தல்களுக்கும் சவுக்கு அடிபணியாது. </p>
+<p>  அநீதியை எதிர்த்தும், நியாயத்தை நிலைநாட்டவும், அயோக்கியர்களை அம்பலப்படுத்தவும், சவுக்கு தொடர்ந்து சுழன்று கொண்டே இருக்கும்.</p>
+<p>ஆனால் இந்த மிரட்டலால் உடனடி விளைவு ஒன்று ஏற்படப் போகிறது.    ஜுலை மூன்றாவது வாரத்தில் தொடங்குவதாக இருந்த சந்தனக் காடு TO ஜானி ஜான் கான் ரோடு தொடர், வரும் புதன், ஜுலை 7 இரவு தொடங்குகிறது.  ஒவ்வொரு புதனன்றும் இத்தொடர் பதிவேற்றப் படும்.</p>
+<p>விடை பெறும் முன் டர்ட்டி பாய்ஸுக்கு மாவோவை நினைவூட்ட விரும்புகிறேன்.</p>
+<p><a href="http://tamilwhip.com/wp-content/uploads/2010/07/mao-tse-tung1.jpg"><img style="" src="/images/7489/mao-tse-tung1-207x300.jpg" border="0" alt="" id="BLOGGER_PHOTO_ID_5488920769305728562" class="img-responsive" height="" width="" /></a></p>
+<p>மரணம் பொதுவானது..</p>
+<p>சில நேரங்களில் இறகை விட லேசானது<br />சில நேரங்களில் மலையை விடக் கடினமானது.<br />மக்களுக்காக வாழ்ந்து மடிதல் என்பது <br />மலையை விடக் கடினமானது.<br />ஏகாதிபத்தியத்திற்கும், எதேச்சதிகாரத்திற்கும்<br />அடிமைப் பட்டுச் சாவதென்பது<br />இறகை விட லேசானது.<br />ஆக மரணம் பொதுவானது.</p>
+<p>
+<p>
+<div align="right"> சவுக்கு</div>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/7489/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/7489/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/7489/?share=facebook" title="Share on Facebook" id="sharing-facebook-7489"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/7489/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-7489"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/7489/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-7489"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/7489/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/7489/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/7489/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-7489-547518aeec5ac" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=7489&amp;origin=savukkunews.com&amp;obj_id=68584444-7489-547518aeec5ac" data-name="like-post-frame-68584444-7489-547518aeec5ac"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div><!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/7489/"
+    dc:identifier="http://savukkunews.com/7489/"
+    dc:title="சவுக்கை முடக்கு ! அதிரடி திட்டம்."
+    trackback:ping="http://savukkunews.com/7489/trackback/" />
+</rdf:RDF>-->
+</p></p></p></div>
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

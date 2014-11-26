@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- Social Media is a place for the grown ups.</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2013/07/16/post4806.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">Social Media is a place for the grown ups.</h1>
+			<p class="post-meta">Jul 16, 2013</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/4806/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/4806/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p><img class="img-responsive" style="" src="/images/4806/facebook-testing-new-timeline-format-with-single-column-of-posts-updated--8395815038.jpg" alt="facebook-testing-new-timeline-format-with-single-column-of-posts-updated--8395815038" width="" height="" /></p>
+<p> </p>
+<p><span style="font-size: 14pt;"><span style="font-family: georgia, palatino; line-height: 17pt;">Yesterday’s Hindu published an article </span><a style="line-height: 17pt;" href="http://www.thehindu.com/news/national/tamil-nadu/trolls-invade-social-media-activists/article4915254.ece?homepage=true">“Trolls invade social media : activists”</a><span style="font-family: georgia, palatino; line-height: 17pt;">.&nbsp; The article predominantly quotes the version of self styled activists Manushya Puthran and Kavin Malar a.k.a. Tamil Nadu’s Arundhati Roy (courtesy : </span><a style="line-height: 17pt;" href="http://kalakakkural.blogspot.in/2013/03/blog-post.html">Kalagakkural</a><span style="font-family: georgia, palatino; line-height: 17pt;">). British-American entrepreneur and author describes social media as &nbsp;&#8220;Out of this anarchy, it suddenly became clear that what was governing the infinite monkeys now inputting away on the Internet was the law of digital Darwinism, the survival of the loudest and most opinionated. Under these rules, the only way to intellectually prevail is by infinite filibustering.”</span></span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">The provocation for the article in The Hindu is the recent controversy, rather mudslinging between a few individuals in the social media facebook.&nbsp; Social Media networks like Facebook, Twitter etc. provide unlimited space for individuals to express their opinions and views on any subjects in earth.&nbsp; Unlike the time when people would wait for publication of their opinion on issues and leaders in the whimsically published letters to the editor in various newspapers, the social media provides instant and infinite space to publish opinions. &nbsp;The social media made the opinion of the common man relevant.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">The social media caught the imagination of the entire human race and people started spending a lot of their time in the social media.&nbsp; The advent of smartphones played their role in hooking people to social media.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Online social media gives you absolute liberty to pass opinion on any subject from sky to earth. There is absolutely no restrictions.&nbsp; You can make allegations without any basis, you can abuse anyone, you can call names, you can mock anyone, it is a free for all and that’s the charm of this media.&nbsp; At the same time, like any medium or technology, the liberty given in social media is indeed misused by some individuals.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">The story began by an active facebook user with the identity Kishore Ksamy.&nbsp; He is accused by both Manushya Puthran and Kavin Malar as making personal attacks which are below the line of decency.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Let us take the case of ‘so called’ activists Kavin Malar and Manushya Puthran.&nbsp; Kavin Malar is a journalist working in India Today.&nbsp; Previously she was in the Vikatan group.&nbsp; Kavin Malar is not only a journalist but also an active participant in environmental groups and dalit issues.&nbsp; She also is a poet. Kavin Malar is an active face book user and most of her opinions are very strong.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Manushya Puthran is a poet, author of several books, and is also a publisher.&nbsp;&nbsp; Like Kavin Malar, Manushya Puthran is also highly opinionated.&nbsp; Unlike Kavin Malar, many of the postings of Manushya Puthran are in poor taste and some times disgusting.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 14pt;"><span style="line-height: 17pt;">Manushya Puthran, a celebrated poet attracts huge followers and his opinions were respected by many.&nbsp; Trouble erupted when Manushya Puthran attended the 90</span><sup style="line-height: 17pt;">th</sup><span style="line-height: 17pt;"> birthday celebration of Karunanidhi and went overboard in praising Karunanidhi.&nbsp; Manushya Puthran’s speech on the eve was termed as the height of sycophancy by many even in the DMK.</span></span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;"><span style="line-height: 17pt;"><br /></span></span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;"><span style="line-height: 17pt;"><img class="img-responsive" style="" src="/images/4806/946833_484134978322375_1164224053_n.jpg" alt="946833_484134978322375_1164224053_n" width="" height="" /><br /></span></span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Most of the online users in Tamil Nadu, particularly the younger generations who are mostly active online are not prepared to forgive the actions of Karunanidhi with regard to Eelam issue and many other issues.&nbsp;&nbsp; So when Manushya Puthran was more than lavish in his praise for Karunanidhi which could be termed as bootlicking, facebook community which is full of Karunanidhi baiters, erupted.&nbsp; While some of the criticisms against Manush were below the level of decency, some were humorous.&nbsp; Some were scathing.&nbsp; But, Manushya Puthran, the self declared intellectual did not take the criticism kindly and became too abusive.&nbsp; He started showering abuses some of which are of unprintable character.&nbsp;&nbsp; His tormentors relished in his fury and dedicated a page exclusively to torment him named <a href="https://www.facebook.com/sombadisittar">Sombadi Sithar</a>.&nbsp; Following the bootlicking speech of Manushya Puthran on Karuna’s 90<sup>th</sup> birthday function, Savukku website too published a detailed article digging out details about the ugly side of Manushya Puthran, including his casanova activities. The article narrated how Manushya Puthran how started his Uyirmmai publications with the investment of Aravindan, husband of DMK MP Kanimozhi, how he cheated writers of royalty, how writers ditched him, etc. This enraged Manushya Puthran more and an irate Manushya Puthran showered unkindly abuses against the author of this article in his facebook page.&nbsp; He went to the extent of inventing blackmailing charges and lost his cool and started behaving like a rag-picker.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Manush, who was seething in anger, joined hands with Kavin Malar, who already had filed a complaint against Kishore Ksamy with the police for abuse.&nbsp;&nbsp; Kishore Ksamy, had posted in his facebook page that Kavin Malar, the activist undertook a joy ride to Marakannam along with Arul Ezhilan and Kannan of Vikatan group after a communal riot, and had fun time in the beach and also stayed in a luxurious bungalow. &nbsp;While Kishore says, he didn’t attribute any further meaning other than what he said, Kavin Malar says a read between the lines gives a different meaning. Things went out of control after this and both sides traded abuses in choicest languages. Instigated by her friends, Kavin Malar filed a complaint with the police.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Following the online attack on Manushya Puthran,&nbsp; he too instigated Kavin Malar and Kavin Malar lobbied for registering her complaint which would put the famous lobbyist Neera Radia to shame.&nbsp;&nbsp; She sought the help of women journalists, journalist associations, senior media personnel and many more.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">But the police, who were at the receiving end after their dangerous experiment in the case of singer Chinmayee, where two tweeters were arrested on a similar complaint were cautious not to repeat the mistake. After the arrest of the two tweeters much water had flown.&nbsp; Following irrational arrests, &nbsp;the Supreme Court placed a caveat with regard to arrest on Section 66-A of the Information Technology Act.&nbsp; The caveat requires a police officer not below the rank of Inspector General of Police to give approval in writing for arrests under 66-A.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">But, the lobbyist in Kavin Malar never rested.&nbsp; She continued to lobby to mount pressure on the police.&nbsp;&nbsp; While Kavin Malar lobbied heaven to earth to get her complaint registered,&nbsp; for reasons best known to her, she ignored the legal recourse.&nbsp; She chose to ignore the provision under section 482 of&nbsp; Criminal Procedure Code which facilitates getting an order from High Court to get her case registered nor approached the Magistrate court for a direction under Section 156 (3).</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;"><img class="img-responsive" style="" src="/images/4806/479854_10200724332493969_773376991_n.jpg" alt="479854_10200724332493969_773376991_n" width="" height="" /><br /></span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Manushya Puthran and Kavin Malar started exploring other avenues to mount pressure on the police.&nbsp;&nbsp; As a height of irony, Manushya Puthran wrote a column condemning savukku website and Kishore Kswamy for making personal attacks in a semi-porn magazine ‘Nakkiran’ which outraged the modesty of actress Ranjitha by publishing her intimate photographs with self-styled&nbsp; godman Nithyanandha. &nbsp;Despite his writing an elaborate column in Nakkiran, the police never took notice since it appeared in “Nakkiran”.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Sources tell savukku that Manushya Puthran and Kavin Malar continued their lobbying and the result is the article in the Hindu on Monday.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Both Manushya Puthran and Kavin Malar indeed deserve to be outraged by the personal attacks or frivolous allegations thrown against them.&nbsp; They have every right to have legal recourse, but not through backdoor. Sections 499 and 500 of the Indian Penal Code provides for filing of criminal defamation against any one.&nbsp;&nbsp; Both have every right to file a defamation case against their tormentors in a court of competent jurisdiction.&nbsp; Unlike many aliases, the said Kishore Ksamy has an open identity and has not taken any alias.&nbsp; But, instead of taking proper legal recourse, mounting pressure on the police under the guise of a celebrated writer and journalist is sheer abuse of their position and not less than what the politicians do to get things done.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">The police force, which is already suffering from lack of manpower is paid from tax payers money.&nbsp;&nbsp; Their job is to prevent and detect crime and maintain law and order. A recent <a href="http://www.thehindu.com/todays-paper/tp-national/alarming-rise-in-cyber-crimes-in-chennai-says-police-official/article4916460.ece">report</a> in the media quotes Nallasivam, Joint Commissioner, Crimes, Chennai as saying there has been an alarming increase in cyber crimes which range from cyber bullying to credit card frauds.&nbsp;&nbsp; The job of the police is to pursue these complaints, not to baby-sit social media and arbitrate petty quarrels. If police start registering complaints for online quarrels, hundreds of complaints would pour in everyday and every tom, dick and harry would throw his weight with the help of a VIP.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Both Kavin Malar and Manushya Puthran should grow up and face criticisms when they express strong opinions on various issues.&nbsp; Kavin Malar and Manushya Puthran went to the extent of terming the recent Ilavarasan’s death as murder even before the investigations could be completed.&nbsp;&nbsp; They both even went to the extent of blaming PMK men for the murder without any sense of caution. Such strong opinions would necessarily invite strong reactions, sometimes below the belt too.&nbsp; Social media is full of crackpots, mavericks and psychos.&nbsp;&nbsp; Individuals with their half-backed or twisted knowledge of things do abuse people with whom they have difference of opinion.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">The presence of strong right wing in the twitter evokes disgusting response to any criticism on BJP or Modi.&nbsp; Celebrated journalists like Rajdeep Sardesai and Burka Dutt were and continue to be the target of the right wing in twitter.&nbsp; The attack was so vicious that at one point of time Rajdeep considered quitting twitter.&nbsp;&nbsp; Any criticism of Modi is not taken lightly in the twitter.&nbsp; A criticism of Modi would always attract below the belt attack from all sides by the right wing in twitter. Modi critics are not only termed as congress supporters, but also anti-nationals.&nbsp; But, the journalists under attack don’t lobby with the police to register a case, but weather these attacks and continue with their job like grown up people.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Meena Kandasamy, another poet, who was under nasty attack by the right wing for her opinion supporting beef eating filed a complaint with the police too and the police failed to act.&nbsp; She did not lobby by using her celebrity status, but ignored the mindless morons and continued with her work.</span></p>
+<p><span style="font-family: georgia, palatino; font-size: 12pt;">Strong opinions from self styled intellectuals do evoke hysteric reactions. Reactions sometimes turn into bullying.&nbsp;&nbsp; If one is unable to handle such bullying, it is better to shut shop. Social media is for grown up people.</span></p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/4806/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/4806/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/4806/?share=facebook" title="Share on Facebook" id="sharing-facebook-4806"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/4806/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-4806"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/4806/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-4806"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/4806/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/4806/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/4806/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-4806-54750e4d32bd9" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=4806&amp;origin=savukkunews.com&amp;obj_id=68584444-4806-54750e4d32bd9" data-name="like-post-frame-68584444-4806-54750e4d32bd9"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/4806/"
+    dc:identifier="http://savukkunews.com/4806/"
+    dc:title="Social Media is a place for the grown ups."
+    trackback:ping="http://savukkunews.com/4806/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

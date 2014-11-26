@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- நீங்கள் மனது வைத்தால் முடியும்.</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2011/08/26/post2090.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">நீங்கள் மனது வைத்தால் முடியும்.</h1>
+			<p class="post-meta">Aug 26, 2011</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/2090/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/2090/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p> </p>
+<p>கடந்த காலங்களில் நீங்கள் எடுத்த கடுமையான நிலைபாட்டினால், நாங்கள் உங்களிடம் பெரிதாக எதையும் எதிர்ப்பார்க்கவில்லை என்பதே உண்மை.&nbsp; ஆனால், நாங்கள் நினைத்ததை பொய்யாக்கும் விதமாக, தமிழக சட்டசபையில், இலங்கையின் மீது பொருளாதாரத் தடை விதிக்க வேண்டும் என்ற தீர்மானத்தை நீங்கள் நிறைவேற்றிய போது, இடிந்து போயிருந்த தமிழினத்திற்கு நம்பிக்கை பிறந்தது.&nbsp; போர்க்குற்றங்கள் புரிந்து, அப்பாவித் தமிழர்களை கொன்று குவித்த சிங்கள இன வெறி அரசுக்கு தண்டனை கிடைக்கும் என்ற நம்பிக்கை ஒளி தெரிந்தது.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/2090/adfad.jpg" alt="adfad" width="" height="" /></p>
+<p>அமெரிக்க வெளியுறவுச் செயலர் ஹிலாரி க்ளின்டனின் இந்திய வருகையின் போது, மாநில முதலமைச்சர்கள் வெளியுறவுக் கொள்கையை விவாதிக்கக் கூடாது என்ற மரபை மீறி தாங்கள் முள்வேலி முகாமிற்குள் அடைத்து வைக்கப் பட்டுள்ள தமிழர்களை பற்றிப் பேசிய போது, உள்ளம் மகிழ்ச்சியடைந்தது.</p>
+<p> </p>
+<p>தமிழ்நாட்டு முகாமில் இருக்கும் ஈழ ஏதிலிகளுக்கான உதவித்தொகையை அதிகரித்த போது, உண்மையில் தமிழர்களின் மீது அக்கறை கொண்ட ஒரு தலைவர் கிடைத்து விட்டார் என்று அகமகிழ்ந்தனர் தமிழர்கள்.</p>
+<p> </p>
+<p>அதே நம்பிக்கையோடு உங்களிடம் உலகத் தமிழினம் எதிர்ப்பார்ப்பது, முருகன், சாந்தன் மற்றும் பேரறிவாளனின் உயிரை நீங்கள் காக்க வேண்டும் என்பதே.</p>
+<p> </p>
+<p>திமுக தலைவர் கருணாநிதியால் நீங்கள்&nbsp; 27 நாட்கள் சிறையில் அடைக்கப் பட்டீர்கள்.&nbsp; சிறையின் வேதனை என்ன என்பதை நேரடியாக அறிந்தவர் நீங்கள். உங்களுக்கு வேறு யாரும் சொல்லித் தெரிய வைக்க வேண்டியதில்லை. அந்த வேதனையின் வெளிப்பாடுகளை அதன் பிறகு நீங்கள் பேசிய பல்வேறு பொதுக்கூட்டங்களில் காண முடிந்தது. அப்படிப் பட்ட கொடுஞ்சிறையில், 21 ஆண்டுகளாக முருகன், சாந்தன் மற்றும் பேரறிவாளன் ஆகியோர் இருந்து வருகின்றனர்.&nbsp;&nbsp; அதுவும், தூக்கு தண்டனைக் கைதிகள் என்பதால், இவர்களுக்கு தனிமைச்&nbsp; சிறை.&nbsp;&nbsp; ஒரு மனிதனுக்கு நேரக்கூடிய மிகக் கொடுமையான சூழல் என்னவென்றால், அவன் இறக்கும் நாள் தெரிவதுதான்.&nbsp;&nbsp; நாம் அனைவரும் ஒரு நாள் இறக்கப் போகிறோம் என்பது நன்கு தெரிந்தாலும், அது என்றைக்கு என்று தெரியாததால் தான் நம்மால் தொடர்ந்து வாழ முடிகிறது.&nbsp;&nbsp; நாளையோ, நாளை மறுநாளோ மரணம் என்ற எண்ணத்தோடு வாழ்வது போன்ற ஒரு கொடிய வேதனையை வார்த்தைகளால் விவரிப்பது கடினம்.</p>
+<p> </p>
+<p>திரிவேணி பேன் என்பவர் வழக்கில் உச்ச நீதிமன்றம், குறிப்பிட்டதை இந்த நேரத்தில் எடுத்தாளுவது பொறுத்தமாக இருக்கும்.&nbsp; “எரியும் நெருப்பையும், மன உளைச்சலையும் ஒப்பிட்டால், பிந்தையதே அதிக துன்பத்தைத் தரும், ஏனெனில் எரியும் நெருப்பு பிணத்தை எரிக்கிறது ஆனால், மன உளைச்சல் உயிரை எரிக்கிறது”. &nbsp;இந்த மன உளைச்சலோடு 21 ஆண்டுகள் சிறையில் இருந்திருக்கின்றனர் இந்த மூவர்.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/2090/pic02.jpg" alt="pic02" width="" height="" /></p>
+<p>அன்பான முதல்வர் அவர்களே…..!! ஊழல் புகாரிலும், நில அபகரிப்புப் புகாரிலும், குடும்பச் சண்டையிலும் சிக்கி, கட்சியை எப்படி காப்பாற்றுவது என்று அல்லாடிக் கொண்டிருக்கும் நிலையிலும், கருணாநிதி தன்னை இன்னும் தமிழினத் தலைவர் என்று அழைத்துக் கொண்டிருக்கிறார்.&nbsp; உலகத் தமிழினம், அவரை என்றோ கை கழுவி விட்டு விட்டாலும், அவர் இன்னும் தன்னை அப்படித்தான் அழைத்துக் கொண்டிருக்கிறார்.</p>
+<p> </p>
+<p>அரசியல் அமைப்புச் சட்டத்தின் பிரிவு 161 மாநில அரசுக்கு வழங்கியிருக்கக் கூடிய அதிகாரத்தைப் பயன்படுத்தி, இந்த மூவரின் மரண தண்டனையை நீங்கள் ரத்து செய்தீர்களே ஆனால், உலகத் தமிழினம், உயிருள்ள வரை உங்களைப் போற்றும். மற்ற அரசியல் கட்சித் தலைவர்களிடம் காணப்படாத வகையில் சுற்றுச் சூழலை மிக அதிகமாக நேசிப்பவர் நீங்கள். 2001லேயே உங்கள் கட்சியினருக்கு ப்ளாஸ்டிக் கொடிகளை பயன்படுத்த வேண்டாம் என்று கட்டளையிட்டீர்கள். மழை நீரை சேமிப்பதை கட்டாயமாக்கியது நீங்கள் தான்.&nbsp;&nbsp; சுற்றுச் சூழலில் உங்களுக்கு இருக்கும் அக்கறையே உங்களை சேது சமுத்திரத் திட்டத்திற்கு எதிராக நிலைபாட்டை எடுக்க வைத்தது.&nbsp; &nbsp;&nbsp;சுற்றுச் சூழலின் மேல் இப்படி ஒரு அக்கறையைக் கொண்டுள்ள, கருணை உள்ளம் படைத்த நீங்கள், மூவரின் உயிரை அரசு பறிப்பதை வேடிக்கை பார்க்க மாட்டீர்கள் என்று நம்புகிறோம்.</p>
+<p> </p>
+<p>நீண்ட அரசியல் அனுபவம் கொண்ட நீங்கள், வெறும் அரசியல் காரணங்களுக்காக மூன்று உயிர்கள் கொல்லப்படுவதை அனுமதிக்க மாட்டீர்கள் என்று நம்புகிறோம்.</p>
+<p> </p>
+<p>நாகரீக வளர்ச்சி பெற்றுக் கொண்டு மனித இனம் வீறு நடை போட்டுக் கொண்டிருக்கும் இந்த 21ம் நூற்றாண்டில், அரசே சட்ட பூர்வமாக உயிரைப் பறிப்பது அநாகரீகமான செயல் என்று மனித சமுதாயம் கருதியதாலேயே, உலகில் 150க்கும் மேற்பட்ட நாடுகள் மரண தண்டனையை ஒழித்திருக்கின்றன.</p>
+<p> </p>
+<p>சிக்கலான சூழலில், மிகப் பெரிய அரசியல் நெருக்கடியில் காங்கிரஸ் கட்சி சிக்கியிருப்பதை நீங்கள் அறிவீர்கள்.&nbsp;&nbsp; அமெரிக்க வெளியுறவுத் துறைச் செயலரோடு, நீங்கள் வெளியுறவுக் கொள்கை தொடர்பான விஷயங்களை விவாதித்ததை காங்கிரஸ் கட்சி மிகுந்த எரிச்சலோடு பார்க்கிறது என்பதையும் நீங்கள்&nbsp; அறிவீர்கள்.&nbsp;&nbsp; உலகத் தமிழர்கள் மத்தியில், உங்கள் புகழ் பன்மடங்கு உயர்ந்திருப்பதையும், நாளை ஒரு மூன்றாவது அணி அமையும் நேர்வில், அந்த அணிக்கு நீங்கள் தலைமையேற்கும் சூழல் கனிந்து வருவதையும், காங்கிரஸ் கட்சி கவலையோடு கவனித்து வருகிறது.</p>
+<p> </p>
+<p>இப்படிப் பட்ட ஒரு சூழ்நிலையில், உங்களை நெருக்கடியில் ஆழ்த்துவதற்காகவே, 12 ஆண்டுகள் கழித்து, இந்த நேரத்தில், இந்த மூவரின் கருணை மனு நிராகரிக்கப் பட்டிருக்கிறது.&nbsp; இதை விட மிக மிக மோசமான நெருக்கடியிலிருந்து மீண்டு வந்தவர் நீங்கள்.&nbsp;&nbsp; இவர்களின் மரண தண்டனையை ரத்து செய்ய பரிந்துரை செய்வதன் மூலம், இந்த நெருக்கடியிலிருந்தும் நீங்கள் வெளி வர வேண்டும் என்று விரும்புகிறோம்.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/2090/jaya2_20110614.jpg" alt="jaya2_20110614" width="" height="" /></p>
+<p>கருணாநிதி அரசு, மக்களை கடும் துன்பத்தில் ஆழ்த்தியதோடு அல்லாமல், மக்களுக்கு வாக்களிக்க பணம் கொடுத்து மக்களை ஊழல் பேர்விழிகளாக மாற்றி வைத்திருந்தது.&nbsp; 2011 சட்டமன்றத் தேர்தலில், திமுகவினர் எவ்வளவு பணம் கொடுத்தாலும், அதற்கு மசியாமல், உங்களுக்கும் உங்கள் கூட்டணிக் கட்சியினருக்கும் 200க்கும் மேற்பட்ட இடங்களில் வெற்றி வாய்ப்பை வாரி வழங்கியிருக்கின்றனர் தமிழக மக்கள்.</p>
+<p> </p>
+<p>இந்த வெற்றிக்கு தமிழ்நாட்டு வாழ் தமிழர்களைத் தவிர்த்து, புலம் பெயர்ந்த தமிழர்களின் கணிசமான பங்கு இருந்தது என்பதை நீங்கள் மறுக்க முடியாது.</p>
+<p> </p>
+<p>உங்களுக்கு வரலாறு காணாத வெற்றியை அள்ளித் தந்த உரிமையில் இறைஞ்சிக் கேட்கிறோம்…. மூவர் உயிரைக்&nbsp; காப்பாற்றுங்கள்.&nbsp;&nbsp; தமிழினம் உள்ளவரை நீங்கள் வாழ்த்தப் படுவீர்கள்.</p>
+<p> </p>
+<p>அன்புடன்</p>
+<p> </p>
+<p>உலகத் தமிழினம்.</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/2090/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/2090/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/2090/?share=facebook" title="Share on Facebook" id="sharing-facebook-2090"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/2090/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-2090"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/2090/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-2090"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/2090/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/2090/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/2090/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-2090-5475134089cbe" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=2090&amp;origin=savukkunews.com&amp;obj_id=68584444-2090-5475134089cbe" data-name="like-post-frame-68584444-2090-5475134089cbe"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/2090/"
+    dc:identifier="http://savukkunews.com/2090/"
+    dc:title="நீங்கள் மனது வைத்தால் முடியும்."
+    trackback:ping="http://savukkunews.com/2090/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

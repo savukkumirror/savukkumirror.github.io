@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- நிஜமல்ல கதை.</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2012/02/23/post3016.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">நிஜமல்ல கதை.</h1>
+			<p class="post-meta">Feb 23, 2012</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/3016/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/3016/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p>கடந்த ஒரு மாதமாக சென்னை மாநகர காவல்துறையினரை பிடித்து உலுக்கிக் கொண்டிருந்த வங்கிக் கொள்ளை வழக்கு ஒரு முடிவுக்கு வந்திருக்கிறது.&nbsp;&nbsp; கொள்ளையடிக்கப்பட்டதாக சந்தேகிக்கப் பட்ட 5 இளைஞர்களை சென்னை மாநகர காவல்துறை இரவோடு இரவாக சுட்டுக் கொன்றிருக்கிறது.&nbsp; அடிக்கடி சொல்லிக்கொள்வார்களே….&nbsp;&nbsp; ஸ்காட்லாண்டு யார்டுக்கு இணையான காவல்துறை என்று…&nbsp; அந்த ஸ்காட்லாண்டு யார்டு போலீசையெல்லாம் தூக்கிச் சாப்பிட்டு விட்டது சென்னை மாநகர காவல்துறை.</p>
+<p><img class="img-responsive" style="" src="/images/3016/DSC_6427.jpg" alt="DSC_6427" width="" height="" /></p>
+<p>சென்னையில் பட்டப்பகலில் இரண்டு வங்கிகள் கொள்ளையடிக்கப் பட்டபோதே, சென்னை காவல்துறை ஆடித்தான் போனது. இது ஏற்கனவே ஆடிப்போயிருக்கும் சென்னை மாநகர காவல் ஆணையாளர் திரிபாதியின் நாற்காலியை மேலும் ஆடச் செய்தது.&nbsp; சென்னை மாநகர ஆணையாளர் பதவியை பிடிக்க எப்போதுமே இருந்து வரும் போட்டியை எப்படியாவது சமாளித்து, தனது நாற்காலியை காப்பாற்றிக் கொள்ள வேண்டிய நெருக்கடியும் திரிபாதிக்கு இருந்தது.</p>
+<p>இந்தப் பின்னணியில்தான் இந்த என்கவுண்டரை பார்க்க வேண்டும். வேளச்சேரியில் உள்ள வண்டிக்காரன் தெரு என்ற குடியிருப்புப் பகுதியில் இந்த என்கவுண்டர் நடந்துள்ளது.&nbsp;&nbsp;&nbsp; இரவு 1 மணிக்கு இந்த என்கவுண்டர் நடந்ததாக தகவல்கள் கூறுகின்றன.</p>
+<p>இன்று சென்னையில் நடந்த பத்திரிக்கையாளர் சந்திப்பில் பேசிய திரிபாதி “நள்ளிரவு 12.30 மணிக்கு காவல்துறையினருக்கு வங்கிக் கொள்ளையில் சம்பந்தப்பட்ட நபர்கள் அந்தப்பகுதியில் தங்கியிருப்பதாக தகவல் கிடைத்ததும், காவல்துறையினர் இரவு ஒரு மணிக்கு அந்த இடத்திற்கு சென்றனர்.&nbsp; போலீசார் அந்த வீட்டை வெளியிலிருந்து பூட்டி விட்டு, உள்ளே இருந்தவர்களை சரணடையச் சொல்லியிருக்கிறார்கள்.&nbsp; அனால் உள்ளே இருந்தவர்கள் சராமாரியாக காவல்துறையினரைப் பார்த்து சுடத் தொடங்கி விட்டனர். சுற்றியிருந்த மக்களின் பாதுகாப்புக்காகவும், காவல்துறையினர் தங்களைத் தற்காத்துக் கொள்வதற்காகவும் வேறு வழியில்லாமல் சுட்டனர்.&nbsp; கொள்ளையர்கள் சுட்டதில், காவல்துறை ஆய்வாளர்கள் இருவருக்கு காயம் ஏற்பட்டது.&nbsp;&nbsp; சுடப்பட்டதில் ஐந்து நபர்கள் காயமடைந்தனர்.&nbsp;&nbsp; காயமடைந்தவர்களை அவசரமாக ராயப்பேட்டை அரசு மருத்துவமனைக்கு சிகிச்சைக்காக எடுத்துச் சென்றபோது, அவர்கள் இறந்து விட்டதாக தெரிவித்தனர். இறந்து போனவர்களை புகைப்படம் எடுத்து கொள்ளை போன வங்கிப் பணியாளர்களிடம் காண்பித்ததில், அவர்கள் வங்கியை கொள்ளையடித்தவர்கள்தான் என்று அவர்கள் அடையாளம் காண்பித்தனர்.&nbsp;&nbsp; அந்த வீட்டிலிருந்து 5 பிஸ்டல், 2 ரிவால்வர் மற்றும் மொபைல் போன்கள் மற்றும் 14 லட்ச ரூபாய் ரொக்கம் ஆகியவை கைப்பற்றப் பட்டன” என்று தெரிவித்தார்.</p>
+<p><img class="img-responsive" style="" src="/images/3016/DSC_6571.jpg" alt="DSC_6571" width="" height="" /></p>
+<p>மேலும், உச்ச நீதிமன்றத் தீர்ப்புகளின் படி, “நீதித்துறை நடுவரின் விசாரணை நடைபெற்று வருவதால், மேற்கொண்டு இந்த விவகாரம் குறித்து பேச முடியாது” என்றும் தெரிவித்தார்.</p>
+<p>இறந்து போன, &nbsp;வினோத்குமார், வினாய்குமார், ஹரீஷ்பிரசாத், சசிகரே, அபேகுமார்&nbsp; ஆகியோரில் நான்கு பேர் பீகார் மாநிலத்தைச் சேர்ந்தவர்கள், ஒருவர் ஒரிஸ்ஸா மாநிலத்தைச் சேர்ந்தவர்.&nbsp;&nbsp;&nbsp; திரிபாதி சொல்வதை வைத்துப் பார்த்தால், வேளச்சேரி வீட்டுக்கு விசாரணைக்காக சென்ற இடத்தில் கொள்ளையர்கள் துப்பாக்கியால் சுட்டதால், வேறு வழியின்றி காவல்துறையினர் திருப்பிச் சுட்டுள்ளனர்.</p>
+<p><img class="img-responsive" style="" src="/images/3016/DSC_5599.jpg" alt="DSC_5599" width="" height="" /></p>
+<p>சம்பவம் நடந்த வீட்டின் அருகே உள்ள மக்கள், காவல்துறையினர் பெரும் எண்ணிக்கையில் இரவு 10 மணி முதலே அந்த இடத்தைச் சூழ்ந்துள்ளதாகத் தெரிவிக்கின்றனர்.&nbsp; பத்து மணி முதல் அந்த இடத்தில் குவிந்த போலீசார், அருகாமையில் உள்ள வீட்டில் இருந்தவர்களை வீட்டினுள் செல்லுமாறு அறிவுறுத்தியுள்ளனர்.&nbsp; இரவு 12.30 முதல் 1 மணிக்குள் துப்பாக்கிச் சத்தம் கேட்டதாக அப்பகுதி மக்கள் தெரிவிக்கின்றனர்.&nbsp;&nbsp; திரிபாதி சொல்வது போல வெறும் விசாரணைக்காக அந்த வீட்டுக்கு சென்றவர்கள் இது போல பெருமளவில் ஆயுதங்களோடு சென்றது ஏன் என்பது இயல்பான கேள்வி.&nbsp; கொள்ளையர்கள் வங்கிகளை கொள்ளையடித்தபோது ஆயுதங்கள் வைத்திருந்ததால் காவல்துறையினரும் ஆயுதங்களை எடுத்துச் சென்றனர் என்று சொல்லும் திரிபாதி இத்தனை போலீசார் அங்கே ஏன் சென்றனர் என்பதை விளக்கவில்லை. சாதாரண விசாரணைக்காகத்தான் காவல்துறையினர் அங்கே சென்றார்கள் என்றால், “ஆபரேஷன் டீமின் ஹெட்” என்று அடையாறு துணை ஆணையரை குறிப்பிடுவது ஏன் ?&nbsp; சாதாரண விசாரணையைத்தான் “ஆபரேஷன்” என்று அழைப்பார்களா ?&nbsp; மேலும் சாதாரண விசாரணைக்கு துணை ஆணையரை நள்ளிரவில் அனுப்ப வேண்டிய காரணம் என்ன ?</p>
+<p><img class="img-responsive" style="" src="/images/3016/DSC_0874.jpg" alt="DSC_0874" width="" height="" /></p>
+<p>அருகாமையில் குடியிருந்த பொதுமக்கள் அத்தனை பேரையும் வீட்டுக்குள் செல்லுமாறு இரவு 10 மணியிலிருந்தே காவல்துறையினர் மிரட்டியதிலிருந்தே இது எப்படிப்பட்ட ஒரு மோசமான படுகொலை என்பது தெரிகிறது.&nbsp; என்கவுண்டர் நடந்த உடனே ஒரு பத்திரிக்கையாளரிடம் பேசிய இணை ஆணையர் ஒருவர், இரண்டு காவல் அதிகாரிகளுக்கும் எப்படிக் காயம் ஏற்பட்டது என்று கேட்டதற்கு, அவர்கள் இருவரும் ஜன்னல் வழியாக எட்டிப்பார்த்த போது, உள்ளே இருந்தவர்கள் அரிவாளால் வெட்டியதால் காயம் ஏற்பட்டது என்றார்.&nbsp;&nbsp; ஆனால் திரிபாதியோ, காயமடைந்த இரண்டு ஆய்வாளர்களும், கொள்ளையர்கள் துப்பாக்கியால் சுட்டதில் காயம் ஏற்பட்டது என்றார்.&nbsp;&nbsp; இது போன்ற போலி என்கவுண்டர்களில் காவல் துறையினருக்கு ஏற்படும் காயம் அத்தனையுமே, வயிற்றிலோ, தோள்பட்டையிலோ தான் ஏற்படுகிறது.&nbsp;&nbsp; இந்தச் சம்பவத்திலும் காயம் ஏற்பட்ட இரண்டு ஆய்வாளர்களுக்கும் தோள்பட்டையிலும், வயிற்றிலும், நெற்றியிலும் காயம் ஏற்பட்டிருக்கிறது.&nbsp;&nbsp; இறந்து போன ஐந்து இளைஞர்களுக்கு மட்டும் நெஞ்சில் குண்டு பாய்ந்திருக்கிறது.&nbsp;&nbsp; இந்த மர்மத்திற்கு காரணம் என்ன என்பதற்கு திரிபாதி விளக்கம் ஏதும் அளிக்கவில்லை.</p>
+<p><img class="img-responsive" style="" src="/images/3016/DSC_5562a.jpg" alt="DSC_5562a" width="" height="" /></p>
+<p><img class="img-responsive" style="" src="/images/3016/DSC_5569.jpg" alt="DSC_5569" width="" height="" /></p>
+<p>இந்த இளைஞர்களை இப்படி துணிச்சலாக கொன்றதற்கு மற்றொரு முக்கிய காரணம், இவர்கள் அத்தனை பேரும் வட இந்தியாவைச் சேர்ந்தவர்கள், இவர்களுக்காக வழக்கு போடவோ, மனித உரிமைகளுக்காக குரல் கொடுக்கவோ யாரும் வர மாட்டார்கள் என்ற துணிச்சலே காரணம்.&nbsp; இது போன்ற போலி மோதல் படுகொலைகளை நீதிமன்றங்களும் உரிய தீவிரத்தோடு அணுகுவதில்லை என்பதும், காவல்துறையினரின் துணிச்சலுக்கு மற்றொரு காரணம். சென்னை உயர்நீதிமன்றத்தில் மட்டும், 15க்கும் மேற்பட்ட வழக்குகள் போலி என்கவுண்டர்கள் தொடர்பாக 3 ஆண்டுகளுக்கும் மேலாக நிலுவையில் இருக்கிறது.</p>
+<p>இறந்து போன ஐந்து பேரும் கொள்ளையர்கள் என்றே வைத்துக் கொள்ளலாம்.&nbsp; அவர்கள் கொள்ளையடிக்கும் போது, எந்தவிதமான வன்முறைச் சம்பவத்திலும் ஈடுபடவில்லை என்பதை பார்க்க வேண்டும்.&nbsp;&nbsp;&nbsp; ஆளில்லாத வங்கிகளாகப் பார்த்து 30 லட்ச ரூபாயை கொள்ளையடித்திருக்கிறார்கள்.&nbsp; இவர்கள் செய்தது இவ்வளவு பெரிய தவறென்றால், பல கோடி ரூபாய்களை கொள்ளையடித் தவர்கள்தானே நமக்கு ஆட்சியாளர்களாக இருக்கிறார்கள் ?&nbsp; 66.5 கோடியோடு ஒப்பிடும்போது 30 லட்ச ரூபாய் ஒன்றும் பெரிய தொகை இல்லையே….</p>
+<p><img class="img-responsive" style="" src="/images/3016/DSC_6624.jpg" alt="DSC_6624" width="" height="" /></p>
+<p>மனித சமுதாயம் தோன்றி பல்வேறு கட்டங்களில் வளர்ந்து, இன்று மனித உரிமைகளை மதிக்க வேண்டும், மரண தண்டனையை ஒழிக்க வேண்டும் என்ற ஒரு சிறப்பான வளர்ச்சிக்கட்டத்தில் இருக்கிறது.&nbsp;&nbsp; நமது குற்றவியல் சட்டத்தின் அடிநாதமே, குற்றவாளிகளை திருத்தி சமுதாய நீரோட்டத்தில் கலக்கச் செய்ய வேண்டும் என்பதுதான்.&nbsp;&nbsp;&nbsp; இசுலாமிய நாடுகளிலும், சீனாவிலும் இருப்பது போல, துப்பாக்கியால் சுட்டும், கழுத்தை சீவியும் மரணதண்டனை வழங்கும் கொடிய வழக்கம் இந்தியாவில் இல்லை. &nbsp;மனித உரிமைகளுக்கு முக்கியத்துவம் கொடுக்கும் ஒரு நாகரீக நாடாகவே நாம் இதுவரை அறியப்பட்டிருக்கிறோம்.&nbsp; அப்படித்தான் அறியப்படவும் வேண்டும்.</p>
+<p>நேற்று இரவு நடந்தது போன்ற போலி மோதல் படுகொலைகள் நமது சமுதாயத்தை காட்டுமிராண்டிக்காலத்துக்கே இட்டுச் செல்லும்.&nbsp;&nbsp; அந்த அறையில் தங்கியிருந்த ஐந்து இளைஞர்களில் ஒரே ஒருவர் அந்தக் கொள்ளையில் சம்பந்தப்படாமல் இருந்திருந்தால், பறிக்கப்பட்ட உயிருக்கு என்ன பதில் சொல்வார் திரிபாதி ?</p>
+<p><img class="img-responsive" style="" src="/images/3016/DSC_5118.jpg" alt="DSC_5118" width="" height="" /></p>
+<p>இந்தத் திரிபாதி என்கவுண்டருக்கு பெயர் போனவர்.&nbsp;&nbsp; அவர் 2001 அதிமுக ஆட்சிக் காலத்தில், சென்னை மாநகரத்தின் இணை ஆணையராக இருந்தபோது, ராஜாராம், வீரமணி போன்றவர்களின் என்கவுண்டர்களை நேரடியாக முன்னின்று நடத்தியவர். தற்போது தனது கமிஷனர் பதவியை காப்பாற்றிக் கொள்வதற்காகவே இந்த என்கவுண்டரை நடத்தியிருக்கிறார் என்ற சந்தேகமே மேலோங்குகிறது.&nbsp;&nbsp; மேலும், இன்று பெங்களுரில், ஜெயலலிதா மீதான சொத்துக் குவிப்பு வழக்கில், சசிகலா இன்று இரண்டாவது நாளாக சாட்சியம் அளிக்கும் நிலையில், அந்தச் செய்தியை பின்னுக்குத் தள்ளுவதற்காகவும் இந்த என்கவுண்டர் நடந்துள்ளதோ என்ற சந்தேகத்தையும் வலுவாக எழுப்புகிறார்கள் சில பத்திரிக்கையாளர்கள்.</p>
+<p><img class="img-responsive" style="" src="/images/3016/DSC_5136.jpg" alt="DSC_5136" width="" height="" /></p>
+<p><img class="img-responsive" style="" src="/images/3016/DSC_5155.jpg" alt="DSC_5155" width="" height="" /></p>
+<p>இந்த தாக்குதலில் காயம் அடைந்ததாக வேடமிட்டுக் கொண்டு மருத்துவமனையில் படுத்திருக்கும் இரண்டு காவல்துறை ஆய்வாளர்களையும், நேரில் சென்று பார்த்து இந்த போலி என்கவுண்டருக்கு ஜெயலலிதா வலு சேர்ப்பார் என்பதில் சந்தேகம் இல்லை. &nbsp;மோரில் விஷம் வைத்து வீரப்பனைக் கொன்றவர்களுக்கு இரண்டு லட்சம் ரொக்கமும், இரண்டு க்ரவுண்டு நிலமும், ஒரு படி பதவி உயர்வும் வழங்கியவர்தானே இந்த ஜெயலலிதா.</p>
+<p>நுகர்வுக் கலாச்சாரம் மேலோங்கி இருக்கும் இன்றைய &nbsp;சமுதாயத்தில் குறுக்கு வழியில் பணக்காரராக வேண்டும் என்ற உந்துதலில் தவறு செய்த இளைஞர்கள் சுட்டுக் கொல்லப்பட வேண்டும் என்றால், தனக்கு பிடிக்காத ஐஏஎஸ் அதிகாரி மீது ஆசிட் வீசச் சொன்னவருக்கும், ஒரு சர்வே வெளியிட்டதற்காக மூன்று இளைஞர்களை உயிரோடு கொளுத்தியவர்களுக்கும் என்ன தண்டனை தர வேண்டும் ?</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/3016/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/3016/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/3016/?share=facebook" title="Share on Facebook" id="sharing-facebook-3016"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/3016/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-3016"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/3016/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-3016"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/3016/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/3016/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/3016/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-3016-547511d228465" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=3016&amp;origin=savukkunews.com&amp;obj_id=68584444-3016-547511d228465" data-name="like-post-frame-68584444-3016-547511d228465"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/3016/"
+    dc:identifier="http://savukkunews.com/3016/"
+    dc:title="நிஜமல்ல கதை."
+    trackback:ping="http://savukkunews.com/3016/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

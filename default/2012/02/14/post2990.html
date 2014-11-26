@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- ஆடு நனைகிறதே என்று…..</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2012/02/14/post2990.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">ஆடு நனைகிறதே என்று…..</h1>
+			<p class="post-meta">Feb 14, 2012</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/2990/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/2990/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p>மத்திய அரசின் சட்டத்துறை அமைச்சராக இருக்கும் சல்மான் குர்ஷீத் சனியன்று பேசிய பேச்சு விரக்தியின் வெளிப்பாடு மட்டுமல்ல, விஷமத்தனமானது.&nbsp;</p>
+<p><img class="img-responsive" style="" src="/images/2990/Salman_Khurshid_portrait.jpg" alt="Salman_Khurshid_portrait" width="" height="" /></p>
+<p>உத்தரப்பிரதேச மாநில தேர்தலை பிரதான கட்சிகளான காங்கிரஸ் மற்றும் பிஜேபி இரண்டுமே வாழ்வா சாவா என்ற நோக்கிலேயே அணுகி வருகின்றன. உத்தரப்பிரதேச தேர்தல் முடிவுகள் மத்தியில் இருக்கும் ஐக்கிய முற்போக்குக் கூட்டணி அரசின் எதிர்காலத்தை முடிவு செய்யும்.&nbsp;&nbsp; காங்கிரஸ் கட்சி ஒரு வேளை இத்தேர்தலில் தோல்வியைத் தழுவினால், தற்போது ஆதரவு கொடுத்துக் கொண்டிருக்கும் கூட்டணிக் கட்சிகள் காலை வாருவதற்காக சாத்தியக்கூறுகள் ஏராளமாக இருக்கின்றன. மற்ற கட்சிகள் காலை வாரும் அந்த நேரத்தில், திமுக காங்கிரஸ் கட்சியின் சங்கை அறுப்பதற்கு தயாராக காத்துக் கொண்டிருக்கிறது.&nbsp; இந்த விபரங்கள் மற்ற அனைவரை விடவும், காங்கிரஸ் கட்சித் தலைவர் சோனியா காந்திக்கு நன்றாகவே தெரியும்.</p>
+<p>தன் மகனை 2014ல் பிரதமராக்க வேண்டும் என்று கனவு கண்டு கொண்டிருக்கும் சோனியா ஆட்சி கவிழக் கூடாது என்பதில் மிக மிக கவனமான இருக்கிறார்.&nbsp;&nbsp; இது தவிரவும், தன் மகன், மகள், மருமகன் ஆகியோரின் செல்வாக்கை நிரூபிக்கும் தேர்தலாகவும் உத்தரப்பிரதேசத் தேர்தல் சோனியாவால் பார்க்கப் படுகிறது.</p>
+<p>இந்தியாவை மொத்தமாக குத்தகைக்கு எடுத்திருக்கும் ராஜீவ் காந்தி குடும்பத்தில் தற்போது அரசியலில் நுழைந்திருக்கும் பிரியங்காவின் கணவர் ராபர்ட் வதேராவும், தன் பங்குக்கு தனது அரசியல் ஆர்வத்தைப் பற்றி வெளிப்படையாக பேசியிருக்கிறார்.&nbsp; பொதுமக்கள் விரும்பினால் அவர் அரசியலுக்கு வருவாராம்.&nbsp; ராபர்ட் வதேரா அரசியலுக்கு வருவதை விரும்பும் பொதுமக்கள் யாராவது சவுக்கு வாசகர்களாக இருந்தால், வதேராவுக்கு கடிதம் எழுதி, உங்கள் விருப்பத்தைத் தெரிவியுங்கள்.&nbsp;&nbsp; ராகுல் மற்றும் பிரியங்கா ஆகிய இருவரும்,&nbsp; கடந்த காலத்தைப் போலல்லாமல், மிக மிகத் தீவிரமாக இத்தேர்தலில் பிரச்சாரத்தில் ஈடுபட்டு வருகிறார்கள்.&nbsp;&nbsp; நான்குமுனைப் போட்டியாக இருப்பதால், இந்தப் போட்டியில் எப்படியாவது வென்றே ஆக வேண்டும் என்ற கட்டாயத்தில் கடும் பிரச்சாரத்தில் ஈடுபட்டு வருகிறார்கள்.&nbsp;&nbsp; முலாயம் ஒரு பக்கமும், மாயாவதி மற்றும் பாரதீய ஜனதா கட்சி ஒரு புறமுமாக காங்கிரஸ் கட்சிக்கு கடும் நெருக்கடியைத் தந்து கொண்டு உள்ளது.</p>
+<p>தலித்துகள் மாயாவதியை விட்டு மாறி வாக்களிக்கப் போவதில்லை. யாதவ்கள் முலாயம் சிங் யாதவ் பக்கமே நிற்பார்கள்.&nbsp;&nbsp;&nbsp; மற்ற உயர்சாதி இந்துக்கள் நிச்சயம் பாரதீய ஜனதாவுக்கே வாக்களிப்பார்கள்.&nbsp; இச்சூழலில், உத்தரப்பிரதேசத்தில் கணிசமான எண்ணிக்கையில் இருக்கும் முஸ்லீம்களின் வாக்ககளை எப்படியாது பெற்று விட வேண்டும் என்று பாரதீய ஜனதா கட்சியைத் தவிர்த்து அனைத்து கட்சிகளுமே பகீரதப் பிரயத்தனம் செய்து வருகின்றன. முஸ்லீம்களின் வாக்குகளைப் பெறும் கட்சிக்கு உத்தரப்பிரதேசத் தேர்தலில், சாதகத்தன்மை அதிகமாக இருக்கும் என்று நம்பப்படுகிறது.&nbsp; இதன் அடிப்படையிலேயே முஸ்லீம்களைக் கவரும் விதமாக கட்சிகள் வாக்குறுதிகளை வாரி வழங்கிக் கொண்டுள்ளன.</p>
+<p>இந்நிலையில் உத்தரப்பிரதேசத்தில் தொடர்ந்து தோல்விகளைச் சந்தித்து வந்த காங்கிரஸ் கட்சி எப்படியாவது இத்தேர்தலில் வென்று, இந்தியா ராஜீவ் காந்தி குடும்பத்தின் சொத்து என்பதை நிலைநாட்ட வேண்டிய கட்டாயத்தில் உள்ளது. இது தவிரவும், காங்கிரஸ் கட்சி பலவீனமான நிலையில் இருக்கும் தனது செல்வாக்கைத் தூக்கி நிறுத்துவதற்கு இத்தேர்தல் பயன்படும் என்று கருதுகிறது.</p>
+<p>இப்படிப்பட்ட பின்புலத்தில்தான், உத்தரப்பிரதேசத் தேர்தல் பிரச்சாரம் உச்சகட்டத்தை அடைந்துள்ளது.&nbsp; மாயாவதி தனது கட்சியின் ஒரே ஸ்டார் பிரச்சாரகராக ஊர் ஊராகச் சென்று பிரச்சாரம் செய்து வருகிறார். முலாயம் சிங்கும் அவர் மகனும் தங்களது கட்சிக்காக கடும் பிரச்சாரத்தில் ஈடுபட்டுள்ளனர்.&nbsp;&nbsp; பாரதீய ஜனதா கட்சிக்கு பல்வேறு தலைவர்கள், பிரச்சாரம் செய்து வருகின்றனர்.</p>
+<p>காங்கிரஸ் கட்சி சார்பில், ராகுல், பிரியங்கா மற்றும் சோனியா பிரச்சாரத்தில் ஈடுபட்டு வருகின்றனர்.&nbsp; இந்தத் தேர்தலில் காங்கிரஸ் கட்சி தோல்வியடைந்தால், அது ராகுல் மற்றும் பிரியங்காவுக்கு கிடைத்த தோல்வியாகவே கருதப்படும் என்பதால், காங்கிரஸ் கட்சித் தலைவர்கள், அளவுக்கு அதிகமான விசுவாசத்தோடு பிரச்சாரத்தில் ஈடுபட்டு வருகிறார்கள்.</p>
+<p>இந்தப் பின்னணியில்தான் கடந்த 8 பிப்ரவரி அன்று, உத்தரப்பிரதேசத்தில் நடந்த ஒரு தேர்தல் பேரணியில் காங்கிரஸ் கட்சித் தலைவரும், மத்திய சட்டம் மற்றும் சிறுபான்மையினர் நலத்துறை அமைச்ருமான சல்மான் குர்ஷீத் பேசியுள்ளார்.&nbsp; அன்றைய பேரணியில் பேசிய குர்ஷீத், பிற்படுத்தப்பட்டவர்களுக்கு வழங்கப்பட்டு வரும் 27 சதவிகித இட ஒதுக்கீட்டில் 9 சதவிகிதம் இசுலாமியர்களுக்காக வழங்கப்படும் என்று அறிவித்தார்.&nbsp;&nbsp; இந்த அறிவிப்புக்கு, அனைத்து எதிர்க்கட்சிகளும் கடும் எதிர்ப்பைத் தெரிவித்தன.&nbsp; இந்த வாக்குறுதி ஒரு அரசியல்கட்சித் தலைவர் வழங்கும் வாக்குறுதியாக எடுத்துக் கொள்ள முடியாது.&nbsp; மத்திய சட்டம் மற்றும் சிறுபான்மை நலத்துறை அமைச்சராக இருக்கும் ஒருவர் சொல்லும் இந்த அறிவிப்பு, நிச்சயமாக தேர்தல் நடத்தை விதிகளை மீறிய செயலாகும்.&nbsp; எதிர்க்கட்சிகளின் புகாரைத் தொடர்ந்து, 9 பிப்ரவரி அன்று கூடிய தேர்தல் ஆணையர்கள் குரேஷி, வி.எஸ்.சம்பத் மற்றும் எச்.எஸ்.பிரம்மா ஆகியோர் சல்மான் குர்ஷீத்தை கண்டித்து ஆணை வெளியிட்டனர்.&nbsp; அவர்கள் ஆணையில், ‘தேர்தல் ஆணையம் இதன் மூலம் சர்மான் குர்ஷீத்தை கண்டிக்கிறது.&nbsp; அவர் மேலும் இது போன்ற நடத்தை விதி மீறல்களில் ஈடுபடமாட்டார் என்ற நம்புகிறது’ என்று அந்த ஆணையில் தெரிவிக்கப் பட்டது.</p>
+<p>மறுநாள் (9 பிப்ரவரி) கடக்பூரில் நடந்த ஒரு கூட்டத்தில் பேசிய சல்மான் குர்ஷீத், “தேர்தல் ஆணையம் என்னைக் கண்டித்துள்ளது.&nbsp;&nbsp; ஆனால், தேர்தல் ஆணையம் என்னைத் தூக்கில் போடட்டும் என்ன வேண்டுமானாலும் செய்யட்டும்.&nbsp; ஆனால் இசுலாமியர்களுக்கு வர வேண்டிய நியாயமான சலுகைகளை நான் வழங்காமல் இருக்க மாட்டேன்.”</p>
+<p>சல்மான் குர்ஷீத்தின் இந்த அறிவிப்பு மிகப் பெரிய சர்ச்சையையும், சட்டச் சிக்கலையும் உருவாக்கியிருக்கிறது.&nbsp;&nbsp;&nbsp;&nbsp; இந்தியாவில் நீதித்துறை போல, ஓரளவுக்கு தன்னிச்சையாக, சுதந்திரத்தோடு செயல்படும் அமைப்புகளில், தேர்தல் ஆணையமும் ஒன்று.&nbsp;&nbsp; தேர்தல் ஆணையத்தின் அதிகாரம் என்பது நிலைநாட்டப் பட்டால்தான் நியாயமான முறையில் தேர்தல் நடத்த முடியும்.&nbsp;&nbsp; தேர்தல் ஆணையத்துக்கு வரைமுறையற்ற அதிகாரங்கள் வழங்கப்பட்டுள்ளது என்று உச்சநீதிமன்றத்தில் தொடுத்த ஒரு வழக்கில் தீர்ப்பு வழங்கிய நீதிபதிகள், “பாரபட்சமற்ற முறையில் தேர்தல் நடத்த வேண்டிய தேர்தல் ஆணையம், எங்களுக்கு அதிகாரம் இல்லை என்பதற்காக வானத்தை நோக்கி கை கூப்பி வேண்டிக்கொண்டிருக்க முடியாது.&nbsp; நியாயமான, சுதந்திரமான தேர்தலை நடத்த என்னென்ன நடவடிக்கை எடுக்க வேண்டுமோ, அத்தனை நடவடிக்கைகளையும் தேர்தல் ஆணையம் எடுக்கலாம்” என்று தீர்ப்பு வழங்கியுள்ளனர்.</p>
+<p>தேர்தல் ஆணையம் மட்டும் சுதந்திரமாக, நியாயமான முறையில் செயல்படவில்லையென்றால், 2011 சட்டமன்றத் தேர்தல் எப்படி நடந்திருக்கும் என்பதை சற்றே சிந்தித்துப் பாருங்கள்.</p>
+<p>தேர்தல் ஆணையத்தின் சுதந்திரமும், அதிகாரமும் நிலைநாட்டப்பட வேண்டியது, ஜனநாயகம் தழைத்தோங்குவதற்கு அடிப்படையான ஒன்று.&nbsp;&nbsp; அந்த அமைப்பின் அதிகாரத்தை கேள்விக்குள்ளாக்குவது இறுமாப்பான காரியம் மட்டுமல்ல, விஷமத்தனமானதும் கூட. அதுவும் சட்டத்துறை அமைச்சரே, இப்படிப்பட்ட காரியத்தைச் செய்திருப்பது வேதனையிலும் வேதனை.</p>
+<p>இவ்வாறு சல்மான் குர்ஷீத் பேசிய பிறகு, அவசரக் கூட்டத்தைக் கூட்டிய தேர்தல் ஆணையம், இந்திய ஜனநாயக வரலாற்றில் இல்லாத வகையில், குடியரசுத் தலைவருக்கு கடிதம் அனுப்பியது.&nbsp; அக்கடிதத்தில்,&nbsp; “தொலைக்காட்சிகளில் பார்த்த சட்ட அமைச்சர் சல்மான் குர்ஷீத்தின் பேச்சு, தேர்தல் ஆணையத்தின் அறிவுரைகளை சட்ட அமைச்சர் துச்சமாக மதித்துள்ளதோடல்லாமல், உதாசீனப்படுத்தும் வகையிலும் அலட்சியப்படுத்தும் வகையிலும் பேசியுள்ளார். இவரின் பேச்சு, இதர வேட்பாளர்கள் நியாயமாக போட்டி போடுவதை தடைசெய்யும் வகையில் உள்ளது.&nbsp;&nbsp; தேர்தல் நடத்தை விதிகளை மீறுவது தொடர்பான தேர்தல் ஆணையத்தின் உத்தரவு பற்றிய சட்ட அமைச்சரின் இந்தப் பேச்சு, ஒரு அசாதாரணமான சூழலை உருவாக்கியுள்ளது.&nbsp; அனைத்து அரசியல் கட்சிகள் மற்றும் உச்சநீதிமன்றமே ஒப்புக் கொண்டபடி, தேர்தல் நடத்தை விதிகளை மீறியதற்காக தேர்தல் ஆணையம் எடுத்த நடவடிக்கைகளுக்காக வருத்தப்படவேண்டிய ஒருவர் அதை எதிர்த்துப் பேசுவதல்லாமல், உதாசீனப்படுத்தவும் செய்திருக்கிறார். இந்த நடவடிக்கை வரலாறு காணாதது.&nbsp; அதனால் தேர்தல் ஆணையத்தின் அவசரக்கூட்டம் இன்று மதியம் கூட்டப்பட்டு, சல்மான் குர்ஷித்தின் நடவடிக்கைகள் நியாயமான தேர்தல் நடத்துவதற்கு குந்தகம் விளைவிக்கும் என்பது குறித்து விவாதிக்கப் பட்டது.</p>
+<p><img class="img-responsive" style="" src="/images/2990/21CHEIF_ELECTION_COMMISSION_S1.Y_QUARISHI_KA_PRESS_CONFRENCE.jpg" alt="21CHEIF_ELECTION_COMMISSION_S1.Y_QUARISHI_KA_PRESS_CONFRENCE" width="" height="" /></p>
+<p>தேர்தல் ஆணையத்தின் சுதந்திரத்தையும், அதிகாரத்தையும் பாதுகாக்க வேண்டிய பொறுப்பில் உள்ள சட்ட அமைச்சரே இப்படி தேர்தல் ஆணையத்தை சிறுமைப்படுத்துவது போல நடந்து கொண்டிருப்பது குறித்து ஆணையம் கவலை கொள்கிறது. நியாயமான முறையில் தேர்தல் நடத்துவது ஜனநாயகத்தின் அனைத்து உறுப்புகளுக்கும் பொருந்தும் என்பதை குடியரசுத் தலைவரின் கவனத்துக்கு கொண்டு வர தேர்தல் ஆணையம்&nbsp; முடிவு செய்திருக்கிறது. &nbsp;அரசியல் அமைப்புச் சட்டம் உருவாக்கிய அமைப்புகளுக்குள்ளே இருக்கும் நுண்ணிய சமன்பாடுகள் அமைச்சரின் முறையற்ற, சட்டவிரோதமான செயல்பாடுகளால் பாதிப்புக்குள்ளாக்கப் பட்டுள்ளன.&nbsp; உத்தரப்பிரதேச மாநிலத்தில் பாரபட்சமற்ற முறையில் தேர்தலை நடத்துவதற்கும், தேர்தல் ஆணையம் தன் பணிகளை அரசியல் அமைப்புச் சட்டப்படி செய்வதற்கும், தேர்தல் ஆணையம் உங்களின் தீர்மானமான தலையீட்டை இந்தச் சூழலில் தவிர்க்க இயலாமல் கோருகிறது.”&nbsp; என்று எழுதியுள்ளது.</p>
+<p><img class="img-responsive" style="" src="/images/2990/PresidentSK_11022012_Page_1.jpg" alt="PresidentSK_11022012_Page_1" width="" height="" /></p>
+<p><img class="img-responsive" style="" src="/images/2990/PresidentSK_11022012_Page_2.jpg" alt="PresidentSK_11022012_Page_2" width="" height="" /></p>
+<p>இந்தக் கடிதத்தை குடியரசுத் தலைவர் மன்மோகன் சிங்குக்கு அனுப்பி வைத்துள்ளார்.&nbsp;&nbsp; ராசா ஊழல் செய்த போது அமைதியாக வேடிக்கை பார்த்தது போல, மன்மோகன் சிங் இதையும் வேடிக்கை பார்த்துக் கொண்டிருக்கிறார்.&nbsp; இவர் இப்படி அமைதியாக வேடிக்கைப் பார்ப்பதும், மேலிடத்தின் ஒப்புதலோடுதான் சல்மான் குர்ஷீத் இப்படிப் பேசியுள்ளார் என்ற முடிவுக்கு வர வேண்டியுள்ளது.</p>
+<p>சச்சார் கமிட்டியில் தெரிவித்திருந்தபடி, இசுலாமியர்கள் மோசமான நிலையில் 60 ஆண்டுகளுக்கான இருந்ததற்கு 50 ஆண்டுகளுக்கும் மேலாக இந்த நாட்டை ஆண்ட காங்கிரஸ் கட்சியே காரணம்.&nbsp;&nbsp; பாபர் மசூதியில் இரவோடு இரவாக சிலை வைக்கப் பட்டது நேரு பிரதமராக இருந்த போது.&nbsp;&nbsp; அந்த இடம் வழிபாட்டுக்கு திறந்து விடப்பட்டது ராஜீவ் காந்தி பிரதமராக இருந்த போது.&nbsp;&nbsp; பாபர் மசூதி இடிக்கப் பட்டது நரசிம்மராவ் பிரதமராக இருந்தபோது.&nbsp; இசுலாமியர்களுக்கு இட ஒதுக்கீடு கொடுக்க இப்போது உத்தரப்பிரதேச தேர்தல் சமயத்தில் முனைப்பாக விதிகளை மீறி அறிவிப்புகளை வெளியிடும் காங்கிரஸ் இத்தனை ஆண்டுகளாக இசுலாமியர்களுக்காக எதுவுமே செய்யவில்லை என்பதுதான் உண்மை.&nbsp; தேர்தல் நேரத்தில் எப்படியாவது இசுலாமியர்களின் வாக்குகளைப் பெற்று விட வேண்டும் என்ற உத்வேகத்தில் இப்படி காங்கிரஸ் கட்சிப் பேசுவது, ஆடு நனைகிறதே என்று ஓநாய் அழுவது போலத்தான் உள்ளது.</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/2990/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/2990/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/2990/?share=facebook" title="Share on Facebook" id="sharing-facebook-2990"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/2990/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-2990"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/2990/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-2990"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/2990/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/2990/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/2990/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-2990-547511dcb0e68" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=2990&amp;origin=savukkunews.com&amp;obj_id=68584444-2990-547511dcb0e68" data-name="like-post-frame-68584444-2990-547511dcb0e68"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/2990/"
+    dc:identifier="http://savukkunews.com/2990/"
+    dc:title="ஆடு நனைகிறதே என்று….."
+    trackback:ping="http://savukkunews.com/2990/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

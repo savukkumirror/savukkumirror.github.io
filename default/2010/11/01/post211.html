@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- விடுதலைப்புலி போட்ட அதிரடி மனு!</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2010/11/01/post211.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">விடுதலைப்புலி போட்ட அதிரடி மனு!</h1>
+			<p class="post-meta">Nov 1, 2010</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/211/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/211/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p> </p>
+<p>விடுதலைப்புலிகள் தலைவர் பிரபாகரன் இப்போது உயிருடன் இல்லை.புலிகள் இயக்கம் அழிக்கப்பட்டுவிட்டது என்று இலங்கை அரசு அறிவித்துக்கொண்டிருக்க. இந்தியாவில் புலிகள் இயக்கத்துக்கான தடை நீட்டிக்கப்பட்டுக்கொண்டிருக்கிறது.</p>
+<p>இந்தத் தடையை நீக்கக் கோரும் வழக்கு விசாரணையால் இந்த தீர்ப்பாயங்கள் களைகட்டியிருக்கின்றன.</p>
+<p>புலிகள் இயக்கத்தைச் சேர்ந்தவரோ அல்லது முன்னாள் உறுப்பினராக இருந்தவர் மட்டுமே புலிகள் இயக்கத்துக்கான தடையை எதிர்த்து வழக்குப் போட முடியும் என்று ஏற்கெனவே தீர்பாயம் அறிவித்திருந்தது.</p>
+<p><strong class="bbc" style="font-weight: bold !important;">இந்நிலையில்,தமிழக மக்கள் உரிமைக்கழக வழக்கறிஞர் ராதாகிருஷ்ணன் புதிய மனு ஒன்றைத் தாக்கல் செய்தார்.<p>
+<p>சுவிட்சர்லாந்தில் வசிக்கும் விஜயரத்தினம் சிவநேசன் சார்பில் இந்த மனு தாக்கல் செய்யப்பட்டதையடுத்து இந்த வழக்கில் திடீர்த் திருப்பம் ஏற்பட்டது.</p>
+<p><strong class="bbc" style="font-weight: bold !important;">விஜயரத்தினம் சிவநேசன் சார்பில் தாக்கல் செய்யப்பட்ட மனுவின் சாராம்சம் இதுதான்.</strong></p>
+<p>‘‘1983 முதல் விடுதலைப்புலிகள் இயக்கத்தில் இருக்கிறேன்.</p>
+<p>போட்டோகிராபராகவும் பணியாற்றுகிறேன்.கடந்த 1988-ம் ஆண்டு தமிழகத்தில் கைது செய்யப்பட்ட 80பேரில் நானும் ஒருவன்.கைது செய்யப்பட்ட பின்னர் இலங்கையில் இருந்த இந்திய ராணுவ முகாமுக்கு என்னை அனுப்பினர்.</p>
+<p>1990-ம் ஆண்டுஇந்திய ராணுவம் என்னை விடுதலை செய்தது. அதே ஆண்டு சுவிட்சர்லாந்தில் அரசியல் தஞ்சம் புகுந்தேன்.அங்கும் விடுதலைப்புலிகள் இயக்கத்தின் கேமராமேனாக பணியாற்றினேன்.</p>
+<p>விடுதலைப்புலிகள் இயக்கத் தலைவர் பிரபாகரன் போரின் போது இறந்து விட்டதாகவும், அந்த இயக்கத்தை தோல்வியடையச் செய்துவிட்டதாகவும் இலங்கை அரசு அறிவித்தது.</p>
+<p>இந்நிலையில்,கடந்த 2010மே 14-ம் தேதி இந்திய அரசு விடுதலைப்புலிகள் இயக்கத்துக்கு விதிக்கப்பட்ட தடையை நீட்டித்துள்ளது.</p>
+<p>இது சரியல்ல.புலிகள் இயக்கம் அழிக்கப்பட்டதாக இலங்கையே கூறும்போது, இதுபோன்ற தடையை இந்தியா விதிக்க முடியாது. எனவே, அந்த உத்தரவை ரத்து செய்ய வேண்டும். இலங்கையில்தான் தனி ஈழம் கேட்டு விடுதலைப்புலிகள் போராடினார்கள்.இந்தியாவில் அத்தகைய கோரிக்கையை வைத்துப் போராடவில்லை.</p>
+<p>கடந்த 2009-ம் ஆண்டு மே மாதம் 20-ம் தேதி முதல் 2010-ம் ஆண்டு மே 14-ம் தேதிக்கு இடைப்பட்ட காலத்தில் விடுதலைப்புலிகள் சட்டவிரோத நடவடிக்கைகளில் ஈடுபட்டார்கள் என்பதற்கு எவ்வித ஆதாரமும் இல்லை.</p>
+<p>இலங்கை அகதிகள் போர்வையில் விடுதலைப்புலிகள் இந்தியாவிற்குள் ஊடுருவலாம் என்ற காரணத்தை மத்திய அரசு விளக்கமாகக் கூறியுள்ளது.</p>
+<p>தமிழக அரசு பலத்த சோதனை செய்த பிறகே இலங்கை அகதிகளை தமிழகத்துக்குள் அனுமதிக்கிறது.இப்படி இருக்க. விடுதலைப்புலிகள் ஊடுருவல் என்ற பேச்சுக்கே இடமில்லை’’என்று மனுவில் குறிப்பிட்டுள்ளார் விஜயரத்தினம் சிவநேசன்.</p>
+<p>அதோடு, விஜயரத்தினம் சிவநேசன் இறுதியாக ‘அணுகுண்டு ரேஞ்சுக்கு’ ஒரு குண்டைத் தூக்கிப் போட்டுள்ளார்.</p>
+<p>‘‘இந்த தீர்ப்பாயத்தில் தமிழக அரசின் சார்பிலும், மத்திய அரசின் சார்பிலும் 2 சாட்சிகள் விசாரிக்கப்பட்டனர். இரு சாட்சியங்களின் அடிப்படையில் தான் புலிகள் இயக்கம் மீது இந்திய அரசு தடை விதித்துள்ளது.</p>
+<p>உண்மையான நீதி கிடைக்க இரு அரசு சாட்சிகளையும் நான் விசாரிக்க அனுமதிக்க வேண்டும்.இரு சாட்சிகளிடம் நடத்திய விசாரணை தொடர்பான அனைத்து ஆவணங்களையும் எனக்குத் தர, இந்த தீர்ப்பாயம் மத்திய,மாநில அரசுகளுக்கு உத்தரவிடவேண்டும்.நான் விசாரிக்க வேண்டிய இரு சாட்சிகளையும் தீர்ப்பாயத்தில் நேரில் ஆஜராகவும் உத்தரவிட வேண்டும்!’’</p>
+<p>இது தான் விஜயரத்தினம் சிவநேசனின் முக்கிய கோரிக்கையாக உள்ளது.&nbsp;<strong class="bbc" style="font-weight: bold !important;">இந்த மனு மீதான விசாரணையை ஏற்பதா அல்லது வேண்டாமா..? என்ற முடிவை டெல்லி தீர்ப்பாயம் நவம்பர் 1-ம் தேதி அறிவிக்கும் என்றார் நீதிபதி விக்ரம்ஜித்.</strong></p>
+<p>அரசுத் தரப்பு சாட்சிகளை தானும் விசாரிக்க வேண்டும் என்ற விஜயரத்தினம் சிவநேசனின் கோரிக்கை அரசுத் தரப்பில் அதிர்ச்சியை ஏற்படுத்தியுள்ளதாகத் தெரிகிறது.‘புலி வாலைப் பிடித்த கதை’யாகிவிட்டதாக பலரை இந்த மனு புலம்ப வைத்துள்ளதாகச் சொல்கிறார்கள்.</p>
+<p>தீர்ப்பாய நீதிபதி விக்ரம்ஜித் முன்பு வியாழனன்று நடந்த விசாரணையில் தடையை நீக்கக் கோரும் வாதத்தில் பங்கேற்க வைகோ, பழ.நெடுமாறன் ஆகியோர் வாதாடினர்.இந்த வழக்கில் ஜனதா கட்சித் தலைவர் சுப்பிரமணியன் சுவாமியும் ஆஜரானார்.</p>
+<p>‘தடையை நீக்கக் கோரி வழக்குத் தொடர புலிகள் இயக்க உறுப்பினர் அல்லது முன்னாள் உறுப்பினருக்கு மட்டுமே உரிமை உண்டு’ என்று கூறிய சுப்பிரமணியன் சுவாமி,‘வைகோவும்,நெடுமாறனும் புலிகள் இயக்க உறுப்பினர்களா.?’ என்று கேள்வி எழுப்பினார்.</p>
+<p>மேலும், ‘வைகோ, நெடுமாறன் வழக்கை விசாரணைக்கு ஏற்றுக் கொண்டுவிட்டீர்களா..?’ என நீதிபதியைப் பார்த்து கேட்க, நீதிபதியோ, ‘இல்லையில்லை. விசாரணைக்கு ஏற்பதா அல்லது வேண்டாமா என்பது குறித்த வாதம்தான் இப்போது நடக்கிறது’ என்றார்.</p>
+<p>‘இருவருக்கும் புலிகள் தரப்பில் வாதாட அனுமதி அளித்தால்.மத்திய அரசு தரப்பில் வாதாட என்னையும் இந்த தீர்ப்பாயம் அனுமதிக்க வேண்டும்’ என்று சுவாமி கூறியதை நீதிபதி ஏற்றுக்கொண்டார்.</p>
+<p>  நன்றி: குமுதம் ரிப்போர்ட்டர்  </p>
+</p></strong></p>
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

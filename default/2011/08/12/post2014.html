@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- ஊழலை மறைக்க உயிர்ப்பலியா ?</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2011/08/12/post2014.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">ஊழலை மறைக்க உயிர்ப்பலியா ?</h1>
+			<p class="post-meta">Aug 12, 2011</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/2014/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/2014/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p>ராஜீவ் காந்தியின் கொலை மற்றும் அதன் பின்னர்&nbsp;நடந்த விசாரணை, அமெரிக்க ஜனாதிபதி ஆப்ரகாம் லிங்கன் படுகொலையை ஒட்டி நடந்த விசாரணையை நினைவுபடுத்துகிறது.</p>
+<p> </p>
+<p><img class="img-responsive" style="" src="/images/2014/John_Wilkes_Booth_wanted_poster_1.jpg" alt="John_Wilkes_Booth_wanted_poster_1" width="" height="" /></p>
+<p>14 ஏப்ரல் 1865ல் லிங்கன் கொலை செய்யப் படுகிறார்.&nbsp; அதன் பின்னர் நடந்த கைதுகளும், விசாரணைகளும் அப்போது இருந்த மக்கள் மனநிலையை பிரதிபலிக்கின்றன.&nbsp;&nbsp; கொலைக்கு காரணமானவராக அறியப்பட்ட ஜான் வில்கின்ஸ் பூத் என்பவரோடு தொடர்பு வைத்திருந்தவர்கள் அனைவரும் கைது செய்யப் பட்டனர். கைது செய்யப் பட்டவர்களுக்கு சாதாரணமாக நடக்கும் நீதிமன்ற விசாரணைக்கு பதிலாக ராணுவ நீதிமன்றத்தில் விசாரணை நடந்தது.&nbsp;&nbsp; அந்த ராணுவ நீதிமன்றத்தின் 9 உறுப்பினர்களும், அமெரிக்க ஜனாதிபதியால் நியமிக்கப் பட்டவர்கள். ஏழே வாரங்களில் விசாரணை முடிந்து குற்றம் சாட்டப் பட்ட எட்டு பேருக்கும் தூக்கு தண்டனை வழங்கப் பட்டது.&nbsp; அந்த வழக்கில் தண்டிக்கப் பட்ட மேரி சூரத் என்ற ஒரு பெண்ணை தூக்கிலிட வேண்டாம் என்று அந்த வழக்கில் தீர்ப்பு எழுதிய நீதிபதிகளில் ஐந்து பேர், அமெரிக்க ஜனாதிபதிக்கு கடிதம் எழுதியும், அவர் தூக்கிலிடப்பட்டார்.&nbsp;&nbsp; சாதாரண நீதிமன்ற நடைமுறைகள் எதுவும் கடைபிடிக்காமல் அவசர கோலத்தில் அந்த விசாரணை நடத்தி முடிக்கப் பட்டு, தூக்கிலிடப் பட்டனர்.</p>
+<p> </p>
+<p>ஏறக்குறைய அதே முறையில் தான், ராஜீவ் காந்தி கொலைவழக்கின் விசாரணையும் நடைபெற்றது.&nbsp; தடா சட்டம் என்ற ஒரு கொடுங்கோல் சட்டத்தின் கீழ் இவ்வழக்கில் குற்றம் சாட்டப் பட்டவர்கள் கைது செய்யப் பட்டு, 60 நாட்கள் போலீஸ் காவலில் வைக்கப் பட்டார்கள்.&nbsp;&nbsp; இந்த சமயத்தில், இவ்வழக்கில் கைது செய்யப் பட்டவர்கள் அனுபவித்த சித்திரவதை சொல்லில் அடங்காது.</p>
+<p> </p>
+<p>இன்று தூக்கு மேடையை எதிர்நோக்கி இருக்கும் பேரறிவாளன் வார்த்தைகளிலேயே கேட்போம்.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/2014/perarivalan_nov3-876.jpg" alt="perarivalan_nov3-876" width="" height="" /></p>
+<p>“தரைத்தளத்துக்கு அழைத்து வரப்பட்டு ஜட்டியோடு நிற்க வைக்கப் பட்டேன்.&nbsp; அப்போது சுந்தரராஜன் என்ற இன்ஸ்பெக்டரும் மற்றும் பெயர் தெரியாத இரண்டு பேரும் வந்து என்னை கையால் அடித்தனர்.&nbsp;&nbsp; ஒருவர் என் கால் விரல்களை ஷுக்காலால் நசுக்கினார்.&nbsp;&nbsp; சுந்தரராஜன் என் விதைப்பையில் உதைத்தார்.&nbsp;&nbsp; வலி தாங்க முடியாமல் கீழே விழுந்து கதறினேன்.</p>
+<p> </p>
+<p>அடுத்த நாள் மல்லிகை கட்டிடத்தின் மேல் மாடியில் சித்திரவதைக் கூடம் என்று அழைக்கப் பட்ட இடத்துக்கு, கொண்டு செல்லப் பட்டேன்.&nbsp;&nbsp; அங்கே மாதவன், ரமேஷ், செல்லதுரை என்ற இன்ஸ்பெக்டர்களும், சிவாஜி என்ற டிஎஸ்பியும் இருந்தனர்.&nbsp; இவர்கள் சித்திரவதைக்கு பெயர் போனவர்கள்.&nbsp;&nbsp; எனக்கு உணவும் தண்ணீரும் கூட மறுக்கப் பட்டன.&nbsp;&nbsp; சிறுநீர் கழிக்கக் கூட அனுமதிக்கப் படவில்லை.</p>
+<p> </p>
+<p>இன்ஸ்பெக்டர்கள் மாதவனும் ரமேஷும் என்னை நாற்காலியில் அமர்வது போன்ற பொசிஷனில் கையை தலைக்கு மேல் உயர்த்தி நிற்க வைத்தார்கள்.&nbsp;&nbsp; பிவிசி பைப்பில் சிமென்டை நிரப்பி என் உடல் முழுவதும் அடித்தனர்.&nbsp;&nbsp; இன்ஸ்பெக்டர் செல்லதுரை அவதூறான வார்த்தைகளால் திட்டிக் கொண்டே என்னை அடித்தார்.“</p>
+<p> </p>
+<p>இது போல, அறிவின் சித்திரவதை அனுபவங்கள் தொடர்கின்றன.&nbsp; இப்படிப் பட்ட சித்திரவதையை ஒரு நபர் தொடர்ந்து 60 நாட்களுக்கு அனுபவித்தால் எந்தக் குற்றத்தை ஒப்புக் கொள்ள மாட்டார் ?</p>
+<p> </p>
+<p>இது போல தொடர்ந்து 60 நாட்கள் சித்திரவதை செய்யப் பட்டு, ஒப்புதல் வாக்குமூலத்தில் கையொப்பம் பெறப்பட்டுள்ளது.&nbsp; தடா சட்டம் புதிதாக அறிமுகப் படுத்தப் பட்டது என்பதால், காவல்துறை முன்பு கொடுக்கும் வாக்குமூலங்கள் செல்லும் என்பது அறியாமலேயே, அந்த வாக்குமூலங்களில் கையெழுத்திட்டுள்ளனர்.&nbsp;&nbsp;&nbsp; சித்திரவதை செய்யப் பட்டு வாக்குமூலம் பெறப்பட்டது என்பதை 11.02.1992 மற்றும் 26.08.1992 ஆகிய நாட்களில் அளித்த மன மூலம் அறிவு தெளிவாக குறிப்பிட்டு புகார் அளித்துள்ளார்.</p>
+<p> </p>
+<p>ஆனால், உச்ச நீதிமன்றத்தில் இறுதி விசாரணையில் தீர்ப்பு எழுதிய நீதிபதிய வாத்வா, “சித்திரவதையோ, அல்லது மிரட்டியோ வாக்குமூலம் பெறப்பட்டது என்பதற்கான எந்த புகாரையும் நீதிமன்றத்தில் தெரிவிக்கவில்லை என்பதால், இந்த வாக்குமூலத்தில் சந்தேகப் பட எதுவுமில்லை” என்கிறார்.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/2014/gkill.jpg" alt="gkill" width="" height="" /></p>
+<p>இந்த வழக்குக்கு தடா சட்டம் பொருந்தாது என்று வழக்கின் இறுதி விசாரணையில் தீர்ப்பு எழுதிய நீதிபதிகள் ஒப்புக் கொண்டாலும், தடா சட்டத்தின் கீழ் நடந்த கீழ் நீதிமன்ற விசாரணையையும், தடா சட்டத்தின் கீழ் காவல்துறையில் பெறப்பட்ட ஒப்புதல் வாக்குமூலங்களையும் அப்படியே ஏற்றுக் கொண்டது, வினோதத்திலும் வினோதம்.</p>
+<p> </p>
+<p>மேலும் 1865ல் அமெரிக்காவில் ஆப்ரகாம் லிங்கன் கொலை வழக்கு விசாரணை நடந்தது போலவே, இந்த வழக்கு விசாரணையும், ரகசியமாக, பொதுமக்கள் அனுமதிக்கப் படாமல், நடத்தப் பட்டது.</p>
+<p> </p>
+<p>தடா சட்டம் இந்த வழக்குக்கு பொருந்தாது என்று முடிவெடுத்த உச்ச நீதிமன்றம், சாதாரண சட்டத்தின் படி, கீழ் நீதிமன்றத்துக்குப் பிறகு, உயர் நீதிமன்றத்தில் மேல் முறையீடு செய்து கொள்ள அல்லவா அனுமதித்திருக்க வேண்டும் ?&nbsp;&nbsp; ஆனால், தடா சட்ட விதிமுறைகளின் படி, கீழ் நீதிமன்றத்துக்குப் பிறகு, நேரடியாக உச்ச நீதிமன்றத்தில் விசாரணை நடந்து இறுதித் தீர்ப்பு வழங்கப் பட்டதால், உயர்நீதிமன்றத்தில் மேல் முறையீடு செய்யும் வாய்ப்பு மறுக்கப் பட்டது.</p>
+<p> </p>
+<p>இப்படி இந்த வழக்கை ஆராய்ந்தால், ஆரம்பம் முதல், தொடர்ந்து பல்வேறு குளறுபடிகள் இருக்கின்றன.&nbsp; இப்படி குளறுபடிகளோடு நடத்தப் பட்ட ஒரு வழக்கின் அடிப்படையில் மூன்று உயிர்களை தூக்கிலிடுவது என்பதை எப்படி ஏற்றுக் கொள்ள முடியும் ?</p>
+<p> </p>
+<p>சிங்களக் கடற்படையிடமிருந்து தமிழக மீனவர்களைக் கூட காப்பாற்ற மறுக்கும் மத்திய அரசு தொடர்ந்து கடைபிடித்து வரும் தமிழின விரோதப் போக்கின் வடிவமாகவே, குடியரசுத் தலைவரின் இந்த முடிவை பார்க்க வேண்டியிருக்கிறது.</p>
+<p> </p>
+<p>ராஜீவ் காந்தி என்ற ஒரு நபர் கொலை செய்யப் பட்டதற்காக மூவர் தூக்கிலிடப் பட வேண்டும் என்றால், ஒரு லட்சத்துக்கும் அதிகமான தமிழர்களை கொன்று அழித்த சிங்களக் காடையர்களுக்கு ஆயுதமும் பணமும், பயிற்சியும் கொடுத்து உதவிய மன்மோகன் சிங்குக்கும், சோனியாவுக்கும் என்ன தண்டனை கொடுப்பது ?</p>
+<p> </p>
+<p>தமிழினம் என்றாலே மாற்றாந்தாய் மனப்பான்மையேடு அணுகும் மத்திய அரசின் இந்தப் போக்கை ஜனநாயக சக்திகள் ஒன்று சேர்ந்து எதிர்ப்பது அனைவரது கடமை.</p>
+<p> </p>
+<p>மூவரின் உயிரைக் காப்பாற்ற நீதிமன்ற நடவடிக்கைகளை மேற்கொள்வது ஒரு புறம் இருந்தாலும், உலகெங்கும் உள்ள தமிழ் நெஞ்சங்கள், இந்த அநீதிக்கு எதிராக தங்கள் கடுமையான கண்டனங்களை பதிவு செய்வது அவசியம்.</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/2014/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/2014/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/2014/?share=facebook" title="Share on Facebook" id="sharing-facebook-2014"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/2014/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-2014"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/2014/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-2014"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/2014/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/2014/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/2014/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-2014-5475136214725" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=2014&amp;origin=savukkunews.com&amp;obj_id=68584444-2014-5475136214725" data-name="like-post-frame-68584444-2014-5475136214725"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/2014/"
+    dc:identifier="http://savukkunews.com/2014/"
+    dc:title="ஊழலை மறைக்க உயிர்ப்பலியா ?"
+    trackback:ping="http://savukkunews.com/2014/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

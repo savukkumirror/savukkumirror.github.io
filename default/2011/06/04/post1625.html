@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- பதவி விலகுங்கள். தினமணி தலையங்கம்.</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2011/06/04/post1625.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">பதவி விலகுங்கள். தினமணி தலையங்கம்.</h1>
+			<p class="post-meta">Jun 4, 2011</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/1625/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/1625/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p>சட்டத்தின் சந்து பொந்துகளில் நுழைந்துகொண்டு தாங்கள் செய்யும் தவறுகளிலிருந்து தப்பித்துக்கொள்ளும் ஒரு கூட்டம் வேறெங்குமே இல்லாத அளவுக்கு இந்தியாவில் அதிகரித்து விட்டிருக்கிறது. குறிப்பாக, ஆட்சியிலும் அதிகாரத்திலும் செல்வாக்குப் படைத்த கட்சித் தலைவர்களாக, அமைச்சர்களாகப் பொறுப்பான பதவி வகிப்பவர்கள், தங்களது குடும்பத்தையும், சுற்றத்தையும், நண்பர்களையும் வளப்படுத்துவதற்காகத்தான் மக்கள் தங்களுக்கு வாக்களித்துப் பதவிக் கட்டிலில் அமர வைத்திருக்கிறார்கள் என்று நினைத்துச் செயல்படுவது வாடிக்கையாகிவிட்டது. இவர்களது செயல்பாடுகளால் நமக்கு மக்களாட்சித் தத்துவத்திலேயே நம்பிக்கை குறையத் தொடங்கி இருக்கிறது.</p>
+<p> </p>
+<p>காமன்வெல்த் விளையாட்டுப் போட்டிகளில் ஊழல், 2ஜி அலைக்கற்றை ஒதுக்கீடில் முறைகேடு, ராணுவ வீரர்களுக்காக அடுக்குமாடிக் குடியிருப்புகளைக் கட்டுகிறோம் என்கிற சாக்கில் அரசியல்வாதிகளின் பினாமிகள் அரங்கேற்றி இருக்கும் அதிகார துஷ்பிரயோகங்கள் என்று இந்த வரிசையில் சேர்ந்து கொள்கிறது மத்திய ஜவுளித் துறை அமைச்சர் தயாநிதி மாறன் மீது எழுப்பப்பட்டிருக்கும் தொலைபேசி இணைப்பு மோசடிக் குற்றச்சாட்டு.</p>
+<p> </p>
+<p>தங்களது நிறுவனத்தின் சார்பில் ஒரு சட்டப் பிரிவும், அதில் சில வழக்குரைஞர்கள் ஊழியர்களாகவும் இருப்பதால், எந்தப் பத்திரிகை தங்களைப் பற்றிய செய்திகளை வெளியிட்டாலும் உடனே வக்கீல் நோட்டீஸ் அனுப்புவதும், மான நஷ்ட வழக்குப் போட்டு அந்தப் பத்திரிகையாளரை நீதிமன்றத்தின் கூண்டிலேற்றுவதாகப் பயமுறுத்துவதும் சன் குழுமத்துக்கு வாடிக்கையாகிவிட்டது.</p>
+<p> </p>
+<p>சக பத்திரிகையாளர்களையும், தொலைக்காட்சிச் சேனல்களையும் மிரட்டியும், பயமுறுத்தியும் பணிய வைக்கும் முயற்சியில், ஒரு அமைச்சரே ஈடுபடும்போது அதை வாய் பொத்திக் கைகட்டி வேடிக்கை பார்ப்பது என்பது பத்திரிகை தர்மத்துக்கே அடுக்காது என்பதால் தலையங்கம் தீட்டி பதிலளிக்க வேண்டிய நிர்பந்தம் நமக்கும் ஏற்பட்டிருக்கிறது.</p>
+<p> </p>
+<p>அன்றைய மத்திய தகவல் தொலைத் தொடர்புத் துறை அமைச்சராக இன்றைய மத்திய ஜவுளித் துறை அமைச்சர் தயாநிதி மாறன் இருந்தபோது, தனது சென்னை போட் ஹவுசிலுள்ள வீட்டிலிருந்து சன் தொலைக்காட்சித் தலைமையகத்தைத் தொலைபேசி மூலம் இணைத்து, அந்தத் தனியார் சேனலின் பயன்பாட்டுக்கு அமைச்சரின் பெயரிலான தொலைபேசி முறைகேடாகப் பயன்படுத்தப்பட்டது என்பது குற்றச்சாட்டு. இதற்காக 3.4 கி.மீ. தூரத்துக்கு ரகசியமாக சாலைக்கடியில் கேபிள் இணைப்பு கொடுக்கப்பட்டதாகவும் கூறப்பட்டது.</p>
+<p> </p>
+<p>ஏறத்தாழ 323 பி.எஸ்.என்.எல். தொலைபேசி இணைப்புகள் ஒரு குட்டி தொலைபேசி இணைப்பகம்போல, தனது குடும்பத் தொலைக்காட்சி மற்றும் பத்திரிகையின் பயன்பாட்டுக்காக அன்றைய தகவல் தொலைத் தொடர்புத் துறை அமைச்சர் தயாநிதி மாறனால் முறைகேடாக உபயோகப்படுத்தப்பட்டன என்கிற குற்றச்சாட்டு 2009 தேர்தலின்போதே எழுப்பப்பட்டது. அமைச்சர் அதிபுத்திசாலித்தனமாக, பி.எஸ்.என்.எல். பொது மேலாளர் ஒருவரிடமிருந்து, அமைச்சரின் பெயரில் ஒரு தொலைபேசி மட்டுமே இயங்குவதாக ஒரு கடிதம் எழுதி வாங்கி வெளியிட்டு பிரச்னைக்கு முற்றுப்புள்ளி வைக்க முற்பட்டார்.</p>
+<p> </p>
+<p>அத்துடன் முடிந்தது என்று அமைச்சர் தயாநிதி மாறன் நினைத்த விஷயம் இப்போது விஸ்வரூபம் எடுத்திருக்கிறது. இதற்குக் காரணம், &#8220;தினமணி&#8217;யோ, பத்திரிகையாளர் எஸ். குருமூர்த்தியோ அல்ல.</p>
+<p> </p>
+<p>2007-ம் ஆண்டு தயாநிதி மாறனின் தகவல் தொலைத் தொடர்பு அமைச்சர் பதவி பறிக்கப்பட்ட பிறகு, அவரது இடத்தைப் பிடித்த ஆ. ராசாதான் இந்தப் பிரச்னை இப்போது பூதாகரமாக வடிவம் எடுத்திருப்பதற்குக் காரணம் என்பது தயாநிதி மாறனுக்கும் சன் குழுமத்துக்கும் தெரியாதா, இல்லை, அவர்களது தாத்தாவான திமுக தலைவர் கருணாநிதிக்குத்தான் தெரியாதா?</p>
+<p> </p>
+<p>தயாநிதி மாறனுக்குப் பிறகு மத்திய தகவல் தொலைத் தொடர்பு அமைச்சராகப் பதவி ஏற்ற ஆ. ராசாவின் பரிந்துரையின் பேரில்தானே, ஜூன் 2004 முதல் ஜூன் 2007 வரையில் அமைச்சர் என்ற முறையில் தயாநிதி மாறனின் செயல்பாடுகளுக்குப் பயன்பட்ட தொலைபேசி இணைப்புகள் பற்றிய விசாரணையை மத்தியப் புலனாய்வுத் துறையினர் (சி.பி.ஐ.) முடுக்கிவிட்டனர். 2007 செப்டம்பர் மாதம் 10-ம் தேதி சிபிஐயின் சிறப்பு ஆணையர் எம்.எஸ். சர்மாவின் கையொப்பத்துடன் மத்தியப் புலனாய்வுத் துறையின் அறிக்கை சமர்ப்பிக்கப்பட்டது.</p>
+<p> </p>
+<p>323 தொலைபேசி இணைப்புகளைத் தனது குடும்ப நிறுவனமான சன் குழுமத்துக்காக அன்றைய அமைச்சர் தயாநிதி மாறன் முறைகேடாகப் பயன்படுத்தியதாகவும், இதனால் அரசுக்குப் பல கோடி ரூபாய் இழப்பு ஏற்பட்டிருப்பதாகவும், இந்த அறிக்கையின் மீது அடுத்த கட்ட நடவடிக்கை எடுக்கப் பரிந்துரைப்பதாகவும் மத்தியப் புலனாய்வுத் துறையின் அறிக்கை குறிப்பிடுகிறது.</p>
+<p> </p>
+<p>இப்போதைய கேள்வி, தயாநிதி மாறன் தொலைபேசி இணைப்புகளை முறைகேடாகப் பயன்படுத்தினாரா, இல்லையா என்பதல்ல. மத்தியப் புலனாய்வுத் துறையின் அறிக்கை கடந்த நான்கு ஆண்டுகளாகத் தூங்குகிறதே அது ஏன் என்பதுதான்.</p>
+<p> </p>
+<p>தான் எந்தத் தவறும் செய்யவில்லை என்றும், முறைகேடுகளில் ஈடுபடவில்லை என்றும் தயாநிதி மாறன் கூறுவது உண்மையானால், முதலில் தனது மத்திய அமைச்சர் பதவியை ராஜிநாமா செய்து விசாரணைக்குத் தயாராகட்டுமே. பத்திரிகையாளர்களை நீதிமன்றத்தின் பெயராலும், மான நஷ்ட வழக்கு போடுவேன் என்றும் மிரட்டுவதை விட்டுவிட்டு, நீதி விசாரணைக்கு தயாநிதி மாறன் தயாராகத் துணியட்டுமே.</p>
+<p> </p>
+<p>அவர் தயாராகிறாரோ இல்லையோ, அவரை அமைச்சரவையில் இருந்து அகற்றி, சிபிஐயின் அறிக்கை மீது அடுத்தகட்ட நடவடிக்கையைத் தொடர வேண்டிய கடமை பிரதமருக்கு உண்டு. &#8220;சட்டம் தனது கடமையைச் செய்யும்&#8217; என்கிற பிரதமரின் கூற்று உண்மையானால், நான்கு ஆண்டுகளாகத் தூங்கிக் கொண்டிருக்கும் சிபிஐயின் அறிக்கை தூசு தட்டப்பட்டு, நீதி நிலைநாட்டப்படட்டும்!</p>
+<p> </p>
+<p> </p>
+<p><span style="font-size: 14pt; color: #ff0000;">நன்றி தினமணி</span></p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/1625/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/1625/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/1625/?share=facebook" title="Share on Facebook" id="sharing-facebook-1625"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/1625/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-1625"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/1625/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-1625"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/1625/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/1625/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/1625/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-1625-547514691695f" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=1625&amp;origin=savukkunews.com&amp;obj_id=68584444-1625-547514691695f" data-name="like-post-frame-68584444-1625-547514691695f"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/1625/"
+    dc:identifier="http://savukkunews.com/1625/"
+    dc:title="பதவி விலகுங்கள். தினமணி தலையங்கம்."
+    trackback:ping="http://savukkunews.com/1625/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

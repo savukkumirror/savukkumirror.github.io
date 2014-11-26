@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- பிரமாதம் பிரமோத்..</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2012/11/18/post4052.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">பிரமாதம் பிரமோத்..</h1>
+			<p class="post-meta">Nov 18, 2012</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/4052/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/4052/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p><img class="img-responsive" style="" src="/images/4052/Pramod_Kumar_IPS.jpg" alt="Pramod_Kumar_IPS" width="" height="" /></p>
+<p>பிரமோத் குமார் ஐபிஎஸ்.&nbsp; சவுக்கு வாசகர்களுக்கெல்லாம் நன்றாகவே அறிமுகம் ஆனவர். 1989ம் ஆண்டு நேரடியாக தேர்ந்தெடுக்கப்பட்ட ஐபிஎஸ் அதிகாரி.</p>
+<p>யார் இந்த பிரமோத் குமார், எதற்காக இவரைப் பற்றி சவுக்கில் எழுதப்பட்டுள்ளது என்று அறிய விரும்பும் வாசகர்கள்</p>
+<p><a href="http://tamilwhip.com/2603">காப்பாற்றப்படுகிறாரா பிரமோத் குமார்</a> மற்றும் <a href="http://tamilwhip.com/3275">அடங்காத ஐ.ஜி</a> ஆகிய கட்டுரைகளைப் படியுங்கள். திருப்பூர் பாசி மோசடி வழக்கில் பல கோடிகளை மிரட்டிப் பறித்த பிரமோத் குமார் பல காலமாக எவ்வித நடவடிக்கைக்கும் ஆளாகாமல் தப்பித்து வந்தார். சிபி சிஐடி விசாரணைக்கு இந்த வழக்கை மாற்றினால் விசாரணை வகமாக இருக்கும் என்று 26 பிப்ரவரி 2010ல் இவ்வழக்கு சிபி.சிஐடிக்கு மாற்றப்பட்டது. சிபி.சிஐடி காவல்துறையில் இருந்த ஐபிஎஸ் அதிகாரிகளின் துணையோடு எவ்வித பயமும் இன்றி உல்லாசமாக சுற்றித் திரிந்தார் பிரமோத் குமார்.</p>
+<p>18 பிப்ரவரி 2011ல் இந்த வழக்கு சிபிஐ விசாரணைக்கு மாற்றப்பட்ட பின்னரே சூடு பிடித்தது.&nbsp; தலைமறைவாக இருந்த பாசி நிறுவன அதிபர் மோகன்ராஜ் அஸ்ஸாம் மாநிலம் கவுகாத்தியில் கைது செய்யப்பட்டார்.&nbsp;&nbsp;&nbsp; மற்ற இரு அதிபர்கள் கதிரவன் மற்றும் கமலவள்ளி சிரபுஞ்சியில் கைது செய்யப்பட்டனர்.&nbsp; கமலவள்ளியை சிபிஐ விசாரித்ததும், பிரமோத் குமார் தன்னைப் படுத்திய பாட்டை அவர் வாக்குமூலமாக அளித்தார்.&nbsp;&nbsp; பிரத் குமாருக்கு 1.85 கோடி எப்படி லஞ்சமாக வங்கப்ட்டது என்பதையும், தன்னை அவர் கடத்திச் சென்று எப்படி மிரட்டினார், எப்படி கொடுமைக்கு ஆளாக்கினார் என்பதையும் விவரித்தார்.&nbsp; இதையடுத்து பிரமோத் குமாரின் வீட்டை சிபிஐ அதிகாரிகள் சோதனையிட்டனர்.</p>
+<p>இந்த சோதனைகளுக்குப் பிறகு எங்கே சிபிஐ தன்னைக் கைது செய்து விடுமோ என்று பயந்த பிரமோத் குமார், சென்னை உயர்நீதிமன்றத்தில் முன்ஜாமீன் மனு தாக்கல் செய்தார்.&nbsp; அந்த மனு தள்ளுபடி செய்யப்பட்டதையடுத்து, பிரமோத் குமாரை சிபிஐ கைது செய்ய முயற்சித்தபோது, அவர் தலைமறைவானார்.&nbsp;&nbsp; &nbsp;இறுதியாக கடந்த மே மாதம் டெல்லியில் வைத்து, பிரமோத் குமார் கைது செய்யப்பட்டார்.</p>
+<p>கைது செய்யப்பட்டு கோவை சிறையில் அடைக்கப்பட்ட பிரமோத் குமார் எல்லா அரசியல்வாதிகளையும் போல நெஞ்சு வலிக்கிறது என்றார்.&nbsp;&nbsp; கோவை மருத்துவமனையில் அடைக்கப்பட்ட பிரமோத் குமார் பின்னர் நீதிமன்ற உத்தரவின்பேரில் புழல் சிறையில் அடைக்கப்பட்டார்.</p>
+<p>புழல் சிறையில் அடைக்கப்பட்டாலும் பிரமோத் குமாரின் அட்டகாசம் அடங்கவில்லை.&nbsp; அங்கே உள்ள சிறை அதிகாரிகளிடம், நான் யார் தெரியுமா ?&nbsp;&nbsp; இந்த வழக்கிலிருந்து எப்படியும் விடுவிக்கப்படுவேன்.. இதே சிறைத் துறைக்கு டிஜிபியாக வருவேன் என்று ஏகத்துக்கும் மிரட்டல் விடுத்துக் கொண்டிருந்தார்.</p>
+<p>28 ஜுன் 2012 அன்று பிரமோத் குமாருக்கு சென்னை உயர்நீதிமன்றம் ஜாமீன் வழங்கியது.&nbsp; ஜாமீன் வழங்குகையில், &nbsp;பிரமோத் குமார் தன்னாடு பணியாற்றும் ஐபிஎஸ் அதிகாரிகளையோ, தனக்குக் கீழ் பணியாற்றும் காவல்துறை அதிகாரிகளையோ, இவ்வழக்கு தொடர்பாக பார்க்கக் கூடாது என்று நிபந்தனை விதித்தது.</p>
+<p>பிரமோத் குமார் இதற்கெல்லாம் அஞ்சுகிற நபரா… ?&nbsp; எப்போதும் போல தமிழகத்தில் உள்ள வட இந்திய அதிகாரிகளை தொடர்பு கொண்டு மகிழ்ச்சியாகத்தான் உள்ளார். அவருக்கான எந்த வசதிகளும் குறையவேயில்லை.&nbsp; தமிழக காவல்துறையில் கூடுதல் டிஜிபிக்களுக்கு மட்டுமே வழங்கப்படும் ஹோண்டா சிட்டி காரில்தான் பவனி வருகிறார்.&nbsp; தமிழக ஆயுதப்படை ஐ.ஜிக்கு வழங்கப்பட்டுள்ள சிகப்பு விளக்கு வைத்த வெள்ளை நிற ஹோண்டா சிட்டி காரில்தான் பிரமோத் குமார் பயணிக்கிறார்.&nbsp; தமிழக காவல்துறையில் உள்ள வட இந்திய லாபி மிகப்பெரிய லாபி. காப்பாற்றப்படுகிறாரா பிரமோத் குமார் என்ற கட்டுரையில் விரிவாக எழுதப்பட்டுள்ளது.&nbsp; இந்த வட இந்திய லாபி, பிரமோத் குமாரை தொடர்ந்து காப்பாற்ற முயற்சித்து வருகிறது.</p>
+<p>ஒரு சாதாரண அரசு ஊழியர் வீட்டை சிபிஐ சோதனையிட்டால் அடுத்த வினாடியே அவர் பணி இடை நீக்கம் செய்யப்படுவார்.&nbsp; ஆனால் மார்ச் மாதம் பிரமோத் குமார் வீட்டை சிபிஐ சோதனையிட்டும், அவர் பணி இடை நீக்கம் கூட செய்யப்படாமல் தொடர்ந்து ஆயுதப்படை ஐ.ஜியாக பணியாற்ற அனுமதிக்கப்பட்டார்.&nbsp; அந்த அளவுக்கு வட இந்திய லாபி பவர்புல்லாக இருக்கிறது.</p>
+<p>அந்த வட இந்திய அதிகாரிகள் அளித்த ஆலோசனையின் படியே, சிபிஐ மீது வழக்கு தொடர்ந்தார் பிரமோத் குமார்.&nbsp; தனது மனுவில், சிபிஐ தன்னை இவ்வழக்கில் பொய்யாகச் சேர்த்துள்ளதாகவும், அதனால் சிபிஐ தனக்கு 50 லட்ச ரூபாய் நஷ்ட ஈடு வழங்க வேண்டும் என்றும் அந்த மனுவில் தெரிவித்திருந்தார்.&nbsp; இந்த மனு மீது சென்னை உயர்நீதிமன்றத்தில் நீதிபதி பால் வசந்த குமார் முன்னிலையில் கடந்த வாரம் காரசாரமான வாதம் நடைபெற்றது.</p>
+<p>கடந்த வெள்ளிக்கிழமை மதியம் சென்னை உயர்நீதிமன்றத்துக்கான சிபிஐ வழக்கறிஞர் சந்திரசேகர், அரசு வழக்கறிஞர் கோவிந்தராஜ் மற்றும் வழக்கறிஞர் ருபு சந்திரசேகர் ஆகியோர் சென்னையில் உள்ள ஜிம்கானா கிளப்பில் மதிய உணவருந்தச் செல்கிறார்கள்.&nbsp;&nbsp; சென்னை ஜிம்கானா கிளப்பில் ஒரு நபருக்கு மதிய உணவு எப்படியும் குறைந்தது 1500 ரூபாய் ஆகும்.&nbsp;&nbsp; பணக்கார வக்கீல்கள் செல்கிறார்கள்… படிப்பவர்கள் பொறாமைப் படாதீர்கள்.</p>
+<p>உணவருந்திவிட்டு திரும்புகையில், TN 07 8797 என்ற சிகப்பு நிற ஹோண்டா சிட்டி வாகனத்தில், சீருடை அணிந்த காவலரோடு பிரமோத் குமார் நன்றாக குடித்து விட்டு நின்றிருக்கிறார்.&nbsp;&nbsp; எதிரே சிபிஐ வழக்கறிஞர் சந்திரசேகரனைப் பார்த்ததும், என்னய்யா நெனச்சுக்கிட்டு இருக்க உன் மனசுல என்ற ரேஞ்சுக்கு ஆங்கிலத்தில் வசவுகளை ஆரம்பித்திருக்கிறார்.&nbsp; எப்படி நீ என்னைப் பற்றி கன்னா பின்னாவென்று வாதாடலாம், என்ன நினைத்துக் கொண்டிருக்கிறாய் உன் மனதில், நான் நினைத்தால் உன்னை என்ன செய்வேன் தெரியுமா ?&nbsp; இந்த வழக்கில் நான் சிக்கிக் கொள்வேன் என்று நினைத்துக் கொண்டிருக்கிறாயா… எப்படியும் இந்த வழக்கிலிருந்து விடுதலை ஆகி விடுவேன்… நான் 7 வருடங்களுக்கு டிஜிபியாக இருப்பேன்… உன்னை தொலைத்து விடுவேன் தொலைத்து என்று ஏக வசனத்தில் பேசியிருக்கிறார்.&nbsp;&nbsp; இந்த சல்லிப்பயலிடம் எதற்கு சண்டையிட வேண்டும் என்று சந்திரசேகரன் அமைதியாக திரும்பி விட்டார்.&nbsp;&nbsp; இந்த சம்பவம் குறித்து சிபிஐ அதிகாரிகளுக்குத் தெரியுமா என்று தெரியவில்லை.</p>
+<p>இந்த சம்பவம் எழுப்பும் கேள்விகள்….</p>
+<p>ஐ.ஜி பிரமோத் குமார், ஜிம்கானா கிளப்பிலோ, டாஸ்மாக்கிலோ, பார்க் ஹோட்டலில் உள்ள லெதர் பாரிலோ காலையிலேயே மது அருந்துவதும், மது அருந்தி விட்டுத் தள்ளாடி நடப்பதும் அவரது உரிமை.&nbsp; அதுவும் பணி இடைநீக்கத்தில் இருப்பதால் ரொம்பவும் போர் அடிக்கும்.&nbsp; அதனால் சரக்கடித்து விட்டு, பழைய கிஷோர் குமார் பாடல்களைக் கேட்டுக் கொண்டு அமர்வது அவரது உரிமை.&nbsp; ஆனால், அதற்காக தமிழக ஆயுதப்படை கூடுதல் டிஜிபிக்கு வழங்கப்பட்ட காரை எப்படிப் பயன்படுத்தலாம் ?&nbsp; அந்த வாகனத்துக்கு மாதந்தோறும் வழங்கப்படும் 160 லிட்டர் பெட்ரோலும் அரசுப் பணிக்காக பயன்படுத்த அல்லவா ?</p>
+<p>ஜிம்கானா கிளப் சென்று சரக்கடிப்பதை எப்படிப் பார்த்தாலும் அரசுப் பணியில் சேர்க்க முடியவில்லையே…&nbsp; சில காவல்துறை அதிகாரிகள், இது போன்ற இடங்களுக்குச் சென்றால், முக்கிய வழக்கு குறித்து, முக்குவதற்காக, .ச்சே….&nbsp; முக்கிய தகவல் சேகரிப்பதற்காக சென்றோம்.. அது வழக்கின் புலனாய்வு குறித்தது.. அல்லது உளவுத் தகவல் சேகரிப்பதற்காகச் சென்றோம் என்று சொல்லி விடுவார்கள்… இப்படிச் சொல்லும் அதிகாரிகளை நாம் என்ன கேள்வி கேட்டு மடக்க முடியும்.. ? ஆனால் வட இந்திய லாபியின் போர்ப்படைத் தளபதி பிரமோத் குமார் பணி இடை நீக்கத்தில் அல்லவா உள்ளார்… அவர் என்ன புலனாய்வில் ஈடுபட முடியும்… ?</p>
+<p>ஆயுதப்படையின் கூடுதல் டிஜிபியாக இருக்கும் கரண் சின்ஹா இது வரை எவ்வித சர்ச்சைகளிலும் சிக்காத ஒரு அதிகாரி.&nbsp; அவர் எதற்காக ஆயுதப்படையின் வாகனத்தை பணி இடை நீக்கத்தில் இருக்கும் ஒரு அதிகாரிக்கு கொடுக்க வேண்டும் ?&nbsp; வட இந்திய லாபியின் போர்ப்படைத் தளபதிக்காக கரண் சின்ஹாவும் பணியாற்றுகிறார் என்றுதானே இதை எடுத்துக் கொள்ள முடியும் ? இப்படி ஒரு பணி இடை நீக்கத்தில் உள்ள அதிகாரிக்கு மக்கள் வரிப்பணத்தில் போடப்படும் பெட்ரோலைப் போட்டு குடிப்பதற்காக அந்த வாகனத்தை அனுப்பும் கரண் சின்ஹா எப்படி நேர்மையானவராக இருக்க முடியும் ?</p>
+<p><img class="img-responsive" style="" src="/images/4052/IMG_0096.jpg" alt="IMG_0096" width="" height="" /></p>
+<p>ஆயுதப்படையில் பணியாற்றும் காவலர்கள், காவல்துறைப் பணியின் தொடக்கத்தில் இருப்பவர்கள்.&nbsp;&nbsp; அதிக அளவில் சர்வீஸ் ஆகாத காரணத்தால், மிகவும் பணிவோடு இருக்க வேண்டிய கட்டாயம் உண்டு.&nbsp; இப்படி ஒரு நெருக்கடி இருப்பதாலேயே, சஸ்பென்ஷனில் உள்ள ஒரு அதிகாரி சரக்கடிப்பதற்கு இந்தக் காவலரை சிகப்பு விளக்கு பொறுத்திய காரில் அனுப்பும் கரண் சின்ஹாவின் நேர்மையின் அளவுகோல் என்ன ?</p>
+<p>கரண் சின்ஹாவை விட பிரமோத் குமார் பணியில் மூத்தவர் என்றால் ஏதோ ஒரு வகையில், சரி மூத்த அதிகாரி என்று பயப்படுகிறார் என்று எடுத்துக் கொள்ளலாம்.&nbsp; ஆனால், கரண் சின்ஹா கூடுதல் டிஜிபி.&nbsp; பிரமோத் குமாரோ ஐ.ஜி.&nbsp; தன்னை விட ஜுனியர் அதிகாரிக்காக கரண் சின்ஹா எதற்காக வாகனம் வழங்க வேண்டும் ? நியாய உணர்வை விட, நேர்மையாக நடந்து கொள்ள வேண்டும் என்பதை விட, தமிழக அதிகாரிகளை ஓரங்கட்டி, வட இந்திய அதிகாரிகளின் கை ஓங்க வேண்டும் என்ற வஞ்சக எண்ணமே கரண் சின்ஹாவிடம் அதிகமாக இருக்கிறது என்பதைத் தவிர இதற்கு வேறு என்ன காரணமாக இருக்க முடியும் ?</p>
+<p>வழக்கறிஞர்கள் தங்கள் நண்பர்களோடு, ஜிம்கானா கிளப்பிலோ, காஸ்மாபோலிடன் கிளப்பிலோ உணவருந்துவது அவர்கள் உரிமை.&nbsp; &nbsp;அப்படி உணவருந்திய விஷயத்தை எதற்காக அவர்கள் வெளியில் தெரியாமல் மறைக்க வேண்டும் என்பதுதான் மர்மமாக இருக்கிறது.</p>
+<p>சிபிஐ வழக்கறிஞர் சந்திரசேகரன் மிக முக்கியமான வழக்குகளில் வாதாடுபவர்.&nbsp; சிபிஐயின் அனைத்து வழக்குகளின் தலையெழுத்தையும் நிர்ணயிப்பது அவர்தான்.&nbsp; அவருக்கு விடுக்கப்பட்டிருக்கும் இந்த அச்சுறுத்தலானது சாதாரணமானது அல்ல.&nbsp;&nbsp; ஏற்கனவே, இதே பிரமோத் குமார், சந்திரசேகரனை தொலைபேசியில் அழைத்து, நான் நினைத்தால் உன்னை லாரி ஏற்றிக் கொன்று விடுவேன்&nbsp; என்று மிரட்டியிருக்கிறார்.&nbsp; ஒரு குற்றம் சாட்டப்பட்ட அதிகாரி, அதுவும் பணி இடைநீக்கத்தில் இருப்பவர்….&nbsp; இப்படி வெளிப்படையாக சந்திரசேகரனை, இரண்டு வழக்கறிஞர்கள் முன்னிலையில் மிரட்டியிருப்பது எளிதாக எடுத்துக் கொள்ளும் விவகாரம் அல்ல.&nbsp;&nbsp; இது உடனடியாக நடவடிக்கை எடுக்க வேண்டிய ஒரு விவகாரம்.&nbsp; இந்தச் சம்பவம், உடனடியாக சிபிஐ அதிகாரிகள் கவனத்திற்கு எடுத்துச் செல்லப்பட்டிருக்க வேண்டும்.&nbsp; பிரமோத் குமார் மீது புகார் அளிக்கப்பட்டு, அவர் மீது முதல் தகவல் அறிக்கை தாக்கல் செய்யப்பட்டிருக்க வேண்டும்.&nbsp; இந்தச் சம்பவம், சென்னை உயர்நீதிமன்றத்தின் கவனத்துக்கு எடுத்து வரப்பட்டு, பிரமோத் குமாருக்கு வழங்கப்பட்டிருக்கும் ஜாமீன் ரத்து செய்யப்பட வேண்டும்.</p>
+<p><img class="img-responsive" style="" src="/images/4052/ca70d963f0983f8d081840c0a7dd02485c5e61ae6e8ad374761e299d8c47b27d103ec9a8bb9f00be1e7073619dfae6c67a13a0a7817e7e266a3da1f9f2fb0c4b.jpg" alt="ca70d963f0983f8d081840c0a7dd02485c5e61ae6e8ad374761e299d8c47b27d103ec9a8bb9f00be1e7073619dfae6c67a13a0a7817e7e266a3da1f9f2fb0c4b" width="" height="" /></p>
+<p style="text-align: center;"><span style="font-size: 12pt; color: #0000ff;">ஜிம்கானா கிளப்</span></p>
+<p>ஆனால், &nbsp;சந்திரசேகரன் இது குறித்து இது வரை எந்தப் புகாரும் செய்யவில்லை, சிபிஐ அதிகாரிகள் கவனத்திற்கும் எடுத்துச் செல்லவில்லை என்றே தெரிகிறது.&nbsp; இவ்வளவு சீரியசான ஒரு விவகாரத்தை, சந்திரசேகரன் எதற்காக மறைக்க வேண்டும் ?</p>
+<p>பிரமோத் குமார் போன்ற அதிகாரி, நிரந்தரமாக சிறையில் இருக்க வேண்டியவர்.&nbsp; அவர் உத்தமரோ, ஒழுக்க சீலரோ அல்ல.&nbsp;&nbsp; அவரைப் போன்ற அதிகாரிகளை எதற்காக சந்திரசேகரன் பாதுகாக்க வேண்டும் என்பது மர்மமாகவே உள்ளது.&nbsp;&nbsp; இந்தக் கட்டுரையைப் படித்த பிறகாவது சந்திரசேகரன் விரிவான முறையில் புகார் அளிப்பார் என்று நம்புவோம்.</p>
+<p>பொதுமக்களை ஏமாற்றி பணம் சுருட்டிய குற்றவாளிகளிடமிருந்து லஞ்சம் பெற்றதோடு அல்லாமல், அதில் உள்ள ஒரு பெண் குற்றவாளியை பாலியல் வன்முறைக்கு உள்ளாக்கிய ஒரு நபர், வட இந்திய ஐபிஎஸ் அதிகாரி என்பதால், அவரைக் காப்பாற்றும் தமிழக வட இந்திய அதிகாரிகளை நினைத்தால் வெறுப்பும் வேதனையும்தான் மிஞ்சுகிறது.&nbsp; பிரமோத் குமாரையே காப்பாற்ற நினைக்கும் இந்த வட இந்திய அதிகாரிகள், &nbsp;என்ன செய்ய மாட்டார்கள் ?&nbsp; எத்தகைய பழி பாவத்துக்கும் அஞ்ச மாட்டார்களே… இந்த அதிகாரிகளிடம் சிக்கியுள்ள தமிழக மக்களாகிய நாம்தான் பரிதாபத்துக்குரியவர்கள்.</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/4052/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/4052/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/4052/?share=facebook" title="Share on Facebook" id="sharing-facebook-4052"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/4052/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-4052"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/4052/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-4052"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/4052/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/4052/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/4052/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-4052-54750fa20eaac" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=4052&amp;origin=savukkunews.com&amp;obj_id=68584444-4052-54750fa20eaac" data-name="like-post-frame-68584444-4052-54750fa20eaac"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/4052/"
+    dc:identifier="http://savukkunews.com/4052/"
+    dc:title="பிரமாதம் பிரமோத்.."
+    trackback:ping="http://savukkunews.com/4052/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

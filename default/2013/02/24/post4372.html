@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- பாலச்சந்திரன்.</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2013/02/24/post4372.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">பாலச்சந்திரன்.</h1>
+			<p class="post-meta">Feb 24, 2013</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/4372/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/4372/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p> </p>
+<p><img class="img-responsive" style="" src="/images/4372/19SRI1_jpg_1368786g.jpg" alt="19SRI1_jpg_1368786g" width="" height="" /></p>
+<p>பன்னிரண்டு&nbsp;வயது குழந்தை</p>
+<p><span style="line-height: 17pt;">ஈழக்குழந்தை&nbsp;என்பதால்</span></p>
+<p>ஏன்&nbsp;எதற்கு&nbsp;கொல்லப்படுகிறேன்</p>
+<p>என்று&nbsp;அறியாமல்</p>
+<p>&#8220;கேட்பதற்கும்&nbsp;ஆளில்லாததால்&#8221;</p>
+<p>சல்லடையாக்கப்பட்டு</p>
+<p>படுகொலை&nbsp;செய்யப்பட்டான்!</p>
+<p> </p>
+<p>செய்தி&nbsp;மட்டும்</p>
+<p>ஆஸ்கார்&nbsp;விருதுக்கு பரிந்துரைக்க தக்க</p>
+<p>அமெரிக்க&nbsp;படத்துக்கிணையாக,</p>
+<p>ஆவணப்படமாக</p>
+<p>எட்டுத்திக்கும்,</p>
+<p>இலவசமாக&nbsp;காட்டப்படுகிறது.</p>
+<p> </p>
+<p>ஆங்காங்கே</p>
+<p>அரசியல்&nbsp;இலாபத்திற்கென்றாலும்,</p>
+<p>கண்டனங்களும், &nbsp;விமர்சனங்களும்</p>
+<p>சூடு&nbsp;பறக்க விவாதிக்கப்படுகின்றன.</p>
+<p> </p>
+<p>வில்லனாக,</p>
+<p>எட்டுக்கோடி&nbsp;தமிழர்களை</p>
+<p>தன்னகத்தே&nbsp;கொண்ட இந்தியா.</p>
+<p>சத்தமில்லாமல்</p>
+<p>தனது&nbsp;வேலையை செய்கிறது.</p>
+<p> </p>
+<p>&#8220;ராஜபக்‌ஷ,</p>
+<p>நிச்சியம்&nbsp;தண்டிக்கப்படலாம்&#8221;,</p>
+<p>தமிழர்களுக்கு</p>
+<p>இந்தியா</p>
+<p>வில்லனாக&nbsp;இல்லாவிட்டால்.</p>
+<p> </p>
+<p>சோனியாவின்&nbsp;ஒற்றனாக</p>
+<p>&#8220;தமிழகத்தில்&nbsp;எவரும்&nbsp;இல்லையென்றால்&#8221;,</p>
+<p>இந்தியா&nbsp;தமிழர்களின் வில்லனாக</p>
+<p>நீண்டகாலம்&nbsp;தொடரமுடியாது.</p>
+<p> </p>
+<p>ராஜபக்‌ஷ&nbsp;தண்டிக்கப்பட்டால்</p>
+<p>பூனை&nbsp;வெளியே வந்துவிடும்.</p>
+<p> </p>
+<p>அதனால்</p>
+<p>இலங்கை&nbsp;அல்லது,</p>
+<p>இந்திய&nbsp;அரசியலில்</p>
+<p>படுபட்சி&nbsp;காலம் தவிர்ந்து</p>
+<p>ராஜபக்‌ஷவை</p>
+<p>சர்வதேசமும்&nbsp;தண்டிக்க முடியாது.</p>
+<p> </p>
+<p>ஆவணப்படத்தின்</p>
+<p>அலைவரிசைக்கேற்ப</p>
+<p>படுகொலை&nbsp;சூத்திரதாரிகளும்</p>
+<p>தந்தரம்&nbsp;புரிந்தவர்களும்</p>
+<p>மக்கள்&nbsp;கிளர்ச்சியை மந்தமாக்க</p>
+<p>மேடை&nbsp;அமைத்து</p>
+<p>தேர்தல்&nbsp;திருவிழாவுக்காக</p>
+<p>அப்பாவியாக</p>
+<p>வேடங்கட்ட&nbsp;தலைப்பட்டுள்ளனர்.</p>
+<p> </p>
+<p>பாலச்சந்திரனின்</p>
+<p>கோரக்&nbsp;கொலைச் செய்தியை,</p>
+<p>இன்னொன்று&nbsp;மறைக்கும்வரை</p>
+<p>ஒப்புக்கு&nbsp;சப்பாணியாக,</p>
+<p>உலகத்தை&nbsp;ஏமாற்ற</p>
+<p>அலகு&nbsp;குத்தி</p>
+<p>ஆயிரம்&nbsp;மைல்</p>
+<p>அங்கப்பிரதிஸ்டை&nbsp;செய்யவும்</p>
+<p>தமிழீன&nbsp;தலைவர் தயாராகி விட்டார்.</p>
+<p> </p>
+<p>கருணாநிதி</p>
+<p>அன்று&nbsp;மனிதனாக தன்னை</p>
+<p>கொஞ்சமாவது&nbsp;நினைத்திருந்தால்,</p>
+<p>பாலச்சந்திரன்&nbsp;சல்லடையாகியிருக்க மாட்டான்.</p>
+<p>முத்துக்குமாரும்&nbsp;மூட்டிக்கொண்டிருக்கமாட்டான்.</p>
+<p> </p>
+<p>கொலைக்களம்&nbsp;ஒன்று</p>
+<p>ஆவணப்படமாக</p>
+<p>ஹிட்லரின்&nbsp;ஜெர்மனி படங்களை</p>
+<p>விஞ்சுமளவுக்கு&nbsp;வெளிவந்துமிருக்காது.</p>
+<p> </p>
+<p>சனியன்&nbsp;பிடித்து</p>
+<p>இந்த&nbsp;அழுக்கு&nbsp;மனிதன் செய்த சதி,</p>
+<p>பல&nbsp;இலட்சம்</p>
+<p>படுகொலையில்&nbsp;விடிந்திருக்கிறது.</p>
+<p>இருந்தும்&nbsp;கிரகநிலை மாறி</p>
+<p>சனியன்&nbsp;விடுபட்ட</p>
+<p>அறிகுறி&nbsp;தென்படவில்லை.</p>
+<p> </p>
+<p>கண்டம்&nbsp;தாண்டி</p>
+<p>இங்கிலாந்தின்&nbsp;சனல்&nbsp;4</p>
+<p>தொலைக்காட்சி</p>
+<p>இலங்கைக்கும்,&nbsp;&nbsp;இந்தியாவுக்கும்</p>
+<p>தொல்லைக்காட்சியாகி</p>
+<p>கொள்ளி&nbsp;வைத்துவிடுமோ என்று மட்டும்</p>
+<p>வஞ்சகர்கள்&nbsp;அஞ்சுகின்றனர்.</p>
+<p> </p>
+<p>பாலச்சந்திரனை&nbsp;படுகொலை செய்தது</p>
+<p>இலங்கை&nbsp;இராணுவம்.</p>
+<p> </p>
+<p>கொலைக்களத்தை</p>
+<p>வடிவமைத்தது&nbsp;இந்திய அரசு.</p>
+<p> </p>
+<p>சோனியா&nbsp;அரசுக்கு பந்தல் போட்டு</p>
+<p>புரியாத&nbsp;கிரந்தத்தில் சுலோகம் சொல்லி</p>
+<p>உற்சவம்&nbsp;நடத்தி</p>
+<p>திசை&nbsp;திருப்பியது கருணாநிதி.</p>
+<p> </p>
+<p>வேலியே&nbsp;பயிரை&nbsp;மேய்ந்துவிட்டு</p>
+<p>விடுப்புக்காட்ட</p>
+<p>சாட்சிக்கூண்டில்&nbsp;ஏறி&nbsp;வாகடம்&nbsp;பேசுகிறது.</p>
+<p> </p>
+<p>யார்</p>
+<p>யாரை&nbsp;குற்றம் சொல்லுவது,</p>
+<p>எவரை&nbsp;தண்டிப்பது?</p>
+<p>&#8220;கொலைக்களம்&#8221;&nbsp;&nbsp;ஆவணப்படம்</p>
+<p>உணர்ச்சியை&nbsp;தூண்டும் ஒன்றாகவே</p>
+<p>சிலநாட்கள்&nbsp;ஓடி மறைந்துவிடும்.</p>
+<p> </p>
+<p> </p>
+<p>ராஜபக்‌ஷ&nbsp;சிங்களவன்.</p>
+<p> </p>
+<p>அறுபது&nbsp;வருடங்களாக</p>
+<p>தமிழனை&nbsp;எரிப்பதற்காக சிங்களவன்</p>
+<p>தீ&nbsp;மூட்டி&nbsp;திட்டமிட்டு</p>
+<p>காத்திருக்கிறான்.</p>
+<p> </p>
+<p>இத்தாலிக்காரி&nbsp;மட்டும்</p>
+<p>ராஜபக்‌ஷவுக்கு&nbsp;கம்பளம் விரித்திருக்காவிட்டால்</p>
+<p>முள்ளிவாய்க்கால்&nbsp;முட்டுக்குள்</p>
+<p>தமிழனை&nbsp;எவராலும் அழித்திருக்க முடியாது.</p>
+<p> </p>
+<p>செல்ல&nbsp;மகளை காப்பதற்காக,</p>
+<p>தமிழினத்தின்&nbsp;எழுச்சி அனைத்தையும்</p>
+<p>திட்டமிட்டு&nbsp;செத்தவீடாக்கிய</p>
+<p>கருங்காலி&nbsp;கருணாநிதி.</p>
+<p> </p>
+<p>&#8220;பாலச்சந்திரன்</p>
+<p>பிரபாகரனின்&nbsp;மகன் என்பதால்</p>
+<p>அது&nbsp;மட்டும்தான்</p>
+<p>படுகொலை அல்ல&#8221;.</p>
+<p> </p>
+<p>ஆவணப்படத்தில்&nbsp;காட்டப்பட்ட</p>
+<p>அனைத்தும்&nbsp;நவீன நரபலிகள்.</p>
+<p> </p>
+<p>அரசியல்&nbsp;இயலாமைக்காக</p>
+<p>இந்தியா&nbsp;தேர்ந்தெடுத்த&nbsp;பஞ்சதந்திரம்.</p>
+<p> </p>
+<p>வலிமையற்ற&nbsp;இனம்&nbsp;வலிமையுடன்</p>
+<p>திரண்டுவிட்டதால்,</p>
+<p>காவுகொள்ளப்பட்ட&nbsp;இனப்படுகொலை.</p>
+<p>.</p>
+<p>காட்டுமிராண்டிகளால்&nbsp;கழுத்தறுக்கப்பட்ட</p>
+<p>கூட்டுச்சதி.</p>
+<p> </p>
+<p>காணாமல்&nbsp;போனவர்கள்</p>
+<p>இலட்சத்து&nbsp;முப்பத்து ஏழாயிரம்பேர்</p>
+<p>அத்தனையும்&nbsp;இறந்த காலங்கள்.</p>
+<p> </p>
+<p>காணாமல்&nbsp;போன&nbsp;ஆண்களின்</p>
+<p>தொண்ணூறு&nbsp;ஆயிரம் மனைவிகள்</p>
+<p>விதவைகள்.</p>
+<p> </p>
+<p>அங்கு&nbsp;கருணாநிதியைப்போல்</p>
+<p>கைம்பெண்களுக்கு&nbsp;வாழ்வு கொடுக்க</p>
+<p>ஆண்களில்லை.</p>
+<p> </p>
+<p>பாலச்சந்திரன்&nbsp;மட்டும்</p>
+<p>படுகொலை&nbsp;செய்யப்படவில்லை.</p>
+<p>ஒரு&nbsp;இனம் திட்டமிடப்பட்டு</p>
+<p>கருவறுக்கப்பட்டிருக்கிறது.</p>
+<p> </p>
+<p>இனப்படுகொலையாளி</p>
+<p>ராஜபக்‌ஷ&nbsp;மட்டும்தான் என்பதை</p>
+<p>மீடியாக்கள்&nbsp;நிறுத்திவிடவேண்டும்.</p>
+<p> </p>
+<p>இந்தியாவும், &nbsp;கருணாநிதியும்</p>
+<p>இணைந்த</p>
+<p>இனப்படுகொலை என்பதை</p>
+<p>துணிந்து&nbsp;&nbsp;நிறுவவேண்டும்.</p>
+<p> </p>
+<p>ஈழத்தமிழர்களை&nbsp;திட்டமிட்டு அழித்தது</p>
+<p>இலங்கை,</p>
+<p>மற்றும்&nbsp;இந்தியா.</p>
+<p> </p>
+<p>சர்வதேசம்&nbsp;சோரம்போனது.</p>
+<p> </p>
+<p>செய்தவன்&nbsp;ராஜபக்‌ஷ,&nbsp;என்றால்</p>
+<p>சித்திர&nbsp;குப்தராக</p>
+<p>எழுதுகோல்&nbsp;ஏந்தியவர்கள்</p>
+<p>சோனியா,&nbsp;மன்மோஹன்,</p>
+<p> </p>
+<p>எருமை&nbsp;வாகனமாக</p>
+<p>அனைத்தையும்&nbsp;சுமந்தது கருணாநிதி.</p>
+<p> </p>
+<p>வழக்கு,</p>
+<p>அமெரிக்காவின்</p>
+<p>அபிவிருத்திச்சபையாக&nbsp;செயற்படும்</p>
+<p>ஐநாமன்ற&nbsp;வாசல்வரை போயிருக்கிறது</p>
+<p>இதில்</p>
+<p>யார்&nbsp;எவரை தண்டிக்கப்போகிறார்கள்?</p>
+<p> </p>
+<p>ஆவணப்படத்தை&nbsp;பார்த்து</p>
+<p>உணர்ச்சி&nbsp;வசப்படுபவர்கள்,</p>
+<p>2009ம்&nbsp;ஆண்டு</p>
+<p>தமிழகம்&nbsp;கொண்ட எழுச்சியை</p>
+<p>திரும்பி&nbsp;பார்க்கவேண்டும்.</p>
+<p> </p>
+<p>படுகொலை&nbsp;நடந்தபோது</p>
+<p>தமிழர்களின்&nbsp;அரக்கனாக</p>
+<p>சிம்மாசனத்தை&nbsp;வைத்துக்கொண்டு,</p>
+<p>சோனியாவின்&nbsp;நிழலுக்குள்</p>
+<p>பதுங்கி</p>
+<p>நஞ்சு&nbsp;விதைத்த கருணாநிதி,</p>
+<p>இன்று&nbsp;மேடையேறி</p>
+<p>குரல்&nbsp;மாற்றி&nbsp;ஊளையிம்போது</p>
+<p>2009&nbsp;நிகழ்வுகள் அனைத்தும்&nbsp;மறந்துவிட்டதாகவே</p>
+<p>மனம்&nbsp;பதைபதைக்கிறது.</p>
+<p> </p>
+<p>கருணாவுக்கு&nbsp;தந்திரம் தெரிந்ததால்,</p>
+<p>ஏமாற்றும்&nbsp;வித்தை புரிந்ததால்,</p>
+<p>எல்லோரையும்&nbsp;முந்திக்கொண்டு</p>
+<p>இடம்&nbsp;பொருள்&nbsp;ஏவல் அறிந்து</p>
+<p>ஐநாவின்&nbsp;பிறவேலிவரை</p>
+<p>நோஞ்சான்&nbsp;தளபதியை&nbsp;அனுப்பியிருக்கிறார்.</p>
+<p> </p>
+<p>2009ல்&nbsp;ஈழம்&nbsp;சுடுகாடானபோது</p>
+<p>தள்ளுவண்டியில்&nbsp;டில்லி சென்று</p>
+<p>அவர்&nbsp;சோனியாவிடம் கோரியது</p>
+<p>குடும்ப&nbsp;மந்திரி&nbsp;பதவியும்</p>
+<p>செல்வச்செழிப்புக்கு வழிவகையும்</p>
+<p> </p>
+<p>இன்று எதற்காக பறந்தடிக்கிறார்?</p>
+<p> </p>
+<p>நடந்தவற்றை&nbsp;எல்லோரும்&nbsp;மறந்துவிட்டனர்.</p>
+<p>எங்கே&nbsp;ஒளிந்தது உண்மை!</p>
+<p>யாரிடம்&nbsp;இருக்கிறது மனிதாபிமானம்?</p>
+<p>எங்கே&nbsp;இருக்கிறது மனுநீதி?</p>
+<p> </p>
+<p>அனுமதி&nbsp;இல்லாமல்</p>
+<p>தெரு&nbsp;நாயை&nbsp;சுட்டுவிட்டால்</p>
+<p>தண்டனை.</p>
+<p>நடு&nbsp;முற்றத்தில்</p>
+<p>நீ&nbsp;வளர்த்த&nbsp;மரத்தை நீ தறித்தால்</p>
+<p>அது&nbsp;சட்டவிரோதம்.</p>
+<p>பெற்று&nbsp;வளர்த்த பிள்ளையை</p>
+<p>தாய்&nbsp;அடித்துவிட்டால்</p>
+<p>பெருங்&nbsp;குற்றம்,</p>
+<p>பொது&nbsp;இடத்தில் சத்தம்போட்டு பேசினால்</p>
+<p>விதிமீறல்,</p>
+<p> </p>
+<p>இது</p>
+<p>சர்வதேசத்தின்&nbsp;மனிதாபிமான</p>
+<p>கட்டளைச்&nbsp;சட்டம்.</p>
+<p> </p>
+<p>எறும்புக்கு&nbsp;ஆயுள் எவ்வளவு.</p>
+<p>நரிக்கு&nbsp;எத்தனை பல்லு.</p>
+<p>நத்தை</p>
+<p>மணிக்கு&nbsp;எவ்வளவு தூரம் நகரும்,</p>
+<p>நடுக்காட்டில்&nbsp;&#8220;துணைவி&nbsp;இல்லாமல்</p>
+<p>பச்சோந்தி&nbsp;தனியாக வாழுகிறதா,</p>
+<p>பன்றி&nbsp;புணர்ச்சி செய்யும்போது</p>
+<p>பட்டாசு&nbsp;வெடிக்கக்கூடாது.</p>
+<p> </p>
+<p>அது</p>
+<p>அறிவியல்&nbsp;+&nbsp;&nbsp;மனிதாபிமானம்??</p>
+<p> </p>
+<p>அவைகளை&nbsp;கண்காணிக்க,</p>
+<p>வரையறை&nbsp;செய்ய</p>
+<p>ஐநா&nbsp;சபையில்</p>
+<p>தனிப்பிரிவு&nbsp;செயற்படுகிறது.</p>
+<p> </p>
+<p>உலகம்&nbsp;முழுவதும்</p>
+<p>அமைப்புக்கள்&nbsp;அதற்காக</p>
+<p>விழி&nbsp;மூடாமல் சுழியோடுகின்றன.</p>
+<p> </p>
+<p>உன்னை&nbsp;வழிநடத்த உலகத்தில்</p>
+<p>ஏதாவது&nbsp;சட்டம் உண்டா?</p>
+<p>இருந்தாலும்,</p>
+<p>அதை&nbsp;அண்மிக்க</p>
+<p>எவராவது&nbsp;விட்டு விடுவார்களா?</p>
+<p> </p>
+<p>மிஞ்சிப்போனால்</p>
+<p>கருணா,&nbsp;ஜெயலலிதா&nbsp;விஜயகாந்து,&nbsp;திருமா.&nbsp;சம்பந்தன்</p>
+<p>அவர்கள்&nbsp;உயிரோடு இருந்திருந்தால்</p>
+<p>முள்ளிவாய்க்காலில்</p>
+<p>தொடர்ச்சியாக&nbsp;மூன்று மாதம்</p>
+<p>திறந்த&nbsp;வெளியில் கருமாதி நடந்திருக்குமா?</p>
+<p> </p>
+<p>அன்று</p>
+<p>கொள்ளைக்கார&nbsp;மகளுக்காக</p>
+<p>டில்லியில்</p>
+<p>கண்ணாடியை கழற்றி வைத்துவிட்டு</p>
+<p>சோனியாவின்&nbsp;காலடியில் மண்டியிட்டு</p>
+<p>கண்ணீர் விட்டு</p>
+<p>கருணா</p>
+<p>மகளை&nbsp;மீட்டு வரவில்லையா?</p>
+<p> </p>
+<p>ஏன்&nbsp;ஈழத்தில்&nbsp;ஒரு குழந்தையை</p>
+<p>கருணாவால்&nbsp;காப்பாற்ற முடியவில்லை?</p>
+<p> </p>
+<p>அன்று அகதிகளுக்கு</p>
+<p>நெடுமாறன் கப்பலில் மருந்து உணவு அனுப்ப</p>
+<p>குறுக்கே நின்ற கோடரிக்காம்பு</p>
+<p>கருணா.</p>
+<p>இப்போ&nbsp;மட்டும்</p>
+<p>ஐநாவில்&nbsp;அனுமதி வாங்கி</p>
+<p>கப்பல்&nbsp;கொண்டுபோய்</p>
+<p>தமிழர்களை&nbsp;காப்பாற்றி விடுவாரா.</p>
+<p> </p>
+<p>மோட்டு&nbsp;தமிழா</p>
+<p>ஈனத்&nbsp;தலைவரின்</p>
+<p>பம்மாத்தை&nbsp;இன்னுமா நம்புகிறாய்!</p>
+<p> </p>
+<p>பாலச்சந்திரன்</p>
+<p>தமிழ்க்&nbsp;குழந்தை</p>
+<p>சாகப்பிறந்தவன்&nbsp;என்று</p>
+<p>விதிக்கப்பட்டிருக்கிறது.</p>
+<p>செத்து&nbsp;தொலையட்டும்.</p>
+<p>சாவுக்கான&nbsp;சாத்தான் யார் என தேடி</p>
+<p>கழுவிலேற்றப்பார்.</p>
+<p> </p>
+<p>உணர்ச்சிவசப்படாதே.</p>
+<p>முன்னால்&nbsp;கிடக்கும்</p>
+<p>இரத்தம்&nbsp;தோய்ந்த கடப்பாரையையும்</p>
+<p>கண்ட&nbsp;கோடரியை</p>
+<p>கண்திறந்து&nbsp;பார்.</p>
+<p>துல்லியமாக</p>
+<p>கொலைகாரனின் கை அடையாளம் தெரிகிறது.</p>
+<p> </p>
+<p>பாலச்சந்திரனை,</p>
+<p>சல்லடையாக்கி&nbsp;தூக்கிப்போட்டதை</p>
+<p>கண்டங்கடந்து</p>
+<p>இங்கிலாந்துக்காரன்&nbsp;பகிரங்கப்படுத்துகிறான்.</p>
+<p> </p>
+<p>ஏழு&nbsp;கோடி&nbsp;தமிழர்கள் வாழும்</p>
+<p>தலைப்பாகை&nbsp;கட்டிய</p>
+<p>இந்தியா</p>
+<p>இழுத்து&nbsp;மூடிக்கொண்டு படுத்திருக்கிறது.</p>
+<p> </p>
+<p>ஏன்&nbsp;என்று சிந்தித்தாயா?</p>
+<p> </p>
+<p>பாலச்சந்திரன்&nbsp;படுகொலை</p>
+<p>சுரங்குறைந்து</p>
+<p>திண்ணை&nbsp;பேச்சாகி</p>
+<p>மண்ணோடு&nbsp;மண்ணாகிவிட வேண்டடும்.</p>
+<p>அதுவரை&nbsp;போலி&nbsp;கண்டனங்களும்</p>
+<p>காது&nbsp;குத்துக்களும்&nbsp;தொடரும்.</p>
+<p> </p>
+<p>பல</p>
+<p>பத்தாயிரம்&nbsp;ஈழ குழந்தைகளில்</p>
+<p>பாலச்சந்திரனும்&nbsp;ஒன்று.</p>
+<p> </p>
+<p>அதுதான்&nbsp;நிதர்சனம்.</p>
+<p> </p>
+<p>நீ&nbsp;தமிழனென்றால்!</p>
+<p>அதுவும்</p>
+<p>ஈழத்தமிழனென்றால்!</p>
+<p>உன்னை</p>
+<p>சுட்டு&nbsp;படுகொலை செய்யாமல் விட்டால்</p>
+<p>பெருங்குற்றம்.</p>
+<p> </p>
+<p>பிஞ்சு&nbsp;குழந்தைகளையும்,</p>
+<p>பேறுகால&nbsp;தாய் இனத்தையும்,</p>
+<p>வஞ்சகமாக&nbsp;கொல்லாமல் விட்டால்</p>
+<p>அது&nbsp;குற்றம்.</p>
+<p> </p>
+<p>ஈழத்து&nbsp;பெண்களை கற்பழிக்காமல் விட்டால்</p>
+<p>சோனியாவும்&nbsp;தாத்தாவும்</p>
+<p>கோபித்துக்கொள்ளுவார்கள்.</p>
+<p> </p>
+<p>அவர்களை&nbsp;துன்புறுத்தாமல் விட்டால்</p>
+<p>தேசத்துரோகம்</p>
+<p>தமிழகத்தில்</p>
+<p>அரசியல்&nbsp;செய்ய ஆதாரமில்லை.</p>
+<p> </p>
+<p>ஓட்டாண்டியாக்கி</p>
+<p>ஓட&nbsp;ஓட&nbsp;விரட்டாமல் விட்டால்.</p>
+<p>அது</p>
+<p>எழுதப்படாத&nbsp;சர்வதேச அவமதிப்பு,</p>
+<p> </p>
+<p>இப்படித்தானே&nbsp;புரியப்பட்டிருக்கிறது</p>
+<p>ஈழத்தமிழினத்துக்கு.</p>
+<p> </p>
+<p>உரிமைக்காக&nbsp;போராட தமிழனுக்கு</p>
+<p>உரிமையில்லை.</p>
+<p> </p>
+<p>கடலில்&nbsp;நீ&nbsp;கட்டுமரம் கட்டி</p>
+<p>மீன்&nbsp;பிடிக்கக்கூடாது.</p>
+<p> </p>
+<p>அணுவை&nbsp;பரிசோதிக்க</p>
+<p>உன்னை&nbsp;பயன்படுத்தினால்</p>
+<p>உன்&nbsp;சந்ததியை&nbsp;அழித்தாலும்</p>
+<p>நீ&nbsp;வாய் திறக்கக்கூடாது.</p>
+<p>நீ&nbsp;குப்புற&nbsp;குறுகி</p>
+<p>படுத்து&nbsp;கிடக்கவேண்டும்.</p>
+<p> </p>
+<p>கோபப்பட்டால்.</p>
+<p>ஈழத்தின்&nbsp;கதி</p>
+<p>உனக்கும்&nbsp;நடக்கலாம்&nbsp;&nbsp;.</p>
+<p> </p>
+<p>உனக்கென்று</p>
+<p>ஆயிரம்&nbsp;அரசியல் வியாதிகள்</p>
+<p>அதிகாரத்துடன்&nbsp;இருந்தாலும்</p>
+<p>அவர்கள்&nbsp;&nbsp;ஒருபோதும்</p>
+<p>உண்மையாக</p>
+<p>உனக்காக&nbsp;குரல் கொடுக்கப்போவதில்லை.</p>
+<p>அவர்களுக்கு&nbsp;ஆயிரம் பிரச்சினைகள் உண்டு.</p>
+<p> </p>
+<p>நீ&nbsp;தமிழன்</p>
+<p>உன்னை&nbsp;காப்பாற்றுவதால்</p>
+<p>அவர்களுக்கு&nbsp;என்ன இலாபம்?</p>
+<p> </p>
+<p>மஹிந்த&nbsp;ராஜபக்‌ஷ அரசன்.</p>
+<p>அவன்&nbsp;கொலை&nbsp;செய்தால்</p>
+<p>அது&nbsp;கலாச்சார புரட்சி.</p>
+<p> </p>
+<p>அவனை&nbsp;காப்பாற்ற</p>
+<p>இந்தியா&nbsp;இருக்கிறது</p>
+<p>தமிழ்நாடு&nbsp;சார்பாக</p>
+<p>கருணாநிதி&nbsp;இருக்கிறார்.</p>
+<p>பகை&nbsp;நாடுகளாக&nbsp;இருந்தாலும்</p>
+<p>பாக்கிஸ்தான்&nbsp;சீனாவுடன்</p>
+<p>ஒன்றிக்கலந்து&nbsp;சோனியா அரசு</p>
+<p>தமிழனுக்கு&nbsp;மங்களம் பாடியிருக்கிறது.</p>
+<p> </p>
+<p>உனக்கு&nbsp;நீ மட்டும்தான்.</p>
+<p>மிஞ்சிப்போனால்</p>
+<p>சீமான்,&nbsp;வைகோ</p>
+<p>அவர்களும்&nbsp;அத்துமீறினால்</p>
+<p>சட்டம்&nbsp;தன்&nbsp;கடமையை&nbsp;செய்யும்.</p>
+<p> </p>
+<p>தாத்தா&nbsp;அடிக்கடி சொல்லிய வார்த்தை.</p>
+<p> </p>
+<p>செத்துப்போனால்</p>
+<p>சில&nbsp;நாட்கள்&nbsp;சத்தம்போட</p>
+<p>நாலுபேர்&nbsp;வரலாம்</p>
+<p>தீக்குளித்து&nbsp;எதிர்த்தாலும்</p>
+<p>மாற்றி&nbsp;எழுதும் வல்லமை தமிழனுக்கில்லை.</p>
+<p> </p>
+<p>இரும்பு&nbsp;நெஞ்சுகள் ஒன்று சேர்ந்து</p>
+<p>தடையத்தை&nbsp;மாற்றிவிட</p>
+<p>நீலிக்கண்ணீர்&nbsp;வடித்து</p>
+<p>பிரமாண்ட&nbsp;பாலம் கட்டுகின்றன.</p>
+<p>காலமாற்றம்&nbsp;ஒன்று தவிர</p>
+<p>கண்ணுக்கெட்டிய&nbsp;தூரம் வரை</p>
+<p>எதுவும்&nbsp;தெரியவில்லை.</p>
+<p> </p>
+<p>இளங்குருத்து</p>
+<p>பாலச்சந்திரன்</p>
+<p>அவனது&nbsp;பிஞ்சு&nbsp;நெஞ்சில்</p>
+<p>ஆணியடித்ததுபோன்ற</p>
+<p>ஐந்து&nbsp;குண்டுத் துளைகள்.</p>
+<p>ஈட்டியாக&nbsp;நெஞ்சை துளைக்கின்றன.</p>
+<p> </p>
+<p>அவனது&nbsp;கடைசி&nbsp;நேரம்</p>
+<p>எப்படி&nbsp;காய்ந்திருக்கும்.</p>
+<p> </p>
+<p>மிரட்டுவதற்கு</p>
+<p>துப்பாக்கி</p>
+<p>தூக்குகிறார்கள்&nbsp;என்று நினைத்திருப்பானோ?</p>
+<p>முலை&nbsp;கொடுத்த&nbsp;தாயின்</p>
+<p>அரவணைப்புக்காக&nbsp;ஏங்கியிருப்பானோ?</p>
+<p>பக்கத்து&nbsp;நாடு</p>
+<p>நிச்சியம்&nbsp;உதவும் என்ற வதந்தியை</p>
+<p>நம்பியிருப்பானோ?</p>
+<p> </p>
+<p>அனைத்தும்&nbsp;பூய்ச்சியமாகிவிட்டது.</p>
+<p> </p>
+<p>அவன்</p>
+<p>ஓடும்போது&nbsp;சுடப்பட்டிருந்தால்,</p>
+<p>ஒளிவிடத்திலிருந்து&nbsp;கொல்லப்பட்டிருந்தால்,</p>
+<p>ஆயுதத்துடன்&nbsp;பிடிபட்டிருந்தால்,</p>
+<p>அது&nbsp;நியாயம்.</p>
+<p> </p>
+<p>அல்லது</p>
+<p>ராஜீவ்&nbsp;காந்தியைப்போல</p>
+<p>குண்டு&nbsp;வெடிப்பில் செத்திருந்தால்</p>
+<p>விசாரித்து&nbsp;விடையறிய நாளெடுக்கும்.</p>
+<p> </p>
+<p>அவன்&nbsp;ஓடவில்லை ஒளியவில்லை.</p>
+<p> </p>
+<p>&#8220;இன்னும்&nbsp;விளையாட&nbsp;வேண்டும்&nbsp;என்பதற்காக</p>
+<p>சரணடைந்திருக்கிறான்&#8221;.</p>
+<p> </p>
+<p>பலி&nbsp;ஆட்டுக்கு</p>
+<p>மஞ்சள்&nbsp;நீராட்டி</p>
+<p>பழம்&nbsp;கொடுத்து கழுத்தறுத்ததபோல,</p>
+<p>மிக&nbsp;சாதாரணமாக</p>
+<p>பாலச்சந்திரனுக்கு</p>
+<p>பிஸ்கற்&nbsp;கொடுத்து</p>
+<p>சுட்டு&nbsp;கொன்று படம்பிடித்து போட்டிருக்கிறது</p>
+<p>ஒரு&nbsp;அரக்கனின் அரசு.</p>
+<p> </p>
+<p>ஈழத்தில்&nbsp;பிறந்தது</p>
+<p>அந்த&nbsp;குழந்தையின் குற்றமென்பதா?</p>
+<p>தமிழனாக&nbsp;பிறந்ததின் தண்டனையா?</p>
+<p>பிரபாகரனுக்கு&nbsp;பிள்ளையாக பிறந்தது</p>
+<p>அவனது&nbsp;குற்றமா?</p>
+<p> </p>
+<p>கனிமொழியின்&nbsp;குழந்தை</p>
+<p>ஆதித்யாவை</p>
+<p>ராஜபக்‌ஷவின்&nbsp;படைகள் கொன்றிருந்தால்,</p>
+<p>கருணாநிதி&nbsp;மத்திய அரசுக்கு</p>
+<p>முண்டு&nbsp;கொடுத்துக்கொண்டு</p>
+<p>தேனீர்&nbsp;ஆற்றிக்கொண்டிருப்பாரா?</p>
+<p> </p>
+<p>இப்படித்தான்&nbsp;ஆவணப்படத்தை பார்த்து</p>
+<p>பட்டிமன்றம்&nbsp;நடந்திருக்குமா?</p>
+<p> </p>
+<p>எங்கே&nbsp;இருக்கிறது நீதி!</p>
+<p> </p>
+<p>அவர்கள்&nbsp;ஆளப்பிறந்தவர்கள்</p>
+<p>வானத்திலிருந்து</p>
+<p>வந்ததற்கு&nbsp;சமமானவர்கள்.</p>
+<p> </p>
+<p>பன்னிரண்டு&nbsp;வயது</p>
+<p>பாலச்சந்திரன்&nbsp;என்ன</p>
+<p>அரசியல்வாதியின்&nbsp;மகனா?</p>
+<p>கூட்டணி&nbsp;தர்மம் காக்கும் குலக்கொழுந்தின்</p>
+<p>வாரிசா?</p>
+<p>அவனை&nbsp;யார் தமிழனாக பிறக்கச்சொன்னது?</p>
+<p>அவனது&nbsp;தந்தை&nbsp;பிரபாகரனை</p>
+<p>யார்</p>
+<p>தமிழனுக்காக&nbsp;போராடச்சொன்னது?</p>
+<p> </p>
+<p>ஆனாலும்.</p>
+<p> </p>
+<p>காலமாற்றம்&nbsp;ஒன்றின்</p>
+<p>சக்கரத்தடத்தில்</p>
+<p>அராஜகம்&nbsp;மேலெழுந்து சதிராடுகிறது.</p>
+<p>சக்கரம்&nbsp;இன்னும் சுழலும்</p>
+<p>அது&nbsp;நியதி.</p>
+<p> </p>
+<p><span style="font-size: 14pt; color: #000080;">-ஊர்க்குருவி-</span></p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/4372/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/4372/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/4372/?share=facebook" title="Share on Facebook" id="sharing-facebook-4372"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/4372/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-4372"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/4372/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-4372"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/4372/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/4372/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/4372/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-4372-54750f0f0f4b9" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=4372&amp;origin=savukkunews.com&amp;obj_id=68584444-4372-54750f0f0f4b9" data-name="like-post-frame-68584444-4372-54750f0f0f4b9"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/4372/"
+    dc:identifier="http://savukkunews.com/4372/"
+    dc:title="பாலச்சந்திரன்."
+    trackback:ping="http://savukkunews.com/4372/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>

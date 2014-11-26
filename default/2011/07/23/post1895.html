@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html ng-app="postapp">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>சவுக்கு- அவமரியாதை இயக்கம்.</title>
+    <meta name="description" content="Test Blog Site
+">
+
+    <link rel="canonical" href="/default/2011/07/23/post1895.html">
+    <link rel="stylesheet" href="/css/post.css"/>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+    <script src="/js/posts.js"></script>
+</head>
+
+
+<body>
+<div class="container" ng-controller="PostListController">
+	<!--<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo_small.jpg" class="logo-small"/> </a>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="dropdown" ng-class="{ open : dd1 }" ng-init="dd1 = false" ng-click="dd1 = !dd1">
+						<a role="button" class="dropdown-toggle" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+							Recent Posts <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" >
+							<li ng-repeat="post in recentPosts()"><a ng-href=""><div ng-bind-html="post.title"></div></a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Archives</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>-->
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="/index.html">
+				சவுக்கு
+			</a>
+		</div>
+	</nav>
+</header>
+
+	<div class="row" style="margin-top: -18px;">
+		<div class="col-md-4 col-md-push-8">
+			
+<div class="row">
+    <div class="col-md-12 logo">
+      <img src="/images/logo.jpg"/>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <h3 class="recent-posts-title">Recent Posts</h3>
+
+        <ul ng-repeat="post in recentPosts()">
+            <li><a href="{{post.href}}"><span ng-bind-html="post.title"/></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-12 hidden-md hidden-lg">
+        <div class="btn-group full-width" dropdown is-open="status.isopen">
+            <button type="button" class="btn btn-primary dropdown-toggle full-width" ng-disabled="disabled">
+                Recent Posts <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li ng-repeat="post in recentPosts()"><a href="{{post.href}}"><span ng-bind-html="post.title"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+		</div>
+
+		<div class="col-md-8 col-md-pull-4">
+
+			<h1 class="post-title">அவமரியாதை இயக்கம்.</h1>
+			<p class="post-meta">Jul 23, 2011</p>
+
+			<article class="post-content">
+				<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/1895/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/1895/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<p> </p>
+<p>&nbsp;பெரியார் துவங்கியது சுயமரியாதை இயக்கம்.&nbsp;&nbsp; அதன் வழி வந்தவன் என்று மூச்சுக்கு முன்னூறு முறை முழங்கும் கருணாநிதி இன்று நடத்திக் கொண்டிருப்பது அவமரியாதை இயக்கம். யார் என்ன சொன்னாலும், என் குடும்பமே பிரதானம் என்று காண்டாமிருகத் தோலோடு தள்ளு வண்டியில் ஊர்ந்து வரும் ஒரு பிறவியை என்னவென்று சொல்வது ?</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1895/Kalangher.jpg" alt="Kalangher" width="" height="" /></p>
+<p>குடும்ப ஆட்சியின் காரணமாக ஆட்சியை இழந்து இன்று முட்டுச் சந்தியிலே முக்காடிட்டு இருக்கிறோம் என்பதை இன்னும் உணராத ஒரு பிடிவாதம் பிடித்த கிழவனை என்னவென்று சொல்லி விமர்சிப்பது ? நல்ல மாட்டுக்கு ஒரு சூடு அல்லவா ?&nbsp;&nbsp; எத்தனை சூடு பட்டாலும் கொஞ்சமும் உறைக்காமல் எருமை மாட்டின் மீது மழை பெய்தது போல இருக்கும் நபரைப் பற்றி எழுதவே எரிச்சலாகத் தான் இருக்கிறது. ஆனாலும் இதை பதிவு செய்யாமல் விட முடியவில்லை.</p>
+<p> </p>
+<p>தமிழ்நாட்டின் வரலாற்றில் திராவிட இயக்கம் என்பது, தவிர்க்க முடியாத ஒரு அம்சம். இந்த திராவிட இயக்கத்தை கண் முன்னே ஒரு கிழவன் தன் குடும்பத்திற்காக குழி தோண்டி புதைக்கிறான், அதை திமுக தொண்டன் வேடிக்கைப் பார்க்கிறான் என்பதை காண மனம் சகிக்க மறுக்கிறது.</p>
+<p> </p>
+<p>கொட்டும் மழையிலே ராபின்சன் பூங்காவிலே, திமுகவை தொடங்கி வைத்துப் பேசிய அண்ணா என்ன பேசினார் தெரியுமா ?</p>
+<p> </p>
+<p>“பெரியார் திருமணம் என்ற செய்தி கேட்டதும் அழுதவன் நான், ஆயாசம் கொண்டவன் நான். அது மட்டுமல்லன். நான் ஒதுங்கி விடுகிறேன் என்ற எண்ணத்தை, நான் கொண்ட கருத்தைத் தெரிவித்தவன் நான். பேதம், பிளவு, மனத்தாங்கல், மோதல் கூடாது. நல்லதன்று என்று கருதும் போக்கும், மனப் பண்பும் படைத்தவன் நான். எனவே, என் வரையில் பெருந்தன்மையாக கட்சிப் பணியிலிருந்து விலகுவது நல்லது என்று முடிவு கட்டியிருந்தேன்.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1895/anna_karunanidhi_300.jpg" alt="anna_karunanidhi_300" width="" height="" /></p>
+<p>என் போன்ற பல தோழர்கள் பெரியாரை, பெரியார் போக், அவர் திருமண ஏற்பாட்டை ஏற்கவில்லை என்பதை மட்டுமல்ல, கண்டித்தனர், கதறினர், வேண்டாம் என்றனர் வேதனை உள்ளத்தோடு.</p>
+<p> </p>
+<p>நான் மனதார தீமை என்று கருதிய ஒன்றை, நல்லதல்ல என்று தெரிந்த ஒன்றை பகுத்தறிவுக்கு புறம்பானது என்று பாமரரும் ஒப்பும் ஒன்றைத் தெரிவித்தது குற்றமா ?</p>
+<p> </p>
+<p>பெரியார் சமாதானம் சொல்லி விட்டார் என் சொந்த விஷயம் எதிர்ப்போர் சுயநலமிகள் சதிக் கூட்டத்தினர் என்று மனப்புண் ஆறவில்லை. மக்கள் அப்படிப் பட்ட தலைவருடன் சேர்ந்து பணியாற்ற மாடோம் என்று கூறினர்.&nbsp;&nbsp; செவிசாய்க்கவில்லை தலைவர். விலகுவார் என்று பார்த்தனர். விலகவும் இல்லை. அவரோடு சேர்ந்து பணி புரிய முடியாத நிலையிலுள்ள பெரும்பான்மையினர், கழக முக்கியஸ்தர்கள், கூடிப் பேசி ஒரு முடிவு செய்தனர். அந்த முடிவுதான் திராவிட முன்னேற்றக் கழக தோற்றம். இது போட்டிக் கழகமல்ல.</p>
+<p> </p>
+<p>திராவிட முன்னேற்றக் கழகம் தோன்றி விட்டது. திராவிடக் கழகத்திற்குப் போட்டியாக அல்ல. அதே கொள்கைப் பாதையில்தான், திராவிடர் கழகத்தின் அடிப்படைக் கொள்கைகளின் மீதேதான் திராவிட முன்னேற்றக் கழகம் அமைக்கப் பட்டுள்ளது. அடிப்படைக் கொள்கைகளில் கருத்துகளில் மாறுதல், மோதல் எதுவும் கிடையாது. சமுதாயத் துறையிலே சீர்திருத்தம், பொருளாதாரத் துறையிலே சமதர்மக் குறிகோள், அரசியலில் வட நாட்டு ஏகாதிபத்தியத்தினின்று விடுதலை ஆகிய கொள்கைகள்தான் திராவிட முன்னேற்றக் கழகத்தின் கோட்பாடுகளாகும்.</p>
+<p><img class="img-responsive" style="" src="/images/1895/3.jpg" alt="3" width="" height="" /></p>
+<p>கொள்கை பிடிக்காமலோ, கோணல் புத்தி படைத்தோ அல்ல நாங்கள் விலகியது, வெளியேறியது. கொள்கை வேண்டும். அதுவும் நல்ல முறையில் நடத்தப்பட வேண்டும். நாடும், மக்களும் நலம் பெறும் முறையி,ல கொள்கைக்குக் குந்தகம் விளைவிக்கும் காரியத்திற்கு பக்க பலமாக இருந்து பணியாற்ற முடியாது என்ற நிர்பந்த நிலையிலேதான் விலகினோம்.  விலக நேரிட்டது. பெருந்தன்மை வேண்டுமென்ற ஒரே காரணத்தினால் தான், மோதரைத் தவிர்த்து கழகத்தை கைப்பற்றும் பணியை விடுத்து விலகுகிறோம்.&nbsp;&nbsp; அது மட்டுமல்லாமல் தலைவர், எல்லார் மீதும் நம்பிக்கையில்லை. நம்ப முடியாது என்று வேறு கூறியிருக்கிறார்.&nbsp;&nbsp; சோம்பேறிகள், செயலாற்ற முடியாத சிறுவர் கூட்டம், உழைக்கத் தெரியாதவர்கள் என்று குற்றம் சாட்டியிருக்கிறார். யாரைப் பார்த்து ? உழைத்து உழைத்து கட்சியை, கழகத்தை உருவாக்கிய உண்மைத் தொண்டர்களை, தம் வாழ்வையும் பாழ்படுத்திக் கொண்ட இளைஞர்களைப் பார்த்து.</p>
+<p> </p>
+<p>திராவிட முன்னேற்றக் கழகத்தில் பணியாற்றத் தொடங்கி இருக்கிறோம். நான் மிகவும் சோம்பேரி, பெரியாரைப் போல உழைக்க முடியாது என்று கூறுகிறார்கள். நான் ஒப்புக் கொள்ளுகிறேன். பெரியார் போல் உழைக்க முடியாது என்று, ஏன் ? அவருக்கு உழைக்கும் சக்தி போதுமான வசதி இருக்கிறது. அவ்வளவு வசதியும் சக்தியும் பெற்றவனல்ல நான் என்பது மட்டுமல்ல, பெரியால் போல் உழைப்பது தவறு கூடாது, தேவையற்றது என்ற கருத்துடையவன் நான். அது ஜனநாயகத்திற்கு ஏற்றதல்ல, முரண்பட்டது என்ற கருத்துக் கொண்டவர். ஒரே மனிதர், தானே, எல்லாப் பொறுப்பையும் வகிப்பது தவறு. பிறருக்கும் சந்தர்ப்பம் வசதியளிக்க வேண்டியது கடமை என்ற போக்கை கொண்டவன். சோம்பேறி என்று கூறுவது தான் எனக்குப் பொருந்துமா என்று பாருங்கள்.&nbsp;&nbsp; எட்டு ஆண்டுகளாக நான் ஒரு வார இதழ், திராவிட நாடு, நடத்தி வருகிறேன். இது சோம்பேறித் தனத்தின் விளைவா ? என்று கேட்கிறேன்.&nbsp;&nbsp; இந்தப் பத்திரிக்கையிலே ஓரிரு பக்கங்களை தவிர மற்றவை யாவும் என்னாலே எழுதப்படுபவை. இதுவும் சோம்பேறித்தனத்தின் விளைவா ?&nbsp;&nbsp; மாலைமணி சென்னையிலும், திராவிட நாடு காஞ்சியிலும், நடக்கின்றன. மாலை மணி தினப்பத்திரிக்கை இரண்டுக்கும் நான் ஆசிரியன் வேலை பார்க்கிறேன். இது சோம்பேறித்தனத்தின் விளைவா ?</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1895/annadurai1.jpg" alt="annadurai1" width="" height="" /></p>
+<p>திராவிடர் கழகமாகட்டும் திராவிட முன்னேற்றக் கழகமாகக்டடும். படை வரிசை வேறு என்றாலும் கொள்கை ஒன்றுதான். கோட்பாடு ஒன்றுதான். திட்டமும் வேறு அல்ல என்ற நிலை இருந்தே தீரும். படைவரிசை இரண்டு பட்டு விட்டது என்று எக்காளமிடும் வைதீகபுரிக்கும், வடநாட்டு ஏகாதிபத்தியத்திற்கும் சம்மட்டியாக விளங்க வேண்டும்.&nbsp;&nbsp; இரு கழகங்களும் இரு திக்குகளிலுமிருந்து வடநாட்டு ஏகாதிபத்தியத்தை ஒழித்து, வைதீகக் காட்டை அழிததுச் சமதர்மப் பூங்காவை, திராவிடத்தை செழிக்கச் செய்தல் வேண்டும். அதிலே எந்தக் கழகம் பூங்காவை அமைத்தாலும், அதில் பூக்கும் பூக்கள், காய்கள், கனிகள் திராவிடத்தின் எழுச்சியை மலர்ச்சியைத் தான் குறிக்கும். இரு பூங்காக்களும் தேவை.&nbsp;&nbsp; ஒன்றோடொன்று பகைக்கத் தேவையில்லை. அவசியமும் இல்லை. எது புஷ்புத்தாலும் மாலையாகப் போவது திராவிடத்துக்குத் தான் என்ற எண்ணம் வேண்டும். அதை விட்டு நள்ளிரவிலே பூங்காவின் வேலி தாண்டிப் பாதியை அழிக்கும் வேலி தாண்டிகள் வரக் கூடாது.</p>
+<p> </p>
+<p>மழை பெய்து நின்று, கறுத்த வானம் வெளுத்திருப்பது போல், இன்று புதுக் கழகம் அமைத்து, முன்னேற்ற வேகத்துடன் மோதல் இன்றிப் பணியாற்றப் புறப்பட்டு விட்டனர்.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1895/anna_karunanidhi_500.jpg" alt="anna_karunanidhi_500" width="" height="" /></p>
+<p>நம்மிடம் பணமில்லை. இந்தப் பயல்களிடம் பணம் ஏது ? கொஞ்ச நாள்களுக்குக் கூச்சல் போட்டு அடங்கி விடுவார்கள்.&nbsp;&nbsp; பணமில்லாமல் என்ன செய்ய முடியும் ? என்று பேசப்படுகிறதாம். அதே நேரத்தில் பணம் சம்பாதிக்கிறான். நல்ல பணம் சம்பாதிக்கிறான். சினிமாவுக்கு கதை எழுதுகிறான் என்று தூற்றப் படுகிறேன் நான். இந்த இருவகைப் பேச்சுக்களையும் காணும் பொழுது, நான் உண்மையிலேயே மகிழ்கிறேன்.&nbsp;&nbsp; நம்மிடம் பணம் இல்லை கட்சி நடத்த. ஆனாலும் வழிவகை இருக்கிறது. பணம் சம்பாதிக்க முடியும் என்ற நம்பிக்கை தோன்றுகிறது.&nbsp;&nbsp; நான் சம்பாதித்தது உண்மையோ, பொய்யோ, அது பற்றிக் கவலையின்றி அதை அப்படியே ஏற்று அந்த வழியைக் கடைபிடித்தேனும் சம்பாதித்துக் கட்சி நடத்தலாம் என்று தைரியம் பிறக்கிறது. பணம் என்பது ஒரு சாதனமே. அது சகல காரியங்களுக்கும் அத்தியாவசியமான ஒன்றல்ல. இருந்தே தீர வேண்டும் எல்லாக் காரியங்களுக்கும் என்ற நிர்பந்தம் தேவையில்லை.&nbsp;&nbsp; நமது உழைப்பின் மூலம் உறுதியின் மூலம் எவ்வளவோ பணத்தேவையை நிறுத்தலாம், குறைக்க முடியும்.”</p>
+<p> </p>
+<p>இதுதான் அண்ணாவின் உரை.&nbsp;&nbsp; “நம்மிடம் பணம் இல்லை கட்சி நடத்த” என்கிறார் அண்ணா. இன்றைக்கு திமுகவின் நிலை  அதுவா ?&nbsp;&nbsp; பணத்திலே, அதுவும் ஊழலிலே சம்பாதித்த பணத்திலே திளைக்கிறதே….</p>
+<p> </p>
+<p>திராவிட முன்னேற்றக் கழகத்தையும் கருணாநிதியையும், கடுமையாக விமர்சிப்பதின் நோக்கம், திமுகவை அழிக்க வேண்டும் என்பதல்ல… திமுக இருக்க வேண்டும், பல்லாயிரக்கணக்கான தொண்டர்களின் ரத்ததிலும், உழைப்பிலும், உருவான ஒரு திராவிட இயக்கம் சீரழிந்து போய் விடக் கூடாதே என்ற ஆதங்கத்தில்.</p>
+<p> </p>
+<p>எத்தனை எழுதி விட்டன ஊடகங்கள் ?&nbsp;&nbsp; பத்தி பத்தியாக பக்கம் பக்கமாக எழுதித் தீர்த்து விட்டனவே !!! மக்களும், திமுகவை ஊதி ஒதுக்கி புறந்தள்ளி விட்டனரே…!!! இதற்குப் பிறகும், திமுகவை அழித்தே தீருவேன் என்று கங்கணம் கட்டிக் கொண்டு பொதுக்குழுவில் நான் தான் தலைவன் என்று பிடிவாதம் பிடிக்கும் இந்தக் கிழவனை என்ன சொல்லித் திட்டினால் தகும் ?</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1895/DSC_7715.jpg" alt="DSC_7715" width="" height="" /></p>
+<p>2ஜி வழக்கில் ஊழல் புரிந்த ராசா, கத்தை கத்தையாக பணத்தை கொண்டு வந்து தந்த போது, அதை வாங்கி தமிழகம் மற்றும் இந்தியா முழுக்க சொத்துக்களாக வாங்கிக் குவிக்கத் தெரிந்த கருணாநிதிக்கும், அவர் குடும்பத்தினருக்கும், ராசா 130 நாட்களாக சிறையில் இருந்த போது தெரியாத வலி, கருணாநிதியின் மகள் சிறைப் பட்ட உடன் தெரிகிறதே…!!!!</p>
+<p> </p>
+<p>ராசா கைது செய்யப் பட்ட போது, காங்கிரஸ் கூட்டணியை முறிக்க வேண்டுமா என்று சிந்திக்காத கருணாநிதிக்கு, தன் மகள் கைது செய்யப் பட்டவுடன் உயர்நிலை செயல்திட்டக் குழுவைக் கூட்டத் தோன்றுகிறதே…!!!</p>
+<p> </p>
+<p>தன் மகள் சிறைபடாமல் காப்பாற்ற வேண்டும் என்பதற்காக, கத்தை கத்தையாக பணத்தை அள்ளிக் கொடுத்த ராசாதான் அத்தனை தவறுகளுக்கும் காரணம் என்று வழக்கறிஞரை வைத்து வாதாட வைத்த கருணாநிதியை கழுவிலேற்ற வேண்டாமா ?</p>
+<p> </p>
+<p>குடும்ப ஆட்சியின் விளைவாக மக்கள் எதிர்க்கட்சி அந்தஸ்து கூடக் கொடுக்காமல், மூன்றாவது நிலைக்குத் தள்ளிய பின்னரும், செயற்குழுவில், ராசாத்தி அம்மாளை பக்கத்திலேயே அமர வைத்துக் கொண்டு செயற்குழுவை நடத்தும் கருணாநிதியைப் போன்ற கேடுகெட்ட மனிதரை எங்காவது பார்த்திருக்கிறீர்களா ?</p>
+<p><img class="img-responsive" style="" src="/images/1895/2.jpg" alt="2" width="" height="" /></p>
+<p>திமுக எஃக்குக் கோட்டையைப் போன்றது என்று இன்று உறுமும் கருணாநிதி, அந்த எஃக்குக் கோட்டையின் அடியிலே, வெடி வைத்து 2011 தேர்தலிலே மக்கள் தகர்ததன் காரணத்தை ஏன் உணர மறுக்கிறார் ?</p>
+<p> </p>
+<p>திமுகவுக்கு இருந்து 3 கேபினெட் அமைச்சர்களில் இருவர் ராஜினாமா செய்துள்ள நிலையில், அவர்களுக்கு பதில் வேறு ஒருவரை நியமிப்பதில் கருணாநிதி இத்தனை நாளாக சுணக்கம் காட்டுவது, அவர் குடும்பத்திலிருந்து ஒருவரும், அமைச்சர் பதவிக்கு தயாராக இல்லை என்பதைத் தவிர வேறு என்ன காரணம் இருக்க முடியும் ?</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1895/6-27-2011-41-dmk-executive-meet-in-coimbato.jpg" alt="6-27-2011-41-dmk-executive-meet-in-coimbato" width="" height="" /></p>
+<p>கனிமொழி சிறையிலிருந்து வெளி வரும் வரை, வேறு எவரையும் மத்திய மந்திரி ஆக்குவதில்லை என்று கருணாநிதி முடிவெடுத்திருக்கிறார் என்ற தகவல், இவர் எப்படிப்பட்ட கேடுகெட்ட மனிதர் என்பதையல்லவா காட்டுகிறது ?</p>
+<p> </p>
+<p>ஊர் ஊராகப் பேசுவதற்கு தொண்டன். கூட்டம் கூட்டுவதற்கு தொண்டன். தலைவனுக்கான தீக்குளிப்பதற்கு தொண்டன். போலீசிடம் அடிபடுவதற்கு தொண்டன். பதவிக்கு மட்டும்  குடும்பமா ?</p>
+<p> </p>
+<p>இப்படிப் பட்ட காண்டாமிருகத் தோல் படைத்த கருணாநிதியை விட கேவலமான பிறவிகள் யார் தெரியுமா ? திமுகவின் தொண்டர்கள் தான். இத்தனை அயோக்கியத்தனங்கள் கண் முன்னே அரங்கேறியும், கட்சியை அழித்தே தீருவேன் என்று கங்கணம் கட்டிக் கொண்டு தன் குடும்ப நலனுக்காக லட்சக்கணக்கான தொண்டர்களின் வாழ்வை சீரழித்துக் கொண்டிருக்கும் கருணாநிதி, மீண்டும் நான்தான் தலைவர் என்று பேசுவதை கேட்டுக் கொண்டிருக்கும் வாளாயிருக்கும் திமுகவின் செயற்குழு உறுப்பினர்களைப் போன்றவர்களை என்னவென்று சொல்வது ?</p>
+<p> </p>
+<p>ஆயிரக்கணக்கான தொண்டர்களின் தியாகத்தின் அடிப்படையில் வளர்ந்த திமுகவை ஒரு பிடிவாதம் பிடித்த கிழவன் கண்முன்னே அழிப்பதை வேடிக்கைப் பார்த்துக் கொண்டிருக்கும் திமுக தொண்டன், கருணாநிதியின் அயோக்கியத்தனத்துக்கு துணை செல்பவன் இல்லையா ?</p>
+<p><img class="img-responsive" style="" src="/images/1895/1.jpg" alt="1" width="" height="" /></p>
+<p>இந்தப் பொதுக்குழு நடப்பது எதற்காக ? நடந்து முடிந்த தேர்தல் தோல்வியை ஆராய்வதற்காகவா ?&nbsp;&nbsp; இரண்டு மகன்களுக்கும் இடையே நடக்கும் பனிப்போரின் விளைவல்லவா இந்தப் பொதுக்குழு ?&nbsp;&nbsp; இதற்காக ஆயிரக்கணக்கானோரை கூடச் செய்து, குடும்ப அரசியலை கொலு மண்டபத்தில் ஏற்றி அழகு பார்க்கிறார் கருணாநிதி.</p>
+<p>&nbsp;<img class="img-responsive" style="" src="/images/1895/mkk011.jpg" alt="mkk011" width="" height="" /></p>
+<p>இந்த கொலு மண்டப நாடகத்தை ஆட்டு மந்தைகள் போல, வேடிக்கைப் பார்க்கின்றன பொதுக்குழு உறுப்பினர்களான ஆடுகள்.&nbsp;&nbsp; அழகிரியிடமோ, ஸ்டாலினிடமோ தலைமைப் பொறுப்பே போனால் மட்டும், திமுகவை வீழ்ச்சியிலிருந்து தூக்கி நிறுத்தி விட முடியுமா என்ன ? இவர்கள் இருவருமே, இன்றோ, நாளையோ, சிறைக் கொட்டடியில் கால்பதிக்க காத்திருப்பவர்கள் தானே ? இவர்களை நம்பி கட்சியை ஒப்படைத்தால், நாளை மீண்டும் சந்தி சிரிக்கத் தானே செய்யும் ?</p>
+<p> </p>
+<p>திராவிட இயக்கத்தின் வழி வந்தவர்கள் என்று திராவிட முன்னேற்றக் கழகத்தின் ஒரு தொண்டனாவது நினைப்பானேயென்றால், திமுகவை விட்டு வெளியேற வேண்டும். வேறு அரசியல் கட்சியில் சேராவிட்டாலும் பரவாயில்லை. திமுகவில் இருக்கக் கூடாது.&nbsp;&nbsp; கருணாநிதியின் குடும்பம் எப்போது திமுகவை விட்டு விலக்கப் படுகிறதோ, அப்போது தான் திமுக தொண்டன் திமுக பக்கம் திரும்பிப் பார்க்க வேண்டும்.</p>
+<p> </p>
+<p>அப்படி செய்யாத திமுக தொண்டன், பெரியார் பெயரையோ, அண்ணா பெயரையோ உச்சரிக்க தகுதியில்லாதவன்.</p>
+<p> </p>
+<p>கருணாநிதி திருந்துவார் என்று திமுக தொண்டன் மனப்பால் குடிக்க வேண்டாம்.&nbsp;&nbsp; ஒரு நாளும் கருணாநிதி திருந்தப் போவதில்லை.</p>
+<p> </p>
+<p>தவறு என்பது தவறிச் செய்வது</p>
+<p>தப்பு என்பது தெரிந்து செய்வது</p>
+<p>தவறு செய்தவன் திருந்தப் பாக்கனும்</p>
+<p>தப்பை செய்தவன் வருந்தியாகனும்</p>
+<p> </p>
+<p>என்ற பட்டுக்கோட்டையாரின் வரிகளெல்லாம், சூடு சொரணையுள்ளவர்களுக்கு. கருணாநிதி போன்ற காண்டாமிருகத் தோல் படைத்தவர்களுக்கு அல்ல.&nbsp;&nbsp; பட்டுக் கோட்டையார் தான் இடது சாரி. கருணாநிதிக்கு மிகவும் நெருக்கமான வாலி சொன்னதாவது கருணாநிதிக்கு உரைக்குமா ?</p>
+<p> </p>
+<p>திருந்தாத உள்ளங்கள் இருந்தென்ன லாபம்?</p>
+<p>வருந்தாத உருவங்கள் பிறந்தென்ன லாபம்?</p>
+<p>இருந்தாலும் மறைந்தாலும் பேர் சொல்ல வேண்டும்</p>
+<p>இவர் போல யார் என்று ஊர் சொல்ல வேண்டும்</p>
+<div class="fcbk_share"><div class="fcbk_button">
+							<a href="http://www.facebook.com/profile.php?id=100007384787541" target="_blank">
+								<img src="/images/1895/standard-facebook-ico.png" alt="Fb-Button" class="img-responsive" style="" height="" width="" />
+							</a>
+						</div><div class="fcbk_like"><div class="fb-like" data-href="http://savukkunews.com/1895/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon no-text" href="http://savukkunews.com/1895/?share=facebook" title="Share on Facebook" id="sharing-facebook-1895"><span></span><span class="sharing-screen-reader-text">Share on Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon no-text" href="http://savukkunews.com/1895/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-1895"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon no-text" href="http://savukkunews.com/1895/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-1895"><span></span><span class="sharing-screen-reader-text">Click to share on Google+</span></a></li><li class="share-tumblr"><a rel="nofollow" class="share-tumblr sd-button share-icon no-text" href="http://savukkunews.com/1895/?share=tumblr" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" class="share-reddit sd-button share-icon no-text" href="http://savukkunews.com/1895/?share=reddit" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit</span></a></li><li class="share-pinterest"><a rel="nofollow" class="share-pinterest sd-button share-icon no-text" href="http://savukkunews.com/1895/?share=pinterest" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-68584444-1895-547513a022f55" data-src="//widgets.wp.com/likes/#blog_id=68584444&amp;post_id=1895&amp;origin=savukkunews.com&amp;obj_id=68584444-1895-547513a022f55" data-name="like-post-frame-68584444-1895-547513a022f55"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height:55px"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://savukkunews.com/1895/"
+    dc:identifier="http://savukkunews.com/1895/"
+    dc:title="அவமரியாதை இயக்கம்."
+    trackback:ping="http://savukkunews.com/1895/trackback/" />
+</rdf:RDF>-->
+
+			</article>
+		</div>
+	</div>
+
+	<footer>
+
+
+</footer>
+
+</div>
+
+</body>
+</html>
