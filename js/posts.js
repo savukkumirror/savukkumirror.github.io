@@ -1,31 +1,5 @@
 var posts = angular.module('postapp', ['ui.bootstrap']);
 
-posts.controller('CarouselDemoCtrl', function ($scope) {
-  $scope.myInterval = 5000;
-  $scope.slides = [];
-  var slides =  ['/images/9015/22THVISIONTAMILNAD_1764909g-150x150.jpg','/images/8985/45aa80e7db7c49d5a0ac6a43f7d23f6d-e1d5871c63b14938b5946c73ccd00c34-0-150x150.jpg','/images/8965/GNANADESIKAN-2-150x150.jpg','/images/8953/Photo-01-150x150.jpg','/images/8930/Untitled-150x150.jpg','/images/8917/480-150x150.jpe','/images/8907/savukku-image-2-150x150.jpg','/images/7412/flowers_2162096g-150x150.jpg','/images/7413/subramaniam_3_100211045443-150x150.jpg','/images/7415/E0-AE-AE-E0-AF-88-E0-AE-95-E0-AF-8D-E0-AE-95-E0-AF-87-E0-AE-B2-E0-AF-8D-E0-AE-95-E0-AF-81-E0-AE-A9-E0-AF-8D-E0-AE-B9-E0-AE-BE-150x150.jpg','/images/7416/jjsasikalanakeeran-150x150.jpg','/images/7417/RK_Agrawal-150x150.jpg','/images/7418/15MA_COURTDGL_1686169f-150x150.jpg','/images/7419/savukku-2Bimage-2B-2--150x150.jpg','/images/7420/1-150x150.jpg','/images/7421/NarendraModi-621x414-150x150.jpg','/images/7422/p42-150x150.jpg','/images/7423/jaya-650_051311033836-150x150.jpg','/images/6979/Asra-Garg-3-150x150.jpg','/images/6968/water-well-india-150x150.jpg','/images/6947/Judge_who_wore_dhoti_Sam_story_360-150x150.jpg','/images/6924/Asra-Garg-2-150x150.jpg','/images/6912/1-DSC_1523-150x150.jpg','/images/6889/chinnakkuthoosi-150x150.jpg','/images/6879/23VBG_JAYALALITHAA_368443f-150x150.jpg','/images/6853/11279PJuly-08-L-big-150x150.jpg','/images/6840/ph.jpg-1-150x150.jpe','/images/6830/vaikundarajan-2-150x150.jpg','/images/6816/wal-150x150.jpg','/images/6809/THirumavalavan-150x150.jpg','/images/6791/IMG_0528-150x150.jpg','/images/6787/karunanidhi_1113689f-150x150.jpg','/images/6770/IMG_20140629_132307454-150x150.jpg','/images/6759/subramaniam_2_01-150x150.jpg','/images/6753/25TH_GOPAL_SUBRAMAN_934042e-150x150.jpg','/images/6746/AP081021044565-150x150.jpg','/images/6736/1-150x150.jpg','/images/6725/DSC00081-150x150.jpg','/images/6721/boston-faneuil-hall-quincy-market-old-state-house-jeyamohan-150x150.jpg','/images/6713/1389795322rishikesh1-150x150.jpg','/images/6684/muzaffarnagar_0-150x150.jpg','/images/6691/Narendra-modi-150x150.jpg','/images/6675/gorbi620_1861401b-150x150.jpg','/images/6663/TH-BOOK_LAUNCH_5_1582201f-150x150.jpg','/images/6652/azad-150x150.jpg','/images/6635/RSS_March_Bhopal_PTI_360-150x150.jpg','/images/6625/karunanithi-kattumaram-1-150x150.jpg','/images/6616/tm-krishna1-150x150.jpg','/images/6603/Karti_Chidambaram_1754499f-150x150.jpg','/images/6601/Map_of_Jammu_and_Kashmir2-150x150.jpg','/images/6583/modioath1-150x150.jpg','/images/6587/Tamil-Daily-News-Paper_26334345341-150x150.jpg','/images/6584/karunanidhi_mwn2-150x150.jpg','/images/6578/afzal-gurus-book-released-seven-months-after-he-was-hanged_180913085859-150x150.jpg','/images/6568/dg-vanzara-sr-02_060513113604-150x150.jpg','/images/6556/thumb-150x150.jpe','/images/6553/karunanidhi-621x4141-150x150.jpg','/images/6550/30.05.2014_Page_02-150x150.jpg','/images/6546/20TH_SPECIAL_COURT_759948f-150x150.jpg','/images/6543/M-KARUNANIDHI-SONG-150x150.jpg','/images/6540/karunagal-150x150.jpg','/images/6532/04TH_SONIA_1258356f-150x150.jpg','/images/6521/elections_1810682g-150x150.jpg','/images/6517/KARUNANIDHI_1540750f1-150x150.jpg','/images/6506/modi_mother-150x150.jpg','/images/6501/eelam_tamils_650-150x150.jpg','/images/6245/Tamil-Nadu-pc-wise-150x150.gif','/images/6227/savukku-image-150x150.jpg','/images/6211/1208537_3408622831228_996631676_n-150x150.jpg','/images/6198/IMG_2197-150x150.jpg','/images/6193/Farmer-Suicides-India-150x150.jpg','/images/6187/4714858-3x2-940x627-150x150.jpg','/images/6183/karunanidhi-621x414-150x150.jpg','/images/6179/kanimozhi_illus_20110509-150x150.jpg','/images/6173/KARUNANIDHI_1540750f-150x150.jpg','/images/6165/000_Del493689-150x150.jpg','/images/6155/TOI_0026-150x150.jpg','/images/6139/Kamaraj-150x150.jpg','/images/6133/modivarnsi-150x150.jpg','/images/6119/p_sathasivam_20131125.jpg-150x150.jpe','/images/6117/TOI_0026-150x150.jpg','/images/6110/ls-polls-jayalalithaa-goes-all-guns-blazing-for-40-seats_220314013325-150x150.jpg','/images/6102/IN12_MAMATA_11993f-150x150.jpg','/images/6092/14TH_SATHASIVAM1_1584387f-150x150.jpg','/images/6084/B_Id_411109_P_Sathasivam-150x150.jpg','/images/6074/young_voters1-621x414-150x150.jpg',''];
-  var maxSlides=slides.length>6?6:slides.length-1;
-
-  for(var i=0;i<maxSlides;i++)
-    {
-      $scope.slides.push({
-        image:slides[i]
-      });
-    }
-
-  /*$scope.addSlide = function() {
-    var newWidth = 600 + slides.length;
-    slides.push({
-      image: 'https://placekitten.com/g/' + newWidth + '/300',
-      text: ['More','Extra','Lots of','Surplus'][slides.length % 4] + ' ' +
-      ['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 4]
-    });
-  };
-  for (var i=0; i<4; i++) {
-    $scope.addSlide();
-  }*/
-});
-
 posts.controller('PostListController', function($scope, $sce) {
   $scope.filteredPosts = [];
   $scope.pagePosts = [];
@@ -54,6 +28,17 @@ posts.controller('PostListController', function($scope, $sce) {
   $scope.makePosts = function() {
     $scope.posts = [];
 	
+		$scope.posts.push(
+		{
+			title:$sce.trustAsHtml('சிறை  செல்லும் சீமாட்டி &#8211; பாகம் 2'),
+            thumbnail:'/images/9032/JAYALALITHA-PHOTOS-TN-CM-JAYALALITHA-PHOTOS-AMMA-PHOTOS-FOR-FLEX-JAYALALITHA-PHOTOS-FOR-FLEX-PRINTING-HIGH-QUALITY-JAYALALITHA-PHOTOS-AMMA-HQ-PHOTOS-TAMILANDU-CM-AMMA-PHOTOS18-150x150.jpg',
+            categories:['default',''],
+            href:"/default/2014/11/27/post9032.html",
+            publishDate:"Nov 27, 2014",
+            summary:$sce.trustAsHtml("சிறை செல்லும் சீமாட்டியின் முதல் பாகத்தை படிக்காதவர்கள் படித்து விடுங்கள்.  இணைப்பு வரும் டிசம்பர் 18 அன்று ஜெயலலிதாவின் மேல் முறையீட்டு மனு உச்சநீதிமன்றத்தில் விசாரணைக்கு வருகிறது.  அன்று, ஜெயலலிதாவின் அப்பீல் கர்நாடக உயர்நீதிமன்றத்தில் எத்தனை..."),
+            done:false
+    });
+    
 		$scope.posts.push(
 		{
 			title:$sce.trustAsHtml('மின்சாரக் கனவுகள்'),
