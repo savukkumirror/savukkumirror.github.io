@@ -30,6 +30,17 @@ posts.controller('PostListController', function($scope, $sce) {
 	
 		$scope.posts.push(
 		{
+			title:$sce.trustAsHtml('தண்ணீர் விட்டோ வளர்த்தோம் சர்வேசா&#8230;'),
+            thumbnail:'/images/9085/DSC_0642-150x150.jpg',
+            categories:['default',''],
+            href:"/default/2014/11/29/post9085.html",
+            publishDate:"Nov 29, 2014",
+            summary:$sce.trustAsHtml("தண்ணீர் விட்டோ வளர்த்தோம் சர்வேசா இப்பயிரைகண்ணீரால் காத்தோம் கருகத் திருவுளமோ? என்றான் பாரதி.இதே போன்ற வேதனையான நிலையில்தான் தமிழகம் இன்று இருக்கிறது. இந்தியாவில் எங்கும் காணப்படாத வகையில் ஒரு அசாதாரண சூழல் தமிழத்தில் நிலவுகிறது...."),
+            done:false
+    });
+    
+		$scope.posts.push(
+		{
 			title:$sce.trustAsHtml('சிறை  செல்லும் சீமாட்டி &#8211; பாகம் 2'),
             thumbnail:'/images/9032/JAYALALITHA-PHOTOS-TN-CM-JAYALALITHA-PHOTOS-AMMA-PHOTOS-FOR-FLEX-JAYALALITHA-PHOTOS-FOR-FLEX-PRINTING-HIGH-QUALITY-JAYALALITHA-PHOTOS-AMMA-HQ-PHOTOS-TAMILANDU-CM-AMMA-PHOTOS18-150x150.jpg',
             categories:['default',''],
