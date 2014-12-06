@@ -30,6 +30,39 @@ posts.controller('PostListController', function($scope, $sce) {
 	
 		$scope.posts.push(
 		{
+			title:$sce.trustAsHtml('நத்தம் விஸ்வநாதனின் இருட்டுக்கடை அல்வா !!!'),
+            thumbnail:'/images/9126/Natham2-150x150.jpg',
+            categories:['default',''],
+            href:"/default/2014/12/06/post9126.html",
+            publishDate:"Dec 6, 2014",
+            summary:$sce.trustAsHtml("கடந்த பதினைந்து நாட்களாக, தனியாரிடமிருந்து மின்சாரம் வாங்குவது குறித்து, தமிழ்நாட்டில் அனல் பறக்கும் குற்றச்சாட்டுகள் எழுந்தவண்ணம் உள்ளன.   கடந்த வாரம் பத்திரிக்கையாளர்களை சந்தித்த தமிழ்நாடு காங்கிரஸ் கமிட்டி தலைவர் ஈவிகேஎஸ் இளங்கோவன், தனியாரிடமிருந்து மின்..."),
+            done:false
+    });
+    
+		$scope.posts.push(
+		{
+			title:$sce.trustAsHtml('சிறை செல்லும் சீமாட்டி &#8211; பாகம் 3'),
+            thumbnail:'/images/9108/19IN_JAYA_SASI_868551g-150x150.jpg',
+            categories:['default',''],
+            href:"/default/2014/12/04/post9108.html",
+            publishDate:"Dec 4, 2014",
+            summary:$sce.trustAsHtml("பெங்களுரு சொத்துக் குவிப்பு வழக்கில் தீர்ப்பளித்த நீதி நாயகர் குன்ஹா, அந்த வழக்கில் ஜெயலலிதாவும், சசிகலாவும், கீழ்கண்ட பினாமி நிறுவனங்களை தொடங்கி நடத்தி வருவதாக தெரிவித்துள்ளார்.1) ஜே ஃபார்ம் ஹவுசஸ்2) ஜே எஸ் ஹவுசிங்..."),
+            done:false
+    });
+    
+		$scope.posts.push(
+		{
+			title:$sce.trustAsHtml('The audacity of greed'),
+            thumbnail:'/images/9097/1-150x150.jpg',
+            categories:['default',''],
+            href:"/default/2014/12/01/post9097.html",
+            publishDate:"Dec 1, 2014",
+            summary:$sce.trustAsHtml("“There is sufficiency in the world for man’s need but not for man’s greed.” -Mahatma GandhiPattinathar, the saint, said you don&#8217;t even take a broken..."),
+            done:false
+    });
+    
+		$scope.posts.push(
+		{
 			title:$sce.trustAsHtml('தண்ணீர் விட்டோ வளர்த்தோம் சர்வேசா&#8230;'),
             thumbnail:'/images/9085/DSC_0642-150x150.jpg',
             categories:['default',''],
